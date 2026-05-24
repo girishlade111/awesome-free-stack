@@ -1,0 +1,43 @@
+name: Check Dead Links
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check all markdown files for broken links
+        uses: lycheeverse/lychee-action@v1
+        id: lychee
+        with:
+          args: >-
+            --config .lychee.toml
+            --format markdown
+            --output ./lychee-report.md
+            .
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create issue if broken links found
+        if: failure() && steps.lychee.outputs.exit_code != 0
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('./lychee-report.md', 'utf8');
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '🔗 Broken links detected',
+              body: `## Broken Links Report\n\n${report}\n\nAuto-generated on ${new Date().toISOString().split('T')[0]}`,
+              labels: ['bug', 'automated']
+            });
