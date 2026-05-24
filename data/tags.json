@@ -46,6 +46,8 @@
         { "id": "hosting", "name": "Hosting", "description": "Web and application hosting", "icon": "🌐" },
         { "id": "static-site", "name": "Static Site", "description": "Static site hosting services" },
         { "id": "vps", "name": "VPS", "description": "Virtual private server hosting" },
+        { "id": "vm", "name": "VM", "description": "Virtual machine compute instances", "icon": "🖥️" },
+        { "id": "bare-metal", "name": "Bare Metal", "description": "Bare-metal dedicated servers", "icon": "🔧" },
         { "id": "dns", "name": "DNS", "description": "Domain name system services" },
         { "id": "ssl", "name": "SSL", "description": "SSL/TLS certificate providers" },
         { "id": "cdn", "name": "CDN", "description": "Content delivery network services" },
