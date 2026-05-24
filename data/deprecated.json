@@ -1,0 +1,320 @@
+{
+  "$schema": "../data/deprecated-schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "last_updated": "2026-05-24",
+    "total_entries": 12
+  },
+  "entries": [
+    {
+      "id": "heroku",
+      "name": "Heroku",
+      "website": "https://www.heroku.com",
+      "category": "hosting",
+      "reason": {
+        "primary": "free-tier-removed",
+        "detail": "Heroku removed its free tier in November 2022. All free dynos and free PostgreSQL databases were discontinued."
+      },
+      "deprecated_on": "2022-11-28",
+      "last_verified": "2026-05-24",
+      "status": "deprecated",
+      "migration": [
+        {
+          "alternative_name": "Render",
+          "alternative_url": "https://render.com",
+          "notes": "Free web services with 512 MB RAM, PostgreSQL, and cron jobs."
+        },
+        {
+          "alternative_name": "Railway",
+          "alternative_url": "https://railway.com",
+          "notes": "Full-stack hosting with $5 free credit."
+        },
+        {
+          "alternative_name": "Fly.io",
+          "alternative_url": "https://fly.io",
+          "notes": "Up to 3 free shared VMs for containerized apps."
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "name": "Replit (Free Tier)",
+      "website": "https://replit.com",
+      "category": "devtools",
+      "reason": {
+        "primary": "free-tier-removed",
+        "detail": "Replit removed its free always-on hosting. Free tier now limited to ephemeral workspaces with CPU/memory restrictions."
+      },
+      "deprecated_on": "2024-05-01",
+      "last_verified": "2026-05-24",
+      "status": "deprecated",
+      "migration": [
+        {
+          "alternative_name": "GitHub Codespaces",
+          "alternative_url": "https://github.com/features/codespaces",
+          "notes": "60 hours/month free for personal accounts."
+        },
+        {
+          "alternative_name": "GitPod",
+          "alternative_url": "https://www.gitpod.io",
+          "notes": "50 hours/month free for personal use."
+        }
+      ]
+    },
+    {
+      "id": "glitch",
+      "name": "Glitch (Free Apps)",
+      "website": "https://glitch.com",
+      "category": "hosting",
+      "reason": {
+        "primary": "free-tier-removed",
+        "detail": "Glitch removed always-on free apps. Free projects now sleep after 5 minutes of inactivity."
+      },
+      "deprecated_on": "2023-03-15",
+      "last_verified": "2026-05-24",
+      "status": "deprecated",
+      "migration": [
+        {
+          "alternative_name": "Vercel",
+          "alternative_url": "https://vercel.com",
+          "notes": "Always-on serverless functions with 100 GB bandwidth."
+        },
+        {
+          "alternative_name": "Render",
+          "alternative_url": "https://render.com",
+          "notes": "Free web services with no sleeping."
+        }
+      ]
+    },
+    {
+      "id": "codesandbox",
+      "name": "CodeSandbox (Free Tier)",
+      "website": "https://codesandbox.io",
+      "category": "devtools",
+      "reason": {
+        "primary": "free-tier-removed",
+        "detail": "Free tier severely restricted. Sandboxes have 1 GB RAM limit and limited CPU. Repositories now require paid plan."
+      },
+      "deprecated_on": "2024-01-10",
+      "last_verified": "2026-05-24",
+      "status": "deprecated",
+      "migration": [
+        {
+          "alternative_name": "StackBlitz",
+          "alternative_url": "https://stackblitz.com",
+          "notes": "Free online IDE with generous limits."
+        },
+        {
+          "alternative_name": "GitHub Codespaces",
+          "alternative_url": "https://github.com/features/codespaces",
+          "notes": "60 hours/month for personal accounts."
+        }
+      ]
+    },
+    {
+      "id": "algolia-free-tier",
+      "name": "Algolia (Free Tier)",
+      "website": "https://www.algolia.com",
+      "category": "devtools",
+      "reason": {
+        "primary": "free-tier-removed",
+        "detail": "Algolia reduced its free tier from 100k records to 10k records with stricter rate limits."
+      },
+      "deprecated_on": "2024-06-01",
+      "last_verified": "2026-05-24",
+      "status": "deprecated",
+      "migration": [
+        {
+          "alternative_name": "Meilisearch",
+          "alternative_url": "https://www.meilisearch.com",
+          "notes": "10k documents free on cloud. Open-source self-host option with unlimited docs."
+        },
+        {
+          "alternative_name": "Typesense",
+          "alternative_url": "https://typesense.org",
+          "notes": "Open-source search engine. Self-host or free cloud tier."
+        }
+      ]
+    },
+    {
+      "id": "auth0-free-tier",
+      "name": "Auth0 (Free Tier)",
+      "website": "https://auth0.com",
+      "category": "auth",
+      "reason": {
+        "primary": "free-tier-removed",
+        "detail": "Auth0 reduced free tier from 7,000 users to 5,000 users and removed some social connection features."
+      },
+      "deprecated_on": "2024-03-01",
+      "last_verified": "2026-05-24",
+      "status": "deprecated",
+      "migration": [
+        {
+          "alternative_name": "Clerk",
+          "alternative_url": "https://clerk.com",
+          "notes": "10k MAUs free, pre-built UI components."
+        },
+        {
+          "alternative_name": "Supabase Auth",
+          "alternative_url": "https://supabase.com/auth",
+          "notes": "50k MAUs free, built-in with database."
+        }
+      ]
+    },
+    {
+      "id": "npm",
+      "name": "npm (Free Tier)",
+      "website": "https://www.npmjs.com",
+      "category": "devtools",
+      "reason": {
+        "primary": "free-tier-removed",
+        "detail": "npm changed its pricing structure. Free tier now limited to 2 GB storage for packages. Private packages require paid plan."
+      },
+      "deprecated_on": "2024-04-15",
+      "last_verified": "2026-05-24",
+      "status": "deprecated",
+      "migration": [
+        {
+          "alternative_name": "GitHub Packages",
+          "alternative_url": "https://github.com/features/packages",
+          "notes": "Free for public packages. 500 MB for private on free plan."
+        },
+        {
+          "alternative_name": "JSR",
+          "alternative_url": "https://jsr.io",
+          "notes": "Modern JavaScript registry, free for public packages."
+        }
+      ]
+    },
+    {
+      "id": "oracle-cloud-free-vps",
+      "name": "Oracle Cloud Free Tier (VPS)",
+      "website": "https://www.oracle.com/cloud/free",
+      "category": "cloud",
+      "reason": {
+        "primary": "degraded",
+        "detail": "Oracle Cloud free tier has become unreliable. Account terminations reported, ARM instances difficult to provision, and customer support issues."
+      },
+      "deprecated_on": "2025-09-01",
+      "last_verified": "2026-05-24",
+      "status": "deprecated",
+      "migration": [
+        {
+          "alternative_name": "Google Cloud Free Tier",
+          "alternative_url": "https://cloud.google.com/free",
+          "notes": "1 f1-micro VM, 30 GB/mo, always free."
+        },
+        {
+          "alternative_name": "AWS Free Tier",
+          "alternative_url": "https://aws.amazon.com/free",
+          "notes": "750 hours/mo EC2 t2.micro for 12 months."
+        }
+      ]
+    },
+    {
+      "id": "parse-server-migrated",
+      "name": "Parse Server (Hosted)",
+      "website": "https://parseplatform.org",
+      "category": "backend",
+      "reason": {
+        "primary": "service-shut-down",
+        "detail": "Parse.com hosted service shut down in 2017. The open-source Parse Server lives on but must be self-hosted."
+      },
+      "deprecated_on": "2017-01-28",
+      "last_verified": "2026-05-24",
+      "status": "archived",
+      "migration": [
+        {
+          "alternative_name": "Supabase",
+          "alternative_url": "https://supabase.com",
+          "notes": "Free hosted alternative. 500 MB PostgreSQL, real-time, auth."
+        },
+        {
+          "alternative_name": "Appwrite",
+          "alternative_url": "https://appwrite.io",
+          "notes": "Open-source Firebase alternative. Free cloud tier available."
+        },
+        {
+          "alternative_name": "Parse Server (Self-Host)",
+          "alternative_url": "https://parseplatform.org",
+          "notes": "Self-host Parse Server on your own infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "pusher-chatkit",
+      "name": "Pusher Chatkit",
+      "website": "https://pusher.com/chatkit",
+      "category": "mobile",
+      "reason": {
+        "primary": "service-shut-down",
+        "detail": "Pusher Chatkit was shut down in 2021. Pusher Channels remains active but Chatkit SDK is deprecated."
+      },
+      "deprecated_on": "2021-07-01",
+      "last_verified": "2026-05-24",
+      "status": "dead",
+      "migration": [
+        {
+          "alternative_name": "Supabase Realtime",
+          "alternative_url": "https://supabase.com/realtime",
+          "notes": "WebSocket-based real-time messaging, free tier."
+        },
+        {
+          "alternative_name": "Stream Chat",
+          "alternative_url": "https://getstream.io/chat",
+          "notes": "Free tier with 5M messages/month for chat SDK."
+        }
+      ]
+    },
+    {
+      "id": "babel-free-tier",
+      "name": "Babel (Free Tier CI)",
+      "website": "https://babeljs.io",
+      "category": "ci-cd",
+      "reason": {
+        "primary": "free-tier-removed",
+        "detail": "Babel's build service removed free tier. Now requires a paid plan for cloud builds."
+      },
+      "deprecated_on": "2024-02-01",
+      "last_verified": "2026-05-24",
+      "status": "deprecated",
+      "migration": [
+        {
+          "alternative_name": "GitHub Actions",
+          "alternative_url": "https://github.com/features/actions",
+          "notes": "2,000 minutes/month free for build automation."
+        },
+        {
+          "alternative_name": "SWC",
+          "alternative_url": "https://swc.rs",
+          "notes": "Rust-based transpiler. Much faster than Babel."
+        }
+      ]
+    },
+    {
+      "id": "imgix-free-tier",
+      "name": "Imgix (Free Tier)",
+      "website": "https://www.imgix.com",
+      "category": "storage",
+      "reason": {
+        "primary": "free-tier-removed",
+        "detail": "Imgix removed its free tier. Previously offered 1 GB of image processing/month free."
+      },
+      "deprecated_on": "2024-08-01",
+      "last_verified": "2026-05-24",
+      "status": "deprecated",
+      "migration": [
+        {
+          "alternative_name": "Cloudflare Images",
+          "alternative_url": "https://www.cloudflare.com/products/cloudflare-images",
+          "notes": "Free tier for image optimization with CDN."
+        },
+        {
+          "alternative_name": "Cloudinary",
+          "alternative_url": "https://cloudinary.com",
+          "notes": "25 GB storage, 25 GB bandwidth, generous free tier."
+        }
+      ]
+    }
+  ]
+}
