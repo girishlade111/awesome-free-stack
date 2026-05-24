@@ -1863,6 +1863,740 @@
       "alternatives_to": [],
       "alternatives": ["pinecone", "weaviate", "mongodb-atlas"],
       "last_verified": "2026-05-24"
+    },
+    {
+      "id": "netlify",
+      "slug": "netlify",
+      "name": "Netlify",
+      "website": "https://netlify.com",
+      "docs": "https://docs.netlify.com",
+      "github": "https://github.com/netlify",
+      "description": "Pioneering JAMstack deployment platform with global CDN, serverless functions, forms, identity, and split testing. Git-based CI/CD with deploy previews and a generous free tier.",
+      "category": "deployment",
+      "subcategory": "paas",
+      "tags": ["deployment", "serverless", "edge", "jamstack", "saas", "cdn", "freemium", "no-card", "cli"],
+      "free_tier": {
+        "summary": "100 GB bandwidth, 300 build minutes/month, 125K serverless function invocations/month, 100 form submissions/month, 1K active users",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $19/month: unlimited builds, 1TB bandwidth, priority support",
+        "starting_price_usd": 19,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Netlify for Students — free Pro tier via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": ["IR", "KP", "SY", "CU"],
+        "notes": "Available globally; CDN in 250+ data centers"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["vercel", "cloudflare-pages", "render"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "cloudflare-pages",
+      "slug": "cloudflare-pages",
+      "name": "Cloudflare Pages",
+      "website": "https://pages.cloudflare.com",
+      "docs": "https://developers.cloudflare.com/pages",
+      "github": "https://github.com/cloudflare",
+      "description": "Static site and JAMstack hosting on Cloudflare's global edge network. Unlimited bandwidth, instant deploy, and deep integration with Workers, D1, R2, and KV.",
+      "category": "deployment",
+      "subcategory": "edge-functions",
+      "tags": ["deployment", "edge", "serverless", "jamstack", "saas", "cdn", "free-tier", "no-card"],
+      "free_tier": {
+        "summary": "Unlimited bandwidth, 500 builds/month, 1 concurrent build, 500MB storage, Workers integration",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 0.5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $20/month: 5,000 builds/month, advanced analytics, premium support",
+        "starting_price_usd": 20,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; free tier is already generous"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally on Cloudflare's 280+ data center network"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["vercel", "netlify", "cloudflare-workers"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "render",
+      "slug": "render",
+      "name": "Render",
+      "website": "https://render.com",
+      "docs": "https://render.com/docs",
+      "github": "https://github.com/render",
+      "description": "Full-stack PaaS with native Docker support, managed databases, cron jobs, and static sites. The most complete Heroku alternative with a generous free tier for web services and databases.",
+      "category": "deployment",
+      "subcategory": "paas",
+      "tags": ["deployment", "paas", "docker", "serverless", "postgresql", "saas", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "512MB RAM web service (spins down), 100GB bandwidth, 1GB PostgreSQL database, 500 build minutes/month, 1 cron job",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 1,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Starter — $7/month: no spin-down, 1TB bandwidth, 2GB RAM",
+        "starting_price_usd": 7,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Render for Education — free credits and extended free tier for students",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; US and EU regions"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["heroku"],
+      "alternatives": ["railway", "fly-io", "koyeb"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "railway",
+      "slug": "railway",
+      "name": "Railway",
+      "website": "https://railway.app",
+      "docs": "https://docs.railway.app",
+      "github": "https://github.com/railwayapp",
+      "description": "Modern full-stack PaaS with Git-based deployment, native Docker support, and built-in database provisioning. Known for its $5 free credit model and excellent developer UX.",
+      "category": "deployment",
+      "subcategory": "paas",
+      "tags": ["deployment", "paas", "docker", "serverless", "saas", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "$5 free credit/month, 500MB storage, 1GB network egress included",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 0.5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Developer — $5/month: $5 base + $0.001/credit beyond",
+        "starting_price_usd": 5,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; free credits available"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; US and EU regions"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["heroku"],
+      "alternatives": ["render", "fly-io", "koyeb"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "fly-io",
+      "slug": "fly-io",
+      "name": "Fly.io",
+      "website": "https://fly.io",
+      "docs": "https://fly.io/docs",
+      "github": "https://github.com/superfly",
+      "description": "Docker container hosting platform that runs your app on the edge. Deploy containers close to users with global Anycast network, auto-scaling, and free tier with 3 shared VMs.",
+      "category": "deployment",
+      "subcategory": "containers",
+      "tags": ["deployment", "docker", "edge", "serverless", "containers", "saas", "freemium", "card-required", "global"],
+      "free_tier": {
+        "summary": "3 shared VMs (256MB RAM each), 3GB storage, 160GB/month bandwidth",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 3,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go: $0.0017/GB RAM/hour, $0.0004/CPU/hour",
+        "starting_price_usd": 0.0017,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "No specific student plan; free tier covers most student projects"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; 34+ regions on edge network"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["railway", "render", "koyeb"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "firebase-hosting",
+      "slug": "firebase-hosting",
+      "name": "Firebase Hosting",
+      "website": "https://firebase.google.com/products/hosting",
+      "docs": "https://firebase.google.com/docs/hosting",
+      "github": "https://github.com/firebase",
+      "description": "Google's production-grade static and dynamic hosting with global CDN, one-click rollbacks, and deep integration with Firebase and Google Cloud ecosystem.",
+      "category": "deployment",
+      "subcategory": "paas",
+      "tags": ["deployment", "serverless", "saas", "google", "cdn", "free-tier", "no-card"],
+      "free_tier": {
+        "summary": "10 GB storage, 360 MB/day bandwidth, global CDN with free SSL, custom domains",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 10,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Blaze — Pay-as-you-go: $0.026/GB bandwidth, $0.15/GB storage",
+        "starting_price_usd": 0.026,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Firebase for Students — free credits via Google for Education",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": false,
+        "restricted_countries": ["CN", "IR", "KP", "SY", "CU"],
+        "notes": "Available in most countries; restricted in sanctioned regions"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["vercel", "cloudflare-pages", "github-pages"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "surge",
+      "slug": "surge",
+      "name": "Surge",
+      "website": "https://surge.sh",
+      "docs": "https://surge.sh/help",
+      "github": "https://github.com/sintaxi/surge",
+      "description": "Single-command static site deployment from the CLI. The simplest deployment tool — deploy any folder to a public URL with no config files needed and a free tier.",
+      "category": "deployment",
+      "subcategory": "serverless",
+      "tags": ["deployment", "static-site", "cli", "saas", "cdn", "free-tier", "no-card"],
+      "free_tier": {
+        "summary": "Unlimited static sites, 1 custom domain with auto SSL via Let's Encrypt",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $30/month: custom SSL, basic auth, team collaboration",
+        "starting_price_usd": 30,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["github-pages", "netlify", "vercel"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "github-pages",
+      "slug": "github-pages",
+      "name": "GitHub Pages",
+      "website": "https://pages.github.com",
+      "docs": "https://docs.github.com/pages",
+      "github": "https://github.com/github/pages-gem",
+      "description": "Free static site hosting directly from GitHub repositories. Perfect for project documentation, personal sites, and team pages. Built-in Jekyll support and GitHub Actions integration.",
+      "category": "deployment",
+      "subcategory": "serverless",
+      "tags": ["deployment", "static-site", "git", "saas", "cli", "cdn", "free-tier", "no-card", "generous-free-tier"],
+      "free_tier": {
+        "summary": "1 GB storage, 100 GB/month bandwidth, 10 builds/hour, custom domains with automatic SSL",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 1,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Free with GitHub. Enhanced limits on GitHub Pro ($4/month)",
+        "starting_price_usd": 4,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free with all GitHub accounts; GitHub Student Pack includes Pro features",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally via GitHub's infrastructure"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["netlify", "vercel", "cloudflare-pages"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "cloudflare-workers",
+      "slug": "cloudflare-workers",
+      "name": "Cloudflare Workers",
+      "website": "https://workers.cloudflare.com",
+      "docs": "https://developers.cloudflare.com/workers",
+      "github": "https://github.com/cloudflare/workers-sdk",
+      "description": "Serverless execution environment running JavaScript, Wasm, and Python on Cloudflare's global edge network. Sub-10ms cold starts across 280+ data centers with unlimited bandwidth.",
+      "category": "deployment",
+      "subcategory": "edge-functions",
+      "tags": ["deployment", "edge", "serverless", "saas", "cdn", "javascript", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "100,000 requests/day, 10ms CPU/request, 30 scripts, 1GB KV storage, 1M KV reads/day",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 1,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Paid — $5/month: 10M requests/month, 50ms CPU/request",
+        "starting_price_usd": 5,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Cloudflare for Students — free Workers paid tier via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally on Cloudflare's 280+ data centers"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["deno-deploy", "vercel", "fly-io"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "deno-deploy",
+      "slug": "deno-deploy",
+      "name": "Deno Deploy",
+      "website": "https://deno.com/deploy",
+      "docs": "https://deno.com/deploy/docs",
+      "github": "https://github.com/denoland/deploy_framework",
+      "description": "JavaScript/TypeScript edge runtime by the creators of Deno. Run serverless functions and applications at the edge with zero config, global distribution, and instant deployment.",
+      "category": "deployment",
+      "subcategory": "edge-functions",
+      "tags": ["deployment", "edge", "serverless", "saas", "javascript", "typescript", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "100,000 requests/month, 1 GB/day bandwidth, 10ms CPU/request, 34+ global regions",
+        "limits": {
+          "requests_per_month": 100000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $10/month: 5M requests/month, 100GB bandwidth, team features",
+        "starting_price_usd": 10,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "No specific student plan; free tier is generous for learning",
+        "verification_method": null
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; 34+ regions"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["cloudflare-workers", "vercel", "fly-io"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "koyeb",
+      "slug": "koyeb",
+      "name": "Koyeb",
+      "website": "https://koyeb.com",
+      "docs": "https://www.koyeb.com/docs",
+      "github": "https://github.com/koyeb",
+      "description": "Serverless platform for deploying full-stack apps, APIs, and databases globally. Supports Docker, Git-based deployment, and native auto-scaling across multiple regions with a free tier.",
+      "category": "deployment",
+      "subcategory": "paas",
+      "tags": ["deployment", "serverless", "docker", "paas", "saas", "global", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "1 web app + 1 worker, 512MB RAM, 100GB bandwidth/month, custom domains with auto SSL",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Starter — $5/month: 2GB RAM, 4 apps",
+        "starting_price_usd": 5,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; multiple regions"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["render", "railway", "fly-io"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "coolify",
+      "slug": "coolify",
+      "name": "Coolify",
+      "website": "https://coolify.io",
+      "docs": "https://coolify.io/docs",
+      "github": "https://github.com/coollabsio/coolify",
+      "description": "Open-source, self-hosted PaaS alternative to Vercel, Netlify, and Heroku. Deploy anything on your own server with a beautiful web UI — static sites, Node.js, Python, Docker, and databases.",
+      "category": "deployment",
+      "subcategory": "paas",
+      "tags": ["deployment", "paas", "open-source", "self-hosted", "docker", "web-ui", "forever-free"],
+      "free_tier": {
+        "summary": "Self-hosted is completely free with unlimited apps, deployments, and databases on your own server",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Self-hosted: free forever. Coolify Cloud: coming soon",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; software is free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["dokku", "caprover", "porter"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "dokku",
+      "slug": "dokku",
+      "name": "Dokku",
+      "website": "https://dokku.com",
+      "docs": "https://dokku.com/docs",
+      "github": "https://github.com/dokku/dokku",
+      "description": "Docker-powered mini-Heroku you can run on a $5 VPS. Heroku-compatible buildpacks, Git-based deployment, and 100+ plugins. The simplest way to self-host apps.",
+      "category": "deployment",
+      "subcategory": "containers",
+      "tags": ["deployment", "docker", "open-source", "self-hosted", "cli", "forever-free"],
+      "free_tier": {
+        "summary": "Self-hosted is completely free with unlimited apps and databases. Pay only for your VPS ($5+/month).",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Software is free. Pay only for your VPS or server.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; software is free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["coolify", "caprover", "porter"],
+      "last_verified": "2026-05-24"
     }
   ]
 }
