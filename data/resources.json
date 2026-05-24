@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "last_updated": "2026-05-24",
-    "total_resources": 91,
+    "total_resources": 95,
     "description": "Curated free & freemium developer resources"
   },
   "resources": [
@@ -1411,7 +1411,235 @@
       },
       "languages": ["en", "fr", "de", "ja", "es"],
       "alternatives_to": [],
-      "alternatives": ["lemon-squeezy", "paddle", "razorpay"],
+      "alternatives": ["lemon-squeezy", "paddle", "razorpay", "paypal"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "razorpay",
+      "slug": "razorpay",
+      "name": "Razorpay",
+      "website": "https://razorpay.com",
+      "docs": "https://razorpay.com/docs",
+      "github": "https://github.com/razorpay",
+      "description": "India's leading payment gateway with 100+ payment modes including UPI, cards, net banking, EMIs, and wallets. Built for Indian businesses with GST invoicing, Route (payouts), and subscriptions.",
+      "category": "payments",
+      "subcategory": "payment-processing",
+      "tags": ["payments", "invoicing", "subscription", "checkout", "api", "sdk", "india-friendly"],
+      "free_tier": {
+        "summary": "Zero setup fee, zero annual fee. 2% + GST per transaction on standard plans. Free payment pages, invoices, and dashboard.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Per-transaction pricing; enterprise plans available with custom rates",
+        "starting_price_usd": null,
+        "billing_model": "transaction-fee"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Razorpay for Students — free payment processing for student projects and hackathons via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": false,
+        "restricted_countries": [],
+        "notes": "Primary focus is India; international payments supported via Razorpay International"
+      },
+      "languages": ["en", "hi"],
+      "alternatives_to": [],
+      "alternatives": ["stripe", "paypal", "lemon-squeezy"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "paddle",
+      "slug": "paddle",
+      "name": "Paddle",
+      "website": "https://www.paddle.com",
+      "docs": "https://developer.paddle.com",
+      "github": "https://github.com/PaddleHQ",
+      "description": "Merchant of record payment platform that handles global taxes, VAT, and compliance. Sell software globally with one integration — Paddle manages invoices, receipts, and tax reporting.",
+      "category": "payments",
+      "subcategory": "payment-processing",
+      "tags": ["payments", "invoicing", "subscription", "checkout", "fraud-detection", "api", "sdk"],
+      "free_tier": {
+        "summary": "5% + $0.50 per transaction (includes VAT handling, tax compliance, and fraud protection). No monthly fees or setup costs.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Volume discounts available; enterprise custom pricing for high-volume sellers",
+        "starting_price_usd": null,
+        "billing_model": "transaction-fee"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Paddle for Students — reduced transaction fees for verified student businesses",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": ["IR", "KP", "SY", "CU"],
+        "notes": "Available globally; handles VAT and sales tax in 240+ regions"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["stripe", "lemon-squeezy", "paypal"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "lemon-squeezy",
+      "slug": "lemon-squeezy",
+      "name": "Lemon Squeezy",
+      "website": "https://www.lemonsqueezy.com",
+      "docs": "https://docs.lemonsqueezy.com",
+      "github": "https://github.com/lmsqueezy",
+      "description": "Developer-friendly payment platform (now part of Stripe). Built specifically for software creators with license key generation, software updates, and customer management. Handles all tax compliance.",
+      "category": "payments",
+      "subcategory": "payment-processing",
+      "tags": ["payments", "invoicing", "subscription", "checkout", "api", "sdk", "rate-limited"],
+      "free_tier": {
+        "summary": "5% + $0.50 per transaction (includes tax compliance). No monthly fees. Free storefront and customer portal.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Per-transaction pricing; lower rates for higher volumes available on request",
+        "starting_price_usd": null,
+        "billing_model": "transaction-fee"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Reduced fees for students and indie developers building their first product",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": ["IR", "KP", "SY", "CU"],
+        "notes": "Available globally; handles all tax compliance"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["stripe", "paddle", "paypal"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "paypal",
+      "slug": "paypal",
+      "name": "PayPal",
+      "website": "https://www.paypal.com",
+      "docs": "https://developer.paypal.com",
+      "github": "https://github.com/paypal",
+      "description": "The world's most widely used online payment platform. Accept payments via PayPal, credit/debit cards, and 25+ local payment methods in 200+ countries. Trusted by 400M+ active users.",
+      "category": "payments",
+      "subcategory": "payment-processing",
+      "tags": ["payments", "invoicing", "checkout", "fraud-detection", "api", "sdk", "global"],
+      "free_tier": {
+        "summary": "No monthly fees, no setup fees. 2.99% + $0.49 per transaction (US). Free PayPal.Me payment links, invoices, and business account.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Per-transaction pricing; merchant rates available for high-volume businesses",
+        "starting_price_usd": null,
+        "billing_model": "transaction-fee"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "PayPal Student Account — no monthly fees for students; PayPal Business for student entrepreneurs",
+        "verification_method": null
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": ["IR", "KP", "SY", "CU"],
+        "notes": "Available in 200+ countries; local payment methods by region"
+      },
+      "languages": ["en", "fr", "de", "es", "it", "zh", "ja"],
+      "alternatives_to": [],
+      "alternatives": ["stripe", "razorpay", "lemon-squeezy"],
       "last_verified": "2026-05-24"
     },
     {
