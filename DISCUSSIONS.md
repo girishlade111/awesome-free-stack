@@ -1,4 +1,4 @@
-# Discussions
+# Discussions — awesome-free-stack Community
 
 GitHub Discussions is where the community gathers to share ideas, request tools, compare options, and help each other.
 

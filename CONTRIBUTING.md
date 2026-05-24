@@ -1,4 +1,4 @@
-# Contributing to awesome-free-stack
+# Contributing to awesome-free-stack — Free Developer Resources Collection
 
 Thank you for contributing. Every resource helps developers replace expensive tools with free alternatives.
 
