@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "last_updated": "2026-05-24",
+  "description": "Verification and feature badge standards for awesome-free-stack resources",
+  "badges": [
+    {
+      "id": "tested",
+      "icon": "✅",
+      "name": "Tested",
+      "category": "verification",
+      "description": "Resource has been personally tested and confirmed working by a maintainer.",
+      "color": "#2DA44E",
+      "bg_color": "#D3F8D3",
+      "criteria": [
+        "Maintainer signed up and successfully used the free tier",
+        "Free tier limits confirmed accurate",
+        "No credit card requirement verified (where claimed)",
+        "Region restrictions confirmed",
+        "Documentation accuracy spot-checked"
+      ],
+      "validity_duration": "6 months",
+      "expiry_action": "Re-test or downgrade to Community Verified"
+    },
+    {
+      "id": "community-verified",
+      "icon": "🟡",
+      "name": "Community Verified",
+      "category": "verification",
+      "description": "Reported and confirmed by multiple community members, not yet tested by a maintainer.",
+      "color": "#BF8700",
+      "bg_color": "#FFF3CD",
+      "criteria": [
+        "At least 3 independent community reports confirming free tier",
+        "No conflicting reports of broken or degraded free tier",
+        "Entry has been in the repository for at least 30 days",
+        "No maintainer bandwidth to personally test (will be promoted to Tested upon verification)"
+      ],
+      "validity_duration": "3 months",
+      "expiry_action": "Downgrade to Unverified if not re-confirmed"
+    },
+    {
+      "id": "unverified",
+      "icon": "🔴",
+      "name": "Unverified",
+      "category": "verification",
+      "description": "Submitted but not yet tested or confirmed by anyone.",
+      "color": "#CF222E",
+      "bg_color": "#FFEBE9",
+      "criteria": [
+        "Submitted via pull request but not yet reviewed",
+        "No maintainer or community confirmation",
+        "Entry is accepted provisionally",
+        "Displayed lower in rankings until verified"
+      ],
+      "validity_duration": "30 days",
+      "expiry_action": "Auto-downgrade to warning status if not verified within 90 days"
+    },
+    {
+      "id": "deprecated",
+      "icon": "⚠️",
+      "name": "Deprecated",
+      "category": "status",
+      "description": "Resource is no longer free, free tier removed, or service shut down.",
+      "color": "#8B0000",
+      "bg_color": "#FFD7D5",
+      "criteria": [
+        "Free tier has been removed or reduced to unusable levels",
+        "Service has been shut down or acquired",
+        "Open-source project has been archived by owner",
+        "Entry moved to deprecated/ folder after marking"
+      ],
+      "validity_duration": "Permanent (until revived)",
+      "expiry_action": "Move to deprecated/ folder after 30 days of marking"
+    },
+    {
+      "id": "archived",
+      "icon": "🗄️",
+      "name": "Archived",
+      "category": "status",
+      "description": "Entry has been moved to the archive. Referenced for historical purposes only.",
+      "color": "#656D76",
+      "bg_color": "#F0F0F0",
+      "criteria": [
+        "Previously marked as Deprecated for at least 30 days",
+        "No possibility of free tier returning",
+        "Entry moved to deprecated/archived.md",
+        "Original file removed from its category folder"
+      ],
+      "validity_duration": "Permanent",
+      "expiry_action": "None (historical record)"
+    },
+    {
+      "id": "student-friendly",
+      "icon": "🎓",
+      "name": "Student Friendly",
+      "category": "audience",
+      "description": "Offers special benefits or enhanced free tier for verified students.",
+      "color": "#8250DF",
+      "bg_color": "#F3E8FF",
+      "criteria": [
+        "Verified student email unlocks additional features or quota",
+        "Student tier is free (not a discounted paid plan)",
+        "Benefits exceed the regular free tier significantly",
+        "Verification method is documented (edu email, ISIC, SheerID)"
+      ],
+      "validity_duration": "12 months",
+      "expiry_action": "Re-verify student benefit still available"
+    },
+    {
+      "id": "india-friendly",
+      "icon": "🇮🇳",
+      "name": "India Friendly",
+      "category": "region",
+      "description": "Works well for users in India with local payment support, no restrictions, or India-specific benefits.",
+      "color": "#FF9933",
+      "bg_color": "#FFF3E0",
+      "criteria": [
+        "Full service available in India (no VPN required)",
+        "Accepts Indian credit/debit cards or UPI/NetBanking",
+        "No India-specific throttling or feature restrictions",
+        "Pricing in INR or reasonable forex rates",
+        "Data residency options in India (preferred but not required)"
+      ],
+      "validity_duration": "12 months",
+      "expiry_action": "Re-verify India availability"
+    },
+    {
+      "id": "top-rated",
+      "icon": "🏆",
+      "name": "Top Rated",
+      "category": "achievement",
+      "description": "Among the highest-rated resources in its category (overall score ≥ 4.5).",
+      "color": "#FFD700",
+      "bg_color": "#FFF8DC",
+      "criteria": [
+        "Overall rating score >= 4.5 (Elite tier)",
+        "Minimum of 5 individual ratings submitted",
+        "No open issues about broken free tier",
+        "Re-calculated quarterly"
+      ],
+      "validity_duration": "3 months",
+      "expiry_action": "Re-calculated from current ratings"
+    },
+    {
+      "id": "no-card-required",
+      "icon": "💳",
+      "name": "No Card Required",
+      "category": "pricing",
+      "description": "No credit card is required to sign up and start using the free tier.",
+      "color": "#0969DA",
+      "bg_color": "#DDF4FF",
+      "criteria": [
+        "Sign-up process completed without credit card information",
+        "Free tier accessible immediately after email verification",
+        "No hidden card requirement after trial period",
+        "Confirmed by maintainer test"
+      ],
+      "validity_duration": "6 months",
+      "expiry_action": "Re-test sign-up flow"
+    },
+    {
+      "id": "global",
+      "icon": "🌍",
+      "name": "Global",
+      "category": "region",
+      "description": "Available worldwide with no region restrictions or sanctions-related blocks.",
+      "color": "#1F883D",
+      "bg_color": "#D3F8D3",
+      "criteria": [
+        "No country-level restrictions on sign-up",
+        "No US, EU, or UN sanctions blocking access",
+        "Service can be used from any country without VPN",
+        "Content delivery via global CDN or multi-region hosting"
+      ],
+      "validity_duration": "12 months",
+      "expiry_action": "Check sanctions list for changes"
+    }
+  ]
+}
