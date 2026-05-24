@@ -125,7 +125,18 @@
         { "id": "code-models", "name": "Code Models", "description": "Code generation and completion models", "icon": "💻" },
         { "id": "agent-framework", "name": "Agent Framework", "description": "AI agent orchestration and development frameworks", "icon": "🤖" },
         { "id": "multi-agent", "name": "Multi-Agent", "description": "Multi-agent collaboration and coordination", "icon": "👥" },
-        { "id": "tool-use", "name": "Tool Use", "description": "Tool calling and function calling capabilities", "icon": "🔧" }
+        { "id": "tool-use", "name": "Tool Use", "description": "Tool calling and function calling capabilities", "icon": "🔧" },
+        { "id": "rag", "name": "RAG", "description": "Retrieval-augmented generation", "icon": "📎" },
+        { "id": "orchestration", "name": "Orchestration", "description": "Workflow and agent orchestration", "icon": "🎼" },
+        { "id": "code-generation", "name": "Code Generation", "description": "Code generation and completion", "icon": "💻" },
+        { "id": "validation", "name": "Validation", "description": "Data validation and type checking", "icon": "✅" },
+        { "id": "structured-output", "name": "Structured Output", "description": "Structured data output from AI models", "icon": "📋" },
+        { "id": "enterprise", "name": "Enterprise", "description": "Enterprise-grade features and support", "icon": "🏢" },
+        { "id": "data-framework", "name": "Data Framework", "description": "Data processing and management frameworks", "icon": "🗄️" },
+        { "id": "streaming", "name": "Streaming", "description": "Real-time streaming responses", "icon": "📡" },
+        { "id": "visual-builder", "name": "Visual Builder", "description": "Visual/drag-and-drop application builders", "icon": "🎨" },
+        { "id": "low-code", "name": "Low Code", "description": "Low-code and no-code platforms", "icon": "🔧" },
+        { "id": "web-ui", "name": "Web UI", "description": "Web-based user interface", "icon": "🌐" }
       ]
     },
     {
