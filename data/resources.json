@@ -4284,6 +4284,454 @@
       "alternatives_to": [],
       "alternatives": ["cloudflare-r2", "backblaze-b2", "amazon-s3"],
       "last_verified": "2026-05-24"
+    },
+    {
+      "id": "clerk",
+      "slug": "clerk",
+      "name": "Clerk",
+      "website": "https://clerk.com",
+      "docs": "https://clerk.com/docs",
+      "github": "https://github.com/clerk",
+      "description": "Modern authentication and user management platform with pre-built components. Supports social login, MFA, organizations, and custom domains. Generous free tier for side projects.",
+      "category": "auth",
+      "subcategory": "user-management",
+      "tags": ["auth", "authentication", "user-management", "sso", "mfa", "passwordless", "social-login", "saas", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "10K MAU, 1 organization, unlimited social providers, 1 custom domain, email/sms 100/mo",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $25/month: 100K MAU, 10 orgs, unlimited custom domains, priority support",
+        "starting_price_usd": 25,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free tier covers most student projects. GitHub Student Developer Pack offers extended features"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; US and EU data regions"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["auth0", "kinde", "supabase-auth"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "auth0",
+      "slug": "auth0",
+      "name": "Auth0",
+      "website": "https://auth0.com",
+      "docs": "https://auth0.com/docs",
+      "github": "https://github.com/auth0",
+      "description": "Enterprise-grade identity platform by Okta. Supports 50+ social providers, enterprise SSO, MFA, and breach-protected password storage. Industry standard for production auth.",
+      "category": "auth",
+      "subcategory": "authentication",
+      "tags": ["auth", "authentication", "sso", "mfa", "social-login", "saas", "enterprise", "freemium", "card-required"],
+      "free_tier": {
+        "summary": "7K MAU, 2 social connections, unlimited applications, 20K machine-to-machine tokens, 5 GB storage",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $23/month: 7K-20K MAU, unlimited social connections, tenant log streaming",
+        "starting_price_usd": 23,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "GitHub Student Developer Pack: free Auth0 Pro tier for 1 year"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": ["IR", "KP", "SY", "CU"],
+        "notes": "Available globally; data regions: US, EU, AU"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["clerk", "kinde", "firebase-auth"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "firebase-auth",
+      "slug": "firebase-auth",
+      "name": "Firebase Auth",
+      "website": "https://firebase.google.com/products/auth",
+      "docs": "https://firebase.google.com/docs/auth",
+      "github": "https://github.com/firebase",
+      "description": "Google's production-grade authentication with email/password, 30+ social providers, phone auth, and anonymous sign-in. Tightly integrated with Firebase and Google Cloud ecosystem.",
+      "category": "auth",
+      "subcategory": "authentication",
+      "tags": ["auth", "authentication", "sso", "passwordless", "social-login", "saas", "google", "freemium", "card-required"],
+      "free_tier": {
+        "summary": "50K MAU (email/password/social), 10K MAU (phone auth), 10K verification codes/day",
+        "limits": {
+          "requests_per_month": 50000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Blaze — Pay-as-you-go: $0.01/10K MAU beyond free tier, phone auth $0.01/verification",
+        "starting_price_usd": 0.01,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free tier is generous. Google for Education credits available"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": false,
+        "restricted_countries": ["CN", "IR", "KP", "SY", "CU"],
+        "notes": "Available in most countries; restricted in sanctioned regions"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["supabase-auth", "auth0", "clerk"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "kinde",
+      "slug": "kinde",
+      "name": "Kinde",
+      "website": "https://kinde.com",
+      "docs": "https://kinde.com/docs",
+      "github": "https://github.com/kinde-oss",
+      "description": "Modern auth platform for startups with generous free tier. Features include user management, feature flags, analytics, and team management — all in one platform.",
+      "category": "auth",
+      "subcategory": "user-management",
+      "tags": ["auth", "authentication", "sso", "social-login", "user-management", "saas", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "7.5K MAU, 1 organization, all social providers, unlimited API calls, feature flags, user analytics",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Scale — $35/month: 25K MAU, 5 orgs, team roles, priority support",
+        "starting_price_usd": 35,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "GitHub Student Developer Pack: extended free tier"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; data regions: US, EU, AU"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["clerk", "auth0", "logto"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "supabase-auth",
+      "slug": "supabase-auth",
+      "name": "Supabase Auth",
+      "website": "https://supabase.com/auth",
+      "docs": "https://supabase.com/docs/guides/auth",
+      "github": "https://github.com/supabase/auth",
+      "description": "Authentication built into Supabase PostgreSQL platform. Email/password, OAuth, magic link, phone auth, and anonymous sign-in — all with row-level security integration.",
+      "category": "auth",
+      "subcategory": "authentication",
+      "tags": ["auth", "authentication", "sso", "passwordless", "social-login", "open-source", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "50K MAU, unlimited social OAuth providers, 10 GB database storage, 2 GB bandwidth",
+        "limits": {
+          "requests_per_month": 50000,
+          "tokens_per_minute": null,
+          "storage_gb": 10,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $25/month: 100K MAU, 100 GB storage, 50 GB bandwidth, priority support",
+        "starting_price_usd": 25,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free tier covers most student projects. Open-source for self-hosting"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; data regions: US, EU, APAC"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["firebase-auth", "clerk", "auth0"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "logto",
+      "slug": "logto",
+      "name": "Logto",
+      "website": "https://logto.io",
+      "docs": "https://docs.logto.io",
+      "github": "https://github.com/logto-io/logto",
+      "description": "Open-source identity platform with pre-built sign-in experiences, user management, and social login. Self-host for full control or use Logto Cloud for managed auth.",
+      "category": "auth",
+      "subcategory": "authentication",
+      "tags": ["auth", "authentication", "sso", "social-login", "user-management", "open-source", "saas", "freemium", "no-card", "web-ui"],
+      "free_tier": {
+        "summary": "50K MAU (Cloud), all social providers, pre-built UI, user management panel. Self-host: unlimited, free",
+        "limits": {
+          "requests_per_month": 50000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro Cloud — $199/month: unlimited MAU, SAML/SSO, audit logs, priority support",
+        "starting_price_usd": 199,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Self-host is free. Cloud free tier (50K MAU) is generous for students"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; self-hosted or Cloud in US/EU regions"
+      },
+      "languages": ["en", "zh"],
+      "alternatives_to": [],
+      "alternatives": ["clerk", "kinde", "auth0"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "better-auth",
+      "slug": "better-auth",
+      "name": "Better Auth",
+      "website": "https://better-auth.com",
+      "docs": "https://better-auth.com/docs",
+      "github": "https://github.com/better-auth/better-auth",
+      "description": "Open-source TypeScript-first authentication framework. Pluggable, framework-agnostic (React, Vue, Svelte, Next.js), and fully self-hostable. The modern auth library for the JS ecosystem.",
+      "category": "auth",
+      "subcategory": "authentication",
+      "tags": ["auth", "authentication", "open-source", "self-hosted", "forever-free", "typescript", "react"],
+      "free_tier": {
+        "summary": "Open-source and self-hosted: completely free with unlimited users, unlimited apps, all features",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Self-hosted: free forever. Cloud hosting is coming soon",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; open-source and free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["nextauth-js", "supabase-auth", "logto"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "nextauth-js",
+      "slug": "nextauth-js",
+      "name": "NextAuth.js (Auth.js)",
+      "website": "https://authjs.dev",
+      "docs": "https://authjs.dev/getting-started",
+      "github": "https://github.com/nextauthjs/next-auth",
+      "description": "Open-source authentication for Next.js — now framework-agnostic as Auth.js. 80+ built-in OAuth providers, database adapters, JWT sessions, and middleware-based protection.",
+      "category": "auth",
+      "subcategory": "authentication",
+      "tags": ["auth", "authentication", "sso", "social-login", "open-source", "forever-free", "typescript", "react", "nextjs"],
+      "free_tier": {
+        "summary": "Open-source and self-hosted: completely free with unlimited users, any database, 80+ providers",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Self-hosted: free forever. Auth.js Cloud: coming soon",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; open-source and free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["better-auth", "supabase-auth", "logto"],
+      "last_verified": "2026-05-24"
     }
   ]
 }
