@@ -3,8 +3,8 @@
 **Website**: https://vercel.com
 **Docs**: https://vercel.com/docs
 **GitHub**: https://github.com/vercel
-**Category**: hosting
-**Subcategory**: static-sites
+**Category**: deployment
+**Subcategory**: paas
 
 ### Description
 Frontend deployment platform with global edge network. Supports Next.js, React, Svelte, and all major frameworks. Includes serverless functions, edge config, and analytics with a generous free tier.
@@ -56,7 +56,7 @@ active
 **No** — Sign up with GitHub or email, no card required.
 
 ### Tags
-`hosting` `deployment` `serverless` `edge` `frontend` `jamstack` `cdn` `saas` `cli`
+`deployment` `serverless` `edge` `frontend` `jamstack` `paas` `saas` `cli`
 
 ### Alternatives To
 Netlify, Cloudflare Pages, Render
