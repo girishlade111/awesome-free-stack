@@ -1,0 +1,78 @@
+name: Monthly Verification Report
+
+on:
+  schedule:
+    - cron: "0 6 1 * *"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  verification-report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate verification report
+        id: report
+        run: |
+          node -e "
+            const fs = require('fs');
+            const resources = JSON.parse(fs.readFileSync('./data/resources.json','utf8')).resources;
+            const now = new Date();
+            const threeMonthsAgo = new Date(now);
+            threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
+            const sixMonthsAgo = new Date(now);
+            sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
+
+            const expired = resources.filter(r => {
+              const v = new Date(r.last_verified + '-01');
+              return v < sixMonthsAgo;
+            });
+            const expiring = resources.filter(r => {
+              const v = new Date(r.last_verified + '-01');
+              return v >= sixMonthsAgo && v < threeMonthsAgo;
+            });
+
+            const lines = [
+              '# Monthly Verification Report',
+              '',
+              'Generated: ' + now.toISOString().split('T')[0],
+              'Total resources: ' + resources.length,
+              '',
+              '## Expired (needs re-test)',
+              expired.length ? expired.map(r => '- [ ] ' + r.name + ' (last: ' + r.last_verified + ')').join('\\n') : 'None',
+              '',
+              '## Expiring Soon',
+              expiring.length ? expiring.map(r => '- ' + r.name + ' (last: ' + r.last_verified + ')').join('\\n') : 'None',
+              '',
+              '## Summary',
+              '- Verified recently: ' + (resources.length - expired.length - expiring.length),
+              '- Expiring soon: ' + expiring.length,
+              '- Needs re-test: ' + expired.length
+            ].join('\\n');
+
+            fs.writeFileSync('./verification-report.md', lines);
+            console.log('Report written');
+          "
+
+      - name: Create verification issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('${{ github.workspace }}/verification-report.md', 'utf8');
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '🧪 Monthly Verification Report - ' + new Date().toISOString().split('T')[0],
+              body: body,
+              labels: ['maintenance', 'automated']
+            });
