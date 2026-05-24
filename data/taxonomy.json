@@ -1,0 +1,323 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "last_updated": "2026-05-24",
+  "description": "Complete category taxonomy for awesome-free-stack",
+  "categories": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "icon": "🤖",
+      "description": "Artificial intelligence APIs, models, and infrastructure.",
+      "subcategories": [
+        { "id": "apis", "name": "APIs", "description": "REST/graphQL APIs for AI models and services" },
+        { "id": "models", "name": "Models", "description": "Pre-trained LLMs and foundation models" },
+        { "id": "agents", "name": "Agents", "description": "Autonomous AI agents and agent frameworks" },
+        { "id": "rag", "name": "RAG", "description": "Retrieval-augmented generation pipelines and tools" },
+        { "id": "embeddings", "name": "Embeddings", "description": "Text, image, and multi-modal embedding models" },
+        { "id": "image-generation", "name": "Image Generation", "description": "Text-to-image, image-to-image, and diffusion models" },
+        { "id": "video-generation", "name": "Video Generation", "description": "Text-to-video and video editing AI" },
+        { "id": "speech", "name": "Speech", "description": "Text-to-speech, speech-to-text, and voice cloning" },
+        { "id": "vector-databases", "name": "Vector Databases", "description": "Vector stores and similarity search engines" },
+        { "id": "ml-platforms", "name": "ML Platforms", "description": "Model training, fine-tuning, and deployment platforms" },
+        { "id": "prompt-tools", "name": "Prompt Tools", "description": "Prompt engineering, management, and testing tools" }
+      ],
+      "tags": ["ai", "llm", "machine-learning", "deep-learning", "artificial-intelligence"]
+    },
+    {
+      "id": "deployment",
+      "name": "Deployment",
+      "icon": "🚀",
+      "description": "Application deployment platforms and infrastructure.",
+      "subcategories": [
+        { "id": "serverless", "name": "Serverless", "description": "Function-as-a-Service and serverless compute" },
+        { "id": "containers", "name": "Containers", "description": "Container registries, orchestration, and runtimes" },
+        { "id": "paas", "name": "PaaS", "description": "Platform-as-a-Service for full-stack apps" },
+        { "id": "edge-functions", "name": "Edge Functions", "description": "Edge-compute functions and workers" },
+        { "id": "platform-orchestration", "name": "Platform Orchestration", "description": "Multi-platform deployment management" },
+        { "id": "backend-as-a-service", "name": "BaaS", "description": "Backend-as-a-Service platforms" }
+      ],
+      "tags": ["deployment", "serverless", "container", "edge", "paas"]
+    },
+    {
+      "id": "cloud",
+      "name": "Cloud",
+      "icon": "☁️",
+      "description": "Cloud computing platforms and infrastructure services.",
+      "subcategories": [
+        { "id": "compute", "name": "Compute", "description": "Virtual machines and bare-metal compute" },
+        { "id": "serverless-compute", "name": "Serverless Compute", "description": "Event-driven cloud functions" },
+        { "id": "cloud-storage", "name": "Cloud Storage", "description": "Scalable object and block storage" },
+        { "id": "networking", "name": "Networking", "description": "VPC, load balancers, and DNS" },
+        { "id": "cdn", "name": "CDN", "description": "Content delivery networks and edge caching" },
+        { "id": "cloud-functions", "name": "Cloud Functions", "description": "FaaS offerings from major cloud providers" },
+        { "id": "free-tier", "name": "Free Tier", "description": "Always-free tier offerings from cloud providers" }
+      ],
+      "tags": ["cloud", "compute", "infrastructure", "scaling"]
+    },
+    {
+      "id": "hosting",
+      "name": "Hosting",
+      "icon": "🌐",
+      "description": "Web hosting, static sites, and infrastructure hosting.",
+      "subcategories": [
+        { "id": "static-sites", "name": "Static Sites", "description": "Static site hosting with CDN and custom domains" },
+        { "id": "vps", "name": "VPS", "description": "Virtual private server hosting" },
+        { "id": "web-servers", "name": "Web Servers", "description": "Managed web server hosting" },
+        { "id": "dns", "name": "DNS", "description": "DNS management and domain resolution" },
+        { "id": "ssl-certificates", "name": "SSL Certificates", "description": "Free SSL/TLS certificates" },
+        { "id": "reverse-proxy", "name": "Reverse Proxy", "description": "Proxy, load balancing, and DDoS protection" }
+      ],
+      "tags": ["hosting", "static-site", "vps", "dns", "ssl", "cdn"]
+    },
+    {
+      "id": "databases",
+      "name": "Databases",
+      "icon": "🗄️",
+      "description": "Database management systems and data services.",
+      "subcategories": [
+        { "id": "sql", "name": "SQL", "description": "Relational databases (PostgreSQL, MySQL, SQLite)" },
+        { "id": "nosql", "name": "NoSQL", "description": "Document stores, key-value stores, and wide-column databases" },
+        { "id": "managed-databases", "name": "Managed Databases", "description": "Fully managed database hosting services" },
+        { "id": "caching", "name": "Caching", "description": "In-memory data stores and cache services" },
+        { "id": "vector-databases", "name": "Vector Databases", "description": "Vector search and similarity databases" },
+        { "id": "graph-databases", "name": "Graph Databases", "description": "Graph and knowledge graph databases" },
+        { "id": "time-series", "name": "Time Series", "description": "Time-series databases and analytics" },
+        { "id": "backend-platforms", "name": "Backend Platforms", "description": "All-in-one backend platforms with database" }
+      ],
+      "tags": ["database", "sql", "nosql", "cache", "vector", "time-series"]
+    },
+    {
+      "id": "storage",
+      "name": "Storage",
+      "icon": "💾",
+      "description": "File storage, object storage, and data persistence.",
+      "subcategories": [
+        { "id": "object-storage", "name": "Object Storage", "description": "S3-compatible scalable object storage" },
+        { "id": "file-hosting", "name": "File Hosting", "description": "File upload, sharing, and delivery" },
+        { "id": "cdn-storage", "name": "CDN Storage", "description": "Storage integrated with CDN edge network" },
+        { "id": "backup", "name": "Backup", "description": "Automated backup and disaster recovery" },
+        { "id": "image-optimization", "name": "Image Optimization", "description": "Image compression, resizing, and CDN delivery" }
+      ],
+      "tags": ["storage", "object-storage", "file-hosting", "backup", "cdn"]
+    },
+    {
+      "id": "auth",
+      "name": "Auth",
+      "icon": "🔐",
+      "description": "Authentication and authorization services.",
+      "subcategories": [
+        { "id": "authentication", "name": "Authentication", "description": "Sign-in, sign-up, and identity management" },
+        { "id": "sso", "name": "SSO", "description": "Single sign-on and federated identity" },
+        { "id": "mfa", "name": "MFA", "description": "Multi-factor authentication solutions" },
+        { "id": "user-management", "name": "User Management", "description": "User profiles, roles, and admin panels" },
+        { "id": "authorization", "name": "Authorization", "description": "RBAC, ABAC, and permission systems" },
+        { "id": "passwordless", "name": "Passwordless", "description": "Magic links, OTP, and WebAuthn" },
+        { "id": "social-login", "name": "Social Login", "description": "OAuth providers and social authentication" }
+      ],
+      "tags": ["auth", "authentication", "sso", "mfa", "security", "identity"]
+    },
+    {
+      "id": "payments",
+      "name": "Payments",
+      "icon": "💳",
+      "description": "Payment processing, billing, and financial infrastructure.",
+      "subcategories": [
+        { "id": "payment-processing", "name": "Payment Processing", "description": "Credit card and digital wallet processing" },
+        { "id": "invoicing", "name": "Invoicing", "description": "Invoice generation and billing management" },
+        { "id": "subscription-management", "name": "Subscription Management", "description": "Recurring billing and plan management" },
+        { "id": "checkout", "name": "Checkout", "description": "Hosted and embedded checkout solutions" },
+        { "id": "fraud-detection", "name": "Fraud Detection", "description": "Fraud prevention and risk analysis" },
+        { "id": "payouts", "name": "Payouts", "description": "Mass payouts and vendor payments" }
+      ],
+      "tags": ["payments", "billing", "invoicing", "subscription", "checkout"]
+    },
+    {
+      "id": "email-sms",
+      "name": "Email & SMS",
+      "icon": "📧",
+      "description": "Email delivery, SMS messaging, and notification services.",
+      "subcategories": [
+        { "id": "transactional-email", "name": "Transactional Email", "description": "Email delivery APIs for triggered emails" },
+        { "id": "email-marketing", "name": "Email Marketing", "description": "Newsletter and campaign management" },
+        { "id": "email-api", "name": "Email API", "description": "Programmatic email sending and templating" },
+        { "id": "sms", "name": "SMS", "description": "SMS and text message APIs" },
+        { "id": "push-notifications", "name": "Push Notifications", "description": "Web and mobile push notification services" },
+        { "id": "multi-channel", "name": "Multi-Channel", "description": "Combined email, SMS, and push platforms" }
+      ],
+      "tags": ["email", "sms", "notifications", "marketing", "transactional"]
+    },
+    {
+      "id": "monitoring",
+      "name": "Monitoring",
+      "icon": "📊",
+      "description": "Application performance monitoring and observability.",
+      "subcategories": [
+        { "id": "apm", "name": "APM", "description": "Application performance monitoring and tracing" },
+        { "id": "log-management", "name": "Log Management", "description": "Log aggregation, search, and analytics" },
+        { "id": "uptime-monitoring", "name": "Uptime Monitoring", "description": "Website and API uptime tracking" },
+        { "id": "error-tracking", "name": "Error Tracking", "description": "Exception and error monitoring tools" },
+        { "id": "real-user-monitoring", "name": "Real User Monitoring", "description": "Client-side performance and user experience" },
+        { "id": "infrastructure-monitoring", "name": "Infrastructure Monitoring", "description": "Server, container, and network metrics" },
+        { "id": "synthetic-monitoring", "name": "Synthetic Monitoring", "description": "Simulated user transaction monitoring" }
+      ],
+      "tags": ["monitoring", "observability", "apm", "logging", "uptime"]
+    },
+    {
+      "id": "ci-cd",
+      "name": "CI/CD",
+      "icon": "🔄",
+      "description": "Continuous integration and delivery pipelines.",
+      "subcategories": [
+        { "id": "pipelines", "name": "Pipelines", "description": "CI/CD pipeline orchestration" },
+        { "id": "build-automation", "name": "Build Automation", "description": "Automated build and compilation" },
+        { "id": "artifact-hosting", "name": "Artifact Hosting", "description": "Package and binary artifact repositories" },
+        { "id": "testing-automation", "name": "Testing Automation", "description": "Automated test running in CI" },
+        { "id": "code-quality", "name": "Code Quality", "description": "Static analysis, linting, and coverage" },
+        { "id": "deployment-automation", "name": "Deployment Automation", "description": "Automated deployment and release management" }
+      ],
+      "tags": ["ci-cd", "pipelines", "automation", "devops", "deployment"]
+    },
+    {
+      "id": "devtools",
+      "name": "DevTools",
+      "icon": "🛠️",
+      "description": "Developer tools for coding, debugging, and productivity.",
+      "subcategories": [
+        { "id": "code-editors", "name": "Code Editors", "description": "Free code editors and IDEs" },
+        { "id": "version-control", "name": "Version Control", "description": "Git hosting and code collaboration" },
+        { "id": "cli-tools", "name": "CLI Tools", "description": "Command-line utilities and terminals" },
+        { "id": "api-tools", "name": "API Tools", "description": "API clients, testing, and documentation" },
+        { "id": "package-managers", "name": "Package Managers", "description": "Language-specific package registries" },
+        { "id": "browser-devtools", "name": "Browser DevTools", "description": "Browser extensions and debuggers" },
+        { "id": "code-generation", "name": "Code Generation", "description": "Code generators and scaffolding tools" },
+        { "id": "collaboration", "name": "Collaboration", "description": "Code review and team collaboration tools" }
+      ],
+      "tags": ["devtools", "ide", "git", "cli", "api", "productivity"]
+    },
+    {
+      "id": "design",
+      "name": "Design",
+      "icon": "🎨",
+      "description": "Design resources, UI tools, and creative assets.",
+      "subcategories": [
+        { "id": "ui-kits", "name": "UI Kits", "description": "Free UI component libraries and design systems" },
+        { "id": "icons", "name": "Icons", "description": "Free icon sets and icon management" },
+        { "id": "illustrations", "name": "Illustrations", "description": "Free illustration packs and generators" },
+        { "id": "prototyping", "name": "Prototyping", "description": "Interactive mockup and prototyping tools" },
+        { "id": "design-systems", "name": "Design Systems", "description": "Design system documentation and tools" },
+        { "id": "color-tools", "name": "Color Tools", "description": "Color palette generators and accessibility checkers" },
+        { "id": "typography", "name": "Typography", "description": "Free fonts and typeface resources" },
+        { "id": "mockups", "name": "Mockups", "description": "Device mockups and presentation templates" },
+        { "id": "screenshot-tools", "name": "Screenshot Tools", "description": "Browser screenshot and website preview tools" }
+      ],
+      "tags": ["design", "ui", "icons", "illustrations", "typography", "prototyping"]
+    },
+    {
+      "id": "domains",
+      "name": "Domains",
+      "icon": "🔗",
+      "description": "Free domains, subdomains, and DNS services.",
+      "subcategories": [
+        { "id": "free-domains", "name": "Free Domains", "description": "Free top-level domain registrations" },
+        { "id": "subdomains", "name": "Subdomains", "description": "Free subdomain providers" },
+        { "id": "dns-management", "name": "DNS Management", "description": "Free DNS hosting and management" },
+        { "id": "domain-forwarding", "name": "Domain Forwarding", "description": "URL forwarding and redirect services" },
+        { "id": "dynamic-dns", "name": "Dynamic DNS", "description": "Dynamic DNS for home servers and dev environments" }
+      ],
+      "tags": ["domains", "dns", "subdomain", "networking"]
+    },
+    {
+      "id": "testing",
+      "name": "Testing",
+      "icon": "🧪",
+      "description": "Testing frameworks, tools, and QA infrastructure.",
+      "subcategories": [
+        { "id": "unit-testing", "name": "Unit Testing", "description": "Unit test frameworks and runners" },
+        { "id": "e2e-testing", "name": "E2E Testing", "description": "End-to-end browser testing tools" },
+        { "id": "api-testing", "name": "API Testing", "description": "API test automation and validation" },
+        { "id": "load-testing", "name": "Load Testing", "description": "Performance and stress testing tools" },
+        { "id": "browser-testing", "name": "Browser Testing", "description": "Cross-browser testing and compatibility" },
+        { "id": "test-management", "name": "Test Management", "description": "Test case management and planning" },
+        { "id": "visual-regression", "name": "Visual Regression", "description": "Visual diff and screenshot comparison" }
+      ],
+      "tags": ["testing", "qa", "e2e", "unit-test", "integration", "performance"]
+    },
+    {
+      "id": "mobile",
+      "name": "Mobile",
+      "icon": "📱",
+      "description": "Mobile development tools, SDKs, and services.",
+      "subcategories": [
+        { "id": "mobile-sdks", "name": "Mobile SDKs", "description": "Native and cross-platform development kits" },
+        { "id": "push-notifications", "name": "Push Notifications", "description": "Push notification services for mobile apps" },
+        { "id": "app-hosting", "name": "App Hosting", "description": "Mobile app backend hosting and infrastructure" },
+        { "id": "app-builders", "name": "App Builders", "description": "No-code and low-code mobile app builders" },
+        { "id": "deep-linking", "name": "Deep Linking", "description": "Mobile deep linking and universal links" },
+        { "id": "app-testing", "name": "App Testing", "description": "Mobile app testing and emulators" },
+        { "id": "app-analytics", "name": "App Analytics", "description": "Mobile analytics and crash reporting" }
+      ],
+      "tags": ["mobile", "ios", "android", "sdk", "cross-platform"]
+    },
+    {
+      "id": "learning",
+      "name": "Learning",
+      "icon": "📚",
+      "description": "Educational platforms, courses, and developer documentation.",
+      "subcategories": [
+        { "id": "platforms", "name": "Platforms", "description": "Online learning platforms and academies" },
+        { "id": "courses", "name": "Courses", "description": "Free structured courses and tutorials" },
+        { "id": "certifications", "name": "Certifications", "description": "Free certification programs and exams" },
+        { "id": "interactive-tutorials", "name": "Interactive Tutorials", "description": "Hands-on coding tutorials and playgrounds" },
+        { "id": "coding-challenges", "name": "Coding Challenges", "description": "Competitive programming and challenge platforms" },
+        { "id": "documentation", "name": "Documentation", "description": "Comprehensive documentation and references" },
+        { "id": "newsletters", "name": "Newsletters", "description": "Developer newsletters and weekly digests" },
+        { "id": "podcasts", "name": "Podcasts", "description": "Technology and programming podcasts" }
+      ],
+      "tags": ["learning", "courses", "tutorials", "education", "certification"]
+    },
+    {
+      "id": "student-packs",
+      "name": "Student Packs",
+      "icon": "🎓",
+      "description": "Free tools and services available through student verification.",
+      "subcategories": [
+        { "id": "github-student-pack", "name": "GitHub Student Pack", "description": "Tools included in the GitHub Student Developer Pack" },
+        { "id": "cloud-credits", "name": "Cloud Credits", "description": "Free cloud credits for students" },
+        { "id": "ide-licenses", "name": "IDE Licenses", "description": "Free IDE and editor licenses for students" },
+        { "id": "learning-platforms", "name": "Learning Platforms", "description": "Premium learning platform access for students" },
+        { "id": "design-tools", "name": "Design Tools", "description": "Free design tool access for students" },
+        { "id": "domain-benefits", "name": "Domain Benefits", "description": "Free domains and hosting for students" }
+      ],
+      "tags": ["student", "education", "academic", "free-for-students"]
+    },
+    {
+      "id": "startup-credits",
+      "name": "Startup Credits",
+      "icon": "🏢",
+      "description": "Free credits and programs for early-stage startups.",
+      "subcategories": [
+        { "id": "cloud-programs", "name": "Cloud Programs", "description": "Cloud provider startup programs" },
+        { "id": "saas-programs", "name": "SaaS Programs", "description": "SaaS company startup credits" },
+        { "id": "incubators", "name": "Incubators", "description": "Startup incubator and accelerator programs" },
+        { "id": "founder-perks", "name": "Founder Perks", "description": "Founder-friendly tool discounts and credits" },
+        { "id": "open-source-grants", "name": "Open Source Grants", "description": "Grants and funding for open source projects" }
+      ],
+      "tags": ["startup", "credits", "funding", "accelerator", "founder"]
+    },
+    {
+      "id": "open-source",
+      "name": "Open Source",
+      "icon": "🌍",
+      "description": "Open-source tools, libraries, and self-hostable alternatives.",
+      "subcategories": [
+        { "id": "self-hostable", "name": "Self-Hostable", "description": "Self-hosted alternatives to SaaS tools" },
+        { "id": "libraries", "name": "Libraries", "description": "Open-source libraries and frameworks" },
+        { "id": "community-editions", "name": "Community Editions", "description": "Free community editions of commercial software" },
+        { "id": "templates", "name": "Templates", "description": "Open-source project templates and starters" },
+        { "id": "boilerplates", "name": "Boilerplates", "description": "Full-stack boilerplates and scaffolds" }
+      ],
+      "tags": ["open-source", "self-hosted", "community", "free-software"]
+    }
+  ]
+}
