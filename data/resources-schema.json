@@ -171,14 +171,17 @@
           },
           "ratings": {
             "type": "object",
-            "description": "1-5 star ratings across dimensions",
-            "required": ["beginner_friendly", "docs", "free_generosity", "setup", "reliability"],
+            "description": "1-5 star ratings across 7 dimensions + computed overall score",
+            "required": ["beginner_friendly", "docs", "free_generosity", "setup", "reliability", "performance", "community"],
             "properties": {
               "beginner_friendly": { "type": "integer", "minimum": 1, "maximum": 5 },
               "docs": { "type": "integer", "minimum": 1, "maximum": 5 },
               "free_generosity": { "type": "integer", "minimum": 1, "maximum": 5 },
               "setup": { "type": "integer", "minimum": 1, "maximum": 5 },
-              "reliability": { "type": "integer", "minimum": 1, "maximum": 5 }
+              "reliability": { "type": "integer", "minimum": 1, "maximum": 5 },
+              "performance": { "type": "integer", "minimum": 1, "maximum": 5 },
+              "community": { "type": "integer", "minimum": 1, "maximum": 5 },
+              "overall": { "type": "number", "minimum": 0, "maximum": 5, "description": "Weighted average of all 7 metrics, rounded to 1 decimal" }
             },
             "additionalProperties": {
               "type": "integer",
