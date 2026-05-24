@@ -1,0 +1,77 @@
+name: Validate JSON
+
+on:
+  pull_request:
+    paths:
+      - "data/*.json"
+  push:
+    branches: [main]
+    paths:
+      - "data/*.json"
+  workflow_dispatch:
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install ajv
+        run: npm install -g ajv-cli ajv-formats
+
+      - name: Validate resources.json against schema
+        run: |
+          ajv validate -s data/resources-schema.json -d data/resources.json \
+            --strict=true --all-errors
+
+      - name: Validate JSON syntax
+        run: |
+          for f in data/*.json; do
+            echo "Validating $f..."
+            node -e "JSON.parse(require('fs').readFileSync('$f','utf8'))" && echo "  OK"
+          done
+
+      - name: Validate taxonomy consistency
+        run: |
+          node -e "
+            const resources = require('./data/resources.json');
+            const taxonomy = require('./data/taxonomy.json');
+            const validCategories = taxonomy.categories.map(c => c.id);
+            const errors = [];
+            resources.resources.forEach(r => {
+              if (!validCategories.includes(r.category)) {
+                errors.push(\`\${r.id}: invalid category '\${r.category}'\`);
+              }
+            });
+            if (errors.length) {
+              console.error('Validation errors:\\n' + errors.join('\\n'));
+              process.exit(1);
+            }
+            console.log('All resources have valid categories');
+          "
+
+      - name: Validate tag references
+        run: |
+          node -e "
+            const resources = require('./data/resources.json');
+            const tags = require('./data/tags.json');
+            const validTags = new Set(tags.groups.flatMap(g => g.tags.map(t => t.id)));
+            const errors = [];
+            resources.resources.forEach(r => {
+              (r.tags || []).forEach(t => {
+                if (!validTags.has(t)) {
+                  errors.push(\`\${r.id}: unknown tag '\${t}'\`);
+                }
+              });
+            });
+            if (errors.length) {
+              console.error('Unknown tags:\\n' + errors.join('\\n'));
+              process.exit(1);
+            }
+            console.log('All tags are valid');
+          "
