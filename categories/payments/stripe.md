@@ -53,7 +53,7 @@ active
 **No** — No card required to create an account (card needed only to process payments).
 
 ### Tags
-`payments` `invoicing` `subscription` `fraud-detection` `checkout`
+`payments` `invoicing` `subscription` `fraud-detection` `checkout` `api` `sdk`
 
 ### Alternatives To
 None — industry standard

@@ -56,7 +56,7 @@ active
 **No** — Sign up with GitHub or email, no card required.
 
 ### Tags
-`hosting` `deployment` `serverless` `edge` `frontend` `jamstack` `cdn`
+`hosting` `deployment` `serverless` `edge` `frontend` `jamstack` `cdn` `saas` `cli`
 
 ### Alternatives To
 Netlify, Cloudflare Pages, Render
