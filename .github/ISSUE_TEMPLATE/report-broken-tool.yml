@@ -1,0 +1,69 @@
+name: Report Broken Tool
+description: Report a resource with a broken free tier, dead link, or inaccurate information
+title: "[Broken] "
+labels: ["bug", "maintenance"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the collection accurate.
+
+  - type: input
+    id: tool_name
+    attributes:
+      label: Tool Name
+      description: Name of the resource as listed in the repository
+      placeholder: e.g. Supabase
+    validations:
+      required: true
+
+  - type: input
+    id: file_path
+    attributes:
+      label: File Path (if known)
+      description: Path to the resource file
+      placeholder: e.g. categories/databases/supabase.md
+
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: What's broken?
+      description: Select the issue type
+      options:
+        - Dead link (website/docs not loading)
+        - Free tier removed or reduced
+        - Service shut down
+        - Requires card (claimed no-card)
+        - Region restrictions changed
+        - Student benefits no longer available
+        - Outdated information
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe what's broken and what the correct information should be
+      placeholder: The free tier was reduced from 500 MB to 100 MB...
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source / Evidence
+      description: Link to a page, announcement, or screenshot confirming the change
+      placeholder: https://
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have confirmed this issue exists (not a temporary outage)
+    validations:
+      required: true
