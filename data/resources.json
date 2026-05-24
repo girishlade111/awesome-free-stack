@@ -93,7 +93,10 @@
         "docs": 5,
         "free_generosity": 5,
         "setup": 5,
-        "reliability": 4
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.7
       },
       "verification": {
         "status": "tested",
