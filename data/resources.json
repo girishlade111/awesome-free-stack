@@ -2597,6 +2597,461 @@
       "alternatives_to": [],
       "alternatives": ["coolify", "caprover", "porter"],
       "last_verified": "2026-05-24"
+    },
+    {
+      "id": "aws",
+      "slug": "aws",
+      "name": "AWS (Amazon Web Services)",
+      "website": "https://aws.amazon.com",
+      "docs": "https://docs.aws.amazon.com",
+      "github": "https://github.com/aws",
+      "description": "The largest public cloud platform with 200+ services spanning compute, storage, databases, AI/ML, serverless, and IoT. Generous 12-month free tier with 100+ always-free offers.",
+      "category": "cloud",
+      "subcategory": "compute",
+      "tags": ["cloud", "compute", "infrastructure", "vm", "serverless", "managed", "global", "freemium", "card-required", "kubernetes", "gpu", "ai"],
+      "free_tier": {
+        "summary": "12-month free: 750h/mo EC2 (t2.micro), 5GB S3, 20GB EBS, 1M Lambda requests/mo. 100+ always-free services including DynamoDB 25GB, SES 62K emails/mo",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 25,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go: EC2 starting at $0.0058/h (t2.nano). Reserved instances and savings plans available",
+        "starting_price_usd": 0.0058,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "AWS Educate: $100-500 credits, free training. AWS Academy: full curriculum access",
+        "verification_method": "edu-email"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": ["IR", "KP", "SY", "CU", "CN"],
+        "notes": "Available globally; 33 regions with 105+ availability zones"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["azure", "gcp", "digitalocean"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "azure",
+      "slug": "azure",
+      "name": "Microsoft Azure",
+      "website": "https://azure.microsoft.com",
+      "docs": "https://learn.microsoft.com/azure",
+      "github": "https://github.com/Azure",
+      "description": "Microsoft's cloud platform with deep enterprise and hybrid cloud capabilities. Best-in-class integration with Active Directory, Visual Studio, and .NET ecosystem. $200 free credits for new users.",
+      "category": "cloud",
+      "subcategory": "compute",
+      "tags": ["cloud", "compute", "infrastructure", "vm", "serverless", "managed", "global", "freemium", "card-required", "kubernetes", "gpu", "ai"],
+      "free_tier": {
+        "summary": "$200 credit for 30 days. Always-free: 750h/mo B1s VM, 5GB blob storage, 64GB files, 1M functions/mo, 250GB SQL DB",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 64,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go: B1s VM starting at $0.005/h. Reserved instances and hybrid benefit available",
+        "starting_price_usd": 0.005,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Azure for Students: $100 credits + free tier, no credit card needed. Azure Dev Tools for Teaching: free software",
+        "verification_method": "edu-email"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": ["IR", "KP", "SY", "CU"],
+        "notes": "Available globally; 60+ regions (largest cloud footprint)"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["aws", "gcp", "digitalocean"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "gcp",
+      "slug": "gcp",
+      "name": "Google Cloud Platform",
+      "website": "https://cloud.google.com",
+      "docs": "https://cloud.google.com/docs",
+      "github": "https://github.com/GoogleCloudPlatform",
+      "description": "Google's cloud platform excelling in data analytics, ML/AI, and Kubernetes. $300 free credits for 90 days with generous always-free tier. Home to BigQuery, Vertex AI, and GKE.",
+      "category": "cloud",
+      "subcategory": "compute",
+      "tags": ["cloud", "compute", "infrastructure", "vm", "serverless", "managed", "global", "freemium", "card-required", "kubernetes", "gpu", "ai"],
+      "free_tier": {
+        "summary": "$300 credit for 90 days. Always-free: 1 f1-micro VM (US regions), 5GB cloud storage, 1M Cloud Functions/mo, 1GB BigQuery/mo, 60min Speech API/mo",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go: f1-micro starting at $0.0076/h. Committed use discounts available",
+        "starting_price_usd": 0.0076,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Google for Education: $50-300 credits. Google Cloud Skills Boost: free labs and training",
+        "verification_method": "edu-email"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": ["IR", "KP", "SY", "CU"],
+        "notes": "Available globally; 40 regions with 121+ availability zones"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["aws", "azure", "digitalocean"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "oracle-cloud",
+      "slug": "oracle-cloud",
+      "name": "Oracle Cloud",
+      "website": "https://www.oracle.com/cloud",
+      "docs": "https://docs.oracle.com/en/cloud",
+      "github": "https://github.com/oracle",
+      "description": "Best always-free tier in the industry — 2 AMD VMs + 4 ARM VMs (up to 24GB RAM) forever. Strong in enterprise databases, autonomous DB, and cloud ERP.",
+      "category": "cloud",
+      "subcategory": "compute",
+      "tags": ["cloud", "compute", "infrastructure", "vm", "managed", "global", "freemium", "card-required"],
+      "free_tier": {
+        "summary": "Always free: 2 AMD instances (1GB ea), 4 ARM instances (24GB total), 200GB block storage, 10GB object storage, 10GB autonomous database, 10TB egress/mo",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 210,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go: VM starting at $0.0125/h. Universal credits and BYOL available",
+        "starting_price_usd": 0.0125,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Oracle for Education: $300 free credits + always-free tier. Free Oracle University training",
+        "verification_method": "edu-email"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": ["IR", "KP", "SY", "CU"],
+        "notes": "Available globally; 20 regions with 49+ availability zones"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["aws", "azure", "gcp"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "alibaba-cloud",
+      "slug": "alibaba-cloud",
+      "name": "Alibaba Cloud",
+      "website": "https://www.alibabacloud.com",
+      "docs": "https://www.alibabacloud.com/help",
+      "github": "https://github.com/aliyun",
+      "description": "Leading cloud platform in Asia-Pacific with strong presence in China. Offers 30+ services including compute, databases, AI/ML, and CDN. $300 free trial credits.",
+      "category": "cloud",
+      "subcategory": "compute",
+      "tags": ["cloud", "compute", "infrastructure", "vm", "serverless", "managed", "global", "freemium", "card-required", "kubernetes"],
+      "free_tier": {
+        "summary": "$300 free credits for 30-90 days. Free tier: 1 ecs.t6-c1m1.large (1vCPU, 1GB), 5GB OSS, 1M function calls/mo",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go: ECS starting at $0.01/h. Reserved instances available with 40% discount",
+        "starting_price_usd": 0.01,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Alibaba Cloud for Students: $300 credits + free training courses",
+        "verification_method": "edu-email"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; 30 regions with 80+ availability zones. Strong presence in China and APAC"
+      },
+      "languages": ["en", "zh"],
+      "alternatives_to": [],
+      "alternatives": ["aws", "gcp", "azure"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "ibm-cloud",
+      "slug": "ibm-cloud",
+      "name": "IBM Cloud",
+      "website": "https://cloud.ibm.com",
+      "docs": "https://cloud.ibm.com/docs",
+      "github": "https://github.com/IBM",
+      "description": "Enterprise-focused cloud platform with strengths in AI (Watson), quantum computing, and regulated industries. $200 free credits for new users and generous free tier for AI services.",
+      "category": "cloud",
+      "subcategory": "compute",
+      "tags": ["cloud", "compute", "infrastructure", "vm", "serverless", "managed", "global", "freemium", "card-required", "kubernetes", "gpu", "ai"],
+      "free_tier": {
+        "summary": "$200 credit for 30 days. Always-free: 1 VM (128MB, 1vCPU), 5GB COS, 1M Code Engine requests/mo, 10K Watson Assistant API calls/mo",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go: VM starting at $0.012/h. Reserved instances and subscription pricing available",
+        "starting_price_usd": 0.012,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "IBM Academic Initiative: $200 credits + free access to Watson, Quantum, and AI services",
+        "verification_method": "edu-email"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": ["IR", "KP", "SY", "CU"],
+        "notes": "Available globally; 20 regions with 60+ availability zones. Strong in regulated industries"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["aws", "azure", "gcp"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "digitalocean",
+      "slug": "digitalocean",
+      "name": "DigitalOcean",
+      "website": "https://www.digitalocean.com",
+      "docs": "https://docs.digitalocean.com",
+      "github": "https://github.com/digitalocean",
+      "description": "Developer-friendly cloud platform focused on simplicity. Known for intuitive dashboard, predictable pricing, and excellent documentation. $200 free credits for 60 days.",
+      "category": "cloud",
+      "subcategory": "compute",
+      "tags": ["cloud", "compute", "vps", "infrastructure", "vm", "managed", "global", "freemium", "no-card", "docker", "kubernetes"],
+      "free_tier": {
+        "summary": "$200 free credits for 60 days (new accounts). No always-free tier but $200 can run a basic droplet for months",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Basic Droplet: $4/month (512MB, 1vCPU, 25GB SSD). Kubernetes: $12/month. Managed DB: $15/month",
+        "starting_price_usd": 4,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "GitHub Student Developer Pack: $50 credits. DigitalOcean Hatch for startups",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; 15 regions across US, EU, and APAC"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["vultr", "linode", "hetzner"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "hetzner",
+      "slug": "hetzner",
+      "name": "Hetzner",
+      "website": "https://www.hetzner.com",
+      "docs": "https://docs.hetzner.com",
+      "github": "https://github.com/hetznercloud",
+      "description": "German cloud provider known for best-in-class price-to-performance ratio. Offers cloud VMs, dedicated servers, and managed storage. European data centers with strong GDPR compliance.",
+      "category": "cloud",
+      "subcategory": "compute",
+      "tags": ["cloud", "compute", "vps", "infrastructure", "vm", "bare-metal", "managed", "global", "freemium", "card-required", "docker", "kubernetes"],
+      "free_tier": {
+        "summary": "No free tier. Prices start at €3.49/month for CX11 (1vCPU, 2GB RAM, 20GB SSD). Promotional €20 credit sometimes available",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Cloud: CX11 €3.49/mo (1vCPU, 2GB). Dedicated: starting at €35/mo. Storage Box: €3.49/mo",
+        "starting_price_usd": 3.49,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 2,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan. Prices are already among the lowest in the market"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": false,
+        "restricted_countries": [],
+        "notes": "Data centers in Germany, Finland, and US (Hillsboro, Ashburn). Strong GDPR compliance"
+      },
+      "languages": ["en", "de"],
+      "alternatives_to": [],
+      "alternatives": ["digitalocean", "vultr", "linode"],
+      "last_verified": "2026-05-24"
     }
   ]
 }
