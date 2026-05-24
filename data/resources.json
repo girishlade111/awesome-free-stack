@@ -4732,6 +4732,398 @@
       "alternatives_to": [],
       "alternatives": ["better-auth", "supabase-auth", "logto"],
       "last_verified": "2026-05-24"
+    },
+    {
+      "id": "cloudflare-dns",
+      "slug": "cloudflare-dns",
+      "name": "Cloudflare DNS",
+      "website": "https://www.cloudflare.com/dns",
+      "docs": "https://developers.cloudflare.com/dns",
+      "github": "https://github.com/cloudflare",
+      "description": "Fast, secure authoritative DNS with built-in DDoS protection, DNSSEC, and global CDN. Manage DNS for any domain with instant propagation across 330+ data centers.",
+      "category": "domains",
+      "subcategory": "dns-management",
+      "tags": ["domains", "dns", "networking", "cdn", "ssl", "free-tier", "no-card", "generous-free-tier"],
+      "free_tier": {
+        "summary": "Unlimited DNS records, unlimited zones, DNSSEC, DDoS protection, analytics, and email routing — all free",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $200/month: advanced DDoS, WAF, SSL custom certificates",
+        "starting_price_usd": 200,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 5.0
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free tier covers everything most students need"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; 330+ data centers"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["freedns", "desec", "noip"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "duckdns",
+      "slug": "duckdns",
+      "name": "Duck DNS",
+      "website": "https://www.duckdns.org",
+      "docs": "https://www.duckdns.org/faqs.jsp",
+      "github": "https://github.com/Raging-Ray/DuckDNS",
+      "description": "Free dynamic DNS service hosted on AWS. Get a *.duckdns.org subdomain that updates automatically when your IP changes. Simple, reliable, and donation-supported.",
+      "category": "domains",
+      "subcategory": "dynamic-dns",
+      "tags": ["domains", "dns", "subdomain", "networking", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "5 subdomains, unlimited updates, no renewal — completely free forever",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 5
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; supported by donations",
+        "starting_price_usd": null,
+        "billing_model": "donation"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for all; no student plan needed"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally on AWS infrastructure"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["noip", "desec", "freedns"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "noip",
+      "slug": "noip",
+      "name": "No-IP",
+      "website": "https://www.noip.com",
+      "docs": "https://www.noip.com/support",
+      "github": null,
+      "description": "Pioneering dynamic DNS provider offering free subdomains for home servers and development. Creates a persistent hostname that follows your changing IP address.",
+      "category": "domains",
+      "subcategory": "dynamic-dns",
+      "tags": ["domains", "dns", "subdomain", "networking", "free-tier", "no-card"],
+      "free_tier": {
+        "summary": "3 hostnames with *.ddns.net/*.hopto.org/*.noip domains, confirmation every 30 days required",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 3
+        }
+      },
+      "paid_plan": {
+        "summary": "Enhanced — $24.95/year: 25 hostnames, no confirmation, email support",
+        "starting_price_usd": 24.95,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["duckdns", "desec", "freedns"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "freedns",
+      "slug": "freedns",
+      "name": "FreeDNS (afraid.org)",
+      "website": "https://freedns.afraid.org",
+      "docs": "https://freedns.afraid.org/faq",
+      "github": null,
+      "description": "Free DNS hosting with access to thousands of free subdomains contributed by the community. Supports A, AAAA, CNAME, MX, NS, and TXT records with dynamic DNS updates.",
+      "category": "domains",
+      "subcategory": "subdomains",
+      "tags": ["domains", "dns", "subdomain", "networking", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "Unlimited DNS zones, 5 free subdomains from community domains, supports all record types, dynamic DNS",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 5
+        }
+      },
+      "paid_plan": {
+        "summary": "Donation-based; no paid tiers. Premium domain registration available via partners",
+        "starting_price_usd": null,
+        "billing_model": "donation"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for all users"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["cloudflare-dns", "desec", "duckdns"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "eu-org",
+      "slug": "eu-org",
+      "name": "eu.org",
+      "website": "https://nic.eu.org",
+      "docs": "https://nic.eu.org/faq",
+      "github": null,
+      "description": "Free *.eu.org subdomain registration for anyone. Managed by the European community DNS service. Ideal for personal projects, self-hosting, and testing. Registration can take several days.",
+      "category": "domains",
+      "subcategory": "subdomains",
+      "tags": ["domains", "dns", "subdomain", "networking", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "Free *.eu.org subdomain, DNS management, custom nameservers, unlimited sub-subdomains",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; completely free",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; operated by European community"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["freedns", "duckdns", "nic-us"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "desec",
+      "slug": "desec",
+      "name": "deSEC",
+      "website": "https://desec.io",
+      "docs": "https://desec.readthedocs.io",
+      "github": "https://github.com/desec-io/desec-stack",
+      "description": "Free DNS hosting with DNSSEC, dynamic DNS, and API access. Open-source privacy-focused DNS from Germany. Supports TSIG authenticated updates and works with any domain registrar.",
+      "category": "domains",
+      "subcategory": "dns-management",
+      "tags": ["domains", "dns", "networking", "open-source", "api", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "Unlimited DNS zones, unlimited records, DNSSEC, dynamic DNS, REST API, multi-user access",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; completely free and open-source. Supported by donations.",
+        "starting_price_usd": null,
+        "billing_model": "donation"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for all users"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; hosted in Germany (GDPR compliant)"
+      },
+      "languages": ["en", "de"],
+      "alternatives_to": [],
+      "alternatives": ["cloudflare-dns", "freedns", "duckdns"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "nic-us",
+      "slug": "nic-us",
+      "name": "NIC.US",
+      "website": "https://nic.us",
+      "docs": "https://about.us",
+      "github": null,
+      "description": "Free .us domain registration for US citizens and permanent residents. Part of the US Department of Commerce program. A true top-level domain completely free of charge.",
+      "category": "domains",
+      "subcategory": "free-domains",
+      "tags": ["domains", "dns", "networking", "free-tier", "no-card", "forever-free", "us-only"],
+      "free_tier": {
+        "summary": "Free .us domain with DNS management. Must be a US citizen or permanent resident with valid US address.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; domain registration is free for eligible US residents",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 2,
+        "overall": 3.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for all eligible US residents regardless of student status"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": false,
+        "restricted_countries": [],
+        "notes": "US-only: requires US citizenship or permanent residency with US address"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["eu-org", "freenom"],
+      "last_verified": "2026-05-24"
     }
   ]
 }
