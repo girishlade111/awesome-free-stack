@@ -1,0 +1,14 @@
+free-developer-resources
+free-software
+awesome-list
+developer-tools
+student-developer-tools
+free-ai-apis
+free-cloud-services
+open-source
+free-hosting
+free-databases
+startup-credits
+free-saas
+devops-tools
+learning-resources
