@@ -1,0 +1,39 @@
+Automate:
+
+1. Dead Links
+
+Monthly:
+
+check-links.yml
+
+Detect broken URLs.
+
+2. Verification Age
+
+Warn if:
+
+last_verified > 12 months
+3. README Generator
+
+Auto update:
+
+Category counts
+Resource counts
+Rankings
+4. JSON Validator
+
+Ensure:
+
+resources.json
+
+valid.
+
+5. Monthly Reports
+
+Generate:
+
+Added:
+12 resources
+
+Deprecated:
+3
