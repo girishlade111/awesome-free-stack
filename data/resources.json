@@ -3347,7 +3347,7 @@
       "free_tier": {
         "summary": "Redis: 10K commands/day, 50 MB storage, 1 database. Kafka: 10K messages/day, 50 MB storage",
         "limits": {
-          "requests_per_month": null,
+          "requests_per_month": 300000,
           "tokens_per_minute": null,
           "storage_gb": 0.05,
           "seats": null
@@ -3387,6 +3387,230 @@
       "languages": ["en"],
       "alternatives_to": [],
       "alternatives": ["redis-stack", "valkey", "keydb"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "turso",
+      "slug": "turso",
+      "name": "Turso",
+      "website": "https://turso.tech",
+      "docs": "https://docs.turso.tech",
+      "github": "https://github.com/tursodatabase/turso",
+      "description": "Edge SQLite database built on libsql. Deploy database replicas globally for instant reads with low-latency writes. Ideal for serverless and edge applications.",
+      "category": "databases",
+      "subcategory": "sql",
+      "tags": ["database", "sql", "serverless", "edge", "managed", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "500 MB storage, 1 billion row reads/month, 250M rows written/month, 25K monthly active users, 10 locations",
+        "limits": {
+          "requests_per_month": 1000000000,
+          "tokens_per_minute": null,
+          "storage_gb": 0.5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Team — $29/month: 8 GB storage, 10K MAU, 25 locations, team workspace",
+        "starting_price_usd": 29,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; free tier covers learning and prototyping"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; edge locations in 10+ regions worldwide"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["neon", "planetscale", "xata"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "xata",
+      "slug": "xata",
+      "name": "Xata",
+      "website": "https://xata.io",
+      "docs": "https://xata.io/docs",
+      "github": "https://github.com/xataio",
+      "description": "Serverless Postgres platform with built-in full-text search, analytics, and AI vector capabilities. Declarative database branching and column-level permissions for collaborative development.",
+      "category": "databases",
+      "subcategory": "sql",
+      "tags": ["database", "sql", "postgresql", "serverless", "managed", "freemium", "card-required", "search"],
+      "free_tier": {
+        "summary": "15 GB storage, 5K records, 2 branches, built-in search and vector capabilities, REST API",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 15,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $20/month: 50 GB storage, 100K records, 10 branches, priority support",
+        "starting_price_usd": 20,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "GitHub Student Developer Pack: extended credits and features"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; data regions: US (Oregon), EU (Ireland)"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["neon", "supabase", "turso"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "dynamodb",
+      "slug": "dynamodb",
+      "name": "Amazon DynamoDB",
+      "website": "https://aws.amazon.com/dynamodb",
+      "docs": "https://docs.aws.amazon.com/dynamodb",
+      "github": "https://github.com/aws/aws-sdk-js-v3",
+      "description": "Fully managed NoSQL key-value and document database from AWS. Single-digit millisecond performance at any scale with on-demand capacity mode and ACID transactions.",
+      "category": "databases",
+      "subcategory": "nosql",
+      "tags": ["database", "nosql", "managed", "freemium", "aws", "card-required", "global"],
+      "free_tier": {
+        "summary": "25 GB storage, 200 million requests/month, 25 WCU and 25 RCU throughput, 25 GB for streams, 1 GB DAX cache",
+        "limits": {
+          "requests_per_month": 200000000,
+          "tokens_per_minute": null,
+          "storage_gb": 25,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go: $1.25 per WCU/month, $0.25 per RCU/month. On-demand: $1.25M write req + $0.25M read req",
+        "starting_price_usd": 0.25,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Included in AWS Free Tier. AWS Educate: $100-500 credits for students"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": ["IR", "KP", "SY", "CU", "CN"],
+        "notes": "Available globally across all AWS regions (33 regions, 105+ availability zones)"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["mongodb-atlas", "firebase-firestore", "cosmosdb"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "aiven",
+      "slug": "aiven",
+      "name": "Aiven",
+      "website": "https://aiven.io",
+      "docs": "https://docs.aiven.io",
+      "github": "https://github.com/aiven",
+      "description": "Managed open-source database platform supporting PostgreSQL, MySQL, Redis, Kafka, Cassandra, and OpenSearch. Deploy on your cloud of choice (AWS, GCP, Azure) with high availability.",
+      "category": "databases",
+      "subcategory": "managed-databases",
+      "tags": ["database", "sql", "nosql", "postgresql", "mysql", "redis", "managed", "freemium", "card-required"],
+      "free_tier": {
+        "summary": "PostgreSQL/MySQL: 1 GB storage, 1 node. Redis: 256 MB, 1 node. Kafka: 1 GB. All free plans have limited availability",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 1,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Startup — $39/month: 2 GB RAM, 2 nodes, 10 GB storage",
+        "starting_price_usd": 39,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; free tier is limited but functional"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally on AWS, GCP, and Azure regions"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["neon", "digitalocean", "railway"],
       "last_verified": "2026-05-24"
     }
   ]
