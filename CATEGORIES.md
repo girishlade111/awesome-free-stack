@@ -1,4 +1,4 @@
-# Category Taxonomy
+# Category Taxonomy — Free Developer Resources by Category
 
 Complete hierarchy of all 20 categories and their subcategories.
 
