@@ -5813,7 +5813,7 @@
       "description": "Self-host open-source fonts via npm. 1,500+ font families as installable npm packages. Zero external requests, automatic subsetting, and TypeScript declarations for better web performance and privacy.",
       "category": "design",
       "subcategory": "typography",
-      "tags": ["design", "ui", "typography", "open-source", "npm", "free-tier", "no-card", "forever-free"],
+      "tags": ["design", "ui", "typography", "open-source", "free-tier", "no-card", "forever-free"],
       "free_tier": {
         "summary": "1,500+ self-hosted fonts via npm, no CDN dependency, automatic subsetting, all open-source",
         "limits": {

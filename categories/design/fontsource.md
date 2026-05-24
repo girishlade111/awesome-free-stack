@@ -52,7 +52,7 @@ active
 **No** — No credit card required.
 
 ### Tags
-`design` `ui` `typography` `open-source` `npm` `free-tier` `no-card` `forever-free`
+`design` `ui` `typography` `open-source` `free-tier` `no-card` `forever-free`
 
 ### Alternatives
 [Google Fonts](google-fonts.md), Font Awesome, Adobe Fonts
