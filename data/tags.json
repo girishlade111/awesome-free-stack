@@ -147,6 +147,7 @@
         { "id": "multi-modal", "name": "Multi-Modal", "description": "Multi-modal data support", "icon": "🔀" },
         { "id": "extension", "name": "Extension", "description": "Database and platform extensions", "icon": "🔌" },
         { "id": "cassandra", "name": "Cassandra", "description": "Apache Cassandra-based tools", "icon": "🗄️" },
+        { "id": "google", "name": "Google", "description": "Google Cloud and Firebase products", "icon": "☁️" },
         { "id": "paas", "name": "PaaS", "description": "Platform-as-a-Service", "icon": "🚀" }
       ]
     },
