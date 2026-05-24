@@ -149,7 +149,10 @@
         "docs": 5,
         "free_generosity": 5,
         "setup": 5,
-        "reliability": 5
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.9
       },
       "verification": {
         "status": "tested",
