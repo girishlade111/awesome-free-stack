@@ -1310,9 +1310,9 @@
       "docs": "https://vercel.com/docs",
       "github": "https://github.com/vercel",
       "description": "Frontend deployment platform with global edge network. Supports Next.js, React, Svelte, and all major frameworks. Includes serverless functions, edge config, and analytics.",
-      "category": "hosting",
-      "subcategory": "static-sites",
-      "tags": ["hosting", "deployment", "serverless", "edge", "frontend", "jamstack", "cdn", "saas", "cli"],
+      "category": "deployment",
+      "subcategory": "paas",
+      "tags": ["deployment", "serverless", "edge", "frontend", "jamstack", "paas", "saas", "cli"],
       "free_tier": {
         "summary": "Unlimited static sites, 100 GB bandwidth, 6,000 build minutes/month, 1 concurrent build, 100 serverless function invocations/day, 10 edge function invocations/day",
         "limits": {
