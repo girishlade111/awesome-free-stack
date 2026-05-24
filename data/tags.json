@@ -40,6 +40,7 @@
         { "id": "deployment", "name": "Deployment", "description": "Application deployment platforms", "icon": "🚀" },
         { "id": "serverless", "name": "Serverless", "description": "Serverless compute and functions" },
         { "id": "container", "name": "Container", "description": "Container management and orchestration" },
+        { "id": "containers", "name": "Containers", "description": "Container-based deployment platforms", "icon": "🐳" },
         { "id": "cloud", "name": "Cloud", "description": "Cloud computing infrastructure", "icon": "☁️" },
         { "id": "infrastructure", "name": "Infrastructure", "description": "Cloud infrastructure services" },
         { "id": "hosting", "name": "Hosting", "description": "Web and application hosting", "icon": "🌐" },
