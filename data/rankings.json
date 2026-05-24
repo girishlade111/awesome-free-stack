@@ -1,0 +1,232 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "last_updated": "2026-05-24",
+  "description": "Ranking system for awesome-free-stack resources",
+  "logic": {
+    "description": "Overall rank score is computed as a weighted composite of four factors.",
+    "factors": [
+      {
+        "id": "community_votes",
+        "name": "Community Votes",
+        "icon": "👍",
+        "description": "Upvotes and positive reactions from the community via GitHub Discussions",
+        "weight": 0.25,
+        "max_score": 5,
+        "source": "GitHub Discussions poll reactions",
+        "refresh_period": "monthly"
+      },
+      {
+        "id": "popularity",
+        "name": "Popularity",
+        "icon": "📈",
+        "description": "Relative popularity based on GitHub stars, npm downloads, and web traffic trends",
+        "weight": 0.20,
+        "max_score": 5,
+        "source": "GitHub API, npm registry, SimilarWeb trends",
+        "refresh_period": "quarterly"
+      },
+      {
+        "id": "maintainer_score",
+        "name": "Maintainer Score",
+        "icon": "🔍",
+        "description": "Evaluation by project maintainers based on free tier quality, documentation, and reliability",
+        "weight": 0.30,
+        "max_score": 5,
+        "source": "Maintainer review board (weighted average of 3+ reviews)",
+        "refresh_period": "quarterly"
+      },
+      {
+        "id": "free_quality",
+        "name": "Free Tier Quality",
+        "icon": "🎁",
+        "description": "Generosity and usability of the free tier — derived from the free_generosity rating metric",
+        "weight": 0.25,
+        "max_score": 5,
+        "source": "Computed from resources.json ratings.free_generosity",
+        "refresh_period": "monthly"
+      }
+    ],
+    "formula": {
+      "description": "Weighted sum of all factor scores, normalized to a 0-5 scale.",
+      "composite_score": "SUM(factor_score * factor_weight) / SUM(factor_weights)",
+      "rounding": "1 decimal place",
+      "example": {
+        "community_votes": 4.5,
+        "popularity": 4.0,
+        "maintainer_score": 4.8,
+        "free_quality": 5.0,
+        "calculation": "(4.5*0.25 + 4.0*0.20 + 4.8*0.30 + 5.0*0.25) / (0.25 + 0.20 + 0.30 + 0.25)",
+        "result": 4.6
+      }
+    },
+    "tiebreaker": {
+      "primary": "free_quality",
+      "secondary": "maintainer_score",
+      "tertiary": "community_votes"
+    },
+    "minimum_entries": {
+      "description": "Categories must have at least 5 ranked entries to publish a ranking.",
+      "value": 5
+    }
+  },
+  "rankings": [
+    {
+      "id": "best-ai-tools-2026",
+      "title": "Best Free AI Tools 2026",
+      "category": "ai",
+      "description": "Top-rated free AI APIs, models, and platforms.",
+      "generated": "2026-05-24",
+      "entries": [
+        {
+          "rank": 1,
+          "resource_id": "gemini-api",
+          "name": "Gemini API",
+          "composite_score": 4.7,
+          "factors": { "community_votes": 4.5, "popularity": 4.8, "maintainer_score": 4.7, "free_quality": 5.0 },
+          "badge": "🥇"
+        },
+        {
+          "rank": 2,
+          "resource_id": "groq-api",
+          "name": "Groq API",
+          "composite_score": 4.5,
+          "factors": { "community_votes": 4.8, "popularity": 4.3, "maintainer_score": 4.5, "free_quality": 4.5 },
+          "badge": "🥈"
+        },
+        {
+          "rank": 3,
+          "resource_id": "deepseek-api",
+          "name": "DeepSeek API",
+          "composite_score": 4.3,
+          "factors": { "community_votes": 4.2, "popularity": 4.0, "maintainer_score": 4.4, "free_quality": 4.5 },
+          "badge": "🥉"
+        },
+        {
+          "rank": 4,
+          "resource_id": "openai-api",
+          "name": "OpenAI API",
+          "composite_score": 4.0,
+          "factors": { "community_votes": 4.0, "popularity": 5.0, "maintainer_score": 4.2, "free_quality": 3.0 },
+          "badge": "🏅"
+        },
+        {
+          "rank": 5,
+          "resource_id": "huggingface",
+          "name": "Hugging Face",
+          "composite_score": 3.9,
+          "factors": { "community_votes": 4.3, "popularity": 4.5, "maintainer_score": 3.8, "free_quality": 3.5 },
+          "badge": ""
+        }
+      ]
+    },
+    {
+      "id": "best-databases-2026",
+      "title": "Best Free Databases 2026",
+      "category": "databases",
+      "description": "Top-rated free database services and backend platforms.",
+      "generated": "2026-05-24",
+      "entries": [
+        {
+          "rank": 1,
+          "resource_id": "supabase",
+          "name": "Supabase",
+          "composite_score": 4.8,
+          "factors": { "community_votes": 4.9, "popularity": 4.8, "maintainer_score": 4.8, "free_quality": 5.0 },
+          "badge": "🥇"
+        },
+        {
+          "rank": 2,
+          "resource_id": "neon",
+          "name": "Neon",
+          "composite_score": 4.5,
+          "factors": { "community_votes": 4.4, "popularity": 4.3, "maintainer_score": 4.6, "free_quality": 4.5 },
+          "badge": "🥈"
+        },
+        {
+          "rank": 3,
+          "resource_id": "mongodb-atlas",
+          "name": "MongoDB Atlas",
+          "composite_score": 4.2,
+          "factors": { "community_votes": 4.0, "popularity": 4.8, "maintainer_score": 4.0, "free_quality": 4.0 },
+          "badge": "🥉"
+        },
+        {
+          "rank": 4,
+          "resource_id": "appwrite",
+          "name": "Appwrite",
+          "composite_score": 4.0,
+          "factors": { "community_votes": 4.2, "popularity": 3.5, "maintainer_score": 4.2, "free_quality": 4.0 },
+          "badge": ""
+        },
+        {
+          "rank": 5,
+          "resource_id": "planetscale",
+          "name": "PlanetScale",
+          "composite_score": 3.5,
+          "factors": { "community_votes": 3.5, "popularity": 4.0, "maintainer_score": 3.5, "free_quality": 3.0 },
+          "badge": ""
+        }
+      ]
+    },
+    {
+      "id": "best-hosting-2026",
+      "title": "Best Free Hosting 2026",
+      "category": "hosting",
+      "description": "Top-rated free hosting platforms for static sites, serverless, and full-stack apps.",
+      "generated": "2026-05-24",
+      "entries": [
+        {
+          "rank": 1,
+          "resource_id": "vercel",
+          "name": "Vercel",
+          "composite_score": 4.7,
+          "factors": { "community_votes": 4.6, "popularity": 5.0, "maintainer_score": 4.7, "free_quality": 4.5 },
+          "badge": "🥇"
+        },
+        {
+          "rank": 2,
+          "resource_id": "cloudflare-pages",
+          "name": "Cloudflare Pages",
+          "composite_score": 4.6,
+          "factors": { "community_votes": 4.5, "popularity": 4.5, "maintainer_score": 4.6, "free_quality": 5.0 },
+          "badge": "🥈"
+        },
+        {
+          "rank": 3,
+          "resource_id": "netlify",
+          "name": "Netlify",
+          "composite_score": 4.2,
+          "factors": { "community_votes": 4.0, "popularity": 4.5, "maintainer_score": 4.0, "free_quality": 4.0 },
+          "badge": "🥉"
+        },
+        {
+          "rank": 4,
+          "resource_id": "render",
+          "name": "Render",
+          "composite_score": 3.8,
+          "factors": { "community_votes": 3.8, "popularity": 3.5, "maintainer_score": 4.0, "free_quality": 4.0 },
+          "badge": ""
+        },
+        {
+          "rank": 5,
+          "resource_id": "railway",
+          "name": "Railway",
+          "composite_score": 3.6,
+          "factors": { "community_votes": 3.8, "popularity": 3.2, "maintainer_score": 3.8, "free_quality": 3.5 },
+          "badge": ""
+        }
+      ]
+    }
+  ],
+  "categories": {
+    "description": "All categories eligible for ranking. Only those with 5+ entries are published.",
+    "eligible": [
+      "ai", "deployment", "cloud", "hosting", "databases", "storage",
+      "auth", "payments", "email-sms", "monitoring", "ci-cd", "devtools",
+      "design", "domains", "testing", "mobile", "learning",
+      "student-packs", "startup-credits", "open-source"
+    ],
+    "published": ["ai", "databases", "hosting"]
+  }
+}
