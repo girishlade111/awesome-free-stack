@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "last_updated": "2026-05-24",
+  "description": "Scoring logic and tier definitions for resource ratings",
+  "metrics": [
+    {
+      "id": "beginner_friendly",
+      "name": "Beginner Friendliness",
+      "icon": "🌱",
+      "description": "How easy for a newcomer to get started",
+      "weight": 1.0,
+      "scoring": {
+        "1": "Requires deep prior knowledge. No docs for beginners. Steep learning curve.",
+        "2": "Some prior knowledge needed. Tutorials exist but are scattered.",
+        "3": "Average learning curve. Official docs cover basics. Some onboarding friction.",
+        "4": "Good onboarding. Clear docs + example projects. Most users get started in minutes.",
+        "5": "Exceptional onboarding. Interactive tutorials, sample apps, generous free tier to experiment. Zero to production in minutes."
+      }
+    },
+    {
+      "id": "docs",
+      "name": "Documentation Quality",
+      "icon": "📖",
+      "description": "Quality, completeness, and clarity of documentation",
+      "weight": 1.0,
+      "scoring": {
+        "1": "No docs or extremely outdated. Community sources only.",
+        "2": "Minimal docs exist. Missing key sections. No code examples.",
+        "3": "Adequate docs. Covers basic usage. Some gaps in advanced features.",
+        "4": "Well-organized docs. Quick start, API reference, guides, and examples. Searchable.",
+        "5": "Exceptional docs. Interactive examples, video guides, SDK references, troubleshooting guides, live playground, and community-run wiki."
+      }
+    },
+    {
+      "id": "free_generosity",
+      "name": "Free Tier Generosity",
+      "icon": "🎁",
+      "description": "How generous the free tier is relative to typical usage",
+      "weight": 1.5,
+      "scoring": {
+        "1": "No free tier exists, or free tier is essentially unusable (< 10 requests or 24-hour trial).",
+        "2": "Existing free tier but severely limited (< 100 requests/mo or < 50 MB storage).",
+        "3": "Reasonable free tier for small projects (1k requests/mo or 500 MB storage).",
+        "4": "Generous free tier suitable for production prototyping (10k+ requests/mo or 2 GB+ storage).",
+        "5": "Extremely generous. Can run a real product on free tier indefinitely. No card required. 100k+ requests or 5 GB+ storage."
+      }
+    },
+    {
+      "id": "setup",
+      "name": "Setup Ease",
+      "icon": "⚡",
+      "description": "Time and effort required to integrate and start using",
+      "weight": 0.8,
+      "scoring": {
+        "1": "Complex setup requiring multiple tools, environments, or manual configuration. Days to integrate.",
+        "2": "Moderate setup. Multiple config steps. Hours to integrate.",
+        "3": "Standard setup. CLI or SDK install. ~30 minutes to integrate.",
+        "4": "Quick setup. One-line install or SDK import. ~10 minutes to first working example.",
+        "5": "Instant setup. No config needed. Copy-paste snippet works immediately. < 5 minutes."
+      }
+    },
+    {
+      "id": "reliability",
+      "name": "Reliability",
+      "icon": "🔒",
+      "description": "Uptime, consistency, and trustworthiness of the service",
+      "weight": 1.2,
+      "scoring": {
+        "1": "Frequent outages, data loss risks, or abandoned project. < 90% uptime.",
+        "2": "Occasional issues. Visible downtime. 90-95% uptime.",
+        "3": "Acceptable reliability. Occasional blips. 95-99% uptime. SLA available (may be paid).",
+        "4": "High reliability. Rare issues. 99.5%+ uptime. Clear status page.",
+        "5": "Enterprise-grade reliability. 99.99%+ uptime. Multi-region redundancy. Public status page. Incident response within minutes."
+      }
+    },
+    {
+      "id": "performance",
+      "name": "Performance",
+      "icon": "🚀",
+      "description": "Speed, latency, and responsiveness of the tool",
+      "weight": 0.8,
+      "scoring": {
+        "1": "Very slow. High latency. Free tier is throttled to unusable speeds.",
+        "2": "Slow. Noticeable latency. Free tier has significant rate limiting.",
+        "3": "Acceptable performance. Moderate latency. Free tier rate limits are reasonable.",
+        "4": "Fast. Low latency. Free tier has minimal throttling.",
+        "5": "Blazing fast. Sub-100ms responses. Global edge network. No perceivable throttling on free tier."
+      }
+    },
+    {
+      "id": "community",
+      "name": "Community",
+      "icon": "👥",
+      "description": "Size, activity, and helpfulness of the community",
+      "weight": 0.5,
+      "scoring": {
+        "1": "No community. No forums, Discord, or GitHub discussions. No third-party content.",
+        "2": "Small community. Low activity. Response times > 1 week.",
+        "3": "Moderate community. Active GitHub/Discord. Response within 1-2 days. Some tutorials.",
+        "4": "Large, active community. Fast responses (< 24h). Many third-party tutorials, courses, and libraries.",
+        "5": "Massive community. Responses in minutes. Official community managers. Rich ecosystem of plugins, extensions, courses, books, and conferences."
+      }
+    }
+  ],
+  "scoring": {
+    "overall_formula": "weighted_average",
+    "description": "Overall score is calculated as a weighted average of all metric scores, rounded to one decimal place.",
+    "calculation": {
+      "numerator": "SUM(score_i × weight_i)",
+      "denominator": "SUM(weight_i)",
+      "rounding": "1 decimal place"
+    },
+    "example": {
+      "beginner_friendly": 5,
+      "docs": 4,
+      "free_generosity": 5,
+      "setup": 5,
+      "reliability": 4,
+      "performance": 4,
+      "community": 3,
+      "raw_calculation": "(5×1.0 + 4×1.0 + 5×1.5 + 5×0.8 + 4×1.2 + 4×0.8 + 3×0.5) / (1.0 + 1.0 + 1.5 + 0.8 + 1.2 + 0.8 + 0.5)",
+      "overall": 4.4
+    }
+  },
+  "tiers": [
+    {
+      "id": "elite",
+      "label": "🏆 Elite",
+      "description": "Best-in-class. Top-tier free offering.",
+      "min_score": 4.5,
+      "max_score": 5.0,
+      "color": "#FFD700"
+    },
+    {
+      "id": "excellent",
+      "label": "⭐ Excellent",
+      "description": "Highly recommended. Strong in most areas.",
+      "min_score": 4.0,
+      "max_score": 4.4,
+      "color": "#1DB954"
+    },
+    {
+      "id": "good",
+      "label": "✅ Good",
+      "description": "Solid choice. Meets expectations.",
+      "min_score": 3.0,
+      "max_score": 3.9,
+      "color": "#58A6FF"
+    },
+    {
+      "id": "fair",
+      "label": "🟡 Fair",
+      "description": "Adequate but has notable limitations.",
+      "min_score": 2.0,
+      "max_score": 2.9,
+      "color": "#F0883E"
+    },
+    {
+      "id": "limited",
+      "label": "🔴 Limited",
+      "description": "Significant drawbacks. Use with caution.",
+      "min_score": 1.0,
+      "max_score": 1.9,
+      "color": "#F85149"
+    },
+    {
+      "id": "insufficient",
+      "label": "⚠ Insufficient",
+      "description": "Does not meet minimum quality bar.",
+      "min_score": 0.0,
+      "max_score": 0.9,
+      "color": "#8B0000"
+    }
+  ],
+  "rankings": {
+    "description": "To generate a category ranking, sort resources by overall score descending. Ties broken by free_generosity score.",
+    "tiebreaker": "free_generosity",
+    "badges": {
+      "top_1": "🥇",
+      "top_2": "🥈",
+      "top_3": "🥉",
+      "top_10_pct": "🏅"
+    }
+  },
+  "aggregate": {
+    "description": "Aggregate scores for a category or subcategory are the mean of all resource scores within that group.",
+    "method": "arithmetic_mean",
+    "display": "Rounded to 1 decimal place with the corresponding tier badge"
+  }
+}
