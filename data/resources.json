@@ -37,7 +37,10 @@
         "docs": 5,
         "free_generosity": 3,
         "setup": 5,
-        "reliability": 5
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.3
       },
       "verification": {
         "status": "tested",
