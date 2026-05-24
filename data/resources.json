@@ -3,10 +3,515 @@
   "meta": {
     "version": "1.0.0",
     "last_updated": "2026-05-24",
-    "total_resources": 16,
+    "total_resources": 25,
     "description": "Curated free & freemium developer resources"
   },
   "resources": [
+    {
+      "id": "langchain",
+      "slug": "langchain",
+      "name": "LangChain",
+      "website": "https://langchain.com",
+      "docs": "https://python.langchain.com/docs",
+      "github": "https://github.com/langchain-ai/langchain",
+      "description": "The most popular framework for building LLM-powered applications. Provides a modular ecosystem for chains, agents, tools, memory, and RAG integration with 700+ built-in integrations.",
+      "category": "ai",
+      "subcategory": "agents",
+      "tags": ["agent-framework", "llm", "rag", "python", "typescript", "open-source", "production-ready", "tool-use"],
+      "free_tier": {
+        "summary": "Open source under MIT license. Self-hostable with any LLM. LangSmith free tier: 5,000 traces/month.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "LangSmith Enterprise: custom pricing for advanced observability and monitoring",
+        "starting_price_usd": null,
+        "billing_model": "contact-sales"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 3,
+        "community": 5,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; framework is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source framework, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["llama-index", "haystack", "semantic-kernel"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "crewai",
+      "slug": "crewai",
+      "name": "CrewAI",
+      "website": "https://crewai.com",
+      "docs": "https://docs.crewai.com",
+      "github": "https://github.com/crewAIInc/crewAI",
+      "description": "Multi-agent orchestration framework for creating role-based AI teams. Agents with specific roles collaborate like a crew to complete complex tasks through delegation and coordination.",
+      "category": "ai",
+      "subcategory": "agents",
+      "tags": ["agent-framework", "multi-agent", "orchestration", "python", "open-source", "tool-use"],
+      "free_tier": {
+        "summary": "Open source under MIT license. Self-hosted with any LLM (OpenAI, Ollama, Anthropic). No usage limits.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "CrewAI Enterprise: team collaboration features, custom pricing",
+        "starting_price_usd": null,
+        "billing_model": "contact-sales"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; framework is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source framework, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["autogen", "swarm", "camel"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "autogen",
+      "slug": "autogen",
+      "name": "AutoGen",
+      "website": "https://microsoft.github.io/autogen",
+      "docs": "https://microsoft.github.io/autogen/stable",
+      "github": "https://github.com/microsoft/autogen",
+      "description": "Microsoft's multi-agent conversation framework enabling agents to converse, collaborate, and solve tasks. Supports code generation, execution, debugging, and human-in-the-loop interactions.",
+      "category": "ai",
+      "subcategory": "agents",
+      "tags": ["agent-framework", "multi-agent", "python", "open-source", "code-generation", "tool-use"],
+      "free_tier": {
+        "summary": "Open source under MIT license. Fully free self-hosted with AutoGen Studio GUI included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; entire framework is free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; framework is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source framework, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["crewai", "swarm", "taskweaver"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "pydantic-ai",
+      "slug": "pydantic-ai",
+      "name": "PydanticAI",
+      "website": "https://ai.pydantic.dev",
+      "docs": "https://ai.pydantic.dev",
+      "github": "https://github.com/pydantic/pydantic-ai",
+      "description": "Type-safe Python agent framework built on Pydantic. Provides structured outputs with validation, dependency injection, and streaming — all verified at compile time.",
+      "category": "ai",
+      "subcategory": "agents",
+      "tags": ["agent-framework", "python", "open-source", "validation", "structured-output", "tool-use"],
+      "free_tier": {
+        "summary": "Open source under MIT license. Fully free self-hosted with any LLM provider.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; entire framework is free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; framework is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source framework, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["langchain", "instructor"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "semantic-kernel",
+      "slug": "semantic-kernel",
+      "name": "Semantic Kernel",
+      "website": "https://learn.microsoft.com/semantic-kernel",
+      "docs": "https://learn.microsoft.com/semantic-kernel/overview",
+      "github": "https://github.com/microsoft/semantic-kernel",
+      "description": "Microsoft's enterprise AI orchestration SDK integrating LLMs with .NET, Python, and Java. Provides plugins, function calling, planning, memory, and enterprise-grade AI for existing codebases.",
+      "category": "ai",
+      "subcategory": "agents",
+      "tags": ["agent-framework", "python", "dotnet", "java", "open-source", "enterprise", "rag"],
+      "free_tier": {
+        "summary": "Open source under MIT license. Fully free self-hosted with any LLM or Azure AI.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; framework is free and open source. Azure AI services have separate pricing.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Azure AI services have free tier with $200 credits. Framework itself is free.",
+        "verification_method": null
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source framework, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["langchain", "llama-index"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "llama-index",
+      "slug": "llama-index",
+      "name": "LlamaIndex",
+      "website": "https://llamaindex.ai",
+      "docs": "https://docs.llamaindex.ai",
+      "github": "https://github.com/run-llama/llama_index",
+      "description": "Data framework for LLM applications with powerful agent and RAG capabilities. Connects LLMs to 160+ data sources with ingestion, indexing, retrieval, and agentic workflows.",
+      "category": "ai",
+      "subcategory": "agents",
+      "tags": ["agent-framework", "rag", "python", "typescript", "open-source", "data-framework", "tool-use"],
+      "free_tier": {
+        "summary": "Open source under MIT license. Self-hosted fully free. LlamaCloud free tier for managed parsing and retrieval.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "LlamaCloud: managed parsing and retrieval, custom pricing",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 3,
+        "community": 5,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; framework is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source framework, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["langchain", "haystack"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "vercel-ai-sdk",
+      "slug": "vercel-ai-sdk",
+      "name": "Vercel AI SDK",
+      "website": "https://sdk.vercel.ai",
+      "docs": "https://sdk.vercel.ai/docs",
+      "github": "https://github.com/vercel/ai",
+      "description": "TypeScript toolkit for building AI-powered user interfaces. Provides React/Vue/Svelte hooks for streaming chat, completion, tool calling, and agent interactions with any LLM provider.",
+      "category": "ai",
+      "subcategory": "agents",
+      "tags": ["agent-framework", "typescript", "react", "open-source", "streaming", "frontend", "tool-use"],
+      "free_tier": {
+        "summary": "Open source under Apache 2.0 license. Framework is free; pay only for LLM API usage by your chosen provider.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; framework is free and open source. Vercel hosting has separate pricing.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; framework is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source framework, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["openai-sdk", "google-gen-ai-sdk"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "dify",
+      "slug": "dify",
+      "name": "Dify",
+      "website": "https://dify.ai",
+      "docs": "https://docs.dify.ai",
+      "github": "https://github.com/langgenius/dify",
+      "description": "Open-source LLM app development platform with a visual agent builder. Combines RAG pipeline, agent workflow, model management, and monitoring in a single web interface with free tier.",
+      "category": "ai",
+      "subcategory": "agents",
+      "tags": ["agent-framework", "low-code", "rag", "python", "typescript", "open-source", "visual-builder"],
+      "free_tier": {
+        "summary": "Open source under Apache 2.0. Dify Cloud free tier available. Self-hosted community edition is fully free.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Dify Cloud Pro: paid hosting with higher limits. Self-hosted is free.",
+        "starting_price_usd": null,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; self-hosted version is free"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source platform, available globally"
+      },
+      "languages": ["en", "zh"],
+      "alternatives_to": [],
+      "alternatives": ["flowise", "fastgpt"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "flowise",
+      "slug": "flowise",
+      "name": "Flowise",
+      "website": "https://flowiseai.com",
+      "docs": "https://docs.flowiseai.com",
+      "github": "https://github.com/FlowiseAI/Flowise",
+      "description": "Low-code, drag-and-drop LLM application builder for creating AI agents, chatbots, and RAG pipelines visually. No coding required to build complex AI workflows with a free tier.",
+      "category": "ai",
+      "subcategory": "agents",
+      "tags": ["agent-framework", "low-code", "typescript", "open-source", "visual-builder", "rag"],
+      "free_tier": {
+        "summary": "Open source under Apache 2.0. Self-hosted via Docker is fully free. Flowise Cloud paid tier available.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Flowise Cloud: managed hosting with higher limits, custom pricing",
+        "starting_price_usd": null,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; self-hosted version is free"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source platform, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["dify", "fastgpt"],
+      "last_verified": "2026-05-24"
+    },
     {
       "id": "openai-api",
       "slug": "openai-api",
