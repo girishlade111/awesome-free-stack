@@ -31,16 +31,22 @@ Need a database...
 │
 ├── Relational / SQL?
 │   ├── Serverless Postgres → Neon (best DX)
+│   ├── Serverless Postgres + Search → Xata (built-in search + vector)
 │   ├── Managed Postgres → Supabase (open-source Firebase)
 │   ├── Serverless MySQL → PlanetScale (branching workflows)
+│   ├── Edge SQLite → Turso (global replicas)
 │   └── Distributed SQL → CockroachDB (multi-region)
 │
 ├── Document / NoSQL?
+│   ├── Key-Value / Document → Amazon DynamoDB (AWS ecosystem)
 │   ├── General purpose → MongoDB Atlas (largest ecosystem)
 │   └── Real-time sync → Firebase Firestore (Google ecosystem)
 │
 ├── Caching / Key-Value?
 │   └── Serverless Redis → Upstash (REST + Kafka)
+│
+├── Managed Multi-DB?
+│   └── Aiven (PostgreSQL, MySQL, Redis, Kafka, Cassandra)
 │
 └── Vector search?
     └── See [AI Vector Databases](../ai/vector-db.md)
@@ -56,9 +62,13 @@ Need a database...
 | Neon | ✅ | ❌ | ✅ |
 | PlanetScale | ❌ | ❌ | ✅ |
 | CockroachDB | ✅ | ✅ | ✅ |
+| Turso | ✅ | ✅ | ✅ |
+| Xata | ❌ | ❌ | ✅ |
 | MongoDB | ✅ | ✅ | ✅ |
+| DynamoDB | ❌ | ❌ | ✅ |
 | Firebase Firestore | ❌ | ❌ | ✅ |
 | Upstash | ✅ | ❌ | ✅ |
+| Aiven | ✅ | ❌ | ✅ |
 
 ---
 
