@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "last_updated": "2026-05-24",
-    "total_resources": 70,
+    "total_resources": 76,
     "description": "Curated free & freemium developer resources"
   },
   "resources": [
@@ -3947,6 +3947,342 @@
       "languages": ["en"],
       "alternatives_to": [],
       "alternatives": ["coolify", "dokku", "portainer"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "amazon-s3",
+      "slug": "amazon-s3",
+      "name": "Amazon S3",
+      "website": "https://aws.amazon.com/s3",
+      "docs": "https://docs.aws.amazon.com/s3",
+      "github": "https://github.com/aws",
+      "description": "Industry-standard object storage from AWS. 12-month free tier with 5 GB storage, 20K GET and 2K PUT requests. Unlimited scalability with 99.999999999% durability.",
+      "category": "storage",
+      "subcategory": "object-storage",
+      "tags": ["storage", "object-storage", "s3-compatible", "managed", "freemium", "aws", "card-required", "global"],
+      "free_tier": {
+        "summary": "5 GB standard storage, 20K GET requests/month, 2K PUT requests/month, 15 GB data transfer out/month (12 months)",
+        "limits": {
+          "requests_per_month": 20000,
+          "tokens_per_minute": null,
+          "storage_gb": 5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Standard: $0.023/GB storage, $0.09/GB egress. Infrequent Access: $0.0125/GB",
+        "starting_price_usd": 0.023,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Part of AWS Free Tier. AWS Educate: $100-500 credits"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": ["IR", "KP", "SY", "CU", "CN"],
+        "notes": "Available globally across 33 AWS regions"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["cloudflare-r2", "backblaze-b2", "wasabi"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "cloudflare-r2",
+      "slug": "cloudflare-r2",
+      "name": "Cloudflare R2",
+      "website": "https://www.cloudflare.com/products/r2",
+      "docs": "https://developers.cloudflare.com/r2",
+      "github": "https://github.com/cloudflare",
+      "description": "S3-compatible object storage with zero egress fees. 10 GB free tier. Seamless integration with Cloudflare Workers, CDN, and the broader Cloudflare ecosystem.",
+      "category": "storage",
+      "subcategory": "object-storage",
+      "tags": ["storage", "object-storage", "s3-compatible", "cdn", "managed", "freemium", "no-card", "global"],
+      "free_tier": {
+        "summary": "10 GB storage, 1 million GET requests/month, 100K PUT requests/month, zero egress fees (no charge for data transfer out)",
+        "limits": {
+          "requests_per_month": 1000000,
+          "tokens_per_minute": null,
+          "storage_gb": 10,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "$0.015/GB storage. Egress: $0.000/GB (free). Class A operations: $4.50/M, Class B: $0.36/M",
+        "starting_price_usd": 0.015,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; free tier is already generous"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally on Cloudflare's 280+ data center network"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["amazon-s3", "backblaze-b2", "wasabi"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "backblaze-b2",
+      "slug": "backblaze-b2",
+      "name": "Backblaze B2",
+      "website": "https://www.backblaze.com/cloud-storage",
+      "docs": "https://www.backblaze.com/docs/cloud-storage",
+      "github": "https://github.com/backblaze-b2",
+      "description": "S3-compatible cloud storage with the cheapest egress among major providers. 10 GB free tier with 1,000 free downloads/day. Purpose-built for backup, CDN origin, and archive.",
+      "category": "storage",
+      "subcategory": "object-storage",
+      "tags": ["storage", "object-storage", "backup", "s3-compatible", "managed", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "10 GB storage, 1,000 downloads/day, 2,500 uploads/day, 1 GB/day egress via CDN",
+        "limits": {
+          "requests_per_month": 30000,
+          "tokens_per_minute": null,
+          "storage_gb": 10,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "$0.006/GB storage. Egress: $0.01/GB (cheapest among major providers)",
+        "starting_price_usd": 0.006,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; free tier is generous enough for learning"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Data centers in US (West, East) and Europe (Amsterdam)"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["cloudflare-r2", "amazon-s3", "wasabi"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "wasabi",
+      "slug": "wasabi",
+      "name": "Wasabi",
+      "website": "https://wasabi.com",
+      "docs": "https://docs.wasabi.com",
+      "github": "https://github.com/wasabi",
+      "description": "Hot cloud storage with no egress fees and no API request charges. Designed to be faster and cheaper than S3 for active storage. 1 GB permanent free tier.",
+      "category": "storage",
+      "subcategory": "object-storage",
+      "tags": ["storage", "object-storage", "s3-compatible", "managed", "freemium", "card-required"],
+      "free_tier": {
+        "summary": "1 GB permanent free storage. No egress fees. 90-day minimum storage duration policy on paid",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 1,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "$0.0059/GB storage. No egress fees. No API request charges. Min 90-day storage retention",
+        "starting_price_usd": 0.0059,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 3,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Data centers in US, EU, and APAC"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["cloudflare-r2", "backblaze-b2", "amazon-s3"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "bunny-storage",
+      "slug": "bunny-storage",
+      "name": "Bunny Storage",
+      "website": "https://bunny.net/storage",
+      "docs": "https://docs.bunny.net/docs/storage-getting-started",
+      "github": null,
+      "description": "Edge-optimized storage integrated with Bunny CDN. 10 GB free tier with 250 GB bandwidth/month. Files are replicated at edge locations for low-latency global delivery.",
+      "category": "storage",
+      "subcategory": "cdn-storage",
+      "tags": ["storage", "cdn-storage", "cdn", "edge", "managed", "freemium", "card-required"],
+      "free_tier": {
+        "summary": "10 GB storage, 250 GB bandwidth/month, 1 storage zone, multi-region replication",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 10,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Standard: $0.005/GB (EU), $0.007/GB (US, Asia). Bandwidth: $0.003/GB (EU), $0.01/GB (Asia)",
+        "starting_price_usd": 0.005,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; 110+ edge locations worldwide"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["cloudflare-r2", "backblaze-b2", "amazon-s3"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "supabase-storage",
+      "slug": "supabase-storage",
+      "name": "Supabase Storage",
+      "website": "https://supabase.com/storage",
+      "docs": "https://supabase.com/docs/guides/storage",
+      "github": "https://github.com/supabase/storage",
+      "description": "S3-compatible object storage tightly integrated with Supabase PostgreSQL. Secure file uploads with built-in image resizing, CDN delivery, and row-level security policies.",
+      "category": "storage",
+      "subcategory": "object-storage",
+      "tags": ["storage", "object-storage", "s3-compatible", "managed", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "1 GB storage, 50 MB max file size, 50,000 monthly active users, 2 GB bandwidth, image optimization included",
+        "limits": {
+          "requests_per_month": 50000,
+          "tokens_per_minute": null,
+          "storage_gb": 1,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $25/month: 100 GB storage, 5 GB file size, 100K MAU, 50 GB bandwidth",
+        "starting_price_usd": 25,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "No specific student plan, but free tier is generous enough for most student projects"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; data regions: US, EU, APAC"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["cloudflare-r2", "backblaze-b2", "amazon-s3"],
       "last_verified": "2026-05-24"
     }
   ]
