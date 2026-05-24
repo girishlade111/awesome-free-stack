@@ -1,0 +1,114 @@
+name: Add Resource
+description: Submit a new free/freemium resource to the collection
+title: "[Resource] "
+labels: ["resource", "new-submission"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing. Please fill in the details below.
+
+  - type: input
+    id: name
+    attributes:
+      label: Tool Name
+      description: Official display name of the tool or service
+      placeholder: e.g. Supabase
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      placeholder: https://
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Select the primary category
+      options:
+        - ai
+        - deployment
+        - cloud
+        - hosting
+        - databases
+        - storage
+        - auth
+        - payments
+        - email-sms
+        - monitoring
+        - ci-cd
+        - devtools
+        - design
+        - domains
+        - testing
+        - mobile
+        - learning
+        - student-packs
+        - startup-credits
+        - open-source
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: 1-3 sentences explaining what the tool does
+      placeholder: A short, clear description...
+    validations:
+      required: true
+
+  - type: textarea
+    id: free_tier
+    attributes:
+      label: Free Tier Details
+      description: Be specific about limits, quotas, and restrictions
+      placeholder: |
+        - 500 MB database
+        - 2 GB storage
+        - 50,000 monthly active users
+    validations:
+      required: true
+
+  - type: input
+    id: paid_plan
+    attributes:
+      label: Paid Plan (optional)
+      description: Starting price if a paid upgrade exists
+      placeholder: Pro — $25/month
+
+  - type: dropdown
+    id: requires_card
+    attributes:
+      label: Credit Card Required?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification
+      description: Confirm you've verified this information
+      options:
+        - label: I have personally tested the free tier
+        - label: The tool is currently active
+        - label: I have checked for duplicates
+        - label: I have read the CONTRIBUTING.md guide
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Screenshots, docs links, or other evidence
