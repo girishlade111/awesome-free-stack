@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "last_updated": "2026-05-24",
-    "total_resources": 95,
+    "total_resources": 105,
     "description": "Curated free & freemium developer resources"
   },
   "resources": [
@@ -5351,6 +5351,568 @@
       "languages": ["en"],
       "alternatives_to": [],
       "alternatives": ["eu-org", "freenom"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "figma",
+      "slug": "figma",
+      "name": "Figma",
+      "website": "https://www.figma.com",
+      "docs": "https://help.figma.com",
+      "github": "https://github.com/figma",
+      "description": "Industry-standard collaborative design tool for UI/UX design, prototyping, and design systems. Browser-based with real-time collaboration, component libraries, and developer handoff. Free for individuals.",
+      "category": "design",
+      "subcategory": "prototyping",
+      "tags": ["design", "ui", "prototyping", "saas", "free-tier", "no-card", "generous-free-tier"],
+      "free_tier": {
+        "summary": "Unlimited files, unlimited collaborators, 3 Figma projects, 30-day version history, free design components and templates",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Professional — $12/month: unlimited projects, version history, shared fonts",
+        "starting_price_usd": 12,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 5.0
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Figma for Education — free Professional plan for students and educators via .edu verification",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": ["IR", "KP", "SY", "CU"],
+        "notes": "Available globally; web-based"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["penpot", "excalidraw", "canva"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "penpot",
+      "slug": "penpot",
+      "name": "Penpot",
+      "website": "https://penpot.app",
+      "docs": "https://help.penpot.app",
+      "github": "https://github.com/penpot/penpot",
+      "description": "Open-source design and prototyping platform — the first free alternative to Figma. Web-based with SVG-native format, real-time collaboration, and design system support. Self-host or use the cloud.",
+      "category": "design",
+      "subcategory": "prototyping",
+      "tags": ["design", "ui", "prototyping", "open-source", "self-hosted", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "Cloud: unlimited files, unlimited collaborators, all features. Self-hosted: completely free forever.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; Penpot Cloud is free, self-hosted is free",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Completely free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["figma"],
+      "alternatives": ["figma", "excalidraw", "canva"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "canva",
+      "slug": "canva",
+      "name": "Canva",
+      "website": "https://www.canva.com",
+      "docs": "https://www.canva.com/help",
+      "github": null,
+      "description": "Free graphic design platform for creating social media graphics, presentations, posters, and more. Drag-and-drop editor with thousands of templates, stock photos, and design assets.",
+      "category": "design",
+      "subcategory": "prototyping",
+      "tags": ["design", "ui", "prototyping", "saas", "free-tier", "no-card", "generous-free-tier"],
+      "free_tier": {
+        "summary": "250,000+ free templates, 1M+ free stock photos and graphics, 5GB cloud storage, 100+ design types",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $12.99/month: 100M+ premium assets, 100GB storage, brand kits, background removal",
+        "starting_price_usd": 12.99,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Canva for Education — free Canva Pro for students and teachers with .edu email",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en", "multi"],
+      "alternatives_to": [],
+      "alternatives": ["figma", "penpot", "excalidraw"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "excalidraw",
+      "slug": "excalidraw",
+      "name": "Excalidraw",
+      "website": "https://excalidraw.com",
+      "docs": "https://docs.excalidraw.com",
+      "github": "https://github.com/excalidraw/excalidraw",
+      "description": "Free open-source whiteboarding tool with a hand-drawn feel. Perfect for diagrams, wireframes, flowcharts, and quick UI sketches. Real-time collaboration and end-to-end encryption.",
+      "category": "design",
+      "subcategory": "prototyping",
+      "tags": ["design", "ui", "prototyping", "open-source", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "Completely free with unlimited drawings, real-time collaboration, sharable links, export to PNG/SVG",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Excalidraw+ (coming soon): cloud storage, team features",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["figma", "penpot", "drawio"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "lucide",
+      "slug": "lucide",
+      "name": "Lucide",
+      "website": "https://lucide.dev",
+      "docs": "https://lucide.dev/guide",
+      "github": "https://github.com/lucide-icons/lucide",
+      "description": "Beautiful open-source icon library — the successor to Feather Icons. 1,500+ consistent SVG icons available as React, Vue, Svelte, and vanilla SVG. Fully customizable with clean, minimal designs.",
+      "category": "design",
+      "subcategory": "icons",
+      "tags": ["design", "ui", "icons", "open-source", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "1,500+ free SVG icons, MIT licensed, tree-shakeable packages for all major frameworks",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; completely free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["phosphor-icons", "heroicons", "tabler-icons"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "undraw",
+      "slug": "undraw",
+      "name": "unDraw",
+      "website": "https://undraw.co",
+      "docs": "https://undraw.co/illustrations",
+      "github": "https://github.com/undraw",
+      "description": "Open-source illustration library with a unique color customization feature. Browse hundreds of SVG illustrations and match them to your brand colors instantly. Free for any project.",
+      "category": "design",
+      "subcategory": "illustrations",
+      "tags": ["design", "ui", "illustrations", "open-source", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "400+ free SVG illustrations, color customization, commercial use allowed, no attribution required",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; completely free",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["humaaans", "blush", "ira-design"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "humaaans",
+      "slug": "humaaans",
+      "name": "Humaaans",
+      "website": "https://humaaans.com",
+      "docs": "https://humaaans.com",
+      "github": null,
+      "description": "Free library of mix-and-match human character illustrations. Combine different bodies, heads, clothing, and poses to create unique people for your designs. Fully customizable in SVG format.",
+      "category": "design",
+      "subcategory": "illustrations",
+      "tags": ["design", "ui", "illustrations", "open-source", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "100+ character components, mix-and-match system, free SVG downloads, commercial use",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; completely free",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["undraw", "blush", "open-peeps"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "google-fonts",
+      "slug": "google-fonts",
+      "name": "Google Fonts",
+      "website": "https://fonts.google.com",
+      "docs": "https://developers.google.com/fonts",
+      "github": "https://github.com/google/fonts",
+      "description": "The largest free font library on the web with 1,500+ open-source font families. All fonts are free for commercial use, optimized for the web, and can be self-hosted or used via Google's CDN.",
+      "category": "design",
+      "subcategory": "typography",
+      "tags": ["design", "ui", "typography", "open-source", "google", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "1,500+ free font families, web-optimized, CDN delivery, variable fonts, all open-source and commercial-use friendly",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; completely free under open-source licenses",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 5.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally via CDN"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["fontsource", "font-awesome", "typekit"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "fontsource",
+      "slug": "fontsource",
+      "name": "Fontsource",
+      "website": "https://fontsource.org",
+      "docs": "https://fontsource.org/docs",
+      "github": "https://github.com/fontsource/fontsource",
+      "description": "Self-host open-source fonts via npm. 1,500+ font families as installable npm packages. Zero external requests, automatic subsetting, and TypeScript declarations for better web performance and privacy.",
+      "category": "design",
+      "subcategory": "typography",
+      "tags": ["design", "ui", "typography", "open-source", "npm", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "1,500+ self-hosted fonts via npm, no CDN dependency, automatic subsetting, all open-source",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; completely free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 3,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["google-fonts", "font-awesome", "typekit"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "coolors",
+      "slug": "coolors",
+      "name": "Coolors",
+      "website": "https://coolors.co",
+      "docs": "https://coolors.co/faq",
+      "github": null,
+      "description": "The fastest color palette generator on the web. Generate, save, and export color schemes with one click. Includes accessibility checking, image color extraction, and gradient generation.",
+      "category": "design",
+      "subcategory": "color-tools",
+      "tags": ["design", "ui", "free-tier", "no-card", "generous-free-tier"],
+      "free_tier": {
+        "summary": "Unlimited palette generation, export to CSS/SCSS, color blindness simulation, browse community palettes",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $18/year: unlimited palette saving, PDF export, image extraction, Adobe/Canva integration",
+        "starting_price_usd": 18,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free tier is generous; Pro at $18/year is affordable for students"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["adobe-color", "colorhunt", "paletton"],
       "last_verified": "2026-05-24"
     }
   ]
