@@ -1,0 +1,103 @@
+name: Update README Stats
+
+on:
+  schedule:
+    - cron: "0 2 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate stats
+        id: stats
+        run: |
+          node -e "
+            const fs = require('fs');
+            const resources = JSON.parse(fs.readFileSync('./data/resources.json','utf8')).resources;
+            const taxonomy = JSON.parse(fs.readFileSync('./data/taxonomy.json','utf8'));
+
+            const total = resources.length;
+            const byCategory = {};
+            taxonomy.categories.forEach(c => byCategory[c.id] = { name: c.name, count: 0 });
+            resources.forEach(r => {
+              if (byCategory[r.category]) byCategory[r.category].count++;
+            });
+
+            const verified = resources.filter(r => r.verification.status === 'tested').length;
+            const noCard = resources.filter(r => r.requires_card === false).length;
+            const studentFriendly = resources.filter(r => r.student_benefits?.available === true).length;
+            const global = resources.filter(r => r.region_restrictions?.global === true).length;
+            const openSource = resources.filter(r => r.tags?.includes('open-source')).length;
+
+            const topRated = resources.filter(r => r.ratings?.overall >= 4.5).length;
+
+            const lines = [
+              '## 📊 Repository Stats',
+              '',
+              '| Metric | Value |',
+              '|---|---|',
+              '| Total Resources | ' + total + ' |',
+              '| Categories | ' + taxonomy.categories.length + ' |',
+              '| ✅ Tested & Verified | ' + verified + ' |',
+              '| 💳 No Card Required | ' + noCard + ' |',
+              '| 🎓 Student Friendly | ' + studentFriendly + ' |',
+              '| 🌍 Global Availability | ' + global + ' |',
+              '| 🌿 Open Source | ' + openSource + ' |',
+              '| 🏆 Top Rated (≥4.5) | ' + topRated + ' |',
+              '',
+              '### Resources by Category',
+              '',
+              '| Category | Count |',
+              '|---|---|',
+            ];
+
+            Object.values(byCategory).sort((a,b) => b.count - a.count).forEach(c => {
+              lines.push('| ' + c.name + ' | ' + c.count + ' |');
+            });
+
+            lines.push('', '_Auto-generated on ' + new Date().toISOString().split('T')[0] + '_');
+
+            fs.writeFileSync('./stats-table.md', lines.join('\\n'));
+            console.log('Stats generated: ' + total + ' resources');
+          "
+
+      - name: Update README stats section
+        run: |
+          STATS=$(cat stats-table.md)
+          # Check if stats section exists
+          if grep -q '## 📊 Repository Stats' README.md; then
+            # Replace existing stats section
+            awk -v stats="$STATS" '
+              /^## 📊 Repository Stats/ { print stats; skip=1; next }
+              /^## / && skip { skip=0 }
+              !skip
+            ' README.md > README.tmp && mv README.tmp README.md
+          else
+            # Append stats before last line
+            head -n -1 README.md > README.tmp
+            echo "$STATS" >> README.tmp
+            tail -1 README.md >> README.tmp
+            mv README.tmp README.md
+          fi
+          echo "README updated"
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: update README stats"
+          title: "📊 Update README stats"
+          body: "Auto-generated stats update for repository metrics."
+          branch: stats/readme-update
+          labels: automated
