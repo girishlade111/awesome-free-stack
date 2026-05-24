@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/your-org/awesome-free-stack/data/deprecated-schema.json",
+  "title": "Deprecated Resource Schema",
+  "type": "object",
+  "required": ["meta", "entries"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["version", "last_updated", "total_entries"],
+      "properties": {
+        "version": { "type": "string" },
+        "last_updated": { "type": "string", "format": "date" },
+        "total_entries": { "type": "integer" }
+      }
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "reason", "deprecated_on", "category"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "website": { "type": "string", "format": "uri" },
+          "category": { "type": "string" },
+          "reason": {
+            "type": "object",
+            "required": ["primary"],
+            "properties": {
+              "primary": {
+                "type": "string",
+                "enum": ["free-tier-removed", "service-shut-down", "unmaintained", "acquired", "paywalled", "degraded", "superseded"]
+              },
+              "detail": { "type": "string" }
+            }
+          },
+          "deprecated_on": { "type": "string", "format": "date" },
+          "last_verified": { "type": "string", "format": "date" },
+          "status": {
+            "type": "string",
+            "enum": ["deprecated", "archived", "unmaintained", "dead"]
+          },
+          "migration": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "alternative_name": { "type": "string" },
+                "alternative_url": { "type": "string", "format": "uri" },
+                "notes": { "type": "string" }
+              }
+            }
+          },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}
