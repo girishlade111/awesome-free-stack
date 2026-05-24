@@ -3612,6 +3612,342 @@
       "alternatives_to": [],
       "alternatives": ["neon", "digitalocean", "railway"],
       "last_verified": "2026-05-24"
+    },
+    {
+      "id": "linode",
+      "slug": "linode",
+      "name": "Linode",
+      "website": "https://www.linode.com",
+      "docs": "https://www.linode.com/docs",
+      "github": "https://github.com/linode",
+      "description": "Popular VPS provider known for developer-friendly interface, flat pricing, and excellent documentation. Now part of Akamai. $100 free credit for new users.",
+      "category": "hosting",
+      "subcategory": "vps",
+      "tags": ["hosting", "vps", "compute", "infrastructure", "vm", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "$100 free credit for 60 days. No always-free tier. Credit covers multiple months of a $5/mo Nanode (1GB RAM, 1vCPU, 25GB SSD)",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Nanode — $5/month: 1 GB RAM, 1vCPU, 25 GB SSD, 1 TB transfer",
+        "starting_price_usd": 5,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "$100 credit via GitHub Student Developer Pack"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "11 data centers across US, EU, APAC, and Canada"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["vultr", "digitalocean", "hetzner"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "vultr",
+      "slug": "vultr",
+      "name": "Vultr",
+      "website": "https://www.vultr.com",
+      "docs": "https://www.vultr.com/docs",
+      "github": "https://github.com/vultr",
+      "description": "Global VPS and bare-metal cloud provider with 32 data center locations. Deploy cloud compute, GPU instances, and bare metal servers in minutes with hourly billing.",
+      "category": "hosting",
+      "subcategory": "vps",
+      "tags": ["hosting", "vps", "compute", "infrastructure", "vm", "bare-metal", "freemium", "card-required", "gpu"],
+      "free_tier": {
+        "summary": "$100 free credit for 30 days. No always-free tier. Credit covers 2+ months of a $6/mo VPS (1GB RAM, 1vCPU, 25GB SSD)",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Cloud Compute — $6/month: 1 GB RAM, 1vCPU, 25 GB SSD, 1 TB transfer",
+        "starting_price_usd": 6,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "32 data centers across US, EU, APAC, Australia, and Latin America"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["linode", "digitalocean", "hetzner"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "infinityfree",
+      "slug": "infinityfree",
+      "name": "InfinityFree",
+      "website": "https://infinityfree.net",
+      "docs": "https://forum.infinityfree.net",
+      "github": null,
+      "description": "Completely free web hosting with no ads. 1 GB disk space, unlimited bandwidth, MySQL databases, and free subdomain. Supports PHP and popular CMS like WordPress and Joomla.",
+      "category": "hosting",
+      "subcategory": "web-servers",
+      "tags": ["hosting", "web-server", "shared-hosting", "static-site", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "1 GB disk space, unlimited bandwidth, 400 MySQL databases, 3 domains, free subdomain, PHP support, 99.9% uptime",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 1,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid plan — completely free. Premium support available separately",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Data centers in US and Europe"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["alwaysdata", "awardspace", "freehosting"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "alwaysdata",
+      "slug": "alwaysdata",
+      "name": "Alwaysdata",
+      "website": "https://www.alwaysdata.com",
+      "docs": "https://www.alwaysdata.com/en/help",
+      "github": null,
+      "description": "Free 100 MB web hosting with unlimited traffic. Supports PHP, Python, Ruby, Node.js, and Go. Includes MySQL database, free DNS, SSL certificates, and cron jobs.",
+      "category": "hosting",
+      "subcategory": "web-servers",
+      "tags": ["hosting", "web-server", "shared-hosting", "static-site", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "100 MB disk space, unlimited traffic, 1 MySQL database (20 MB), 1 email account, free subdomain, SSL, DNS, cron jobs",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 0.1,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Starter — €4.99/month: 10 GB storage, 10 websites, priority support",
+        "starting_price_usd": 5.5,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Data centers in France, Germany, and Canada"
+      },
+      "languages": ["en", "fr"],
+      "alternatives_to": [],
+      "alternatives": ["infinityfree", "awardspace", "freehosting"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "portainer",
+      "slug": "portainer",
+      "name": "Portainer",
+      "website": "https://www.portainer.io",
+      "docs": "https://docs.portainer.io",
+      "github": "https://github.com/portainer/portainer",
+      "description": "Container management platform with intuitive web UI for Docker, Swarm, and Kubernetes. Community Edition is free with unlimited nodes. Business Edition has a free tier for 5 nodes.",
+      "category": "hosting",
+      "subcategory": "vps",
+      "tags": ["hosting", "docker", "containers", "web-ui", "open-source", "self-hosted", "freemium", "kubernetes"],
+      "free_tier": {
+        "summary": "Community Edition: free, unlimited nodes, all core features. Business Edition free: 5 nodes",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 5
+        }
+      },
+      "paid_plan": {
+        "summary": "Business — from $4.50/node/month: RBAC, registry management, GitOps, 24/7 support",
+        "starting_price_usd": 4.5,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; CE is free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, self-hosted. Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["rancher", "kubescape", "lens"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "caprover",
+      "slug": "caprover",
+      "name": "CapRover",
+      "website": "https://caprover.com",
+      "docs": "https://caprover.com/docs",
+      "github": "https://github.com/caprover/caprover",
+      "description": "Open-source PaaS that turns any VPS into a Heroku-like deployment platform. One-command app deployment with Docker, Let's Encrypt SSL, and built-in CI/CD.",
+      "category": "hosting",
+      "subcategory": "vps",
+      "tags": ["hosting", "docker", "open-source", "self-hosted", "forever-free", "cli", "web-ui"],
+      "free_tier": {
+        "summary": "Self-hosted is completely free with unlimited apps, domains, and deployments. Pay only for your VPS/cloud server",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Self-hosted: free forever. CapRover Cloud: coming soon",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; software is free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["coolify", "dokku", "portainer"],
+      "last_verified": "2026-05-24"
     }
   ]
 }
