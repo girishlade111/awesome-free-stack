@@ -1,0 +1,64 @@
+name: Suggest Category
+description: Propose a new category or subcategory for the taxonomy
+title: "[Category] "
+labels: ["enhancement", "taxonomy"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest a new category or subcategory to better organize resources.
+
+  - type: input
+    id: name
+    attributes:
+      label: Category Name
+      placeholder: e.g. Quantum Computing
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: Is this a top-level category or a subcategory?
+      options:
+        - Top-level category
+        - Subcategory under existing category
+    validations:
+      required: true
+
+  - type: input
+    id: parent
+    attributes:
+      label: Parent Category (if subcategory)
+      description: Which existing category should this fall under?
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why is this category needed? How many resources would it contain?
+      placeholder: There are at least 10 free tools in this space that don't fit existing categories...
+    validations:
+      required: true
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Example Resources
+      description: List 3-5 example tools that would go in this category
+      placeholder: |
+        - Tool 1
+        - Tool 2
+        - Tool 3
+
+  - type: checkboxes
+    id: research
+    attributes:
+      label: Research
+      options:
+        - label: I have checked existing categories — this does not fit anywhere else
+    validations:
+      required: true
