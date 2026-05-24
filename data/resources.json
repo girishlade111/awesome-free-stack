@@ -1,0 +1,223 @@
+{
+  "$schema": "./resources-schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "last_updated": "2026-05-24",
+    "total_resources": 4,
+    "description": "Curated free & freemium developer resources"
+  },
+  "resources": [
+    {
+      "id": "openai-api",
+      "slug": "openai-api",
+      "name": "OpenAI API",
+      "website": "https://platform.openai.com",
+      "docs": "https://platform.openai.com/docs",
+      "github": "https://github.com/openai",
+      "description": "Access to GPT-4, GPT-4o, DALL-E, Whisper, and embedding models via REST API. Industry-leading LLM platform for building AI-powered applications.",
+      "category": "ai",
+      "subcategory": "models",
+      "tags": ["ai", "llm", "gpt", "embeddings", "image-generation", "speech"],
+      "free_tier": {
+        "summary": "$5 free credit for new users, free tier with rate limits on GPT-4o mini",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": 10000,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go starting at ~$0.15/1M input tokens (GPT-4o mini)",
+        "starting_price_usd": 0.15,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 5
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "OpenAI for Students — free credits via GitHub Student Developer Pack"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": false,
+        "restricted_countries": ["CN", "RU", "BY", "IR", "KP", "SY", "CU", "VE"],
+        "notes": "Available in most countries; restricted in US-sanctioned regions"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["claude-api", "gemini-api", "groq-api", "deepseek-api"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "supabase",
+      "slug": "supabase",
+      "name": "Supabase",
+      "website": "https://supabase.com",
+      "docs": "https://supabase.com/docs",
+      "github": "https://github.com/supabase/supabase",
+      "description": "Open-source Firebase alternative. Provides PostgreSQL database, authentication, real-time subscriptions, storage, and Edge Functions in a single platform.",
+      "category": "databases",
+      "subcategory": "backend-platform",
+      "tags": ["database", "postgresql", "auth", "storage", "realtime", "open-source", "serverless"],
+      "free_tier": {
+        "summary": "500 MB database, 2 GB storage, 50 MB file size, 50,000 monthly active users, 2 GB bandwidth",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 2,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $25/month: 8 GB database, 100 GB storage, 100,000 MAUs",
+        "starting_price_usd": 25,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "No specific student plan, but free tier is generous enough for most student projects"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; data regions: US, EU, APAC"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["firebase"],
+      "alternatives": ["appwrite", "pocketbase", "nhost"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "vercel",
+      "slug": "vercel",
+      "name": "Vercel",
+      "website": "https://vercel.com",
+      "docs": "https://vercel.com/docs",
+      "github": "https://github.com/vercel",
+      "description": "Frontend deployment platform with global edge network. Supports Next.js, React, Svelte, and all major frameworks. Includes serverless functions, edge config, and analytics.",
+      "category": "hosting",
+      "subcategory": "static-sites",
+      "tags": ["hosting", "deployment", "serverless", "edge", "frontend", "jamstack", "cdn"],
+      "free_tier": {
+        "summary": "Unlimited static sites, 100 GB bandwidth, 6,000 build minutes/month, 1 concurrent build, 100 serverless function invocations/day, 10 edge function invocations/day",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $20/month per member: unlimited builds, 1 TB bandwidth, 5 concurrent builds, team features",
+        "starting_price_usd": 20,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Vercel for Education — free Pro tier for students and educators via GitHub Student Developer Pack"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": ["IR", "KP", "SY", "CU"],
+        "notes": "Available globally; edge network in 100+ locations"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["netlify", "cloudflare-pages", "render"],
+      "alternatives": ["netlify", "cloudflare-pages", "render", "railway"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "stripe",
+      "slug": "stripe",
+      "name": "Stripe",
+      "website": "https://stripe.com",
+      "docs": "https://stripe.com/docs",
+      "github": "https://github.com/stripe",
+      "description": "Global payment processing platform. Accept payments, manage subscriptions, handle invoicing, and detect fraud. Industry-standard API for online payments.",
+      "category": "payments",
+      "subcategory": "payment-processing",
+      "tags": ["payments", "invoicing", "subscriptions", "fraud-detection", "checkout"],
+      "free_tier": {
+        "summary": "2.9% + $0.30 per successful card charge; no monthly fees, no setup fees, no minimums. Free tier available for micro-transactions via Stripe Connect",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Per-transaction pricing; volume discounts available for high-revenue businesses",
+        "starting_price_usd": null,
+        "billing_model": "transaction-fee"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": false,
+        "restricted_countries": [],
+        "notes": "Available in 46+ countries; expanded coverage via Stripe Atlas"
+      },
+      "languages": ["en", "fr", "de", "ja", "es"],
+      "alternatives_to": [],
+      "alternatives": ["lemon-squeezy", "paddle", "razorpay"],
+      "last_verified": "2026-05-24"
+    }
+  ]
+}
