@@ -763,31 +763,3 @@ student developer resources
 
 free ai APIs
 ```
-
----
-
-# 📌 One Last Critical Question Before Final Blueprint
-
-This decides **resource quality policy**:
-
-### Q65:
-
-When duplicate/similar tools exist:
-
-Example:
-
-Many AI APIs or many DBs.
-
-Should repo:
-
-A. Include **all tools** with ratings
-B. Include only **top curated picks**
-C. Include all + highlight recommended
-
-**Recommended:** C
-
-Answer only:
-
-```txt
-Q65:
-```
