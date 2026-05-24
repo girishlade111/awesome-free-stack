@@ -145,7 +145,8 @@
         { "id": "gpu", "name": "GPU", "description": "GPU-accelerated compute", "icon": "🎮" },
         { "id": "multi-modal", "name": "Multi-Modal", "description": "Multi-modal data support", "icon": "🔀" },
         { "id": "extension", "name": "Extension", "description": "Database and platform extensions", "icon": "🔌" },
-        { "id": "cassandra", "name": "Cassandra", "description": "Apache Cassandra-based tools", "icon": "🗄️" }
+        { "id": "cassandra", "name": "Cassandra", "description": "Apache Cassandra-based tools", "icon": "🗄️" },
+        { "id": "paas", "name": "PaaS", "description": "Platform-as-a-Service", "icon": "🚀" }
       ]
     },
     {
