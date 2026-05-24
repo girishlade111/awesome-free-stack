@@ -1,0 +1,98 @@
+name: Generate Stats
+
+on:
+  schedule:
+    - cron: "0 4 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate comprehensive stats
+        run: |
+          node -e "
+            const fs = require('fs');
+            const resources = JSON.parse(fs.readFileSync('./data/resources.json','utf8')).resources;
+            const tags = JSON.parse(fs.readFileSync('./data/tags.json','utf8'));
+            const taxonomy = JSON.parse(fs.readFileSync('./data/taxonomy.json','utf8'));
+
+            const byCategory = {};
+            const byVerification = { tested:0, 'community-verified':0, unverified:0 };
+            const byStatus = { active:0, deprecated:0, limited:0 };
+            const byCard = { required:0, notRequired:0 };
+            const byRegion = { global:0, restricted:0 };
+            const byStudent = { yes:0, no:0 };
+            const byTag = {};
+            const ratingDistribution = { '1-2':0, '2-3':0, '3-4':0, '4-5':0 };
+
+            resources.forEach(r => {
+              const c = r.category || 'unknown';
+              byCategory[c] = (byCategory[c] || 0) + 1;
+
+              const v = r.verification?.status || 'unknown';
+              if (byVerification[v] !== undefined) byVerification[v]++;
+
+              const s = r.status || 'unknown';
+              if (byStatus[s] !== undefined) byStatus[s]++;
+
+              if (r.requires_card) byCard.required++;
+              else byCard.notRequired++;
+
+              if (r.region_restrictions?.global) byRegion.global++;
+              else byRegion.restricted++;
+
+              if (r.student_benefits?.available) byStudent.yes++;
+              else byStudent.no++;
+
+              (r.tags || []).forEach(t => { byTag[t] = (byTag[t] || 0) + 1; });
+
+              const o = r.ratings?.overall || 0;
+              if (o < 2) ratingDistribution['1-2']++;
+              else if (o < 3) ratingDistribution['2-3']++;
+              else if (o < 4) ratingDistribution['3-4']++;
+              else ratingDistribution['4-5']++;
+            });
+
+            const stats = {
+              generated: new Date().toISOString().split('T')[0],
+              total_resources: resources.length,
+              categories_represented: Object.keys(byCategory).length,
+              tags_used: Object.keys(byTag).length,
+              breakdown: {
+                by_category: byCategory,
+                by_verification: byVerification,
+                by_status: byStatus,
+                by_card_requirement: byCard,
+                by_region: byRegion,
+                by_student_benefits: byStudent,
+                by_rating: ratingDistribution
+              },
+              top_tags: Object.entries(byTag)
+                .sort((a,b) => b[1] - a[1])
+                .slice(0, 30)
+                .map(([tag, count]) => ({ tag, count }))
+            };
+
+            fs.writeFileSync('./data/stats.json', JSON.stringify(stats, null, 2));
+            console.log('Stats saved to data/stats.json');
+            console.log(JSON.stringify(stats, null, 2));
+          "
+
+      - name: Commit stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/stats.json
+          git diff --staged --quiet || git commit -m "chore: update stats [skip ci]"
+          git push
