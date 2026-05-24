@@ -1,0 +1,123 @@
+name: Detect Broken Resources
+
+on:
+  schedule:
+    - cron: "0 8 1,15 * *"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  detect-broken:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Check resource URLs
+        id: check-urls
+        run: |
+          node -e "
+            const https = require('https');
+            const http = require('http');
+            const fs = require('fs');
+            const resources = JSON.parse(fs.readFileSync('./data/resources.json','utf8')).resources;
+
+            const results = { broken: [], redirected: [], ok: [] };
+            let completed = 0;
+            const timeout = 10000;
+
+            function checkUrl(name, url, type) {
+              return new Promise(resolve => {
+                if (!url || !url.startsWith('http')) {
+                  resolve({ name, url, type, status: 'invalid' });
+                  return;
+                }
+                const client = url.startsWith('https') ? https : http;
+                const req = client.get(url, { timeout, headers: { 'User-Agent': 'Mozilla/5.0' } }, res => {
+                  const code = res.statusCode;
+                  if (code >= 200 && code < 400) {
+                    resolve({ name, url, type, status: code < 300 ? 'ok' : 'redirected', code });
+                  } else {
+                    resolve({ name, url, type, status: 'broken', code });
+                  }
+                  res.resume();
+                });
+                req.on('error', () => resolve({ name, url, type, status: 'error' }));
+                req.on('timeout', () => { req.destroy(); resolve({ name, url, type, status: 'timeout' }); });
+              });
+            }
+
+            async function run() {
+              const checks = [];
+              resources.forEach(r => {
+                checks.push(checkUrl(r.name, r.website, 'website'));
+                if (r.docs) checks.push(checkUrl(r.name, r.docs, 'docs'));
+                if (r.github) checks.push(checkUrl(r.name, r.github, 'github'));
+              });
+
+              const all = await Promise.all(checks);
+              all.forEach(r => {
+                if (r.status === 'ok') results.ok.push(r);
+                else if (r.status === 'redirected') results.redirected.push(r);
+                else results.broken.push(r);
+              });
+
+              const lines = [
+                '# Broken Resources Report',
+                '',
+                'Generated: ' + new Date().toISOString().split('T')[0],
+                '',
+                '## Summary',
+                '- URLs checked: ' + all.length,
+                '- OK: ' + results.ok.length,
+                '- Redirected: ' + results.redirected.length,
+                '- Broken/Error: ' + results.broken.length,
+                '',
+              ];
+
+              if (results.broken.length) {
+                lines.push('## Broken URLs');
+                lines.push('', '| Resource | URL | Type | Status |');
+                lines.push('|---|---|---|---|');
+                results.broken.forEach(r => {
+                  lines.push('| ' + r.name + ' | ' + r.url + ' | ' + r.type + ' | ' + r.status + ' |');
+                });
+                lines.push('');
+              }
+
+              if (results.redirected.length) {
+                lines.push('## Redirected URLs');
+                results.redirected.forEach(r => {
+                  lines.push('- [' + r.name + '] ' + r.url + ' (HTTP ' + r.code + ')');
+                });
+                lines.push('');
+              }
+
+              fs.writeFileSync('./broken-report.md', lines.join('\\n'));
+              console.log(lines.join('\\n'));
+            }
+
+            run().then(() => process.exit(results.broken.length > 0 ? 1 : 0));
+          "
+
+      - name: Create issue for broken resources
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('${{ github.workspace }}/broken-report.md', 'utf8');
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '🔴 Broken Resources Detected - ' + new Date().toISOString().split('T')[0],
+              body: body,
+              labels: ['bug', 'maintenance', 'automated']
+            });
