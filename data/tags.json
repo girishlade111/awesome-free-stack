@@ -2,7 +2,7 @@
   "$schema": "./tags-schema.json",
   "version": "1.0.0",
   "last_updated": "2026-05-24",
-  "total_tags": 164,
+  "total_tags": 165,
   "groups": [
     {
       "id": "global",
@@ -54,6 +54,7 @@
         { "id": "dns", "name": "DNS", "description": "Domain name system services" },
         { "id": "ssl", "name": "SSL", "description": "SSL/TLS certificate providers" },
         { "id": "cdn", "name": "CDN", "description": "Content delivery network services" },
+        { "id": "cdn-storage", "name": "CDN Storage", "description": "Storage integrated with CDN edge network", "icon": "🌐" },
         { "id": "database", "name": "Database", "description": "Database management systems", "icon": "🗄️" },
         { "id": "sql", "name": "SQL", "description": "Relational database tools" },
         { "id": "nosql", "name": "NoSQL", "description": "Non-relational database tools" },
