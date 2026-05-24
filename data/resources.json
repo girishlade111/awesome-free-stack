@@ -3291,7 +3291,7 @@
       "free_tier": {
         "summary": "1 GB stored data, 50K document reads/day, 20K writes/day, 20K deletes/day, 10 GB bandwidth/month, 1 GB network egress/day",
         "limits": {
-          "requests_per_month": null,
+          "requests_per_month": 1500000,
           "tokens_per_minute": null,
           "storage_gb": 1,
           "seats": null
