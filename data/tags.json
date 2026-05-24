@@ -109,7 +109,20 @@
         { "id": "startup", "name": "Startup", "description": "Startup-focused resources", "icon": "🏢" },
         { "id": "credits", "name": "Credits", "description": "Free credits and startup programs" },
         { "id": "funding", "name": "Funding", "description": "Grants and funding opportunities" },
-        { "id": "accelerator", "name": "Accelerator", "description": "Startup accelerator programs" }
+        { "id": "accelerator", "name": "Accelerator", "description": "Startup accelerator programs" },
+        { "id": "gpt", "name": "GPT", "description": "GPT-specific models from OpenAI", "icon": "🤖" },
+        { "id": "embeddings", "name": "Embeddings", "description": "Text and multimodal embedding models", "icon": "🔤" },
+        { "id": "image-generation", "name": "Image Generation", "description": "Text-to-image and image generation models", "icon": "🎨" },
+        { "id": "speech", "name": "Speech", "description": "Speech recognition, synthesis, and voice", "icon": "🎤" },
+        { "id": "realtime", "name": "Realtime", "description": "Real-time data and WebSocket capabilities", "icon": "⚡" },
+        { "id": "edge", "name": "Edge", "description": "Edge computing and edge functions", "icon": "⚡" },
+        { "id": "frontend", "name": "Frontend", "description": "Frontend development and frameworks", "icon": "🖥️" },
+        { "id": "jamstack", "name": "Jamstack", "description": "Jamstack architecture and tools", "icon": "⚡" },
+        { "id": "invoicing", "name": "Invoicing", "description": "Invoice generation and billing management" },
+        { "id": "fraud-detection", "name": "Fraud Detection", "description": "Fraud prevention and risk analysis" },
+        { "id": "artificial-intelligence", "name": "Artificial Intelligence", "description": "General AI and ML technologies", "icon": "🤖" },
+        { "id": "multimodal", "name": "Multimodal", "description": "Multi-modal AI (text, image, audio, video)", "icon": "🔀" },
+        { "id": "code-models", "name": "Code Models", "description": "Code generation and completion models", "icon": "💻" }
       ]
     },
     {

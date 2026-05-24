@@ -185,7 +185,7 @@
       "description": "Global payment processing platform. Accept payments, manage subscriptions, handle invoicing, and detect fraud. Industry-standard API for online payments.",
       "category": "payments",
       "subcategory": "payment-processing",
-      "tags": ["payments", "invoicing", "subscriptions", "fraud-detection", "checkout"],
+      "tags": ["payments", "invoicing", "subscription", "fraud-detection", "checkout"],
       "free_tier": {
         "summary": "2.9% + $0.30 per successful card charge; no monthly fees, no setup fees, no minimums. Free tier available for micro-transactions via Stripe Connect",
         "limits": {
