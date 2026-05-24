@@ -3179,7 +3179,7 @@
       "free_tier": {
         "summary": "5 GB storage, 250 million Request Units/month, 1 cluster, 30 days data retention",
         "limits": {
-          "requests_per_month": null,
+          "requests_per_month": 250000000,
           "tokens_per_minute": null,
           "storage_gb": 5,
           "seats": null
