@@ -3123,7 +3123,7 @@
       "free_tier": {
         "summary": "1 database with 10 GB storage, 1 production branch, 3 dev branches, 1 billion row reads/month, 10 million row writes/month",
         "limits": {
-          "requests_per_month": null,
+          "requests_per_month": 1000000000,
           "tokens_per_minute": null,
           "storage_gb": 10,
           "seats": null
