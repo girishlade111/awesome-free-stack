@@ -1413,6 +1413,456 @@
       "alternatives_to": [],
       "alternatives": ["lemon-squeezy", "paddle", "razorpay"],
       "last_verified": "2026-05-24"
+    },
+    {
+      "id": "pinecone",
+      "slug": "pinecone",
+      "name": "Pinecone",
+      "website": "https://www.pinecone.io",
+      "docs": "https://docs.pinecone.io",
+      "github": "https://github.com/pinecone-io",
+      "description": "Fully managed vector database purpose-built for production AI applications. Offers serverless and pod-based indexes with advanced filtering, hybrid search, and high throughput with a 1M vector free tier.",
+      "category": "ai",
+      "subcategory": "vector-databases",
+      "tags": ["vector-database", "saas", "managed", "production-ready", "api", "sdk", "freemium", "card-required", "multi-region"],
+      "free_tier": {
+        "summary": "1 million vectors free on pod-based index. Serverless free tier with limited throughput.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pod-based ($0.075/pod-hour+) or serverless ($0.70/M vectors stored + queries)",
+        "starting_price_usd": 0.075,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; multiple cloud regions"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["weaviate", "qdrant", "milvus"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "weaviate",
+      "slug": "weaviate",
+      "name": "Weaviate",
+      "website": "https://weaviate.io",
+      "docs": "https://weaviate.io/developers/weaviate",
+      "github": "https://github.com/weaviate/weaviate",
+      "description": "Open-source vector database with built-in vectorization modules, hybrid search, and graph-like data model. Combines structured and unstructured data with a free cloud sandbox free tier.",
+      "category": "ai",
+      "subcategory": "vector-databases",
+      "tags": ["vector-database", "open-source", "saas", "hybrid-search", "docker", "graphql", "api", "free-tier", "no-card"],
+      "free_tier": {
+        "summary": "Weaviate Cloud free sandbox (1 cluster, up to 1GB). Self-hosted is unlimited and free.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 1,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Weaviate Cloud Standard: usage-based pricing for dedicated clusters",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; self-hosted version is free"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; self-hosted or multi-region cloud"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["pinecone", "qdrant", "milvus"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "chroma",
+      "slug": "chroma",
+      "name": "Chroma",
+      "website": "https://www.trychroma.com",
+      "docs": "https://docs.trychroma.com",
+      "github": "https://github.com/chroma-core/chroma",
+      "description": "Lightweight, open-source embedding database designed for AI prototyping. Runs in-memory or persisted to disk with a simple Python API — just pip install and start using with a free forever tier.",
+      "category": "ai",
+      "subcategory": "vector-databases",
+      "tags": ["vector-database", "open-source", "embedded", "python", "prototyping", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "Self-hosted is completely free with no limits on vectors, dimensions, or usage.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version yet; Chroma Cloud coming soon",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["lancedb", "qdrant", "pgvector"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "qdrant",
+      "slug": "qdrant",
+      "name": "Qdrant",
+      "website": "https://qdrant.tech",
+      "docs": "https://qdrant.tech/documentation",
+      "github": "https://github.com/qdrant/qdrant",
+      "description": "High-performance vector database written in Rust. Production-ready with rich filtering, quantization, and multi-tenant support. Outstanding performance with low memory footprint and a generous free tier.",
+      "category": "ai",
+      "subcategory": "vector-databases",
+      "tags": ["vector-database", "open-source", "saas", "rust", "high-performance", "docker", "kubernetes", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "Self-hosted is unlimited and free. Qdrant Cloud free tier: 1 cluster with 1GB storage.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 1,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Qdrant Cloud: $25+/month for dedicated clusters with higher limits",
+        "starting_price_usd": 25,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; self-hosted or multi-region cloud"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["pinecone", "weaviate", "milvus"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "milvus",
+      "slug": "milvus",
+      "name": "Milvus",
+      "website": "https://milvus.io",
+      "docs": "https://milvus.io/docs",
+      "github": "https://github.com/milvus-io/milvus",
+      "description": "Cloud-native vector database built for billion-scale similarity search. Features multiple index types including GPU-accelerated, DiskANN, and hybrid search with a free tier via Zilliz Cloud.",
+      "category": "ai",
+      "subcategory": "vector-databases",
+      "tags": ["vector-database", "open-source", "saas", "distributed", "high-performance", "gpu", "docker", "kubernetes", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "Self-hosted is fully free. Zilliz Cloud free tier: 100K vectors, 1 CU. Milvus Lite embedded free.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Zilliz Cloud: usage-based CU pricing for dedicated clusters",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 4,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Zilliz Cloud free credits for students via verified programs",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; multi-region via Zilliz Cloud"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["qdrant", "weaviate", "pinecone"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "lancedb",
+      "slug": "lancedb",
+      "name": "LanceDB",
+      "website": "https://lancedb.com",
+      "docs": "https://lancedb.github.io/lancedb",
+      "github": "https://github.com/lancedb/lancedb",
+      "description": "Developer-friendly, open-source vector database built on the Lance columnar format. Native multi-modal support with embedded zero-copy architecture and no server required — free forever.",
+      "category": "ai",
+      "subcategory": "vector-databases",
+      "tags": ["vector-database", "open-source", "embedded", "python", "typescript", "multi-modal", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "Self-hosted is completely free with no limits on vectors or dimensions. LanceDB Cloud free tier available.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "LanceDB Cloud: usage-based pricing for managed service",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["chroma", "qdrant", "pgvector"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "pgvector",
+      "slug": "pgvector",
+      "name": "pgvector",
+      "website": "https://github.com/pgvector/pgvector",
+      "docs": "https://github.com/pgvector/pgvector",
+      "github": "https://github.com/pgvector/pgvector",
+      "description": "Open-source vector similarity search extension for PostgreSQL. The most widely deployed vector database — available on every major Postgres provider (Supabase, Neon, RDS) with a 500MB free tier.",
+      "category": "ai",
+      "subcategory": "vector-databases",
+      "tags": ["vector-database", "open-source", "postgresql", "sql", "extension", "docker", "free-tier", "no-card", "generous-free-tier"],
+      "free_tier": {
+        "summary": "Free with PostgreSQL. Supabase: 500MB. Neon: 0.5GB. Self-hosted: unlimited and free.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 0.5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Free with PostgreSQL. Cloud providers have separate paid tiers for larger databases.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free via Supabase/Neon student tiers. PostgreSQL itself is free.",
+        "verification_method": null
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available wherever PostgreSQL runs"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["qdrant", "chroma", "milvus"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "astra-db",
+      "slug": "astra-db",
+      "name": "Astra DB",
+      "website": "https://astra.datastax.com",
+      "docs": "https://docs.datastax.com/en/astra-serverless",
+      "github": "https://github.com/datastax",
+      "description": "Serverless vector database built on Apache Cassandra by DataStax. Offers a generous 80GB free tier with built-in integrations for LangChain, LlamaIndex, and OpenAI.",
+      "category": "ai",
+      "subcategory": "vector-databases",
+      "tags": ["vector-database", "saas", "cassandra", "serverless", "managed", "multi-region", "api", "freemium", "generous-free-tier"],
+      "free_tier": {
+        "summary": "80GB data, 25 million monthly reads, 5 million monthly writes — all free.",
+        "limits": {
+          "requests_per_month": 25000000,
+          "tokens_per_minute": null,
+          "storage_gb": 80,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go usage-based pricing beyond free tier limits",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; free tier is generous enough"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; multi-region support via Astra DB"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["pinecone", "weaviate", "mongodb-atlas"],
+      "last_verified": "2026-05-24"
     }
   ]
 }
