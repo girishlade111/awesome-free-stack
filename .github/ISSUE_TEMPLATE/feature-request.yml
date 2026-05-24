@@ -1,0 +1,61 @@
+name: Feature Request
+description: Suggest an improvement to the repository structure, tooling, or workflows
+title: "[Feature] "
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest a feature to improve the awesome-free-stack project itself.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of the project does this affect?
+      options:
+        - Repository structure / organization
+        - Automation / GitHub Actions
+        - Tooling / scripts
+        - Website / data format
+        - Documentation
+        - Contribution experience
+        - Community / discussions
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem does this feature solve?
+      placeholder: Currently, there's no way to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe your ideal solution
+      placeholder: Add a GitHub Action that automatically...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative approaches you considered
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have checked existing issues — this is not a duplicate
+    validations:
+      required: true
