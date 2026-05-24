@@ -1,0 +1,298 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/your-org/awesome-free-stack/data/resources-schema.json",
+  "title": "awesome-free-stack Resource Schema",
+  "description": "Schema for curated free & freemium developer resources in awesome-free-stack",
+  "type": "object",
+  "required": ["meta", "resources"],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Reference to this schema file"
+    },
+    "meta": {
+      "type": "object",
+      "description": "Metadata about the resource collection",
+      "required": ["version", "last_updated"],
+      "properties": {
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$",
+          "description": "Semantic version of the schema"
+        },
+        "last_updated": {
+          "type": "string",
+          "format": "date",
+          "description": "ISO 8601 date this collection was last modified"
+        },
+        "total_resources": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Count of resources in the array"
+        },
+        "description": {
+          "type": "string",
+          "description": "Short description of this dataset"
+        }
+      },
+      "additionalProperties": false
+    },
+    "resources": {
+      "type": "array",
+      "description": "Array of resource entries",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "required": [
+          "id", "slug", "name", "website", "description",
+          "category", "tags", "free_tier", "ratings",
+          "verification", "status", "requires_card",
+          "region_restrictions", "last_verified"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "description": "Unique immutable identifier (kebab-case)"
+          },
+          "slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "description": "URL-friendly identifier (kebab-case)"
+          },
+          "name": {
+            "type": "string",
+            "maxLength": 128,
+            "description": "Display name of the tool or service"
+          },
+          "website": {
+            "type": "string",
+            "format": "uri",
+            "description": "Official website URL"
+          },
+          "docs": {
+            "type": "string",
+            "format": "uri",
+            "description": "Documentation URL"
+          },
+          "github": {
+            "type": "string",
+            "format": "uri",
+            "description": "GitHub repository URL",
+            "pattern": "^https://github\\.com/"
+          },
+          "description": {
+            "type": "string",
+            "maxLength": 500,
+            "description": "Short paragraph explaining purpose and ideal use cases"
+          },
+          "category": {
+            "type": "string",
+            "description": "Primary category",
+            "enum": [
+              "ai", "deployment", "cloud", "hosting", "databases",
+              "storage", "auth", "payments", "email-sms", "monitoring",
+              "ci-cd", "devtools", "design", "domains", "testing",
+              "mobile", "learning", "student-packs", "startup-credits",
+              "open-source"
+            ]
+          },
+          "subcategory": {
+            "type": "string",
+            "description": "Subcategory within the primary category"
+          },
+          "tags": {
+            "type": "array",
+            "description": "Searchable tags for filtering",
+            "items": {
+              "type": "string",
+              "maxLength": 32
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "free_tier": {
+            "type": "object",
+            "description": "Details about the free tier offering",
+            "required": ["summary"],
+            "properties": {
+              "summary": {
+                "type": "string",
+                "maxLength": 500,
+                "description": "Human-readable description of what's free"
+              },
+              "limits": {
+                "type": "object",
+                "description": "Quantified limits of the free tier",
+                "properties": {
+                  "requests_per_month": {
+                    "type": ["integer", "null"],
+                    "minimum": 0
+                  },
+                  "tokens_per_minute": {
+                    "type": ["integer", "null"],
+                    "minimum": 0
+                  },
+                  "storage_gb": {
+                    "type": ["number", "null"],
+                    "minimum": 0
+                  },
+                  "seats": {
+                    "type": ["integer", "null"],
+                    "minimum": 0
+                  }
+                },
+                "additionalProperties": true
+              }
+            },
+            "additionalProperties": true
+          },
+          "paid_plan": {
+            "type": "object",
+            "description": "Details about the paid upgrade path",
+            "properties": {
+              "summary": {
+                "type": "string",
+                "maxLength": 500,
+                "description": "Human-readable description of paid plans"
+              },
+              "starting_price_usd": {
+                "type": ["number", "null"],
+                "minimum": 0,
+                "description": "Starting monthly price in USD"
+              },
+              "billing_model": {
+                "type": "string",
+                "enum": ["subscription", "usage-based", "transaction-fee", "one-time", "contact-sales", null],
+                "description": "How the paid plan is billed"
+              }
+            },
+            "additionalProperties": true
+          },
+          "ratings": {
+            "type": "object",
+            "description": "1-5 star ratings across dimensions",
+            "required": ["beginner_friendly", "docs", "free_generosity", "setup", "reliability"],
+            "properties": {
+              "beginner_friendly": { "type": "integer", "minimum": 1, "maximum": 5 },
+              "docs": { "type": "integer", "minimum": 1, "maximum": 5 },
+              "free_generosity": { "type": "integer", "minimum": 1, "maximum": 5 },
+              "setup": { "type": "integer", "minimum": 1, "maximum": 5 },
+              "reliability": { "type": "integer", "minimum": 1, "maximum": 5 }
+            },
+            "additionalProperties": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          "verification": {
+            "type": "object",
+            "description": "Verification status of this resource entry",
+            "required": ["status"],
+            "properties": {
+              "status": {
+                "type": "string",
+                "enum": ["tested", "community-verified", "unverified"],
+                "description": "How thoroughly this entry has been verified"
+              },
+              "verified_by": {
+                "type": "string",
+                "description": "Who verified this entry (maintainer, community, etc.)"
+              },
+              "date": {
+                "type": "string",
+                "format": "date",
+                "description": "ISO 8601 date this entry was verified"
+              }
+            },
+            "additionalProperties": false
+          },
+          "status": {
+            "type": "string",
+            "enum": ["active", "deprecated", "limited"],
+            "description": "Current operational status of the tool"
+          },
+          "student_benefits": {
+            "type": "object",
+            "description": "Student-specific benefits",
+            "required": ["available"],
+            "properties": {
+              "available": { "type": "boolean" },
+              "details": {
+                "type": "string",
+                "maxLength": 500,
+                "description": "Description of student benefits"
+              },
+              "verification_method": {
+                "type": "string",
+                "enum": ["edu-email", "github-education", "iscard", "sheerid", "id-card", null],
+                "description": "How students verify eligibility"
+              }
+            },
+            "additionalProperties": false
+          },
+          "requires_card": {
+            "type": "boolean",
+            "description": "Whether a credit card is required to sign up"
+          },
+          "region_restrictions": {
+            "type": "object",
+            "description": "Geographic availability restrictions",
+            "required": ["global"],
+            "properties": {
+              "global": {
+                "type": "boolean",
+                "description": "True if available worldwide with no restrictions"
+              },
+              "restricted_countries": {
+                "type": "array",
+                "description": "ISO 3166-1 alpha-2 codes of restricted countries",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Z]{2}$"
+                }
+              },
+              "notes": {
+                "type": "string",
+                "maxLength": 500,
+                "description": "Human-readable region notes"
+              }
+            },
+            "additionalProperties": false
+          },
+          "languages": {
+            "type": "array",
+            "description": "ISO 639-1 language codes the tool supports",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z]{2}(-[A-Z]{2})?$"
+            }
+          },
+          "alternatives_to": {
+            "type": "array",
+            "description": "Paid tools this replaces (for paid->free alternative mapping)",
+            "items": {
+              "type": "string"
+            }
+          },
+          "alternatives": {
+            "type": "array",
+            "description": "Slugs of other resources that serve as alternatives to this tool",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+            }
+          },
+          "last_verified": {
+            "type": "string",
+            "format": "date",
+            "description": "ISO 8601 date this entry was last confirmed accurate"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
