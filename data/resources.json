@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "last_updated": "2026-05-24",
-    "total_resources": 4,
+    "total_resources": 16,
     "description": "Curated free & freemium developer resources"
   },
   "resources": [
@@ -14,12 +14,12 @@
       "website": "https://platform.openai.com",
       "docs": "https://platform.openai.com/docs",
       "github": "https://github.com/openai",
-      "description": "Access to GPT-4, GPT-4o, DALL-E, Whisper, and embedding models via REST API. Industry-leading LLM platform for building AI-powered applications.",
+      "description": "Access to GPT-4, GPT-4o, DALL-E 3, Whisper, and embedding models via REST API. Industry-leading LLM platform for building AI-powered applications.",
       "category": "ai",
-      "subcategory": "models",
-      "tags": ["ai", "llm", "gpt", "embeddings", "image-generation", "speech"],
+      "subcategory": "apis",
+      "tags": ["ai", "llm", "gpt", "embeddings", "image-generation", "speech", "multimodal", "api", "sdk"],
       "free_tier": {
-        "summary": "$5 free credit for new users, free tier with rate limits on GPT-4o mini",
+        "summary": "$5 free credit for new users, free tier with 10K TPM rate limit on GPT-4o mini",
         "limits": {
           "requests_per_month": null,
           "tokens_per_minute": 10000,
@@ -50,7 +50,8 @@
       "status": "active",
       "student_benefits": {
         "available": true,
-        "details": "OpenAI for Students — free credits via GitHub Student Developer Pack"
+        "details": "OpenAI for Students — free credits via GitHub Student Developer Pack",
+        "verification_method": "github-education"
       },
       "requires_card": true,
       "region_restrictions": {
@@ -61,6 +62,683 @@
       "languages": ["en"],
       "alternatives_to": [],
       "alternatives": ["claude-api", "gemini-api", "groq-api", "deepseek-api"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "gemini-api",
+      "slug": "gemini-api",
+      "name": "Gemini API",
+      "website": "https://ai.google.dev",
+      "docs": "https://ai.google.dev/docs",
+      "github": "https://github.com/google-gemini",
+      "description": "Google's multimodal AI API with access to Gemini 1.5 Pro and Flash models. Supports text, image, audio, video, and code generation. Best-in-class 1M token context window free tier.",
+      "category": "ai",
+      "subcategory": "apis",
+      "tags": ["ai", "llm", "multimodal", "embeddings", "api", "sdk", "free-tier", "no-card", "rate-limited"],
+      "free_tier": {
+        "summary": "60 requests/minute, 1,500 requests/day, 1M token context window, free access to Gemini 1.5 Flash",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": 60,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go starting at $0.00025/1K input characters (Gemini 1.5 Pro)",
+        "starting_price_usd": 0.00025,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Google for Education — free credits and extended API access for students via Google Cloud Education grants",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally via Google AI Studio; some regions restricted for Vertex AI"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["openai-api"],
+      "alternatives": ["openai-api", "claude-api", "groq-api"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "groq-api",
+      "slug": "groq-api",
+      "name": "Groq API",
+      "website": "https://console.groq.com",
+      "docs": "https://console.groq.com/docs",
+      "github": "https://github.com/groq",
+      "description": "Ultra-fast LLM inference API powered by Groq's LPU inference hardware. Runs Llama 3, Mixtral, Gemma, and Whisper at blazing speeds with an OpenAI-compatible endpoint.",
+      "category": "ai",
+      "subcategory": "apis",
+      "tags": ["ai", "llm", "api", "speech", "openai-compatible", "rate-limited", "freemium", "card-required"],
+      "free_tier": {
+        "summary": "30 requests/minute, 14,400 requests/day, access to most open models including Llama 3 and Mixtral",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": 30,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go starting at ~$0.27/1M tokens for premium throughput",
+        "starting_price_usd": 0.27,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["openai-api", "anthropic-api"],
+      "alternatives": ["openai-api", "fireworks-api", "together-api"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "anthropic-api",
+      "slug": "anthropic-api",
+      "name": "Anthropic API",
+      "website": "https://console.anthropic.com",
+      "docs": "https://docs.anthropic.com",
+      "github": "https://github.com/anthropics",
+      "description": "Claude 3 API (Opus, Sonnet, Haiku) for text analysis, code generation, and reasoning. Features industry-leading safety, 200K token context, and free chat on claude.ai.",
+      "category": "ai",
+      "subcategory": "apis",
+      "tags": ["ai", "llm", "api", "sdk", "card-required", "usage-based", "rate-limited"],
+      "free_tier": {
+        "summary": "Limited free API tier (~5 requests/minute). Unlimited free chat on claude.ai web interface.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": 5,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go starting at $0.003/1K tokens (Claude 3 Haiku)",
+        "starting_price_usd": 0.003,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 2,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "No specific student plan for API; free claude.ai available for all",
+        "verification_method": null
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["openai-api"],
+      "alternatives": ["openai-api", "gemini-api", "deepseek-api"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "together-api",
+      "slug": "together-api",
+      "name": "Together AI",
+      "website": "https://together.ai",
+      "docs": "https://docs.together.ai",
+      "github": "https://github.com/togethercomputer",
+      "description": "Cloud platform for running 100+ open-source AI models. Provides inference API for Llama 3, Mistral, Mixtral, and Stable Diffusion with OpenAI-compatible endpoints and fine-tuning support.",
+      "category": "ai",
+      "subcategory": "apis",
+      "tags": ["ai", "llm", "api", "image-generation", "openai-compatible", "freemium", "no-card", "generous-free-tier", "rate-limited"],
+      "free_tier": {
+        "summary": "$1 free credit with no card required. Rate-limited free access to 100+ open models.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go starting at ~$0.10/1M tokens for most models",
+        "starting_price_usd": 0.10,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["openai-api"],
+      "alternatives": ["openai-api", "fireworks-api", "groq-api"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "cohere-api",
+      "slug": "cohere-api",
+      "name": "Cohere API",
+      "website": "https://cohere.com",
+      "docs": "https://docs.cohere.com",
+      "github": "https://github.com/cohere-ai",
+      "description": "Enterprise LLM API specializing in RAG, embeddings, classification, and tool use. Command R/R+ models optimized for retrieval-augmented generation and multi-step reasoning.",
+      "category": "ai",
+      "subcategory": "apis",
+      "tags": ["ai", "llm", "api", "embeddings", "sdk", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "Free trial API key with 100 trial requests/month. Rate-limited free tier for developers.",
+        "limits": {
+          "requests_per_month": 100,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Usage-based; custom enterprise pricing available",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free tier for students via educational plans; enhanced API access with .edu email",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["openai-api"],
+      "alternatives": ["openai-api", "mistral-api", "huggingface-api"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "mistral-api",
+      "slug": "mistral-api",
+      "name": "Mistral AI",
+      "website": "https://mistral.ai",
+      "docs": "https://docs.mistral.ai",
+      "github": "https://github.com/mistralai",
+      "description": "French AI company offering open-weight and API-accessible models. Mistral Large, Small, and Codestral for code generation. Le Chat provides a free chat interface.",
+      "category": "ai",
+      "subcategory": "apis",
+      "tags": ["ai", "llm", "api", "code-models", "sdk", "open-source", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "Free API tier with rate limits for experimentation. Le Chat web interface completely free.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go starting at €0.004/1K tokens (Mistral Large)",
+        "starting_price_usd": 0.004,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en", "fr", "de", "es", "it"],
+      "alternatives_to": ["openai-api"],
+      "alternatives": ["openai-api", "deepseek-api", "groq-api"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "deepseek-api",
+      "slug": "deepseek-api",
+      "name": "DeepSeek API",
+      "website": "https://platform.deepseek.com",
+      "docs": "https://platform.deepseek.com/docs",
+      "github": "https://github.com/deepseek-ai",
+      "description": "Chinese AI company offering cost-effective LLM APIs. DeepSeek-V2 and DeepSeek-Coder models for general chat and code generation. Extremely competitive pricing with generous free tokens.",
+      "category": "ai",
+      "subcategory": "apis",
+      "tags": ["ai", "llm", "api", "code-models", "openai-compatible", "freemium", "no-card", "generous-free-tier"],
+      "free_tier": {
+        "summary": "500M free tokens for new users, rate-limited free tier with access to DeepSeek-V2 and DeepSeek-Coder",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go at $0.14/1M tokens (DeepSeek-V2), $0.28/1M tokens (DeepSeek-Coder)",
+        "starting_price_usd": 0.14,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en", "zh"],
+      "alternatives_to": ["openai-api"],
+      "alternatives": ["openai-api", "mistral-api", "groq-api"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "openrouter-api",
+      "slug": "openrouter-api",
+      "name": "OpenRouter",
+      "website": "https://openrouter.ai",
+      "docs": "https://openrouter.ai/docs",
+      "github": "https://github.com/OpenRouterTeam",
+      "description": "Unified API gateway to 200+ AI models from 20+ providers. Access OpenAI, Anthropic, Google, Meta, and Mistral models through a single OpenAI-compatible endpoint. Free credits included.",
+      "category": "ai",
+      "subcategory": "apis",
+      "tags": ["ai", "llm", "api", "openai-compatible", "freemium", "no-card", "rate-limited"],
+      "free_tier": {
+        "summary": "$1 free credits for new users with no card required. Rate-limited free tier for smaller open models.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-per-token across all providers; pay-as-you-go with no subscription required",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["openai-api", "groq-api", "together-api"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "huggingface-api",
+      "slug": "huggingface-api",
+      "name": "Hugging Face Inference API",
+      "website": "https://huggingface.co",
+      "docs": "https://huggingface.co/docs/api-inference",
+      "github": "https://github.com/huggingface",
+      "description": "Free serverless API access to 150,000+ open-source models on Hugging Face Hub. Supports text, image, audio, video, and multimodal inference with a unified API.",
+      "category": "ai",
+      "subcategory": "apis",
+      "tags": ["ai", "llm", "api", "embeddings", "image-generation", "speech", "open-source", "free-tier", "no-card", "rate-limited"],
+      "free_tier": {
+        "summary": "30,000 free input tokens/month for serverless inference. Rate-limited free access to 150K+ models.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Dedicated endpoints starting at $0.06/hour (CPU) or $0.80/hour (GPU); Pro account $9/month",
+        "starting_price_usd": 0.06,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 3,
+        "community": 5,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free Pro account ($9/month value) with student verification via GitHub Student Developer Pack or .edu email",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; model-specific restrictions may apply based on regional laws"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["openai-api"],
+      "alternatives": ["openai-api", "replicate-api", "together-api"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "replicate-api",
+      "slug": "replicate-api",
+      "name": "Replicate",
+      "website": "https://replicate.com",
+      "docs": "https://replicate.com/docs",
+      "github": "https://github.com/replicate",
+      "description": "Cloud platform for running open-source ML models via a simple API. Supports image generation, LLMs, video, audio, and more. Serverless GPU inference with per-second billing.",
+      "category": "ai",
+      "subcategory": "apis",
+      "tags": ["ai", "llm", "api", "image-generation", "speech", "sdk", "freemium", "card-required", "rate-limited"],
+      "free_tier": {
+        "summary": "Limited free tier with rate limits and free credits for experimentation (~$0.05 free usage)",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go starting at $0.000225/second of GPU time",
+        "starting_price_usd": 0.000225,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["huggingface-api", "together-api", "fireworks-api"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "fireworks-api",
+      "slug": "fireworks-api",
+      "name": "Fireworks AI",
+      "website": "https://fireworks.ai",
+      "docs": "https://docs.fireworks.ai",
+      "github": "https://github.com/fireworks-ai",
+      "description": "Fast inference API for open-source models with blazing speeds. Supports Llama 3, Mistral, Mixtral, DeepSeek, and fine-tuned models via an OpenAI-compatible endpoint.",
+      "category": "ai",
+      "subcategory": "apis",
+      "tags": ["ai", "llm", "api", "code-models", "openai-compatible", "freemium", "no-card", "rate-limited", "generous-free-tier"],
+      "free_tier": {
+        "summary": "Free tier with 25 requests/minute rate limit on all open models. No credit card required.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": 25,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go starting at $0.15/1M tokens for higher rate limits and dedicated throughput",
+        "starting_price_usd": 0.15,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["openai-api"],
+      "alternatives": ["openai-api", "groq-api", "together-api"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "perplexity-api",
+      "slug": "perplexity-api",
+      "name": "Perplexity API",
+      "website": "https://docs.perplexity.ai",
+      "docs": "https://docs.perplexity.ai",
+      "github": "https://github.com/perplexity-ai",
+      "description": "Search-grounded LLM API that accesses real-time web information and provides cited answers. Sonar models optimize for search-enhanced generation with accurate sourcing.",
+      "category": "ai",
+      "subcategory": "apis",
+      "tags": ["ai", "llm", "api", "openai-compatible", "freemium", "card-required", "usage-based"],
+      "free_tier": {
+        "summary": "$5 free credits for new users. Limited free tier with rate limits on Sonar models.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go starting at $0.20/1K requests for Sonar Pro models",
+        "starting_price_usd": 0.20,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free Pro subscription for students via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; search features may vary by region"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["openai-api", "anthropic-api", "gemini-api"],
       "last_verified": "2026-05-24"
     },
     {
