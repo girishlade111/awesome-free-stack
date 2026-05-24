@@ -1255,7 +1255,7 @@
       "github": "https://github.com/supabase/supabase",
       "description": "Open-source Firebase alternative. Provides PostgreSQL database, authentication, real-time subscriptions, storage, and Edge Functions in a single platform.",
       "category": "databases",
-      "subcategory": "backend-platform",
+      "subcategory": "backend-platforms",
       "tags": ["database", "postgresql", "auth", "storage", "realtime", "open-source", "serverless"],
       "free_tier": {
         "summary": "500 MB database, 2 GB storage, 50 MB file size, 50,000 monthly active users, 2 GB bandwidth",
