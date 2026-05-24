@@ -3052,6 +3052,342 @@
       "alternatives_to": [],
       "alternatives": ["digitalocean", "vultr", "linode"],
       "last_verified": "2026-05-24"
+    },
+    {
+      "id": "neon",
+      "slug": "neon",
+      "name": "Neon",
+      "website": "https://neon.tech",
+      "docs": "https://neon.tech/docs",
+      "github": "https://github.com/neondatabase/neon",
+      "description": "Serverless PostgreSQL with instant provisioning, branching, and autoscaling. Separate compute and storage with pay-per-use pricing. Generous free tier ideal for side projects.",
+      "category": "databases",
+      "subcategory": "sql",
+      "tags": ["database", "sql", "postgresql", "serverless", "managed", "freemium", "card-required"],
+      "free_tier": {
+        "summary": "500 MB storage, 100 compute hours/month, 1 project, 10 branches, 1 GB bandwidth/month",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 0.5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Launch — $19/month: 10 GB storage, 500 compute hours, 50 branches, team features",
+        "starting_price_usd": 19,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "No specific student plan, but free tier covers most student projects"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; data regions: US (Oregon), EU (Frankfurt), APAC (Singapore)"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["supabase", "planetscale", "cockroachdb"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "planetscale",
+      "slug": "planetscale",
+      "name": "PlanetScale",
+      "website": "https://planetscale.com",
+      "docs": "https://planetscale.com/docs",
+      "github": "https://github.com/planetscale",
+      "description": "Serverless MySQL platform built on Vitess. Known for branching workflows, non-blocking schema changes, and generous free tier. Database branching makes schema migrations as safe as code deploys.",
+      "category": "databases",
+      "subcategory": "sql",
+      "tags": ["database", "sql", "mysql", "serverless", "managed", "freemium", "card-required"],
+      "free_tier": {
+        "summary": "1 database with 10 GB storage, 1 production branch, 3 dev branches, 1 billion row reads/month, 10 million row writes/month",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 10,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Scaler — $39/month: 100 GB storage, 10 production branches, unlimited dev branches, 100 billion reads",
+        "starting_price_usd": 39,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "GitHub Student Developer Pack: free Pro tier for 1 year"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; data regions: US, EU (Frankfurt), APAC (Tokyo)"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["neon", "supabase", "cockroachdb"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "cockroachdb",
+      "slug": "cockroachdb",
+      "name": "CockroachDB",
+      "website": "https://www.cockroachlabs.com",
+      "docs": "https://www.cockroachlabs.com/docs",
+      "github": "https://github.com/cockroachdb/cockroach",
+      "description": "Distributed SQL database with PostgreSQL compatibility. Scales horizontally across regions with strong consistency and resilient auto-healing. Serverless free tier with generous limits.",
+      "category": "databases",
+      "subcategory": "sql",
+      "tags": ["database", "sql", "postgresql", "distributed", "serverless", "managed", "freemium", "card-required"],
+      "free_tier": {
+        "summary": "5 GB storage, 250 million Request Units/month, 1 cluster, 30 days data retention",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Standard — pay-as-you-go: $0.20/GB/month storage + $0.005/million RUs",
+        "starting_price_usd": 0.2,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free serverless tier is generous; no specific student plan needed"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; 25+ regions across US, EU, and APAC"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["neon", "planetscale", "supabase"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "mongodb-atlas",
+      "slug": "mongodb-atlas",
+      "name": "MongoDB Atlas",
+      "website": "https://www.mongodb.com/atlas",
+      "docs": "https://www.mongodb.com/docs/atlas",
+      "github": "https://github.com/mongodb",
+      "description": "Fully managed MongoDB on AWS, Azure, and GCP. Free M0 cluster with 512MB storage. Industry-leading document database with flexible schema, aggregation pipeline, and change streams.",
+      "category": "databases",
+      "subcategory": "nosql",
+      "tags": ["database", "nosql", "mongodb", "managed", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "M0 cluster: 512 MB storage, shared RAM, no backup, no multi-region. Deploy on AWS, Azure, or GCP",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 0.5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "M2 — $9/month: 2 GB storage, dedicated RAM, backups. M10 — $57/month: 10 GB, production grade",
+        "starting_price_usd": 9,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "GitHub Student Developer Pack: $90 Atlas credits. MongoDB University: free courses and certification"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": ["IR", "KP", "SY", "CU"],
+        "notes": "Available globally across AWS, Azure, and GCP regions (70+ regions)"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["firebase-firestore", "supabase", "dynamodb"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "firebase-firestore",
+      "slug": "firebase-firestore",
+      "name": "Firebase Firestore",
+      "website": "https://firebase.google.com/products/firestore",
+      "docs": "https://firebase.google.com/docs/firestore",
+      "github": "https://github.com/firebase",
+      "description": "Google's flexible, scalable NoSQL document database for mobile and web apps. Real-time sync, offline support, and deep integration with Firebase and Google Cloud ecosystem.",
+      "category": "databases",
+      "subcategory": "nosql",
+      "tags": ["database", "nosql", "google", "serverless", "managed", "freemium", "realtime", "card-required"],
+      "free_tier": {
+        "summary": "1 GB stored data, 50K document reads/day, 20K writes/day, 20K deletes/day, 10 GB bandwidth/month, 1 GB network egress/day",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 1,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Blaze — Pay-as-you-go: $0.108/GB storage, $0.06/100K reads, $0.18/100K writes",
+        "starting_price_usd": 0.108,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Google for Education credits. Free tier is generous for student projects"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": false,
+        "restricted_countries": ["CN", "IR", "KP", "SY", "CU"],
+        "notes": "Available in most countries; restricted in sanctioned regions"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["mongodb-atlas", "supabase", "realm"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "upstash",
+      "slug": "upstash",
+      "name": "Upstash",
+      "website": "https://upstash.com",
+      "docs": "https://upstash.com/docs",
+      "github": "https://github.com/upstash",
+      "description": "Serverless Redis and Kafka platform designed for modern applications. REST API access to Redis without managing infrastructure. Ideal for caching, rate limiting, and session storage at the edge.",
+      "category": "databases",
+      "subcategory": "caching",
+      "tags": ["database", "cache", "redis", "serverless", "managed", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "Redis: 10K commands/day, 50 MB storage, 1 database. Kafka: 10K messages/day, 50 MB storage",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 0.05,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go: Redis $0.10/GB beyond free quota. Kafka $0.50/GB messages",
+        "starting_price_usd": 0.1,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; free tier covers learning and prototyping"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; edge locations for low-latency access"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["redis-stack", "valkey", "keydb"],
+      "last_verified": "2026-05-24"
     }
   ]
 }
