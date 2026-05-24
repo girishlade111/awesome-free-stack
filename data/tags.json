@@ -122,7 +122,10 @@
         { "id": "fraud-detection", "name": "Fraud Detection", "description": "Fraud prevention and risk analysis" },
         { "id": "artificial-intelligence", "name": "Artificial Intelligence", "description": "General AI and ML technologies", "icon": "🤖" },
         { "id": "multimodal", "name": "Multimodal", "description": "Multi-modal AI (text, image, audio, video)", "icon": "🔀" },
-        { "id": "code-models", "name": "Code Models", "description": "Code generation and completion models", "icon": "💻" }
+        { "id": "code-models", "name": "Code Models", "description": "Code generation and completion models", "icon": "💻" },
+        { "id": "agent-framework", "name": "Agent Framework", "description": "AI agent orchestration and development frameworks", "icon": "🤖" },
+        { "id": "multi-agent", "name": "Multi-Agent", "description": "Multi-agent collaboration and coordination", "icon": "👥" },
+        { "id": "tool-use", "name": "Tool Use", "description": "Tool calling and function calling capabilities", "icon": "🔧" }
       ]
     },
     {
