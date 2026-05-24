@@ -136,7 +136,16 @@
         { "id": "streaming", "name": "Streaming", "description": "Real-time streaming responses", "icon": "📡" },
         { "id": "visual-builder", "name": "Visual Builder", "description": "Visual/drag-and-drop application builders", "icon": "🎨" },
         { "id": "low-code", "name": "Low Code", "description": "Low-code and no-code platforms", "icon": "🔧" },
-        { "id": "web-ui", "name": "Web UI", "description": "Web-based user interface", "icon": "🌐" }
+        { "id": "web-ui", "name": "Web UI", "description": "Web-based user interface", "icon": "🌐" },
+        { "id": "managed", "name": "Managed", "description": "Fully managed cloud service", "icon": "☁️" },
+        { "id": "hybrid-search", "name": "Hybrid Search", "description": "Combined dense + sparse search", "icon": "🔍" },
+        { "id": "embedded", "name": "Embedded", "description": "Embedded/zero-copy architecture", "icon": "🔌" },
+        { "id": "high-performance", "name": "High Performance", "description": "Optimized for speed and throughput", "icon": "⚡" },
+        { "id": "distributed", "name": "Distributed", "description": "Distributed and clustered architecture", "icon": "🌐" },
+        { "id": "gpu", "name": "GPU", "description": "GPU-accelerated compute", "icon": "🎮" },
+        { "id": "multi-modal", "name": "Multi-Modal", "description": "Multi-modal data support", "icon": "🔀" },
+        { "id": "extension", "name": "Extension", "description": "Database and platform extensions", "icon": "🔌" },
+        { "id": "cassandra", "name": "Cassandra", "description": "Apache Cassandra-based tools", "icon": "🗄️" }
       ]
     },
     {
