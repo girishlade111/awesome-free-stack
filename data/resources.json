@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "last_updated": "2026-05-24",
-    "total_resources": 105,
+    "total_resources": 110,
     "description": "Curated free & freemium developer resources"
   },
   "resources": [
@@ -5913,6 +5913,289 @@
       "languages": ["en"],
       "alternatives_to": [],
       "alternatives": ["adobe-color", "colorhunt", "paletton"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "resend",
+      "slug": "resend",
+      "name": "Resend",
+      "website": "https://resend.com",
+      "docs": "https://resend.com/docs",
+      "github": "https://github.com/resendlabs",
+      "description": "Modern email API for developers with React Email support, SDKs for every framework, and high deliverability. Built for the modern web — send transactional emails with a simple API and beautiful templates.",
+      "category": "email-sms",
+      "subcategory": "email-api",
+      "tags": ["email", "transactional", "api", "sdk", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "3,000 emails/month, 100 emails/day, 1 domain, 1 audience, 1 day analytics retention",
+        "limits": {
+          "requests_per_month": 3000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $20/month: 50K emails, 50K contacts, 30 day retention, multiple domains",
+        "starting_price_usd": 20,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Resend for Students — extended free tier via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["sendgrid", "mailgun", "loops"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "sendgrid",
+      "slug": "sendgrid",
+      "name": "SendGrid (Twilio)",
+      "website": "https://sendgrid.com",
+      "docs": "https://docs.sendgrid.com",
+      "github": "https://github.com/sendgrid",
+      "description": "Industry-leading transactional email platform by Twilio. Send bulk and triggered emails with 99.9% uptime, advanced analytics, dedicated IPs, and 40+ SDKs. Trusted by millions of developers.",
+      "category": "email-sms",
+      "subcategory": "transactional-email",
+      "tags": ["email", "transactional", "api", "sdk", "marketing", "freemium", "generous-free-tier"],
+      "free_tier": {
+        "summary": "100 emails/day forever (3,000/month), 2,000 contacts, 2,000 email templates, email validation API",
+        "limits": {
+          "requests_per_month": 3000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Essentials — $19.95/month: 50K emails, 5K contacts, no SendGrid branding",
+        "starting_price_usd": 19.95,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Twilio for Students — free credits via GitHub Student Developer Pack; generous free tier covers most student projects",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": ["IR", "KP", "SY", "CU"],
+        "notes": "Available globally; US and EU data processing"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["mailgun", "resend", "brevo"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "mailgun",
+      "slug": "mailgun",
+      "name": "Mailgun",
+      "website": "https://www.mailgun.com",
+      "docs": "https://documentation.mailgun.com",
+      "github": "https://github.com/mailgun",
+      "description": "Powerful email API for developers with advanced deliverability features. Own your email infrastructure with flexible sending options, real-time analytics, and best-in-class email validation.",
+      "category": "email-sms",
+      "subcategory": "email-api",
+      "tags": ["email", "transactional", "api", "sdk", "freemium", "card-required"],
+      "free_tier": {
+        "summary": "5,000 emails/month (up to 20/day). First 3 months: 50K emails. Email validation: 400 free/month.",
+        "limits": {
+          "requests_per_month": 5000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Flex — starting at $35/month: 50K emails, dedicated IP, custom analytics",
+        "starting_price_usd": 35,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "No specific student plan; free tier covers 5K emails/month"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; US and EU data regions"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["sendgrid", "resend", "brevo"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "brevo",
+      "slug": "brevo",
+      "name": "Brevo (Sendinblue)",
+      "website": "https://www.brevo.com",
+      "docs": "https://help.brevo.com",
+      "github": "https://github.com/getbrevo",
+      "description": "All-in-one CRM platform for email marketing, transactional email, SMS, and chat. Free plan includes unlimited contacts with daily sending limit. Perfect for small businesses and startups.",
+      "category": "email-sms",
+      "subcategory": "email-marketing",
+      "tags": ["email", "transactional", "marketing", "sms", "api", "sdk", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "300 emails/day (9,000/month), unlimited contacts, email templates, SMS credits (test mode), landing pages, signup forms",
+        "limits": {
+          "requests_per_month": 9000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Starter — $25/month: 20K emails/day, no Brevo branding, A/B testing, advanced stats",
+        "starting_price_usd": 25,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Brevo for Students — extended free tier with additional features for verified students",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; EU data center by default"
+      },
+      "languages": ["en", "fr", "de", "es", "pt"],
+      "alternatives_to": [],
+      "alternatives": ["sendgrid", "mailgun", "resend"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "loops",
+      "slug": "loops",
+      "name": "Loops",
+      "website": "https://loops.so",
+      "docs": "https://loops.so/docs",
+      "github": null,
+      "description": "Developer-friendly email API with a focus on simplicity and delightful developer experience. Built for SaaS companies that need transactional emails and marketing campaigns from a single platform.",
+      "category": "email-sms",
+      "subcategory": "email-api",
+      "tags": ["email", "transactional", "api", "sdk", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "5,000 contacts, 500 emails/month, 1 user, 1 day activity history",
+        "limits": {
+          "requests_per_month": 500,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1
+        }
+      },
+      "paid_plan": {
+        "summary": "Growth — $29/month: 5K contacts, 10K emails, unlimited users, integrations",
+        "starting_price_usd": 29,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["resend", "sendgrid", "mailgun"],
       "last_verified": "2026-05-24"
     }
   ]
