@@ -8291,6 +8291,569 @@
       "alternatives_to": [],
       "alternatives": ["amplitude", "posthog", "heap"],
       "last_verified": "2026-05-24"
+    },
+    {
+      "id": "freecodecamp",
+      "slug": "freecodecamp",
+      "name": "freeCodeCamp",
+      "website": "https://www.freecodecamp.org",
+      "docs": "https://www.freecodecamp.org/news",
+      "github": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "description": "Nonprofit organization offering a comprehensive, self-paced coding curriculum. Covers HTML, CSS, JavaScript, Python, databases, and more with interactive challenges and real-world projects.",
+      "category": "learning",
+      "subcategory": "platforms",
+      "tags": ["learning", "courses", "education", "open-source", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "100% free. 10+ certifications, interactive coding challenges, 2,000+ hours of curriculum, projects, and publication access",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version. freeCodeCamp is completely free and donation-supported.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.8
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["the-odin-project", "codecademy", "khan-academy"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "roadmap-sh",
+      "slug": "roadmap-sh",
+      "name": "roadmap.sh",
+      "website": "https://roadmap.sh",
+      "docs": "https://roadmap.sh/guides",
+      "github": "https://github.com/kamranahmedse/developer-roadmap",
+      "description": "Community-driven developer roadmaps, guides, and educational content. Visual step-by-step paths for frontend, backend, DevOps, AI, and 50+ other roles with best practice recommendations.",
+      "category": "learning",
+      "subcategory": "platforms",
+      "tags": ["learning", "courses", "education", "open-source", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "100% free and open-source. 50+ interactive roadmaps, best practices, guides, and project ideas",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version. roadmap.sh is completely free and open-source.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["freecodecamp", "the-odin-project", "mdn-web-docs"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "coursera",
+      "slug": "coursera",
+      "name": "Coursera",
+      "website": "https://www.coursera.org",
+      "docs": "https://www.coursera.org/about/terms",
+      "github": null,
+      "description": "Leading online learning platform with courses from top universities (Stanford, Yale, MIT) and industry partners (Google, IBM, Meta). Free audit of 7,000+ courses with optional paid certificates.",
+      "category": "learning",
+      "subcategory": "courses",
+      "tags": ["learning", "courses", "education", "certification", "freemium", "no-card", "student"],
+      "free_tier": {
+        "summary": "7,000+ courses available for free audit: video lectures, readings, discussion forums. No graded assignments or certificates without paid enrollment",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Course certificate ~$49-99, Specializations ~$39-79/mo, Degrees $9K-45K total",
+        "starting_price_usd": 49,
+        "billing_model": "one-time"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Coursera for Campus — free access to 5K+ courses for verified students",
+        "verification_method": "institutional-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; audit access requires no payment"
+      },
+      "languages": ["en", "es", "fr", "zh", "ar"],
+      "alternatives_to": [],
+      "alternatives": ["edx", "mit-ocw", "udemy"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "mit-ocw",
+      "slug": "mit-ocw",
+      "name": "MIT OpenCourseWare",
+      "website": "https://ocw.mit.edu",
+      "docs": "https://ocw.mit.edu/help",
+      "github": null,
+      "description": "MIT's initiative to publish all course materials online for free. Complete lecture notes, assignments, exams, and video lectures from 2,500+ MIT courses across all departments.",
+      "category": "learning",
+      "subcategory": "courses",
+      "tags": ["learning", "courses", "education", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "100% free. 2,500+ courses with lecture notes, assignments, exams, solutions, and video lectures. No enrollment needed, no limits",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version. MIT OCW is completely free.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["coursera", "edx", "ossu"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "ossu",
+      "slug": "ossu",
+      "name": "OSSU",
+      "website": "https://github.com/ossu/computer-science",
+      "docs": "https://github.com/ossu/computer-science/wiki",
+      "github": null,
+      "description": "Open Source Society University — a complete, free computer science education using online materials from top universities. Covers all core CS topics equivalent to a bachelor's degree curriculum.",
+      "category": "learning",
+      "subcategory": "courses",
+      "tags": ["learning", "courses", "education", "open-source", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "100% free and open-source. Complete CS curriculum using MIT, Stanford, Berkeley course materials. Self-paced, community-supported",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version. OSSU is completely free and community-driven.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["mit-ocw", "freecodecamp", "the-odin-project"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "the-odin-project",
+      "slug": "the-odin-project",
+      "name": "The Odin Project",
+      "website": "https://www.theodinproject.com",
+      "docs": "https://www.theodinproject.com/faq",
+      "github": "https://github.com/TheOdinProject/theodinproject",
+      "description": "Free, open-source full-stack web development curriculum. Covers HTML, CSS, JavaScript, React, Node.js, Ruby on Rails, databases, and Git with project-based learning.",
+      "category": "learning",
+      "subcategory": "platforms",
+      "tags": ["learning", "courses", "education", "open-source", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "100% free and open-source. Two full-stack paths (Ruby on Rails and Node.js), 20+ projects, community Discord",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version. The Odin Project is completely free and open-source.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["freecodecamp", "codecademy", "mdn-web-docs"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "codecademy",
+      "slug": "codecademy",
+      "name": "Codecademy",
+      "website": "https://www.codecademy.com",
+      "docs": "https://www.codecademy.com/learn",
+      "github": null,
+      "description": "Interactive coding platform with hands-on learning. Browser-based code editor with instant feedback, covering Python, JavaScript, Java, SQL, HTML/CSS, and data science.",
+      "category": "learning",
+      "subcategory": "interactive-tutorials",
+      "tags": ["learning", "courses", "education", "freemium", "no-card", "beginner-friendly"],
+      "free_tier": {
+        "summary": "Free Basic plan: interactive lessons for all courses, community access, limited projects per month, no certificates",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $19.99/month: unlimited projects, real-world portfolio, certificates, quizzes, career paths",
+        "starting_price_usd": 19.99,
+        "billing_mode": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Codecademy for Students — free Pro plan via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["freecodecamp", "the-odin-project", "solo-learn"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "leetcode",
+      "slug": "leetcode",
+      "name": "LeetCode",
+      "website": "https://leetcode.com",
+      "docs": "https://leetcode.com/problemset",
+      "github": null,
+      "description": "The most popular platform for technical interview preparation. Thousands of coding problems with solutions, company-specific question sets, and mock interviews.",
+      "category": "learning",
+      "subcategory": "coding-challenges",
+      "tags": ["learning", "courses", "education", "freemium", "no-card", "student"],
+      "free_tier": {
+        "summary": "Free tier: 2,000+ problems, community solutions, discussion forums, 1 contest/week, basic problem lists",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Premium — $35/month: company-specific questions, premium problem lists, official solutions, mock interviews, AI hints",
+        "starting_price_usd": 35,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "LeetCode for Students — 50% off Premium via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["hackerrank", "codewars", "exercism"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "mdn-web-docs",
+      "slug": "mdn-web-docs",
+      "name": "MDN Web Docs",
+      "website": "https://developer.mozilla.org",
+      "docs": "https://developer.mozilla.org/en-US/docs/Web",
+      "github": "https://github.com/mdn/content",
+      "description": "Mozilla's comprehensive web development documentation. The authoritative reference for HTML, CSS, JavaScript, Web APIs, HTTP, and web technologies. Community-maintained and open-source.",
+      "category": "learning",
+      "subcategory": "documentation",
+      "tags": ["learning", "education", "open-source", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "100% free and open-source. Complete HTML, CSS, JavaScript, Web API documentation with interactive examples and browser compatibility tables",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version. MDN Web Docs is completely free.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.9
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en", "ja", "zh", "es", "fr", "ko"],
+      "alternatives_to": [],
+      "alternatives": ["devdocs", "w3schools", "web-dev-note"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "hackerrank",
+      "slug": "hackerrank",
+      "name": "HackerRank",
+      "website": "https://www.hackerrank.com",
+      "docs": "https://www.hackerrank.com/contests",
+      "github": null,
+      "description": "Coding challenge platform for skill assessment and interview preparation. Supports 40+ programming languages with algorithmic challenges, SQL, database, and domain-specific tracks.",
+      "category": "learning",
+      "subcategory": "coding-challenges",
+      "tags": ["learning", "courses", "education", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "Free tier: unlimited challenges in all domains, coding contests, discussion forums, skill certification tests (5 free/year)",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "HackerRank for Work — custom pricing for companies; individual Pro plan not available",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone; students can access skill certifications and contests"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["leetcode", "codewars", "exercism"],
+      "last_verified": "2026-05-24"
     }
   ]
 }
