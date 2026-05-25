@@ -6764,6 +6764,347 @@
       "alternatives_to": [],
       "alternatives": ["github-actions", "circleci", "jenkins"],
       "last_verified": "2026-05-24"
+    },
+    {
+      "id": "vs-code",
+      "slug": "vs-code",
+      "name": "VS Code",
+      "website": "https://code.visualstudio.com",
+      "docs": "https://code.visualstudio.com/docs",
+      "github": "https://github.com/microsoft/vscode",
+      "description": "The world's most popular code editor. Open-source with a massive extension ecosystem (50,000+), built-in Git, debugging, terminal, IntelliSense, and live share. Free for everyone, forever.",
+      "category": "devtools",
+      "subcategory": "code-editors",
+      "tags": ["devtools", "ide", "open-source", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "100% free and open-source. Unlimited extensions, IntelliSense, debugging, Git integration, terminal, Live Share collaboration",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version. VS Code is completely free. GitHub Copilot (AI pair programming) is $10/month on top.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 5.0
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free for everyone. GitHub Copilot free via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en", "multi"],
+      "alternatives_to": [],
+      "alternatives": ["cursor", "zed", "windsurf"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "cursor",
+      "slug": "cursor",
+      "name": "Cursor",
+      "website": "https://cursor.com",
+      "docs": "https://docs.cursor.com",
+      "github": null,
+      "description": "AI-first code editor built on VS Code. Deep AI integration with inline editing, multi-line edits, agent mode, and Claude/GPT integration. The most popular AI IDE with a generous free tier.",
+      "category": "devtools",
+      "subcategory": "code-editors",
+      "tags": ["devtools", "ide", "ai", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "2,000 AI requests/month, 50 premium model requests/month, unlimited completions, VS Code extension compatible",
+        "limits": {
+          "requests_per_month": 2000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $20/month: 5,000 AI requests, unlimited premium models, priority support",
+        "starting_price_usd": 20,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free Pro plan for students via GitHub Student Developer Pack or .edu email",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["vs-code", "windsurf", "zed"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "windsurf",
+      "slug": "windsurf",
+      "name": "Windsurf",
+      "website": "https://windsurf.com",
+      "docs": "https://docs.windsurf.com",
+      "github": null,
+      "description": "AI-powered IDE by Codeium with a free tier. Features AI autocomplete, chat, inline editing, and agentic workflows. Built on a custom editor core with deep AI integration for the full dev workflow.",
+      "category": "devtools",
+      "subcategory": "code-editors",
+      "tags": ["devtools", "ide", "ai", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "Unlimited AI completions, 500 AI chat requests/month, inline edits, agent mode, Codeium extensions",
+        "limits": {
+          "requests_per_month": 500,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $15/month: unlimited chat, premium models, priority support",
+        "starting_price_usd": 15,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free Pro plan for students with .edu email",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["cursor", "vs-code", "zed"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "replit",
+      "slug": "replit",
+      "name": "Replit",
+      "website": "https://replit.com",
+      "docs": "https://docs.replit.com",
+      "github": "https://github.com/replit",
+      "description": "Online IDE with instant dev environments, AI-powered code completion, and team collaboration. Deploy apps with one click. The easiest way to code from any browser.",
+      "category": "devtools",
+      "subcategory": "code-editors",
+      "tags": ["devtools", "ide", "collaboration", "saas", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "Unlimited public repls, 500MB storage, 1CPU/512MB RAM, community support, AI powered by Ghostwriter",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 0.5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Core — $20/month: unlimited private repls, 4 CPU/4GB RAM, boosted AI, always-on",
+        "starting_price_usd": 20,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 3,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Replit for Education — free Core plan for students with .edu email or GitHub Education",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": ["IR", "KP", "SY", "CU"],
+        "notes": "Available globally; US and EU data regions"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["github-codespaces", "gitpod", "stackblitz"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "zed",
+      "slug": "zed",
+      "name": "Zed",
+      "website": "https://zed.dev",
+      "docs": "https://zed.dev/docs",
+      "github": "https://github.com/zed-industries/zed",
+      "description": "High-performance, multiplayer code editor from the creators of Atom and Tree-sitter. Written in Rust for speed, with built-in AI, Vim mode, and collaborative editing. Blazing fast startup and editing.",
+      "category": "devtools",
+      "subcategory": "code-editors",
+      "tags": ["devtools", "ide", "open-source", "self-hosted", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "100% free and open-source. Unlimited AI completions, collaborative editing, Vim mode, language server protocol support",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version yet. Zed is completely free and open-source.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["vs-code", "cursor", "windsurf"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "github-codespaces",
+      "slug": "github-codespaces",
+      "name": "GitHub Codespaces",
+      "website": "https://github.com/features/codespaces",
+      "docs": "https://docs.github.com/codespaces",
+      "github": "https://github.com/features/codespaces",
+      "description": "Cloud development environments integrated into GitHub. Spin up full dev environments in seconds with customizable dev containers, VS Code in browser, and pre-installed tools.",
+      "category": "devtools",
+      "subcategory": "code-editors",
+      "tags": ["devtools", "ide", "cloud", "docker", "saas", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "120 core-hours/month (2-core: 60h, 4-core: 30h), 15 GB storage, prebuilds, VS Code desktop + browser",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 15,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Team — $4/user/month: 180 core-hours, 20GB storage, org management",
+        "starting_price_usd": 4,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "GitHub Student Pack: 180 core-hours/month free (vs standard 120)",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": ["IR", "KP", "SY", "CU"],
+        "notes": "Available globally; US, EU, and APAC regions"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["replit", "gitpod", "stackblitz"],
+      "last_verified": "2026-05-24"
     }
   ]
 }
