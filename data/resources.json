@@ -7218,6 +7218,231 @@
       "alternatives_to": [],
       "alternatives": ["figma", "penpot", "framer"],
       "last_verified": "2026-05-24"
+    },
+    {
+      "id": "freenom",
+      "slug": "freenom",
+      "name": "Freenom",
+      "website": "https://www.freenom.com",
+      "docs": null,
+      "github": null,
+      "description": "The most well-known free domain provider offering .tk, .ml, .ga, .cf, and .gq domains at no cost. Has faced reliability issues since 2023 — new registrations may be limited. Use cautiously.",
+      "category": "domains",
+      "subcategory": "free-domains",
+      "tags": ["domains", "dns", "networking", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "Free .tk, .ml, .ga, .cf, .gq domains for 12 months (free renewal if meeting usage requirements). DNS management included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Domain purchases (not free): standard renewal fees apply for premium domains",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 2,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 2,
+        "performance": 2,
+        "community": 3,
+        "overall": 3.0
+      },
+      "verification": {
+        "status": "limited",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "limited",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; service reliability has decreased since 2023"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["eu-org", "nic-us", "porkbun"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "porkbun",
+      "slug": "porkbun",
+      "name": "Porkbun",
+      "website": "https://porkbun.com",
+      "docs": "https://porkbun.com/faq",
+      "github": null,
+      "description": "Domain registrar with free DNS hosting, free WHOIS privacy (ID Protect), and competitive pricing. Known for quirky branding but serious infrastructure. SSL certificates and email hosting included.",
+      "category": "domains",
+      "subcategory": "dns-management",
+      "tags": ["domains", "dns", "networking", "ssl", "free-tier", "no-card"],
+      "free_tier": {
+        "summary": "Free DNS hosting with every domain, free WHOIS privacy (ID Protect) on all domains, free SSL via Let's Encrypt",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Domain registration starting at ~$1/year for TLDs like .xyz, .click; standard renewals",
+        "starting_price_usd": 1,
+        "billing_model": "per-domain"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; ICANN-accredited registrar"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["namecheap", "cloudflare-dns", "freedns"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "namecheap",
+      "slug": "namecheap",
+      "name": "Namecheap",
+      "website": "https://www.namecheap.com",
+      "docs": "https://www.namecheap.com/support",
+      "github": null,
+      "description": "Popular domain registrar and hosting provider. Free DNS hosting with every domain, free WHOIS privacy, SSL certificates, and affordable domain pricing. Known for excellent support and student deals.",
+      "category": "domains",
+      "subcategory": "dns-management",
+      "tags": ["domains", "dns", "networking", "ssl", "hosting", "free-tier", "no-card"],
+      "free_tier": {
+        "summary": "Free DNS hosting, free WHOIS privacy (WhoisGuard), free SSL for first year on select plans, 2 free domains with .edu email via GitHub Student Pack",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Domain registration starting at ~$0.98 for first year (promo); standard renewals",
+        "starting_price_usd": 0.98,
+        "billing_model": "per-domain"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Namecheap for Students — 2 free .me domains, 1 year hosting, SSL via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; ICANN-accredited registrar"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["porkbun", "cloudflare-dns", "freedns"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "dynu",
+      "slug": "dynu",
+      "name": "Dynu",
+      "website": "https://www.dynu.com",
+      "docs": "https://www.dynu.com/Support",
+      "github": null,
+      "description": "Free dynamic DNS provider with custom subdomains and support for custom domains. Free DNS hosting with A, AAAA, CNAME, MX, and TXT records. No renewal confirmation required on free tier.",
+      "category": "domains",
+      "subcategory": "dynamic-dns",
+      "tags": ["domains", "dns", "subdomain", "networking", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "5 free subdomains (yourusername.dynu.com), free dynamic DNS, all record types, no renewal confirmation needed",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 5
+        }
+      },
+      "paid_plan": {
+        "summary": "Premium — $19.95/year: 25 subdomains, premium domains, priority support",
+        "starting_price_usd": 19.95,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["duckdns", "noip", "freedns"],
+      "last_verified": "2026-05-24"
     }
   ]
 }
