@@ -109,6 +109,7 @@
         { "id": "unit-test", "name": "Unit Test", "description": "Unit testing frameworks" },
         { "id": "integration-test", "name": "Integration Test", "description": "Integration testing tools" },
         { "id": "performance", "name": "Performance", "description": "Performance testing and optimization" },
+        { "id": "analytics", "name": "Analytics", "description": "Analytics and data tracking tools" },
         { "id": "mobile", "name": "Mobile", "description": "Mobile development tools", "icon": "📱" },
         { "id": "ios", "name": "iOS", "description": "Apple iOS development" },
         { "id": "android", "name": "Android", "description": "Google Android development" },
