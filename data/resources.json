@@ -10559,7 +10559,7 @@
       "description": "Open-source all-in-one workspace combining docs, whiteboards, and databases. Alternative to Notion + Miro with local-first architecture, offline support, and self-hosting.",
       "category": "open-source",
       "subcategory": "self-hostable",
-      "tags": ["open-source", "self-hosted", "productivity", "collaboration", "free-tier", "no-card", "forever-free"],
+      "tags": ["open-source", "self-hosted", "productivity", "free-tier", "no-card", "forever-free"],
       "free_tier": {
         "summary": "100% free and open-source (MIT). Unlimited docs, whiteboards, databases, local-first storage, offline support, self-hostable",
         "limits": {
