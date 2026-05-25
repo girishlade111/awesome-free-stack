@@ -22,8 +22,10 @@ Curated collection of free design tools, UI resources, icons, illustrations, and
 ## Selection Guide
 
 - **UI Design**: Figma (best overall), Penpot (best open-source)
+- **Web Design**: Framer (publishable websites), Figma (prototypes)
 - **Graphic Design**: Canva (non-designers), Figma (professionals)
 - **Wireframing**: Excalidraw (quick sketches), Figma (polished wireframes)
+- **3D Modeling**: Blender (industry standard, completely free)
 - **Icons**: Lucide (clean & minimal), Phosphor Icons (versatile)
 - **Illustrations**: unDraw (customizable), Humaaans (human characters)
 - **Fonts**: Google Fonts (CDN), Fontsource (npm/self-hosted)
