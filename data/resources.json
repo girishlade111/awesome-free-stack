@@ -9652,6 +9652,678 @@
       "alternatives_to": [],
       "alternatives": ["google-ai-students", "anthropic-api", "huggingface"],
       "last_verified": "2026-05-24"
+    },
+    {
+      "id": "aws-activate",
+      "slug": "aws-activate",
+      "name": "AWS Activate",
+      "website": "https://aws.amazon.com/activate",
+      "docs": "https://aws.amazon.com/activate/faq",
+      "github": null,
+      "description": "Amazon's global startup program providing free AWS credits, technical support, and training. Two tiers tailored to early-stage and venture-backed startups with up to $100,000 in credits.",
+      "category": "startup-credits",
+      "subcategory": "cloud-programs",
+      "tags": ["startup", "credits", "funding", "founder", "cloud", "aws", "no-card"],
+      "free_tier": {
+        "summary": "Startup tier: $1,000 AWS credits for 2 years + 45% discount on instance usage. Venture tier: $15,000-$100,000 credits through portfolio companies",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Standard AWS pricing after credits expire",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "For startups only (not individual students)"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; some country-specific restrictions may apply"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["google-startups", "microsoft-startups", "oracle-startups"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "microsoft-startups",
+      "slug": "microsoft-startups",
+      "name": "Microsoft for Startups Founders Hub",
+      "website": "https://www.microsoft.com/en-us/startups",
+      "docs": "https://learn.microsoft.com/en-us/startups",
+      "github": null,
+      "description": "Microsoft's startup program offering Azure credits, OpenAI credits, and technical resources. Includes $1,000 in Azure credits and $2,500 in OpenAI credits for AI development.",
+      "category": "startup-credits",
+      "subcategory": "cloud-programs",
+      "tags": ["startup", "credits", "funding", "founder", "cloud", "azure", "ai", "no-card"],
+      "free_tier": {
+        "summary": "$1,000 Azure credits, $2,500 OpenAI credits, free Microsoft 365, GitHub Enterprise, Visual Studio Enterprise, and technical support",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Standard Azure pricing after credits expire",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "For startups only (not individual students)"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["aws-activate", "google-startups", "oracle-startups"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "google-startups",
+      "slug": "google-startups",
+      "name": "Google for Startups",
+      "website": "https://cloud.google.com/startup",
+      "docs": "https://cloud.google.com/startup/docs",
+      "github": null,
+      "description": "Google's startup program providing cloud credits and AI resources. Includes $2,000 in Google Cloud credits, access to Gemini API credits, and Google Workspace for early-stage startups.",
+      "category": "startup-credits",
+      "subcategory": "cloud-programs",
+      "tags": ["startup", "credits", "funding", "founder", "cloud", "google", "ai", "no-card"],
+      "free_tier": {
+        "summary": "$2,000 in Google Cloud credits for 2 years, Gemini API credits, Google Workspace Business Starter, Google Maps credits, Firebase credits, and access to Google AI tools",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Standard GCP pricing after credits expire",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "For startups only (not individual students)"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["aws-activate", "microsoft-startups", "oracle-startups"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "oracle-startups",
+      "slug": "oracle-startups",
+      "name": "Oracle for Startups",
+      "website": "https://www.oracle.com/startup",
+      "docs": "https://www.oracle.com/startup/faq",
+      "github": null,
+      "description": "Oracle's startup program with the most generous cloud credits. Up to $10,000 in OCI credits plus access to Oracle Cloud infrastructure, databases, and AI services.",
+      "category": "startup-credits",
+      "subcategory": "cloud-programs",
+      "tags": ["startup", "credits", "funding", "founder", "cloud", "free-tier", "no-card"],
+      "free_tier": {
+        "summary": "Up to $10,000 in OCI credits for 2 years, access to all OCI services including Autonomous Database, OCI AI, and Kubernetes. Includes always-free tier alongside credits",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Standard OCI pricing after credits expire",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "For startups only (not individual students)"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["aws-activate", "microsoft-startups", "google-startups"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "digitalocean-hatch",
+      "slug": "digitalocean-hatch",
+      "name": "DigitalOcean Hatch",
+      "website": "https://www.digitalocean.com/hatch",
+      "docs": "https://www.digitalocean.com/hatch/faq",
+      "github": null,
+      "description": "DigitalOcean's startup program offering cloud credits for early-stage startups. Up to $5,000 in credits plus free access to DO Managed Databases, App Platform, and Spaces object storage.",
+      "category": "startup-credits",
+      "subcategory": "cloud-programs",
+      "tags": ["startup", "credits", "funding", "founder", "cloud", "hosting", "no-card"],
+      "free_tier": {
+        "summary": "Up to $5,000 in DigitalOcean credits for 12 months, free Managed Databases, free Spaces storage, priority support",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Standard DigitalOcean pricing after credits expire",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "For startups only (not individual students)"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["aws-activate", "linode", "vultr"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "stripe-atlas",
+      "slug": "stripe-atlas",
+      "name": "Stripe Atlas",
+      "website": "https://stripe.com/atlas",
+      "docs": "https://stripe.com/docs/atlas",
+      "github": null,
+      "description": "Stripe's startup incorporation and banking platform. Includes $500 in payment processing credits, free US incorporation (Delaware C-Corp), business bank account, and access to 100+ partner offers.",
+      "category": "startup-credits",
+      "subcategory": "founder-perks",
+      "tags": ["startup", "credits", "funding", "founder", "payments", "saas", "no-card"],
+      "free_tier": {
+        "summary": "$500 in Stripe processing credits, incorporation documents, US bank account setup, 100+ partner offers from AWS, Google, Notion, and more",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Standard Stripe processing fees (2.9% + $0.30) after credits",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "For startups and founders"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available in most countries; US incorporation focused"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["firstbase", "clerky", "doola"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "twilio-startups",
+      "slug": "twilio-startups",
+      "name": "Twilio for Startups",
+      "website": "https://www.twilio.com/startups",
+      "docs": "https://www.twilio.com/docs/startups",
+      "github": null,
+      "description": "Twilio's startup program providing communications API credits. Up to $1,000 in credits for SMS, voice, email, and video APIs plus access to Twilio Segment and SendGrid.",
+      "category": "startup-credits",
+      "subcategory": "saas-programs",
+      "tags": ["startup", "credits", "funding", "founder", "api", "sms", "email", "no-card"],
+      "free_tier": {
+        "summary": "Up to $1,000 in Twilio credits for 12 months, access to all Twilio APIs (SMS, Voice, Email, Video, WhatsApp, Segment), technical support",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Standard Twilio usage pricing after credits",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "For startups only"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["vonage", "sinch", "plivo"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "auth0-startups",
+      "slug": "auth0-startups",
+      "name": "Auth0 for Startups",
+      "website": "https://auth0.com/startups",
+      "docs": "https://auth0.com/docs",
+      "github": null,
+      "description": "Auth0's startup program offering free identity and authentication platform. Includes up to 10,000 active users free, all Auth0 features including social login, MFA, and breach password detection.",
+      "category": "startup-credits",
+      "subcategory": "saas-programs",
+      "tags": ["startup", "credits", "founder", "auth", "authentication", "security", "no-card"],
+      "free_tier": {
+        "summary": "10,000 active users free, all Auth0 features included: social login, MFA, anomaly detection, breach password detection, custom domains, 20K machine-to-machine tokens",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 10000
+        }
+      },
+      "paid_plan": {
+        "summary": "Standard Auth0 pricing after startup credits: from $23/month for 1,000 active users",
+        "starting_price_usd": 23,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "For startups only"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["clerk", "firebase-auth", "supabase-auth"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "y-combinator-startup-school",
+      "slug": "y-combinator-startup-school",
+      "name": "Y Combinator Startup School",
+      "website": "https://www.startupschool.org",
+      "docs": "https://www.startupschool.org/library",
+      "github": null,
+      "description": "YC's free online program for startup founders. Includes $100K in partner credits from 40+ companies, startup curriculum, and access to the YC community. No equity required.",
+      "category": "startup-credits",
+      "subcategory": "incubators",
+      "tags": ["startup", "credits", "funding", "accelerator", "founder", "no-card"],
+      "free_tier": {
+        "summary": "Free startup curriculum, $100K+ in partner credits (AWS, Stripe, Notion, etc.), advisor network, weekly group sessions, fundraising guidance",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version — Y Combinator Startup School is completely free.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.7
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "For startup founders"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["techstars", "500-startups", "seedcamp"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "openai-startups",
+      "slug": "openai-startups",
+      "name": "OpenAI for Startups",
+      "website": "https://openai.com/startups",
+      "docs": "https://platform.openai.com/docs",
+      "github": null,
+      "description": "OpenAI's startup program providing free API credits for AI-powered companies. Build and scale applications using GPT-4o, GPT-4, DALL-E, Whisper, and embeddings with subsidized or free access.",
+      "category": "startup-credits",
+      "subcategory": "founder-perks",
+      "tags": ["startup", "credits", "funding", "founder", "ai", "api", "no-card"],
+      "free_tier": {
+        "summary": "Free OpenAI API credits (amount varies by startup stage), access to all models, technical support, and early access to new features",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Standard API pricing after credits: GPT-4o $2.50/1M input, $10/1M output",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "For startups only"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["google-ai-startups", "anthropic-startups", "cohere"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "nvidia-inception",
+      "slug": "nvidia-inception",
+      "name": "NVIDIA Inception",
+      "website": "https://www.nvidia.com/en-us/startups",
+      "docs": "https://www.nvidia.com/en-us/startups/faq",
+      "github": null,
+      "description": "NVIDIA's AI startup program providing free GPU credits, AI training, and go-to-market support. Access to NVIDIA AI platform, cuOpt, and up to $100,000 in GPU compute credits.",
+      "category": "startup-credits",
+      "subcategory": "cloud-programs",
+      "tags": ["startup", "credits", "funding", "founder", "ai", "machine-learning", "no-card"],
+      "free_tier": {
+        "summary": "Free GPU compute credits (up to $100,000 value), NVIDIA AI Enterprise, cuOpt, RAPIDS, technical training, and go-to-market support",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Standard NVIDIA Cloud pricing after credits",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "For AI startups only"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["openai-startups", "google-startups", "microsoft-startups"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "hubspot-startups",
+      "slug": "hubspot-startups",
+      "name": "HubSpot for Startups",
+      "website": "https://www.hubspot.com/startups",
+      "docs": "https://developers.hubspot.com/get-started",
+      "github": null,
+      "description": "HubSpot's startup program offering 90% discount on CRM, Marketing Hub, Sales Hub, and Service Hub. Includes free onboarding and access to HubSpot Academy for startup teams.",
+      "category": "startup-credits",
+      "subcategory": "saas-programs",
+      "tags": ["startup", "credits", "funding", "founder", "crm", "marketing", "saas", "no-card"],
+      "free_tier": {
+        "summary": "90% discount on HubSpot products for 1 year (CRM, Marketing Hub, Sales Hub, Service Hub, Operations Hub), free onboarding, HubSpot Academy access",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Standard HubSpot pricing after discount: from $45/month for Starter CRM",
+        "starting_price_usd": 45,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "For startups only"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["salesforce-startups", "pipedrive", "zoho-crm"],
+      "last_verified": "2026-05-24"
     }
   ]
 }
