@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "last_updated": "2026-05-24",
-    "total_resources": 115,
+    "total_resources": 120,
     "description": "Curated free & freemium developer resources"
   },
   "resources": [
@@ -6479,6 +6479,290 @@
       "languages": ["en"],
       "alternatives_to": [],
       "alternatives": ["grafana", "datadog", "betterstack"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "github-actions",
+      "slug": "github-actions",
+      "name": "GitHub Actions",
+      "website": "https://github.com/features/actions",
+      "docs": "https://docs.github.com/actions",
+      "github": "https://github.com/features/actions",
+      "description": "GitHub's integrated CI/CD platform for automating builds, tests, and deployments. Massive 20,000+ action marketplace, matrix builds, and deep repository integration. Free for public and private repositories.",
+      "category": "ci-cd",
+      "subcategory": "pipelines",
+      "tags": ["ci-cd", "pipelines", "automation", "devops", "saas", "free-tier", "no-card"],
+      "free_tier": {
+        "summary": "2,000 minutes/month (public repos: unlimited). 500MB storage. 20 concurrent jobs. All OS runners (Ubuntu, macOS, Windows).",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 0.5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Team — $4/month: 3,000 minutes, required reviewers, code owners",
+        "starting_price_usd": 4,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.7
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "GitHub Student Pack: free GitHub Team plan + unlimited Actions minutes for students",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": ["IR", "KP", "SY", "CU"],
+        "notes": "Available globally; US, EU, and APAC hosted runners"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["circleci", "gitlab-ci", "jenkins"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "jenkins",
+      "slug": "jenkins",
+      "name": "Jenkins",
+      "website": "https://www.jenkins.io",
+      "docs": "https://www.jenkins.io/doc",
+      "github": "https://github.com/jenkinsci/jenkins",
+      "description": "The leading open-source automation server with 1,800+ plugins. Build, test, and deploy any project. Highly extensible pipeline-as-code with Jenkinsfile, distributed builds, and decades of community support.",
+      "category": "ci-cd",
+      "subcategory": "build-automation",
+      "tags": ["ci-cd", "pipelines", "automation", "devops", "open-source", "self-hosted", "forever-free"],
+      "free_tier": {
+        "summary": "Self-hosted: completely free with unlimited builds, unlimited users, unlimited projects. Pay only for your server.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Software is free. CloudBees enterprise distribution available for custom pricing",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 4,
+        "performance": 3,
+        "community": 5,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["github-actions", "circleci", "gitlab-ci"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "circleci",
+      "slug": "circleci",
+      "name": "CircleCI",
+      "website": "https://circleci.com",
+      "docs": "https://circleci.com/docs",
+      "github": "https://github.com/CircleCI-Public",
+      "description": "Cloud-native CI/CD platform with blazing fast builds via caching and parallelism. Optimized for Docker, monorepos, and polyglot projects. Powerful config with orbs for reusable pipeline components.",
+      "category": "ci-cd",
+      "subcategory": "pipelines",
+      "tags": ["ci-cd", "pipelines", "automation", "devops", "docker", "saas", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "6,000 credits/month (Linux), 1,000 credits/month (Windows/macOS), 30 parallel jobs, 1 user, Docker layer caching",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1
+        }
+      },
+      "paid_plan": {
+        "summary": "Performance — $30/month: 25K credits, 10 users, priority support, advanced features",
+        "starting_price_usd": 30,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "CircleCI for Students — free 25K credits/month via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; US, EU, and APAC regions"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["github-actions", "gitlab-ci", "buildkite"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "gitlab-ci",
+      "slug": "gitlab-ci",
+      "name": "GitLab CI/CD",
+      "website": "https://docs.gitlab.com/ee/ci",
+      "docs": "https://docs.gitlab.com/ee/ci",
+      "github": null,
+      "description": "Built-in CI/CD integrated into GitLab with auto DevOps, container registry, and 10+ GB of storage. Single application for source control, CI, CD, and monitoring. Self-host or use GitLab SaaS.",
+      "category": "ci-cd",
+      "subcategory": "pipelines",
+      "tags": ["ci-cd", "pipelines", "automation", "devops", "docker", "kubernetes", "open-source", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "400 compute minutes/month (SaaS). Self-hosted: unlimited. 5GB storage, 1GB registry, 1 user, auto DevOps templates",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 5,
+          "seats": 1
+        }
+      },
+      "paid_plan": {
+        "summary": "Premium — $19/month: 10K compute minutes, 50GB storage, 50GB registry, multiple users",
+        "starting_price_usd": 19,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "GitLab for Education — free Ultimate tier for students and educators",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; SaaS or self-hosted"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["github-actions", "circleci", "jenkins"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "buildkite",
+      "slug": "buildkite",
+      "name": "Buildkite",
+      "website": "https://buildkite.com",
+      "docs": "https://buildkite.com/docs",
+      "github": "https://github.com/buildkite",
+      "description": "Hybrid CI/CD platform that runs your builds on your own infrastructure with a centralized web UI. Connect your own agents (any OS) for unlimited parallelism and full control over your build environment.",
+      "category": "ci-cd",
+      "subcategory": "pipelines",
+      "tags": ["ci-cd", "pipelines", "automation", "devops", "docker", "saas", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "1 user, 5 agents, unlimited pipelines, unlimited builds, 30 day artifact retention, 90 day build history",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 5
+        }
+      },
+      "paid_plan": {
+        "summary": "Teams — $15/user/month: unlimited agents, SAML SSO, priority support",
+        "starting_price_usd": 15,
+        "billing_model": "per-user"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free for open-source projects; no specific student plan",
+        "verification_method": null
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; runs on your own agents/infrastructure"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["github-actions", "circleci", "jenkins"],
       "last_verified": "2026-05-24"
     }
   ]
