@@ -7105,6 +7105,119 @@
       "alternatives_to": [],
       "alternatives": ["replit", "gitpod", "stackblitz"],
       "last_verified": "2026-05-24"
+    },
+    {
+      "id": "framer",
+      "slug": "framer",
+      "name": "Framer",
+      "website": "https://framer.com",
+      "docs": "https://www.framer.com/developers",
+      "github": null,
+      "description": "Professional prototyping and web design tool with built-in publishing. Design interactive prototypes with components, variants, and smart animate. Publish directly as websites with customizable CMS.",
+      "category": "design",
+      "subcategory": "prototyping",
+      "tags": ["design", "ui", "prototyping", "saas", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "Free starter template, publish up to 2 sites with framer.app subdomain, 1 CMS collection, 100 form submissions/month",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Mini — $5/month: custom domain, 1K form submissions, 5 CMS collections",
+        "starting_price_usd": 5,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Framer for Students — free Mini plan with custom domain via .edu verification",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["figma", "penpot", "excalidraw"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "blender",
+      "slug": "blender",
+      "name": "Blender",
+      "website": "https://www.blender.org",
+      "docs": "https://docs.blender.org",
+      "github": "https://github.com/blender/blender",
+      "description": "The world's leading open-source 3D creation suite. Modeling, sculpting, texturing, rigging, animation, compositing, video editing, and rendering — all free. Industry-standard for indie 3D artists.",
+      "category": "design",
+      "subcategory": "prototyping",
+      "tags": ["design", "ui", "open-source", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "100% free and open-source. All features unlimited: modeling, animation, rendering, video editing, compositing, simulation",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version. Blender is 100% free forever. Supported by donations and Blender Foundation.",
+        "starting_price_usd": null,
+        "billing_model": "donation"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en", "multi"],
+      "alternatives_to": [],
+      "alternatives": ["figma", "penpot", "framer"],
+      "last_verified": "2026-05-24"
     }
   ]
 }
