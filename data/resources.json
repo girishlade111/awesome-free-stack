@@ -10503,7 +10503,7 @@
       "description": "Open-source knowledge base and team wiki. Beautiful, fast, and Markdown-based with real-time collaboration. Self-host or use Outline Cloud with a generous free tier.",
       "category": "open-source",
       "subcategory": "self-hostable",
-      "tags": ["open-source", "self-hosted", "productivity", "collaboration", "free-tier", "no-card"],
+      "tags": ["open-source", "self-hosted", "productivity", "free-tier", "no-card"],
       "free_tier": {
         "summary": "Self-hosted: completely free (BSD). Cloud: 1 team, unlimited documents, 10 guests, 30 day history, Slack integration",
         "limits": {
