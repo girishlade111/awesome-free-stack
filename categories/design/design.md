@@ -4,18 +4,20 @@ Curated collection of free design tools, UI resources, icons, illustrations, and
 
 ## Quick Comparison
 
-| Tool | Type | Free Limit | Open Source | Open Source | Card? |
+| Tool | Type | Free Limit | Open Source | Card? |
 |---|---|---|---|---|---|
-| **Figma** | Prototyping | Unlimited files, 3 projects | No | Yes | No |
-| **Penpot** | Prototyping | Unlimited, all features | Yes | No | No |
-| **Canva** | Graphic Design | 250K+ templates, 5GB | No | Yes | No |
-| **Excalidraw** | Whiteboarding | Unlimited, forever free | Yes | No | No |
-| **Lucide** | Icons | 1,500+ SVG icons | Yes | No | No |
-| **unDraw** | Illustrations | 400+ customizable SVGs | Yes | No | No |
-| **Humaaans** | Illustrations | 100+ character parts | Yes | No | No |
-| **Google Fonts** | Typography | 1,500+ font families | Yes | No | No |
-| **Fontsource** | Typography | 1,500+ npm fonts | Yes | No | No |
-| **Coolors** | Color Tools | Unlimited palettes | No | No | No |
+| **Figma** | Prototyping | Unlimited files, 3 projects | No | No |
+| **Penpot** | Prototyping | Unlimited, all features | Yes | No |
+| **Canva** | Graphic Design | 250K+ templates, 5GB | No | No |
+| **Framer** | Prototyping | 2 sites, 1 CMS collection | No | No |
+| **Excalidraw** | Whiteboarding | Unlimited, forever free | Yes | No |
+| **Blender** | 3D Suite | 100% free, all features | Yes | No |
+| **Lucide** | Icons | 1,500+ SVG icons | Yes | No |
+| **unDraw** | Illustrations | 400+ customizable SVGs | Yes | No |
+| **Humaaans** | Illustrations | 100+ character parts | Yes | No |
+| **Google Fonts** | Typography | 1,500+ font families | Yes | No |
+| **Fontsource** | Typography | 1,500+ npm fonts | Yes | No |
+| **Coolors** | Color Tools | Unlimited palettes | No | No |
 
 ## Selection Guide
 
