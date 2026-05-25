@@ -26,5 +26,8 @@ Curated collection of free domain registration, subdomain providers, and DNS man
 - **Best for US residents**: NIC.US — a real .us TLD for free
 - **Best for self-hosters**: deSEC — open-source, privacy-focused, full API
 - **Best for custom domains**: Cloudflare DNS — free authoritative DNS for any domain
+- **Best registrar**: Porkbun (cheap + free privacy), Namecheap (student benefits)
+- **Free TLDs**: Freenom (.tk/.ml/.ga — reliability issues), NIC.US (US only)
+- **Alternate dynamic DNS**: Dynu — 5 subdomains, no renewal confirmations
 
 > **Note**: NIC.US is restricted to US citizens/permanent residents. eu.org requires manual approval (1-14 days). FreeDNS subdomains depend on community contributors.
