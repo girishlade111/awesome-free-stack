@@ -10324,6 +10324,566 @@
       "alternatives_to": [],
       "alternatives": ["salesforce-startups", "pipedrive", "zoho-crm"],
       "last_verified": "2026-05-24"
+    },
+    {
+      "id": "ollama",
+      "slug": "ollama",
+      "name": "Ollama",
+      "website": "https://ollama.com",
+      "docs": "https://github.com/ollama/ollama/tree/main/docs",
+      "github": "https://github.com/ollama/ollama",
+      "description": "Run large language models locally on your machine. Supports Llama 3, Mistral, Gemma, Phi, and 100+ models with a simple CLI and API. No cloud dependency, full privacy.",
+      "category": "open-source",
+      "subcategory": "self-hostable",
+      "tags": ["open-source", "self-hosted", "ai", "llm", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "100% free and open-source (MIT). Run unlimited local LLMs, no usage limits, no API costs. Supports Llama 3, Mistral, Gemma, Phi, and 100+ models",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version. Ollama is completely free and open-source.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["openai-api"],
+      "alternatives": ["lm-studio", "gpt4all", "text-generation-webui"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "open-webui",
+      "slug": "open-webui",
+      "name": "Open WebUI",
+      "website": "https://openwebui.com",
+      "docs": "https://docs.openwebui.com",
+      "github": "https://github.com/open-webui/open-webui",
+      "description": "Self-hosted ChatGPT-like interface for local LLMs. Connect to Ollama, OpenAI, or any OpenAI-compatible API. Features include RAG, web search, image generation, and multi-user support.",
+      "category": "open-source",
+      "subcategory": "self-hostable",
+      "tags": ["open-source", "self-hosted", "ai", "llm", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "100% free and open-source (MIT). Unlimited chats, RAG with local documents, web search, image generation, multi-user support, plugin system",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version. Open WebUI is completely free and open-source.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["chatgpt", "claude-ai", "gemini"],
+      "alternatives": ["ollama", "lobe-chat", "chatbot-ui"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "appflowy",
+      "slug": "appflowy",
+      "name": "AppFlowy",
+      "website": "https://appflowy.io",
+      "docs": "https://docs.appflowy.io",
+      "github": "https://github.com/AppFlowy-IO/AppFlowy",
+      "description": "Open-source Notion alternative with AI capabilities. Built with Flutter and Rust. Features databases, kanban boards, calendar, documents, and real-time collaboration — all self-hostable.",
+      "category": "open-source",
+      "subcategory": "self-hostable",
+      "tags": ["open-source", "self-hosted", "productivity", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "100% free and open-source (AGPLv3). Unlimited pages, databases, kanban boards, calendar, AI features, real-time collaboration, cloud sync",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "AppFlowy Cloud — free with storage limits. Self-hosted is always free.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["notion"],
+      "alternatives": ["outline", "affine", "bookstack"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "outline",
+      "slug": "outline",
+      "name": "Outline",
+      "website": "https://outline.com",
+      "docs": "https://docs.outline.com",
+      "github": "https://github.com/outline/outline",
+      "description": "Open-source knowledge base and team wiki. Beautiful, fast, and Markdown-based with real-time collaboration. Self-host or use Outline Cloud with a generous free tier.",
+      "category": "open-source",
+      "subcategory": "self-hostable",
+      "tags": ["open-source", "self-hosted", "productivity", "collaboration", "free-tier", "no-card"],
+      "free_tier": {
+        "summary": "Self-hosted: completely free (BSD). Cloud: 1 team, unlimited documents, 10 guests, 30 day history, Slack integration",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Outline Cloud Team — from $6/month per user: unlimited guests, version history, priority support",
+        "starting_price_usd": 6,
+        "billing_model": "per-user"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Self-hosted is free"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["notion", "confluence"],
+      "alternatives": ["appflowy", "affine", "bookstack"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "affine",
+      "slug": "affine",
+      "name": "AFFiNE",
+      "website": "https://affine.pro",
+      "docs": "https://docs.affine.pro",
+      "github": "https://github.com/toeverything/AFFiNE",
+      "description": "Open-source all-in-one workspace combining docs, whiteboards, and databases. Alternative to Notion + Miro with local-first architecture, offline support, and self-hosting.",
+      "category": "open-source",
+      "subcategory": "self-hostable",
+      "tags": ["open-source", "self-hosted", "productivity", "collaboration", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "100% free and open-source (MIT). Unlimited docs, whiteboards, databases, local-first storage, offline support, self-hostable",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "AFFiNE Cloud — free tier available. Self-hosted is always free.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["notion", "miro"],
+      "alternatives": ["appflowy", "outline", "excalidraw"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "pocketbase",
+      "slug": "pocketbase",
+      "name": "PocketBase",
+      "website": "https://pocketbase.io",
+      "docs": "https://pocketbase.io/docs",
+      "github": "https://github.com/pocketbase/pocketbase",
+      "description": "Open-source realtime backend in a single file. Combines SQLite database, file storage, authentication, and admin UI — all embedded in a single Go binary. Zero dependencies.",
+      "category": "open-source",
+      "subcategory": "self-hostable",
+      "tags": ["open-source", "self-hosted", "backend", "database", "auth", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "100% free and open-source (MIT). Unlimited projects, unlimited users, SQLite database, file storage, realtime subscriptions, admin dashboard UI, auth providers",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "PocketBase Cloud — coming soon. Self-hosted is always free.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["firebase", "supabase"],
+      "alternatives": ["supabase", "nhost", "directus"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "kamal",
+      "slug": "kamal",
+      "name": "Kamal",
+      "website": "https://kamal-deploy.org",
+      "docs": "https://kamal-deploy.org/docs",
+      "github": "https://github.com/basecamp/kamal",
+      "description": "Open-source deployment tool by 37signals (Basecamp). Deploy web apps to any server with zero downtime using Docker containers. Minimal configuration, no Kubernetes required.",
+      "category": "open-source",
+      "subcategory": "self-hostable",
+      "tags": ["open-source", "self-hosted", "deployment", "containers", "devops", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "100% free and open-source (MIT). Unlimited deployments, zero downtime, Docker-based, multi-server, health checks, rolling updates",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version. Kamal is completely free and open-source.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["vercel", "kubernetes"],
+      "alternatives": ["coolify", "dokku", "caprover"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "calcom",
+      "slug": "calcom",
+      "name": "Cal.com",
+      "website": "https://cal.com",
+      "docs": "https://cal.com/docs",
+      "github": "https://github.com/calcom/cal.com",
+      "description": "Open-source scheduling infrastructure. Alternative to Calendly with team scheduling, workflow automation, and embeddable booking widgets. Self-host or use Cal.com Cloud.",
+      "category": "open-source",
+      "subcategory": "self-hostable",
+      "tags": ["open-source", "self-hosted", "productivity", "saas", "free-tier", "no-card"],
+      "free_tier": {
+        "summary": "Self-hosted: completely free (MIT). Cloud free tier: 1 user, unlimited events, 2 calendars, embeddable booking page, 30 min meeting duration",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1
+        }
+      },
+      "paid_plan": {
+        "summary": "Cal.com Teams — $37/month: unlimited users, workflows, routing, Salesforce/CRM integrations",
+        "starting_price_usd": 37,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Self-hosted is free"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["calendly"],
+      "alternatives": ["youcanbook-me", "zoho-booking", "simplybook"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "documenso",
+      "slug": "documenso",
+      "name": "Documenso",
+      "website": "https://documenso.com",
+      "docs": "https://documenso.com/docs",
+      "github": "https://github.com/documenso/documenso",
+      "description": "Open-source DocuSign alternative. Sign documents digitally with drag-and-drop signature fields, templates, audit trails, and team workflows. Self-host or use cloud.",
+      "category": "open-source",
+      "subcategory": "self-hostable",
+      "tags": ["open-source", "self-hosted", "productivity", "saas", "free-tier", "no-card"],
+      "free_tier": {
+        "summary": "Self-hosted: completely free (AGPLv3). Cloud free tier: unlimited documents, 2 team members, e-signatures, templates, audit trail",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 2
+        }
+      },
+      "paid_plan": {
+        "summary": "Startup — $19/month: unlimited team members, advanced branding, API access, custom domains",
+        "starting_price_usd": 19,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Self-hosted is free"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["docusign", "hellosign"],
+      "alternatives": ["signwell", "pandadoc", "signrequest"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "nocodb",
+      "slug": "nocodb",
+      "name": "NocoDB",
+      "website": "https://nocodb.com",
+      "docs": "https://docs.nocodb.com",
+      "github": "https://github.com/nocodb/nocodb",
+      "description": "Open-source Airtable alternative. Turn any SQL database into a smart spreadsheet with REST API, automations, and rich UI. Supports MySQL, PostgreSQL, SQL Server, SQLite.",
+      "category": "open-source",
+      "subcategory": "self-hostable",
+      "tags": ["open-source", "self-hosted", "database", "low-code", "no-code", "free-tier", "no-card"],
+      "free_tier": {
+        "summary": "Self-hosted: completely free (AGPLv3). Cloud free tier: unlimited bases, 50,000 rows, API access, automations, grid/form/gallery views",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "NocoDB Cloud Team — $20/month: unlimited rows, advanced roles, audit logs, priority support",
+        "starting_price_usd": 20,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Self-hosted is free"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": ["airtable"],
+      "alternatives": ["baserow", "rowy", "directus"],
+      "last_verified": "2026-05-24"
     }
   ]
 }
