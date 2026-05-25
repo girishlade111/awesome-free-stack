@@ -7726,6 +7726,571 @@
       "alternatives_to": [],
       "alternatives": ["postman", "bruno", "hoppscotch"],
       "last_verified": "2026-05-24"
+    },
+    {
+      "id": "flutter",
+      "slug": "flutter",
+      "name": "Flutter",
+      "website": "https://flutter.dev",
+      "docs": "https://docs.flutter.dev",
+      "github": "https://github.com/flutter/flutter",
+      "description": "Google's open-source UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase. Uses Dart language with hot reload for fast iteration.",
+      "category": "mobile",
+      "subcategory": "mobile-sdks",
+      "tags": ["mobile", "cross-platform", "sdk", "ios", "android", "open-source", "free-tier", "forever-free"],
+      "free_tier": {
+        "summary": "100% free and open-source (BSD 3-Clause). No usage limits, no paid tiers. Unlimited apps for mobile, web, and desktop.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version. Flutter is completely free and open-source.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["react-native", "kotlin", "swiftui"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "expo",
+      "slug": "expo",
+      "name": "Expo",
+      "website": "https://expo.dev",
+      "docs": "https://docs.expo.dev",
+      "github": "https://github.com/expo/expo",
+      "description": "The most popular framework for building React Native apps. Provides managed workflow, EAS Build, EAS Submit, and over-the-air updates. Development builds replace the classic Expo client.",
+      "category": "mobile",
+      "subcategory": "mobile-sdks",
+      "tags": ["mobile", "cross-platform", "sdk", "ios", "android", "open-source", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "Open-source framework (MIT) + EAS Free: 30 builds/month, 1GB updates storage, 1 concurrent build, OTA updates",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 1,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "EAS Pro — $50/user/month: 500 builds, 100GB storage, 2 concurrent, priority support",
+        "starting_price_usd": 50,
+        "billing_model": "per-user"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free EAS Pro plan via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["react-native-cli", "flutter", "capacitor"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "kotlin",
+      "slug": "kotlin",
+      "name": "Kotlin",
+      "website": "https://kotlinlang.org",
+      "docs": "https://kotlinlang.org/docs",
+      "github": "https://github.com/JetBrains/kotlin",
+      "description": "JetBrains' modern programming language for JVM, Android, and multiplatform. Kotlin Multiplatform (KMP) shares business logic across iOS, Android, web, and desktop with native UI on each platform.",
+      "category": "mobile",
+      "subcategory": "mobile-sdks",
+      "tags": ["mobile", "android", "cross-platform", "sdk", "open-source", "free-tier", "forever-free"],
+      "free_tier": {
+        "summary": "100% free and open-source (Apache 2.0). Kotlin compiler, standard library, and Kotlin Multiplatform are free with no usage limits.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version. Kotlin is completely free and open-source.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["swift", "java", "flutter"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "react-native",
+      "slug": "react-native",
+      "name": "React Native",
+      "website": "https://reactnative.dev",
+      "docs": "https://reactnative.dev/docs",
+      "github": "https://github.com/facebook/react-native",
+      "description": "Facebook's open-source framework for building mobile apps using React. Write once, run natively on iOS and Android with platform-specific components when needed.",
+      "category": "mobile",
+      "subcategory": "mobile-sdks",
+      "tags": ["mobile", "cross-platform", "sdk", "ios", "android", "open-source", "free-tier", "forever-free"],
+      "free_tier": {
+        "summary": "100% free and open-source (MIT). No usage limits, no paid tiers. Unlimited apps for iOS and Android.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version. React Native is completely free and open-source.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["flutter", "expo", "kotlin"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "firebase",
+      "slug": "firebase",
+      "name": "Firebase",
+      "website": "https://firebase.google.com",
+      "docs": "https://firebase.google.com/docs",
+      "github": "https://github.com/firebase",
+      "description": "Google's comprehensive mobile and web app development platform. Includes analytics, crash reporting, cloud messaging, remote config, A/B testing, and App Distribution — all with a generous free tier.",
+      "category": "mobile",
+      "subcategory": "app-hosting",
+      "tags": ["mobile", "cloud", "saas", "analytics", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "Spark plan: Analytics unlimited, Crashlytics unlimited, Cloud Messaging unlimited, Remote Config unlimited, App Distribution unlimited, A/B Testing unlimited, Test Lab 10 tests/day, Cloud Storage 5GB, Firestore 1GB",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Blaze (pay-as-you-go): pay only for usage beyond Spark limits. Cloud Functions $0.40/million invocations, Cloud Storage $0.026/GB",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Firebase for Students — additional credits via Google for Education",
+        "verification_method": "institutional-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; some features restricted in select countries"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["supabase", "appwrite", "nhost"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "appwrite",
+      "slug": "appwrite",
+      "name": "Appwrite",
+      "website": "https://appwrite.io",
+      "docs": "https://appwrite.io/docs",
+      "github": "https://github.com/appwrite/appwrite",
+      "description": "Open-source backend server for mobile and web applications. Provides authentication, databases, storage, functions, messaging, and more. Self-host or use Appwrite Cloud.",
+      "category": "mobile",
+      "subcategory": "app-hosting",
+      "tags": ["mobile", "open-source", "self-hosted", "saas", "free-tier", "no-card"],
+      "free_tier": {
+        "summary": "Appwrite Cloud Free: 2 projects, 50K auth users, 500K databases reads, 10GB bandwidth, 5GB storage, 20K functions executions, 50K push notifications/month",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Appwrite Pro — $15/month: 50 projects, unlimited auth, 2M DB reads, 100GB bandwidth, 50GB storage, 500K functions",
+        "starting_price_usd": 15,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Appwrite for Students — free Pro plan via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["firebase", "supabase", "nhost"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "onesignal",
+      "slug": "onesignal",
+      "name": "OneSignal",
+      "website": "https://onesignal.com",
+      "docs": "https://documentation.onesignal.com",
+      "github": "https://github.com/OneSignal",
+      "description": "The most popular push notification and email service for mobile apps. Supports push notifications for iOS, Android, Web Push, email, SMS, and in-app messaging with segmentation and A/B testing.",
+      "category": "mobile",
+      "subcategory": "push-notifications",
+      "tags": ["mobile", "notifications", "saas", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "10K free subscribers (unlimited sends to 10K users), all channels, unlimited email (10K emails/month), 60 day data retention, basic A/B testing",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 10000
+        }
+      },
+      "paid_plan": {
+        "summary": "Growth — $9/month: 30K subscribers, advanced segmentation, 90 day retention, multi-step journeys",
+        "starting_price_usd": 9,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free growth tier for qualifying educational projects"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; limited in China"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["firebase-cloud-messaging", "pusher", "airbridge"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "flutterflow",
+      "slug": "flutterflow",
+      "name": "FlutterFlow",
+      "website": "https://flutterflow.io",
+      "docs": "https://docs.flutterflow.io",
+      "github": null,
+      "description": "Low-code visual builder for Flutter apps. Drag-and-drop UI creation with Firebase and custom API integrations. Export clean Flutter code or publish directly to app stores.",
+      "category": "mobile",
+      "subcategory": "app-builders",
+      "tags": ["mobile", "cross-platform", "low-code", "no-code", "freemium"],
+      "free_tier": {
+        "summary": "Free Community plan: 2 projects, 500 API calls/month, basic widgets, Flutter code export, web preview, Firebase integration",
+        "limits": {
+          "requests_per_month": 500,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 2
+        }
+      },
+      "paid_plan": {
+        "summary": "Standard — $30/month: 5 projects, unlimited API calls, custom widgets, API Builder, GitHub sync",
+        "starting_price_usd": 30,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "FlutterFlow for Students — free Standard plan via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["bubble", "adalo", "retool"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "branch",
+      "slug": "branch",
+      "name": "Branch",
+      "website": "https://branch.io",
+      "docs": "https://docs.branch.io",
+      "github": "https://github.com/BranchMetrics",
+      "description": "Leading mobile deep linking and attribution platform. Enables seamless user journeys across installs, re-engagements, and web-to-app links with comprehensive analytics and measurement.",
+      "category": "mobile",
+      "subcategory": "deep-linking",
+      "tags": ["mobile", "analytics", "saas", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "Free Starter plan: 10K attributed events/month, deep linking, basic analytics, Universal / App Links, SDK support",
+        "limits": {
+          "requests_per_month": 10000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Growth — custom pricing: unlimited events, advanced attribution, multi-touch, integrations, priority support",
+        "starting_price_usd": null,
+        "billing_model": "custom"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Branch for Students — free Growth plan via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["adjust", "appsflyer", "firebase-dynamic-links"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "mixpanel",
+      "slug": "mixpanel",
+      "name": "Mixpanel",
+      "website": "https://mixpanel.com",
+      "docs": "https://docs.mixpanel.com",
+      "github": "https://github.com/mixpanel",
+      "description": "Product analytics platform for mobile and web apps. Track user actions, build funnels, run retention analysis, and create A/B experiments. Known for powerful event-based analytics without sampling.",
+      "category": "mobile",
+      "subcategory": "app-analytics",
+      "tags": ["mobile", "analytics", "saas", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "Free plan: 20M events/month (limited to 1K MTUs), unlimited projects, funnels, retention, flows, 5 year data retention",
+        "limits": {
+          "requests_per_month": 20000000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Growth — $25/month: 50M events, unlimited MTUs, advanced features, data pipelines, priority support",
+        "starting_price_usd": 25,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free tier is generous; student discounts available via request"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["amplitude", "posthog", "heap"],
+      "last_verified": "2026-05-24"
     }
   ]
 }
