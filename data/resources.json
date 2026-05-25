@@ -7251,8 +7251,8 @@
         "setup": 4,
         "reliability": 2,
         "performance": 2,
-        "community": 3,
-        "overall": 3.0
+    "community": 3,
+        "overall": 2.8
       },
       "verification": {
         "status": "limited",
@@ -7270,9 +7270,15 @@
         "restricted_countries": [],
         "notes": "Available globally; service reliability has decreased since 2023"
       },
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["eu-org", "nic-us", "porkbun"],
+      "alternatives": [
+        "eu-org",
+        "nic-us",
+        "porkbun"
+      ],
       "last_verified": "2026-05-24"
     },
     {
