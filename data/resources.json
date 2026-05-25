@@ -6946,7 +6946,7 @@
       "description": "Online IDE with instant dev environments, AI-powered code completion, and team collaboration. Deploy apps with one click. The easiest way to code from any browser.",
       "category": "devtools",
       "subcategory": "code-editors",
-      "tags": ["devtools", "ide", "collaboration", "saas", "freemium", "no-card"],
+      "tags": ["devtools", "ide", "saas", "freemium", "no-card"],
       "free_tier": {
         "summary": "Unlimited public repls, 500MB storage, 1CPU/512MB RAM, community support, AI powered by Ghostwriter",
         "limits": {
