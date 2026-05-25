@@ -2,7 +2,7 @@
   "$schema": "./tags-schema.json",
   "version": "1.0.0",
   "last_updated": "2026-05-24",
-  "total_tags": 173,
+  "total_tags": 174,
   "groups": [
     {
       "id": "global",
