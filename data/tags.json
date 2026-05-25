@@ -125,6 +125,7 @@
         { "id": "credits", "name": "Credits", "description": "Free credits and startup programs" },
         { "id": "funding", "name": "Funding", "description": "Grants and funding opportunities" },
         { "id": "accelerator", "name": "Accelerator", "description": "Startup accelerator programs" },
+        { "id": "founder", "name": "Founder", "description": "Founder-focused resources and programs" },
         { "id": "gpt", "name": "GPT", "description": "GPT-specific models from OpenAI", "icon": "🤖" },
         { "id": "embeddings", "name": "Embeddings", "description": "Text and multimodal embedding models", "icon": "🔤" },
         { "id": "image-generation", "name": "Image Generation", "description": "Text-to-image and image generation models", "icon": "🎨" },
