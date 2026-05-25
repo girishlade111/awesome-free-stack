@@ -163,6 +163,7 @@
         { "id": "cassandra", "name": "Cassandra", "description": "Apache Cassandra-based tools", "icon": "🗄️" },
         { "id": "google", "name": "Google", "description": "Google Cloud and Firebase products", "icon": "☁️" },
         { "id": "aws", "name": "AWS", "description": "Amazon Web Services products", "icon": "☁️" },
+        { "id": "azure", "name": "Azure", "description": "Microsoft Azure cloud platform", "icon": "☁️" },
         { "id": "search", "name": "Search", "description": "Search and full-text search capabilities", "icon": "🔍" },
         { "id": "paas", "name": "PaaS", "description": "Platform-as-a-Service", "icon": "🚀" }
       ]
