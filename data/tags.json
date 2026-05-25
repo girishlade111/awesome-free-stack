@@ -119,6 +119,7 @@
         { "id": "education", "name": "Education", "description": "Educational platforms" },
         { "id": "certification", "name": "Certification", "description": "Certification programs" },
         { "id": "student", "name": "Student", "description": "Student-focused resources", "icon": "🎓" },
+        { "id": "academic", "name": "Academic", "description": "Academic and university resources" },
         { "id": "free-for-students", "name": "Free for Students", "description": "Free with student verification" },
         { "id": "startup", "name": "Startup", "description": "Startup-focused resources", "icon": "🏢" },
         { "id": "credits", "name": "Credits", "description": "Free credits and startup programs" },
