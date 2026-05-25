@@ -1,47 +1,59 @@
 # GitHub Student Developer Pack
 
-The most comprehensive student pack available. $200k+ in free tools and credits.
+> **The Ultimate Student Bundle**
 
-## Benefits
-
-| Category | Benefit | Value |
-|---|---|---|
-| **Hosting** | Vercel Pro | Free for students |
-| **Hosting** | Netlify Pro | Free for students |
-| **IDE** | GitHub Copilot | Free while verified |
-| **IDE** | JetBrains IDEs | Free full suite |
-| **Cloud** | AWS Activate | $110+ credits |
-| **Cloud** | Google Cloud | $300 credits |
-| **Cloud** | Azure | $100 credits |
-| **Domains** | .me domain on Namecheap | 1 year free |
-| **Design** | Figma Pro | Free for students |
-| **Design** | Canva Pro | Free for 12 months |
-| **DevTools** | Sentry Pro | Free for students |
-| **DevTools** | Datadog Pro | Free for students |
-| **CI/CD** | GitHub Actions | 2,000 min/mo free |
-| **Learning** | Frontend Masters | 6 months free |
-| **Learning** | Educative | 6 months free |
-| **AI** | OpenAI API | $5+ credits |
-| **AI** | Replit AI Pro | Free for 3 months |
-
-## Verification
-
-| Method | Details |
+| Detail | Value |
 |---|---|
-| **Platform** | GitHub Education portal |
-| **Required** | GitHub account + verified student email or documentation |
-| **Accepted** | `.edu` email, ISIC card, or enrollment documentation |
-| **Duration** | Renewed annually while enrolled |
-| **Processing** | Instant with `.edu` email, 2-5 days with documentation |
+| **Website** | [education.github.com/pack](https://education.github.com/pack) |
+| **Docs** | [docs.github.com/en/education](https://docs.github.com/en/education) |
+| **GitHub** | None |
+| **Category** | student-packs |
+| **Subcategory** | github-student-pack |
+| **Status** | active |
+| **Free Tier** | Free with student verification — 50+ tools worth $50K+ |
+| **Student Plan** | This IS the student pack |
+| **Card Required** | No |
 
-## How to Claim
+## Free Tier Details
 
-1. Go to [education.github.com/pack](https://education.github.com/pack)
-2. Sign in with your GitHub account
-3. Verify your student status
-4. Browse the offers and claim each one individually
-5. Most offers activate within minutes
+- **Version Control**: GitHub Pro (unlimited private repos)
+- **AI**: GitHub Copilot free
+- **Cloud**: AWS credits, Azure credits, DigitalOcean credits
+- **IDEs**: JetBrains all products, GitKraken Pro
+- **Domains**: Namecheap .me domain, .me domain free
+- **Design**: Figma Professional, Canva Pro
+- **Learning**: DataCamp Premium, LinkedIn Learning
+- **Security**: Socket, Snyk, Sentry
+- **CI/CD**: Heroku, Netlify, Railway credits
+- **API**: OpenAI API credits, Twilio credits
 
-## Website
+## Pros
 
-[https://education.github.com/pack](https://education.github.com/pack)
+- Single verification unlocks 50+ partner offers
+- Includes premium versions of top developer tools
+- Easy verification with .edu email
+- Annual renewal while enrolled
+- Continually adding new partners
+
+## Cons
+
+- Limited to currently enrolled students
+- Some offers are time-limited (1-2 years)
+- Must track individual offer renewals
+- Some partners require additional signup
+
+## Key Features
+
+- GitHub Pro ($4/month value)
+- GitHub Copilot ($10/month value)
+- JetBrains All Products ($250/year value)
+- Figma Professional ($12/month value)
+- Namecheap .me domain ($10/year value)
+- OpenAI API credits ($200 value)
+- AWS credits + training
+
+## Alternatives
+
+- AWS Educate — standalone cloud credits
+- Google Cloud for Students — cloud + learning
+- Azure for Students — Microsoft ecosystem
