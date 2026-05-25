@@ -8854,6 +8854,804 @@
       "alternatives_to": [],
       "alternatives": ["leetcode", "codewars", "exercism"],
       "last_verified": "2026-05-24"
+    },
+    {
+      "id": "github-student-pack",
+      "slug": "github-student-pack",
+      "name": "GitHub Student Developer Pack",
+      "website": "https://education.github.com/pack",
+      "docs": "https://docs.github.com/en/education",
+      "github": null,
+      "description": "GitHub's flagship student program offering a curated bundle of free developer tools and services. Includes cloud credits, IDEs, domains, learning platforms, design tools, and AI credits — all free with student verification.",
+      "category": "student-packs",
+      "subcategory": "github-student-pack",
+      "tags": ["student", "education", "academic", "free-for-students", "free-tier", "no-card"],
+      "free_tier": {
+        "summary": "Free with student verification. Includes GitHub Pro, Copilot, JetBrains, Figma, Namecheap, .me domain, AWS, Azure, DigitalOcean, and 50+ other tools",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version — student pack is free for verified students. Standard GitHub Pro is $4/month otherwise.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.9
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "This IS the student pack — apply with .edu email, ISIC card, or school ID",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; requires academic verification"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["aws-educate", "google-cloud-students", "azure-students"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "aws-educate",
+      "slug": "aws-educate",
+      "name": "AWS Educate",
+      "website": "https://aws.amazon.com/education/awseducate",
+      "docs": "https://aws.amazon.com/education/awseducate/student-center",
+      "github": null,
+      "description": "Amazon's cloud education program offering free AWS credits and hands-on labs for students. Includes access to AWS services, training, and career pathways with up to $500+ in promotional credits.",
+      "category": "student-packs",
+      "subcategory": "cloud-credits",
+      "tags": ["student", "education", "academic", "free-for-students", "cloud", "aws", "no-card"],
+      "free_tier": {
+        "summary": "$500+ in AWS promotional credits, 50+ free lab hours, access to AWS services, training courses, and career pathways",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version — AWS Educate is free for students. Graduates can transition to AWS Free Tier.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "This IS the student program — verify with .edu email",
+        "verification_method": "institutional-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; some service restrictions in select countries"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["google-cloud-students", "azure-students", "oracle-education"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "google-cloud-students",
+      "slug": "google-cloud-students",
+      "name": "Google Cloud for Students",
+      "website": "https://cloud.google.com/edu/students",
+      "docs": "https://cloud.google.com/edu/docs",
+      "github": null,
+      "description": "Google Cloud's student program providing free credits and access to premium learning content. Includes $300 in cloud credits plus additional credits through Google Cloud Skills Boost.",
+      "category": "student-packs",
+      "subcategory": "cloud-credits",
+      "tags": ["student", "education", "academic", "free-for-students", "cloud", "google", "no-card"],
+      "free_tier": {
+        "summary": "$300 in free Google Cloud credits, Google Cloud Skills Boost credits, hands-on labs, and Qwiklabs access",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Google Cloud Free Tier (always free) available after credits expire",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "This IS the student program — verify with .edu email",
+        "verification_method": "institutional-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["aws-educate", "azure-students", "oracle-education"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "azure-students",
+      "slug": "azure-students",
+      "name": "Azure for Students",
+      "website": "https://azure.microsoft.com/en-us/free/students",
+      "docs": "https://learn.microsoft.com/en-us/training/student-hub",
+      "github": null,
+      "description": "Microsoft Azure's student program offering free credits and free access to popular services. Includes $100 in Azure credits, 25+ free services, and Microsoft Learn access.",
+      "category": "student-packs",
+      "subcategory": "cloud-credits",
+      "tags": ["student", "education", "academic", "free-for-students", "cloud", "azure", "no-card"],
+      "free_tier": {
+        "summary": "$100 in Azure credits (no time limit), 25+ permanently free services, free Microsoft Learn access, Azure DevOps free",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Azure Free Account (always free) available after student credits",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "This IS the student program — verify with .edu email",
+        "verification_method": "institutional-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["aws-educate", "google-cloud-students", "oracle-education"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "oracle-education",
+      "slug": "oracle-education",
+      "name": "Oracle Cloud for Education",
+      "website": "https://www.oracle.com/education/students",
+      "docs": "https://docs.oracle.com/en/learn",
+      "github": null,
+      "description": "Oracle's student program offering free cloud credits and learning resources. Free Oracle Cloud credits for students to build, test, and deploy applications on OCI infrastructure.",
+      "category": "student-packs",
+      "subcategory": "cloud-credits",
+      "tags": ["student", "education", "academic", "free-for-students", "cloud", "free-tier", "no-card"],
+      "free_tier": {
+        "summary": "Free Oracle Cloud credits (up to $300), always-free Oracle Cloud Free Tier included, access to OCI services and training",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Oracle Cloud Free Tier (always free) with 4 ARM Ampere A1 cores, 24GB RAM — also available for students",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "This IS the student program — verify with .edu email",
+        "verification_method": "institutional-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; some regions restricted"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["aws-educate", "google-cloud-students", "azure-students"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "jetbrains-student",
+      "slug": "jetbrains-student",
+      "name": "JetBrains Student Licenses",
+      "website": "https://www.jetbrains.com/student",
+      "docs": "https://www.jetbrains.com/community/education/#students",
+      "github": null,
+      "description": "Free access to JetBrains professional IDEs including IntelliJ IDEA Ultimate, PyCharm Professional, WebStorm, and all other JetBrains tools with a student email.",
+      "category": "student-packs",
+      "subcategory": "ide-licenses",
+      "tags": ["student", "education", "academic", "free-for-students", "ide", "devtools", "no-card"],
+      "free_tier": {
+        "summary": "Free 1-year license (renewable) for all JetBrains IDEs and tools. Includes IntelliJ Ultimate, PyCharm Pro, WebStorm, GoLand, CLion, DataGrip, Rider, and more",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Individual license from $12.90/month for all tools or $6.90/month per tool after graduation",
+        "starting_price_usd": 12.9,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.7
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "This IS the student program — verify with .edu email or ISIC card",
+        "verification_method": "institutional-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["vscode", "cursor", "eclipse"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "github-copilot-students",
+      "slug": "github-copilot-students",
+      "name": "GitHub Copilot for Students",
+      "website": "https://github.com/features/copilot",
+      "docs": "https://docs.github.com/en/copilot",
+      "github": null,
+      "description": "Free access to GitHub Copilot — AI pair programming assistant — for verified students. Suggests code completions, generates functions, writes tests, and answers coding questions in real-time.",
+      "category": "student-packs",
+      "subcategory": "ide-licenses",
+      "tags": ["student", "education", "academic", "free-for-students", "ai", "ide", "devtools", "no-card"],
+      "free_tier": {
+        "summary": "Free for verified students (normally $10/month). Unlimited completions, chat, and code explanations in VS Code, JetBrains, and other editors",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Copilot Pro — $10/month, Copilot Business — $19/user/month after graduation",
+        "starting_price_usd": 10,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "This IS the student offer — included with GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["cursor", "codeium", "tabnine"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "figma-education",
+      "slug": "figma-education",
+      "name": "Figma Education",
+      "website": "https://www.figma.com/education",
+      "docs": "https://help.figma.com/hc/en-us/categories/4405265645463",
+      "github": null,
+      "description": "Free access to Figma Professional plan for students. Includes unlimited files, version history, shared components, and team libraries for design projects and collaboration.",
+      "category": "student-packs",
+      "subcategory": "design-tools",
+      "tags": ["student", "education", "academic", "free-for-students", "design", "ui", "no-card"],
+      "free_tier": {
+        "summary": "Free Figma Professional plan (normally $12/month): unlimited files, unlimited version history, team libraries, shared components",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Figma Professional — $12/month, Figma Organization — $45/month (post-graduation pricing)",
+        "starting_price_usd": 12,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.8
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "This IS the student offer — verify with .edu email",
+        "verification_method": "institutional-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["penpot", "sketch", "adobe-xd"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "namecheap-student",
+      "slug": "namecheap-student",
+      "name": "Namecheap Student Bundle",
+      "website": "https://www.namecheap.com/education",
+      "docs": "https://www.namecheap.com/support/knowledgebase",
+      "github": null,
+      "description": "Namecheap's student offer through the GitHub Student Developer Pack. Free .me domain for 1 year, $10 SSL certificate, and discounted hosting for students.",
+      "category": "student-packs",
+      "subcategory": "domain-benefits",
+      "tags": ["student", "education", "academic", "free-for-students", "domains", "dns", "no-card"],
+      "free_tier": {
+        "summary": "Free .me domain (1 year) + $10 SSL certificate + 1 year of hosting at 60% off + PositiveSSL Wildcard for $3.88/year",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Standard pricing applies after student promotion: domains from $8.88/year, hosting from $2.88/month",
+        "starting_price_usd": 8.88,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "This IS the student offer — available through GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["dotme-students", "porkbun", "cloudflare-dns"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "dotme-students",
+      "slug": "dotme-students",
+      "name": ".me Domain for Students",
+      "website": "https://www.namecheap.com/education",
+      "docs": "https://help.namecheap.com",
+      "github": null,
+      "description": "Free .me domain name for 1 year through the GitHub Student Developer Pack. Includes free DNS management, domain forwarding, and email forwarding.",
+      "category": "student-packs",
+      "subcategory": "domain-benefits",
+      "tags": ["student", "education", "academic", "free-for-students", "domains", "subdomain", "no-card"],
+      "free_tier": {
+        "summary": "Free .me domain for 1 year (renewable while student), free DNS management, email forwarding, domain forwarding",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1
+        }
+      },
+      "paid_plan": {
+        "summary": ".me domain renewal ~$9.99/year after student period",
+        "starting_price_usd": 9.99,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "This IS the student offer — available through GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["namecheap-student", "porkbun", "dot-tk"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "linkedin-learning-students",
+      "slug": "linkedin-learning-students",
+      "name": "LinkedIn Learning for Students",
+      "website": "https://www.linkedin.com/learning",
+      "docs": "https://learning.linkedin.com/help",
+      "github": null,
+      "description": "Free premium access to LinkedIn Learning with 20,000+ expert-led courses in business, technology, and creative skills. Earn certificates that appear on your LinkedIn profile.",
+      "category": "student-packs",
+      "subcategory": "learning-platforms",
+      "tags": ["student", "education", "academic", "free-for-students", "learning", "courses", "certification", "no-card"],
+      "free_tier": {
+        "summary": "Free access to all 20,000+ courses, learning paths, and certificate of completion for each course. Includes exercise files and quizzes",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "LinkedIn Learning — $29.99/month or $239.88/year after graduation",
+        "starting_price_usd": 29.99,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free LinkedIn Learning with select university partnerships (check with your school)",
+        "verification_method": "institutional-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; requires institutional email"
+      },
+      "languages": ["en", "es", "fr", "de", "ja", "zh", "pt"],
+      "alternatives_to": [],
+      "alternatives": ["coursera", "datacamp-students", "udemy"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "datacamp-students",
+      "slug": "datacamp-students",
+      "name": "DataCamp for Students",
+      "website": "https://www.datacamp.com/student",
+      "docs": "https://www.datacamp.com/learn",
+      "github": null,
+      "description": "Free premium access to DataCamp's data science and AI learning platform. Includes interactive courses in Python, R, SQL, machine learning, data engineering, and AI with hands-on exercises.",
+      "category": "student-packs",
+      "subcategory": "learning-platforms",
+      "tags": ["student", "education", "academic", "free-for-students", "learning", "courses", "ai", "no-card"],
+      "free_tier": {
+        "summary": "Free 3-month premium access (renewable) through GitHub Student Pack: unlimited courses, projects, assessments, and skill tracks",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Premium — $13/month: unlimited access to all courses, projects, and assessments",
+        "starting_price_usd": 13,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free 3-month Premium access — available through GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["linkedin-learning-students", "coursera", "kaggle"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "gitkraken-student",
+      "slug": "gitkraken-student",
+      "name": "GitKraken Student License",
+      "website": "https://www.gitkraken.com/student",
+      "docs": "https://help.gitkraken.com",
+      "github": null,
+      "description": "Free GitKraken Pro license for students. Beautiful Git GUI client with drag-and-drop interface, merge conflict editor, and deep GitHub/GitLab/Bitbucket integration.",
+      "category": "student-packs",
+      "subcategory": "ide-licenses",
+      "tags": ["student", "education", "academic", "free-for-students", "git", "devtools", "cli", "no-card"],
+      "free_tier": {
+        "summary": "Free GitKraken Pro (normally $59/year): unlimited repos, Git GUI, merge tool, GitHub/GitLab integration, dark theme",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "GitKraken Pro — $59/year, GitKraken Enterprise — custom pricing",
+        "starting_price_usd": 59,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "This IS the student offer — verify with .edu email or through GitHub Student Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["github-desktop", "sourcetree", "gitg"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "openai-students",
+      "slug": "openai-students",
+      "name": "OpenAI API Credits for Students",
+      "website": "https://openai.com/api",
+      "docs": "https://platform.openai.com/docs",
+      "github": null,
+      "description": "Free OpenAI API credits for students through the GitHub Student Developer Pack. Build AI-powered applications using GPT-4, GPT-4o, DALL-E, Whisper, and embedding models.",
+      "category": "student-packs",
+      "subcategory": "cloud-credits",
+      "tags": ["student", "education", "academic", "free-for-students", "ai", "api", "credits", "no-card"],
+      "free_tier": {
+        "summary": "$200 in free OpenAI API credits through GitHub Student Developer Pack. Access to GPT-4, GPT-4o, DALL-E 3, Whisper, TTS, and embedding models",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go API pricing: GPT-4o $2.50/1M input tokens, $10/1M output tokens",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "$200 in free credits — available through GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["google-ai-students", "anthropic-api", "huggingface"],
+      "last_verified": "2026-05-24"
     }
   ]
 }
