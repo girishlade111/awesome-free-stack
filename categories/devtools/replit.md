@@ -54,7 +54,7 @@ active
 **No** — No credit card required.
 
 ### Tags
-`devtools` `ide` `collaboration` `saas` `freemium` `no-card`
+`devtools` `ide` `saas` `freemium` `no-card`
 
 ### Alternatives
 [GitHub Codespaces](github-codespaces.md), [Gitpod](https://gitpod.io), [StackBlitz](https://stackblitz.com)
