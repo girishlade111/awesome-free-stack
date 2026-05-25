@@ -10279,7 +10279,7 @@
       "description": "HubSpot's startup program offering 90% discount on CRM, Marketing Hub, Sales Hub, and Service Hub. Includes free onboarding and access to HubSpot Academy for startup teams.",
       "category": "startup-credits",
       "subcategory": "saas-programs",
-      "tags": ["startup", "credits", "funding", "founder", "crm", "marketing", "saas", "no-card"],
+      "tags": ["startup", "credits", "funding", "founder", "marketing", "saas", "no-card"],
       "free_tier": {
         "summary": "90% discount on HubSpot products for 1 year (CRM, Marketing Hub, Sales Hub, Service Hub, Operations Hub), free onboarding, HubSpot Academy access",
         "limits": {
