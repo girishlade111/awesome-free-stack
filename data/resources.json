@@ -7443,6 +7443,289 @@
       "alternatives_to": [],
       "alternatives": ["duckdns", "noip", "freedns"],
       "last_verified": "2026-05-24"
+    },
+    {
+      "id": "postman",
+      "slug": "postman",
+      "name": "Postman",
+      "website": "https://www.postman.com",
+      "docs": "https://learning.postman.com",
+      "github": "https://github.com/postmanlabs",
+      "description": "The most popular API platform for building, testing, and documenting APIs. Powerful HTTP client with collections, environments, automated tests, mock servers, and team collaboration.",
+      "category": "testing",
+      "subcategory": "api-testing",
+      "tags": ["testing", "api", "qa", "devtools", "saas", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "3 users, unlimited API requests, 3 collections with 25 requests each, mock server (1K calls/mo), 30 day history",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 3
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $14/user/month: unlimited collections, 100K mock calls, 20K monitor runs, API security scanning",
+        "starting_price_usd": 14,
+        "billing_model": "per-user"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.8
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Postman for Students — free Pro plan via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["bruno", "insomnia", "hoppscotch"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "bruno",
+      "slug": "bruno",
+      "name": "Bruno",
+      "website": "https://www.usebruno.com",
+      "docs": "https://docs.usebruno.com",
+      "github": "https://github.com/usebruno/bruno",
+      "description": "Open-source API client that works offline. Store API collections as plain text files on your filesystem — no cloud sync, no accounts required. Git-friendly for team collaboration.",
+      "category": "testing",
+      "subcategory": "api-testing",
+      "tags": ["testing", "api", "open-source", "self-hosted", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "100% free and open-source. Unlimited collections, unlimited requests, offline-first, Git-based sync, all features",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version. Bruno is completely free and open-source.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["postman", "insomnia", "hoppscotch"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "playwright",
+      "slug": "playwright",
+      "name": "Playwright",
+      "website": "https://playwright.dev",
+      "docs": "https://playwright.dev/docs",
+      "github": "https://github.com/microsoft/playwright",
+      "description": "Microsoft's modern browser automation framework. Test across Chromium, Firefox, and WebKit with a single API. Auto-waits, network interception, codegen, and trace viewer for debugging.",
+      "category": "testing",
+      "subcategory": "e2e-testing",
+      "tags": ["testing", "e2e-testing", "qa", "typescript", "open-source", "free-tier", "no-card", "forever-free"],
+      "free_tier": {
+        "summary": "100% free and open-source (Apache 2.0). Unlimited tests, all browsers, codegen, trace viewer, CI integration, no usage limits",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version. Completely free and open-source. Microsoft hosted service (Playwright Testing) in preview.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "Free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["cypress", "puppeteer", "selenium"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "cypress",
+      "slug": "cypress",
+      "name": "Cypress",
+      "website": "https://www.cypress.io",
+      "docs": "https://docs.cypress.io",
+      "github": "https://github.com/cypress-io/cypress",
+      "description": "Next-generation frontend testing framework built for the modern web. Real-time reloads, time-travel debugging, automatic waiting, and network stubbing. The most developer-friendly E2E testing tool.",
+      "category": "testing",
+      "subcategory": "e2e-testing",
+      "tags": ["testing", "e2e-testing", "qa", "typescript", "open-source", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "Open-source test runner (free, unlimited). Cypress Cloud free tier: 500 test results/month, 30 day retention, 1 user",
+        "limits": {
+          "requests_per_month": 500,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1
+        }
+      },
+      "paid_plan": {
+        "summary": "Cypress Cloud Team — $75/month: 10K test results, 12 month retention, parallelization",
+        "starting_price_usd": 75,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Cypress for Students — free Cypress Cloud via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["playwright", "puppeteer", "selenium"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "insomnia",
+      "slug": "insomnia",
+      "name": "Insomnia",
+      "website": "https://insomnia.rest",
+      "docs": "https://docs.insomnia.rest",
+      "github": "https://github.com/Kong/insomnia",
+      "description": "Open-source API client by Kong. HTTP and GraphQL debugging with code generation, environment variables, and plugin system. Offline-first with optional cloud sync for teams.",
+      "category": "testing",
+      "subcategory": "api-testing",
+      "tags": ["testing", "api", "open-source", "graphql", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "Unlimited local API requests, unlimited collections, GraphQL support, code generation, environment variables, plugin system",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Insomnia Plus — $5/month: cloud sync, team collaboration, 50K test runs/month",
+        "starting_price_usd": 5,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Insomnia for Students — free Plus plan via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["postman", "bruno", "hoppscotch"],
+      "last_verified": "2026-05-24"
     }
   ]
 }
