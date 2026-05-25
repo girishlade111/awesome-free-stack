@@ -2,7 +2,7 @@
   "$schema": "./tags-schema.json",
   "version": "1.0.0",
   "last_updated": "2026-05-24",
-  "total_tags": 170,
+  "total_tags": 171,
   "groups": [
     {
       "id": "global",
@@ -82,6 +82,7 @@
         { "id": "sms", "name": "SMS", "description": "SMS messaging services" },
         { "id": "notifications", "name": "Notifications", "description": "Push and notification services" },
         { "id": "marketing", "name": "Marketing", "description": "Email and marketing automation" },
+        { "id": "transactional", "name": "Transactional", "description": "Transactional email delivery and APIs", "icon": "📧" },
         { "id": "monitoring", "name": "Monitoring", "description": "Observability and monitoring", "icon": "📊" },
         { "id": "observability", "name": "Observability", "description": "Full observability platforms" },
         { "id": "apm", "name": "APM", "description": "Application performance monitoring" },
