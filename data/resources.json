@@ -6197,6 +6197,289 @@
       "alternatives_to": [],
       "alternatives": ["resend", "sendgrid", "mailgun"],
       "last_verified": "2026-05-24"
+    },
+    {
+      "id": "sentry",
+      "slug": "sentry",
+      "name": "Sentry",
+      "website": "https://sentry.io",
+      "docs": "https://docs.sentry.io",
+      "github": "https://github.com/getsentry/sentry",
+      "description": "Industry-standard error tracking and performance monitoring platform. Real-time crash reporting with full stack traces, performance spans, sessions, and release health. Open-source SDKs for every language.",
+      "category": "monitoring",
+      "subcategory": "error-tracking",
+      "tags": ["monitoring", "observability", "apm", "open-source", "saas", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "5K error events/month, 5K performance transactions/month, 1M trace events/month, 1 user, 30 day retention",
+        "limits": {
+          "requests_per_month": 5000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1
+        }
+      },
+      "paid_plan": {
+        "summary": "Team — $26/month: 50K errors, 50K transactions, team collaboration, advanced spikes",
+        "starting_price_usd": 26,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Sentry for Students — free Team plan via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; US and EU data regions"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["datadog", "betterstack", "logtail"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "datadog",
+      "slug": "datadog",
+      "name": "Datadog",
+      "website": "https://www.datadoghq.com",
+      "docs": "https://docs.datadoghq.com",
+      "github": "https://github.com/DataDog",
+      "description": "Full-stack observability platform for cloud-scale applications. Combines infrastructure monitoring, APM, log management, real-user monitoring, security, and AI-powered alerts in one unified platform.",
+      "category": "monitoring",
+      "subcategory": "infrastructure-monitoring",
+      "tags": ["monitoring", "observability", "apm", "logging", "saas", "freemium", "card-required"],
+      "free_tier": {
+        "summary": "10 hosts (1 day retention), 5M log events/month (3 day retention), 6 months metric retention, standard alerts",
+        "limits": {
+          "requests_per_month": 5000000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $15/host/month: full 15 month retention, APM, advanced alerts, dashboards",
+        "starting_price_usd": 15,
+        "billing_model": "per-host"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 3,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Datadog for Students — free Pro tier for 2 years via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; US, EU, and APAC data regions"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["grafana", "sentry", "betterstack"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "grafana",
+      "slug": "grafana",
+      "name": "Grafana",
+      "website": "https://grafana.com",
+      "docs": "https://grafana.com/docs/grafana",
+      "github": "https://github.com/grafana/grafana",
+      "description": "The leading open-source observability platform for metrics, logs, and traces. Create beautiful dashboards, set alerts, and query data from 100+ sources including Prometheus, Loki, and Tempo.",
+      "category": "monitoring",
+      "subcategory": "apm",
+      "tags": ["monitoring", "observability", "apm", "open-source", "self-hosted", "saas", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "Grafana Cloud Free: 10K series Prometheus metrics, 50GB logs, 50GB traces, 14 day retention. Self-hosted: unlimited forever.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 100,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $49/month: 100K series, 200GB logs/100GB traces, 30 day retention, team collaboration",
+        "starting_price_usd": 49,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Grafana Cloud for Students — free Pro tier via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; open-source or multi-region cloud"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["datadog", "sentry", "betterstack"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "betterstack",
+      "slug": "betterstack",
+      "name": "BetterStack",
+      "website": "https://betterstack.com",
+      "docs": "https://betterstack.com/docs",
+      "github": null,
+      "description": "Modern observability platform combining uptime monitoring, status pages, and log management. Beautiful status pages in seconds with 100+ integrations and global check locations.",
+      "category": "monitoring",
+      "subcategory": "uptime-monitoring",
+      "tags": ["monitoring", "uptime", "observability", "saas", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "10 uptime monitors (3 min intervals), 1 status page, email notifications, 1 team member, global checks",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $29/month: 50 monitors, SMS/phone alerts, unlimited team, private pages",
+        "starting_price_usd": 29,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; 10+ global check locations"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["sentry", "datadog", "logtail"],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "logtail",
+      "slug": "logtail",
+      "name": "Logtail",
+      "website": "https://logtail.com",
+      "docs": "https://logtail.com/docs",
+      "github": null,
+      "description": "Modern log management platform by BetterStack. SQL-powered log querying with real-time streaming, live tail, and beautiful dashboards. Ingest logs from any source with 200+ integrations.",
+      "category": "monitoring",
+      "subcategory": "log-management",
+      "tags": ["monitoring", "logging", "observability", "saas", "freemium", "no-card"],
+      "free_tier": {
+        "summary": "1 GB/day log ingestion, 7 day retention, 1 team member, live tail, SQL queries",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — $29/month: 5GB/day, 30 day retention, unlimited team, advanced alerts",
+        "starting_price_usd": 29,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; US and EU data regions"
+      },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["grafana", "datadog", "betterstack"],
+      "last_verified": "2026-05-24"
     }
   ]
 }
