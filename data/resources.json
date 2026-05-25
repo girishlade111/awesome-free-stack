@@ -8652,7 +8652,7 @@
       "paid_plan": {
         "summary": "Pro — $19.99/month: unlimited projects, real-world portfolio, certificates, quizzes, career paths",
         "starting_price_usd": 19.99,
-        "billing_mode": "subscription"
+        "billing_model": "subscription"
       },
       "ratings": {
         "beginner_friendly": 5,
