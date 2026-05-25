@@ -1,45 +1,55 @@
 # Figma Education
 
-Figma offers free professional features for students and educators.
+> **Free Design Pro for Students**
 
-## Benefits
-
-| Feature | Student Plan | Free Plan |
-|---|---|---|
-| **Projects** | Unlimited | 3 projects |
-| **File Version History** | 30 days | 30 days |
-| **Unlimited Cloud Storage** | ✅ | ❌ |
-| **Unlimited Editors** | ✅ | ❌ |
-| **Team Libraries** | ✅ | ❌ |
-| **Advanced Prototyping** | ✅ | ❌ |
-| **Figma Mirror** | ✅ | ❌ |
-| **Share Variables** | ✅ | ❌ |
-
-## Verification
-
-| Method | Details |
+| Detail | Value |
 |---|---|
-| **Platform** | Figma Education portal |
-| **Email** | `.edu` email (instant) |
-| **Alternate** | ISIC card, enrollment letter |
-| **Duration** | 2 years |
-| **Renewal** | Renewable while enrolled |
+| **Website** | [figma.com/education](https://www.figma.com/education) |
+| **Docs** | [help.figma.com](https://help.figma.com/hc/en-us/categories/4405265645463) |
+| **GitHub** | None |
+| **Category** | student-packs |
+| **Subcategory** | design-tools |
+| **Status** | active |
+| **Free Tier** | Free Figma Professional ($12/month value) |
+| **Student Plan** | This IS the student offer |
+| **Card Required** | No |
 
-## How to Claim
+## Free Tier Details
 
-1. Go to [figma.com/education](https://www.figma.com/education)
-2. Click "Get Figma Education"
-3. Sign in with your Figma account
-4. Verify with `.edu` email or documentation
-5. Plan upgrades immediately
+- **Plan**: Figma Professional (normally $12/month)
+- **Files**: Unlimited
+- **Version History**: Unlimited
+- **Components**: Shared team libraries
+- **Prototyping**: Advanced interactions
+- **Duration**: While enrolled as student (renewable)
 
-## Additional Benefits
+## Pros
 
-- **Figma for Educators** — Classroom management features
-- **Figma Community** — Free templates and design systems
-- **Figma Academy** — Free design courses
-- **Plugins** — Access to all free and education-tier plugins
+- Full Figma Professional free for students
+- Unlimited files and version history
+- Team libraries and shared components
+- Advanced prototyping and animations
+- Real-time collaboration included
 
-## Website
+## Cons
 
-[https://www.figma.com/education](https://www.figma.com/education)
+- Requires .edu email verification
+- Only for currently enrolled students
+- Some enterprise features (Org plan) not included
+- Figma acquired by Adobe — future uncertain
+
+## Key Features
+
+- Vector design and editing
+- Component system with auto-layout
+- Interactive prototyping
+- Design systems and shared libraries
+- Developer handoff (inspect mode)
+- Real-time multi-user collaboration
+- Plugins and widgets
+
+## Alternatives
+
+- Penpot — free, open-source alternative
+- Canva Education — free Canva Pro for students
+- Sketch — one-time purchase, Mac only
