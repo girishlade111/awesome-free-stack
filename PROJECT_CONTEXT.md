@@ -1,940 +1,471 @@
-# awesome-free-stack — Complete Project Context
+# awesome-free-stack — Project Context
 
-> **Purpose**: This file explains the entire `awesome-free-stack` repository to AI tools, maintainers, and contributors.  
-> **Last updated**: 2026-05-24 | **Schema version**: 1.0.0 | **Repository topics**: 14 (free-developer-resources, awesome-list, free-ai-apis, etc.)
-
----
-
-## 1. Project Identity
-
-### 1.1 Mission Statement
-
-**awesome-free-stack** is the largest curated collection of free and freemium developer resources. Its mission is to help developers, students, indie hackers, and startups replace expensive SaaS tools with high-quality free alternatives — zero upfront cost.
-
-### 1.2 Repository Topics
-
-Set in `.github/repo-topics.txt` (14 topics):
-```
-free-developer-resources, free-software, awesome-list, developer-tools,
-student-developer-tools, free-ai-apis, free-cloud-services, open-source,
-free-hosting, free-databases, startup-credits, free-saas, devops-tools,
-learning-resources
-```
-
-### 1.3 Funding
-
-`FUNDING.yml` specifies GitHub sponsor: `girishlade111`.
-
-### 1.4 Seven Core Functions
-
-| Function | Description | Implementation |
-|---|---|---|
-| **Directory** | Free tools across 20 categories, 135 subcategories | `categories/` + `data/resources.json` |
-| **Rankings** | Community-driven composite scores | `data/rankings.json` + `rankings/` |
-| **Learning** | Guided learning paths + build recipes | `learning-paths/` (7) + `recipes/` (7) |
-| **Student Benefits** | $5k+/year in free tools with verification guide | `categories/student-packs/` (9 files) |
-| **Startup Credits** | $600k+ available cloud/AI credits | `categories/startup-credits/` (5 files) |
-| **Alternatives** | Paid-to-free tool mappings | `alternatives/` (5 files, 80+ swaps) |
-| **Deprecation** | Tracks tools whose free tiers disappear | `deprecated/` (4 files) + `data/deprecated.json` |
-
-### 1.5 SEO Strategy
-
-- **21 target keywords** in `SEO Keywords` file
-- 8 primary keywords are embedded in README opening blockquote and footer
-- Category descriptions written with keyword-rich phrases
-- Repository description configured for GitHub search indexing
-- 14 GitHub topics set for discoverability
+> AI-ready project context file. Generated 2026-05-25.
 
 ---
 
-## 2. Repository Architecture
+## 1. Purpose
 
-### 2.1 Visual Data Flow
+**awesome-free-stack** is a curated, community-driven collection of free and freemium developer tools — APIs, databases, hosting, CI/CD, auth, payments, design assets, learning platforms, student packs, startup credits, and open-source alternatives to paid SaaS products.
 
-```
-                    ┌─────────────────────────────┐
-                    │      CONTRIBUTORS            │
-                    │  (opens PR / issue /         │
-                    │   discussion)                │
-                    └──────────┬──────────────────┘
-                               │
-          ┌────────────────────┼────────────────────┐
-          ▼                    ▼                    ▼
-   ┌──────────────┐   ┌────────────────┐   ┌──────────────────┐
-   │  categories/ │   │  alternatives/  │   │  data/*.json      │
-   │  recipes/    │   │  learning-paths/│   │  (resources.json, │
-   │  rankings/   │   │  deprecated/    │   │   taxonomy.json,  │
-   │  student-    │   │                 │   │   tags.json, ...) │
-   │  packs/      │   │                 │   └────────┬─────────┘
-   └──────┬───────┘   └────────────────┘            │
-          │                                         │
-          └──────────┬──────────────────────────────┘
-                     ▼
-          ┌─────────────────────┐
-          │  GitHub Actions     │
-          │  (6 workflows)      │
-          │  ┌───────────────┐  │
-          │  │ validate-json │  │  ← schema, category, tags
-          │  │ check-links   │  │  ← lychee
-          │  │ monthly-verif │  │  ← expiry tracking
-          │  │ detect-broken │  │  ← HTTP checks
-          │  │ generate-stats│  │  ← data/stats.json
-          │  │ update-readme │  │  ← README PR
-          │  └───────────────┘  │
-          └──────────┬──────────┘
-                     ▼
-          ┌─────────────────────┐
-          │  README.md          │
-          │  CATEGORIES.md      │
-          │  DISCUSSIONS.md     │
-          │  CONTRIBUTING.md    │
-          │  CODE_OF_CONDUCT.md │
-          └─────────────────────┘
-```
+**Core mission**: Replace expensive developer tools with free alternatives — one verified resource at a time.
 
-### 2.2 Directory Tree
+**Target audience**: Indie developers, students, startups, bootstrappers, and anyone building on a budget.
+
+### Key Design Principles
+
+1. **Every entry requires a meaningful free tier** — time-limited trials and credit-card-gated trials are explicitly rejected
+2. **Dual-format storage** — each resource exists as both a human-readable markdown file and a machine-readable JSON entry
+3. **Verification-driven** — resources carry a verification badge (Tested, Community-Verified, Unverified) with defined expiry
+4. **Rating by formula** — 7 weighted metrics computed into a single overall score, validated programmatically
+5. **Always improving** — the project is designed to expand to 20+ categories with 500+ resources
+
+---
+
+## 2. Repository Map
 
 ```
 awesome-free-stack/
-│
-├── 📄 README.md                    # Main entry, SEO-optimized, auto-updated stats section
-├── 📄 CONTRIBUTING.md              # Full contribution guide with requirements and style guide
-├── 📄 CODE_OF_CONDUCT.md           # Contributor Covenant v2.1
-├── 📄 CATEGORIES.md                # Human-readable taxonomy of 20 categories + 135 subcategories
-├── 📄 DISCUSSIONS.md               # Community discussion guidelines (6 categories)
-├── 📄 FAQ.md                       # ❌ EMPTY (0 lines)
-├── 📄 CHANGELOG.md                 # ❌ EMPTY (0 lines)
-├── 📄 ROADMAP.md                   # ❌ EMPTY (0 lines)
-├── 📄 LICENSE                      # ❌ EMPTY (0 lines)
-├── 📄 PROJECT_CONTEXT.md           # This file
-│
-├── 📁 categories/                  # 20 category folders
-│   ├── ai/                         # ❌ contains only .gitkeep
-│   ├── deployment/                 # ❌ contains only .gitkeep
-│   ├── cloud/                      # ❌ contains only .gitkeep
-│   ├── hosting/                    # ❌ contains only .gitkeep
-│   ├── databases/                  # ❌ contains only .gitkeep
-│   ├── storage/                    # ❌ contains only .gitkeep
-│   ├── auth/                       # ❌ contains only .gitkeep
-│   ├── payments/                   # ❌ contains only .gitkeep
-│   ├── email-sms/                  # ❌ contains only .gitkeep
-│   ├── monitoring/                 # ❌ contains only .gitkeep
-│   ├── ci-cd/                      # ❌ contains only .gitkeep
-│   ├── devtools/                   # ❌ contains only .gitkeep
-│   ├── design/                     # ❌ contains only .gitkeep
-│   ├── domains/                    # ❌ contains only .gitkeep
-│   ├── testing/                    # ❌ contains only .gitkeep
-│   ├── mobile/                     # ❌ contains only .gitkeep
-│   ├── learning/                   # ❌ contains only .gitkeep
-│   ├── open-source/                # ❌ contains only .gitkeep
-│   ├── student-packs/              # ✅ 9 files (7 guides + verification guide + overview)
-│   └── startup-credits/            # ✅ 5 files (cloud, AI, hosting, accelerators, SaaS support)
-│
-├── 📁 alternatives/                # Paid-to-free mappings
-│   ├── index.md                    # 80+ mappings across 12 categories
-│   ├── notion.md                   # Notion → AppFlowy, Outline, Anytype, SiYuan
-│   ├── firebase.md                 # Firebase → Supabase, Appwrite, PocketBase, Nhost
-│   ├── chatgpt.md                  # ChatGPT Plus → Gemini, DeepSeek, Claude, Groq, Perplexity
-│   └── vercel.md                   # Vercel → Cloudflare Pages, Netlify, Render
-│
-├── 📁 recipes/                     # 7 build recipes (₹0/month stacks)
-│   ├── build-saas-with-zero-budget.md
-│   ├── build-ai-app.md
-│   ├── build-portfolio.md
-│   ├── build-startup-mvp.md
-│   ├── build-file-sharing-platform.md
-│   ├── build-docs-app.md
-│   └── build-mobile-app.md
-│
-├── 📁 learning-paths/              # 7 developer learning paths
-│   ├── frontend.md                 # HTML/CSS → Deployed Next.js (16 weeks)
-│   ├── backend.md                  # Python/Node → Dockerized API (14 weeks)
-│   ├── full-stack.md               # JavaScript → Full-stack SaaS (18 weeks)
-│   ├── ai-engineer.md              # Python → RAG + LangChain (16 weeks)
-│   ├── devops.md                   # Linux → K8s → Terraform (20 weeks)
-│   ├── mobile.md                   # Expo → Published app (16 weeks)
-│   └── indie-hacker.md             # Idea → First dollar (10 weeks)
-│
-├── 📁 rankings/                    # Published ranking pages
-│   ├── best-ai-tools-2026.md       # 1. Gemini (4.7), 2. Groq (4.5), 3. DeepSeek (4.3)
-│   ├── best-databases-2026.md      # 1. Supabase (4.8), 2. Neon (4.5), 3. MongoDB Atlas (4.2)
-│   └── best-hosting-2026.md        # 1. Vercel (4.7), 2. Cloudflare Pages (4.6), 3. Netlify (4.2)
-│
-├── 📁 deprecated/                  # Deprecation tracking (12 entries)
-│   ├── README.md                   # System overview with status definitions
-│   ├── deprecated.md               # 11 tools (free tier removed)
-│   ├── archived.md                 # 1 service (permanently shut down)
-│   ├── unmaintained.md             # Template for OSS projects (no entries yet)
-│   └── dead-projects.md            # 1 project (completely defunct)
-│
-├── 📁 data/                        # Machine-readable data layer
-│   ├── resources.json              # 4 example resources (OpenAI, Supabase, Vercel, Stripe)
-│   ├── resources-schema.json       # JSON Schema (draft-07) with full validation rules
-│   ├── taxonomy.json               # 20 categories, 135 subcategories
-│   ├── tags.json                   # 155 tags in 6 groups
-│   ├── ratings.json                # 7 metrics, weighted formula, 6 performance tiers
-│   ├── badges.json                 # 10 verification badges with criteria + validity
-│   ├── rankings.json               # 4-factor composite scoring, 3 published rankings
-│   ├── deprecated.json             # 12 deprecated entries with migration paths
-│   └── deprecated-schema.json      # JSON Schema for deprecated entries
-│
-├── 📁 .github/                     # GitHub configuration
-│   ├── workflows/                  # 6 automation workflows
-│   ├── ISSUE_TEMPLATE/             # 4 YAML issue forms
-│   ├── DISCUSSION_TEMPLATE/        # 6 markdown discussion templates
-│   ├── PULL_REQUEST_TEMPLATE.md    # PR checklist template
-│   ├── resource-template.md        # Resource entry template with field reference
-│   ├── repo-topics.txt             # 14 repository topic tags
-│   ├── FUNDING.yml                 # GitHub sponsor: girishlade111
-│   └── .gitkeep
-│
-└── 📄 SEO Keywords                 # 21 target SEO keywords
+├── .github/                          # GitHub workflows, templates, issue forms
+├── categories/                        # 20 content categories (the core)
+│   ├── ai/                           # AI APIs, models, agent frameworks, vector DBs
+│   ├── auth/                         # Authentication & user management
+│   ├── ci-cd/                        # CI/CD pipelines & automation
+│   ├── cloud/                        # Cloud providers & compute
+│   ├── databases/                    # Managed databases & backend platforms
+│   ├── deployment/                   # PaaS, serverless, containers
+│   ├── design/                       # Prototyping, icons, fonts, illustrations
+│   ├── devtools/                     # Code editors & developer tools
+│   ├── domains/                      # DNS, subdomains, free domains
+│   ├── email-sms/                    # Transactional email, marketing, SMS
+│   ├── hosting/                      # VPS, web servers, self-hosted platforms
+│   ├── learning/                     # Courses, tutorials, documentation
+│   ├── mobile/                       # Mobile SDKs, backend, push, analytics
+│   ├── monitoring/                   # APM, logging, uptime, error tracking
+│   ├── open-source/                  # Self-hostable alternatives to paid tools
+│   ├── payments/                     # Payment processing & billing
+│   ├── startup-credits/              # Cloud credits & founder perks
+│   ├── student-packs/                # Student verification benefits
+│   ├── storage/                      # Object storage & CDN storage
+│   └── testing/                      # API testing, E2E testing
+├── data/                             # Machine-readable data (JSON)
+│   ├── resources.json                # Master resource index (193 entries)
+│   ├── tags.json                     # Tag taxonomy (175 tags, 7 groups)
+│   ├── taxonomy.json                 # Category taxonomy (20 categories, ~135 subcategories)
+│   ├── ratings.json                  # Rating metric definitions & score tiers
+│   ├── rankings.json                 # Ranking algorithm & factors
+│   ├── badges.json                   # Verification & feature badge standards
+│   ├── deprecated.json               # Archived/deprecated resources
+│   ├── resources-schema.json         # JSON Schema for resource validation
+│   └── deprecated-schema.json        # JSON Schema for deprecated entries
+├── deprecated/                        # Archived resource entries
+├── alternatives/                      # Paid-to-free mapping files
+├── learning-paths/                    # Curated learning pathways
+├── rankings/                          # Generated ranking pages
+├── recipes/                           # Integration recipes & guides
+├── README.md                          # Main documentation
+├── STANDARDS.md                       # Project-wide standards & conventions
+├── CONTRIBUTING.md                    # Contribution guidelines
+├── BEST-OF.md                         # Category winner rankings
+├── AUDIT-REPORT.md                    # Most recent data audit
+└── PROJECT_CONTEXT.md                 # This file
 ```
-
-### 2.3 Key Architectural Decisions
-
-| Decision | Rationale |
-|---|---|
-| **Markdown-first** | Maximum accessibility, Git-friendly, no build step required |
-| **JSON data layer** | Powers automation, rankings, and future website generation |
-| **No build step** | Consumable directly from GitHub without preprocessing |
-| **Schema validation** | All JSON files validated against schemas in CI |
-| **Dual format** | Human-readable markdown + machine-readable JSON coexist |
-| **Emoji icons** | Visual category identification without external assets |
-| **Kebab-case everywhere** | File names, IDs, slugs all kebab-case for URL consistency |
 
 ---
 
-## 3. Content Standards & Formats
+## 3. Categories (Taxonomy)
 
-### 3.1 Resource Entry Format
+Each resource belongs to exactly one **category** (top-level) and one **subcategory** (within that category).
 
-Each resource in `categories/<category>/` follows this structure:
+| # | Category | Icon | Subcategories | Example Resources |
+|---|---|---|---|---|
+| 1 | ai | 🤖 | apis, models, agents, rag, embeddings, image-generation, video-generation, speech, vector-databases, ml-platforms, prompt-tools | 30 entries |
+| 2 | deployment | 🚀 | serverless, containers, paas, edge-functions, platform-orchestration, baas | 14 entries |
+| 3 | cloud | ☁️ | compute, serverless-compute, cloud-storage, networking, cdn, cloud-functions, free-tier | 8 entries |
+| 4 | hosting | 🌐 | static-sites, vps, web-servers, dns, ssl-certificates, reverse-proxy | 6 entries |
+| 5 | databases | 🗄️ | sql, nosql, managed-databases, caching, vector-databases, graph-databases, time-series, backend-platforms | 11 entries |
+| 6 | storage | 💾 | object-storage, file-hosting, cdn-storage, backup, image-optimization | 6 entries |
+| 7 | auth | 🔐 | authentication, sso, mfa, user-management, authorization, passwordless, social-login | 8 entries |
+| 8 | payments | 💳 | payment-processing, invoicing, subscription-management, checkout, fraud-detection, payouts | 5 entries |
+| 9 | email-sms | 📧 | transactional-email, email-marketing, email-api, sms, push-notifications, multi-channel | 5 entries |
+| 10 | monitoring | 📊 | apm, log-management, uptime-monitoring, error-tracking, real-user-monitoring, infrastructure-monitoring, synthetic-monitoring | 5 entries |
+| 11 | ci-cd | 🔄 | pipelines, build-automation, artifact-hosting, testing-automation, code-quality, deployment-automation | 5 entries |
+| 12 | devtools | 🛠️ | code-editors, version-control, cli-tools, api-tools, package-managers, browser-devtools, code-generation, collaboration | 6 entries |
+| 13 | design | 🎨 | ui-kits, icons, illustrations, prototyping, design-systems, color-tools, typography, mockups, screenshot-tools | 12 entries |
+| 14 | domains | 🔗 | free-domains, subdomains, dns-management, domain-forwarding, dynamic-dns | 11 entries |
+| 15 | testing | 🧪 | unit-testing, e2e-testing, api-testing, load-testing, browser-testing, test-management, visual-regression | 5 entries |
+| 16 | mobile | 📱 | mobile-sdks, push-notifications, app-hosting, app-builders, deep-linking, app-testing, app-analytics | 10 entries |
+| 17 | learning | 📚 | platforms, courses, certifications, interactive-tutorials, coding-challenges, documentation, newsletters, podcasts | 10 entries |
+| 18 | student-packs | 🎓 | github-student-pack, cloud-credits, ide-licenses, learning-platforms, design-tools, domain-benefits | 14 entries |
+| 19 | startup-credits | 🏢 | cloud-programs, saas-programs, incubators, founder-perks, open-source-grants | 12 entries |
+| 20 | open-source | 🌍 | self-hostable, libraries, community-editions, templates, boilerplates | 10 entries |
 
-```markdown
-## Tool Name
-**Website**: https://...
-**Docs**: https://...
-**GitHub**: https://...
-**Category**: <one-of-20>
-**Subcategory**: <from-taxonomy>
-
-### Description
-1-3 sentences (max 200 chars).
-
-### Free Tier
-Specific numeric limits (requests, storage, users, bandwidth).
-
-### Paid Plan (optional)
-Plan name, price, billing model.
-
-### Ratings (1-5)
-Beginner Friendly, Documentation, Free Generosity, Setup, Reliability, Performance, Community.
-
-### Verification
-Status: tested | community-verified | unverified
-Verified By: <handle>
-Date: 2026-05
-
-### Status
-active | deprecated | limited
-
-### Region Restrictions
-Global: Yes | No
-Restricted Countries: CN, RU, ...
-
-### Student Benefits
-Available: Yes | No
-Details: ...
-Verification Method: edu-email | github-education | iscard | sheerid | id-card
-
-### Tags
-ai api open-source llm
-
-### Alternatives To (optional)
-Tool A, Tool B
-
-### Alternatives (optional)
-tool-c-slug, tool-d-slug
-```
-
-### 3.2 Recipe Format
-
-Each recipe includes:
-- **Stack table**: Frontend, Backend, Hosting, DB, Auth, Storage, Email, Analytics
-- **Estimated monthly cost**: ₹0
-- **Setup steps**: Numbered instructions
-- **Scaling path**: Upgrade individual layers with costs
-- **Alternatives table**: Layer → alternative tool
-
-### 3.3 Learning Path Format
-
-Each path includes:
-- **4-5 phases**: Phase name → (Topic, Free Resource, Duration) table
-- **Tools list**: Editor, browser, API client, version control
-- **Platforms list**: Hosting, database, auth, storage, CI/CD
-- **Build projects**: Beginner → Advanced with stack and difficulty
-- **Recommended sequence**: Arrow notation
-- **Key free resources**: Links
-
-### 3.4 Alternative File Format
-
-Each alternative file includes:
-- **Comparison table**: Column per tool, rows for features
-- **Migration path**: Arrow notation mapping features
-- **When-to-switch guide**: Scenario-based recommendations
-- **Switch difficulty**: Easy/Medium/Hard label
-
-### 3.5 Ranking Format
-
-Each ranking includes:
-- **Methodology table**: 4 factors with weights
-- **Per-entry breakdown**: 4 factor scores + composite score
-- **Rationale**: Why #1 won
-- **Link**: Reference to `data/rankings.json`
-
-### 3.6 Deprecated File Format
-
-Each deprecated entry includes:
-- **Status badge**: ⚠️ Deprecated / 🗄️ Archived / 🔧 Unmaintained / 💀 Dead
-- **Date**: When deprecation occurred
-- **What happened**: Explanation
-- **Migration recommendations**: Table (Alternative, Notes, URL)
+**Total**: 20 categories, ~135 subcategories, 193 resources.
 
 ---
 
-## 4. Data Models
+## 4. Data Architecture
 
-### 4.1 Resource Entry Schema (`data/resources.json` + `data/resources-schema.json`)
+### 4.1 Dual-Format Storage
 
-**Top-level structure**:
-```json
-{
-  "$schema": "./resources-schema.json",
-  "meta": { "version": "1.0.0", "last_updated": "2026-05-24", "total_resources": 4 },
-  "resources": [ /* array of resource objects */ ]
-}
+Every resource exists in two synchronized formats:
+
+```
+categories/<category>/<slug>.md     # Human-readable markdown
+data/resources.json                 # Machine-readable JSON (master index)
 ```
 
-**Resource object fields** (22 fields, 14 required):
+The JSON file is the **source of truth**. Markdown files are generated/maintained to match.
 
-| Field | Type | Required | Constraints |
-|---|---|---|---|
-| `id` | string (kebab-case) | ✅ | Pattern: `^[a-z0-9]+(-[a-z0-9]+)*$` |
-| `slug` | string (kebab-case) | ✅ | Same pattern as id |
-| `name` | string (max 128) | ✅ | Display name |
-| `website` | URI | ✅ | Official URL |
-| `docs` | URI | ❌ | Documentation URL |
-| `github` | URI | ❌ | Must match `^https://github\\.com/` |
-| `description` | string (max 500) | ✅ | Purpose and use cases |
-| `category` | enum (20 values) | ✅ | Must exist in taxonomy.json |
-| `subcategory` | string | ❌ | Free-form |
-| `tags` | string[] (min 1, unique) | ✅ | Must exist in tags.json |
-| `free_tier` | object | ✅ | `{ summary (required), limits: { requests_per_month, tokens_per_minute, storage_gb, seats } }` |
-| `paid_plan` | object | ❌ | `{ summary, starting_price_usd, billing_model: subscription|usage-based|transaction-fee|one-time|contact-sales }` |
-| `ratings` | object | ✅ | `{ beginner_friendly, docs, free_generosity, setup, reliability, performance, community (all 1-5), overall (computed 0-5) }` |
-| `verification` | object | ✅ | `{ status: tested|community-verified|unverified, verified_by, date }` |
-| `status` | enum | ✅ | `active|deprecated|limited` |
-| `student_benefits` | object | ✅ | `{ available (bool), details, verification_method }` |
-| `requires_card` | boolean | ✅ | Credit card requirement |
-| `region_restrictions` | object | ✅ | `{ global (bool), restricted_countries[], notes }` |
-| `languages` | string[] | ❌ | ISO 639-1 codes |
-| `alternatives_to` | string[] | ❌ | Paid tool names this replaces |
-| `alternatives` | string[] | ❌ | Slugs of related free resources |
-| `last_verified` | date (ISO 8601) | ✅ | Last confirmation date |
+### 4.2 Resource JSON Schema
 
-**Schema validation** (enforced by `resources-schema.json`):
-- JSON Schema draft-07
-- Uses `ajv` with `--strict=true --all-errors` in CI
-- Additional properties not allowed on any object
-
-### 4.2 Taxonomy Model (`data/taxonomy.json`)
+Each entry in `data/resources.json` has exactly 22 fields in this order:
 
 ```json
 {
-  "version": "1.0.0",
-  "last_updated": "2026-05-24",
-  "description": "Complete category taxonomy for awesome-free-stack",
-  "categories": [
-    {
-      "id": "ai",
-      "name": "AI",
-      "icon": "🤖",
-      "description": "Artificial intelligence APIs, models, and infrastructure.",
-      "subcategories": [
-        { "id": "apis", "name": "APIs", "description": "..." },
-        /* ... 10 more subcategories for AI */
-      ],
-      "tags": ["ai", "llm", "machine-learning", "deep-learning", "artificial-intelligence"]
+  "id": "unique-kebab-case",
+  "slug": "unique-kebab-case",
+  "name": "Display Name",
+  "website": "https://...",
+  "docs": "https://...",
+  "github": "https://github.com/...",
+  "description": "<200 char summary",
+  "category": "category-id",
+  "subcategory": "subcategory-id",
+  "tags": ["tag-id", "tag-id", "..."],
+  "free_tier": {
+    "summary": "What's free, with specific numeric limits",
+    "limits": {
+      "requests_per_month": null,
+      "tokens_per_minute": null,
+      "storage_gb": null,
+      "seats": null
     }
-    /* ... 19 more categories */
-  ]
+  },
+  "paid_plan": {
+    "summary": "What the paid tier includes and pricing",
+    "starting_price_usd": null,
+    "billing_model": "subscription | usage-based | transaction-fee | one-time | contact-sales | donation | per-user | per-host | per-domain | custom"
+  },
+  "ratings": {
+    "beginner_friendly": 1-5,
+    "docs": 1-5,
+    "free_generosity": 1-5,
+    "setup": 1-5,
+    "reliability": 1-5,
+    "performance": 1-5,
+    "community": 1-5,
+    "overall": "computed via weighted formula"
+  },
+  "verification": {
+    "status": "tested | community-verified | limited",
+    "verified_by": "maintainer | community",
+    "date": "2026-MM"
+  },
+  "status": "active | limited",
+  "student_benefits": {
+    "available": true/false,
+    "details": "Description of student offer",
+    "verification_method": "github-education | institutional-email | sheerid | id-card"
+  },
+  "requires_card": true/false,
+  "region_restrictions": {
+    "global": true/false,
+    "restricted_countries": [],
+    "notes": ""
+  },
+  "languages": ["en", "es", "..."],
+  "alternatives_to": ["existing-resource-id"],
+  "alternatives": ["existing-resource-id"],
+  "last_verified": "2026-MM-DD"
 }
 ```
 
-### 4.3 Tag System (`data/tags.json`)
+### 4.3 Rating Formula
 
-155 tags in **6 groups**:
+The `overall` score is computed from 7 weighted metrics:
 
-| Group | Count | Purpose | Examples |
+| Metric | Weight | Description |
+|---|---|---|
+| beginner_friendly | 1.0 | Ease of getting started |
+| docs | 1.0 | Documentation quality |
+| free_generosity | 1.5 | Generosity of the free tier |
+| setup | 0.8 | Setup time and effort |
+| reliability | 1.2 | Uptime and trustworthiness |
+| performance | 0.8 | Speed and responsiveness |
+| community | 0.5 | Community size and activity |
+
+**Formula**:
+```
+overall = SUM(score_i × weight_i) / SUM(weight_i)
+        = (beginner_friendly×1.0 + docs×1.0 + free_generosity×1.5 + setup×0.8 + reliability×1.2 + performance×0.8 + community×0.5) / 6.8
+```
+
+**Score tiers**:
+- Elite (≥4.5) 🏆, Excellent (4.0–4.4) ⭐, Good (3.0–3.9) ✅, Fair (2.0–2.9) 🟡, Limited (1.0–1.9) 🔴, Insufficient (<1.0) ⚠
+
+### 4.4 Ranking Algorithm
+
+The overall **rank score** is a weighted composite of 4 factors:
+
+| Factor | Weight | Source |
+|---|---|---|
+| Community Votes | 25% | GitHub Discussions reactions |
+| Popularity | 20% | GitHub stars, npm downloads, web traffic |
+| Maintainer Score | 30% | Maintainer review board |
+| Free Tier Quality | 25% | Rating free_generosity score |
+
+### 4.5 Verification Badges
+
+10 badges with defined criteria and expiry:
+
+| Badge | Type | Duration | Meaning |
 |---|---|---|---|
-| **Global** | 15 | Cross-cutting | `open-source`, `self-hosted`, `api`, `sdk`, `cli`, `top-rated` |
-| **Category** | 77 | Derived from categories | `ai`, `llm`, `database`, `payments`, `design`, `mobile` |
-| **Pricing** | 12 | Cost/billing | `free-tier`, `freemium`, `no-card`, `forever-free`, `generous-free-tier` |
-| **Region** | 12 | Geographic | `global`, `india-friendly`, `eu-compliant`, `china-restricted` |
-| **Compatibility** | 32 | Platform/language | `javascript`, `python`, `docker`, `postgresql`, `react`, `s3-compatible` |
-| **Verification** | 7 | Status | `tested`, `community-verified`, `unverified`, `deprecated`, `limited` |
-
-### 4.4 Rating System (`data/ratings.json`)
-
-**7 metrics with weighted formula** (total weight = 6.8):
-
-| # | Metric | Weight | Icon | 1-Poor | 5-Excellent |
-|---|---|---|---|---|---|
-| 1 | Beginner Friendliness | 1.0 | 🌱 | Requires deep prior knowledge | Exceptional onboarding, interactive tutorials |
-| 2 | Documentation Quality | 1.0 | 📖 | No docs or extremely outdated | Interactive examples, video guides, playground |
-| 3 | Free Tier Generosity | **1.5** | 🎁 | No free tier or unusable (<10 req) | Can run real product indefinitely |
-| 4 | Setup Ease | 0.8 | ⚡ | Complex, days to integrate | Copy-paste, <5 minutes |
-| 5 | Reliability | **1.2** | 🔒 | <90% uptime | 99.99%+, multi-region |
-| 6 | Performance | 0.8 | 🚀 | Very slow, throttled to unusable | Sub-100ms, global edge |
-| 7 | Community | 0.5 | 👥 | No community | Massive, plugins, courses, conferences |
-
-**Formula**: `overall = SUM(score_i × weight_i) / SUM(weight_i)` — rounded to 1 decimal
-
-**Example**: `(5×1.0 + 4×1.0 + 5×1.5 + 5×0.8 + 4×1.2 + 4×0.8 + 3×0.5) / 6.8 = 4.4`
-
-**6 Performance Tiers**:
-
-| Tier | Range | Color | Description |
-|---|---|---|---|
-| 🏆 Elite | 4.5 – 5.0 | `#FFD700` | Best-in-class |
-| ⭐ Excellent | 4.0 – 4.4 | `#1DB954` | Highly recommended |
-| ✅ Good | 3.0 – 3.9 | `#58A6FF` | Solid choice |
-| 🟡 Fair | 2.0 – 2.9 | `#F0883E` | Notable limitations |
-| 🔴 Limited | 1.0 – 1.9 | `#F85149` | Use with caution |
-| ⚠ Insufficient | 0.0 – 0.9 | `#8B0000` | Below minimum bar |
-
-**Aggregate**: Mean of all resource scores within a group, rounded to 1 decimal.
-
-### 4.5 Ranking System (`data/rankings.json`)
-
-**4-factor composite score**:
-
-| Factor | Weight | Max | Source | Refresh |
-|---|---|---|---|---|
-| 👍 Community Votes | 25% | 5 | GitHub Discussions poll reactions | Monthly |
-| 📈 Popularity | 20% | 5 | GitHub stars, npm downloads, web traffic | Quarterly |
-| 🔍 Maintainer Score | 30% | 5 | Maintainer review board (3+ reviews avg) | Quarterly |
-| 🎁 Free Tier Quality | 25% | 5 | From `resources.json` → `ratings.free_generosity` | Monthly |
-
-**Formula**: `composite = SUM(factor_score × weight) / SUM(weights)`
-**Tiebreaker**: `free_quality` → `maintainer_score` → `community_votes`
-**Minimum**: 5 entries required to publish a category ranking
-**Badges**: 🥇 (rank 1), 🥈 (rank 2), 🥉 (rank 3), 🏅 (top 10%)
-
-**Published rankings**: AI (3 entries), Databases (3 entries), Hosting (3 entries)
-
-**Eligible categories** (all 20): All are eligible; only those with 5+ entries are published.
-
-### 4.6 Badge System (`data/badges.json`)
-
-10 badges across 6 categories:
-
-| Badge | Icon | Category | Validity | Expiry Action |
-|---|---|---|---|---|
-| Tested | ✅ | Verification | 6 months | Downgrade to Community Verified |
-| Community Verified | 🟡 | Verification | 3 months | Downgrade to Unverified |
-| Unverified | 🔴 | Verification | 30 days | Warning if >90 days unverified |
-| Deprecated | ⚠️ | Status | Permanent | Move to `deprecated/` |
-| Archived | 🗄️ | Status | Permanent | Historical record |
-| Student Friendly | 🎓 | Audience | 12 months | Re-verify benefit |
-| India Friendly | 🇮🇳 | Region | 12 months | Re-verify availability |
-| Top Rated | 🏆 | Achievement | 3 months | Re-calculate from ratings |
-| No Card Required | 💳 | Pricing | 6 months | Re-test signup flow |
-| Global | 🌍 | Region | 12 months | Check sanctions list |
-
-### 4.7 Deprecated Entry Model (`data/deprecated.json` + `data/deprecated-schema.json`)
-
-**7 reason categories**: `free-tier-removed`, `service-shut-down`, `unmaintained`, `acquired`, `paywalled`, `degraded`, `superseded`
-
-**4 status types**: `deprecated` (free tier gone, service exists), `archived` (shut down), `unmaintained` (no updates), `dead` (completely defunct)
-
-**12 entries currently tracked**: Heroku, Replit, Glitch, CodeSandbox, Algolia, Auth0, npm, Oracle Cloud VPS, Parse Server, Pusher Chatkit, Babel, Imgix
-
-Each entry has: `id`, `name`, `website`, `category`, `reason` (primary + detail), `deprecated_on`, `last_verified`, `status`, `migration[]` (alternative_name, alternative_url, notes), `notes`.
+| ✅ Tested | verification | 6 months | Maintainer-verified |
+| 🟡 Community Verified | verification | 3 months | 3+ community reports |
+| 🔴 Unverified | verification | 30 days | Submitted, not tested |
+| ⚠️ Deprecated | status | Permanent | Free tier removed |
+| 🗄️ Archived | status | Permanent | Moved to archive |
+| 🎓 Student Friendly | audience | 12 months | Student benefit available |
+| 🇮🇳 India Friendly | region | 12 months | Works in India |
+| 🏆 Top Rated | achievement | 3 months | Score ≥ 4.5 |
+| 💳 No Card Required | pricing | 6 months | No credit card needed |
+| 🌍 Global | region | 12 months | Available worldwide |
 
 ---
 
-## 5. Automation Workflows (`.github/workflows/`)
+## 5. Tag Taxonomy
 
-6 workflows, all enabling `workflow_dispatch` for manual trigger. All use `ubuntu-latest` runner.
+175 tags organized into 7 groups:
 
-### 5.1 `check-links.yml` — Check Dead Links
-
-| Property | Value |
-|---|---|
-| **Trigger** | Monthly (cron: `0 0 1 * *`) + `workflow_dispatch` |
-| **Permissions** | `issues: write` |
-| **Tool** | `lycheeverse/lychee-action@v1` |
-| **Config** | `.lychee.toml` |
-| **Output** | `lychee-report.md` |
-| **On failure** | Creates issue: title `🔗 Broken links detected`, labels `bug`, `automated` |
-
-### 5.2 `validate-json.yml` — Validate JSON
-
-| Property | Value |
-|---|---|
-| **Trigger** | PR/push to `data/*.json`, push to main + `workflow_dispatch` |
-| **Steps** | 1. Checkout `@v4` 2. Setup Node 20 3. `npm install -g ajv-cli ajv-formats` 4. Validate resources.json against schema (`--strict=true --all-errors`) 5. Syntax-check all `data/*.json` 6. Validate category consistency against taxonomy.json 7. Validate tag references against tags.json |
-
-### 5.3 `monthly-verification.yml` — Monthly Verification Report
-
-| Property | Value |
-|---|---|
-| **Trigger** | Monthly (cron: `0 6 1 * *`) + `workflow_dispatch` |
-| **Permissions** | `issues: write`, `contents: read` |
-| **Logic** | Compares `last_verified` dates against current date: expired (>6 months), expiring (3-6 months) |
-| **Output** | Issue: title `🧪 Monthly Verification Report`, labels `maintenance`, `automated` |
-
-### 5.4 `update-readme.yml` — Update README Stats
-
-| Property | Value |
-|---|---|
-| **Trigger** | Monthly (cron: `0 2 1 * *`) + `workflow_dispatch` |
-| **Permissions** | `contents: write`, `pull-requests: write` |
-| **Logic** | Computes totals, by-category counts, verification stats, no-card count, student-friendly, global, open-source, top-rated |
-| **Output** | PR via `peter-evans/create-pull-request@v6`: branch `stats/readme-update`, labels `automated` |
-
-### 5.5 `generate-stats.yml` — Generate Stats
-
-| Property | Value |
-|---|---|
-| **Trigger** | Monthly (cron: `0 4 1 * *`) + `workflow_dispatch` |
-| **Permissions** | `contents: write` |
-| **Logic** | Computes breakdowns: by_category, by_verification, by_status, by_card_requirement, by_region, by_student_benefits, by_rating. Extracts top 30 tags. |
-| **Output** | Commits `data/stats.json` directly with message `chore: update stats [skip ci]` |
-
-### 5.6 `detect-broken-resources.yml` — Detect Broken Resources
-
-| Property | Value |
-|---|---|
-| **Trigger** | Bi-weekly (cron: `0 8 1,15 * *`) + `workflow_dispatch` |
-| **Permissions** | `issues: write`, `contents: read` |
-| **Logic** | HTTP(S) GET to every `website`, `docs`, `github` URL in `resources.json`. 10s timeout. User-Agent set. Categorizes as ok (2xx), redirected (3xx), broken (4xx+), error, timeout, invalid. |
-| **Output** | Issue if broken found: title `🔴 Broken Resources Detected`, labels `bug`, `maintenance`, `automated` |
+| Group | Tags | Purpose |
+|---|---|---|
+| **global** (15) | open-source, self-hosted, saas, api, sdk, cli, no-code, low-code, new, trending, top-rated, verified, community-pick, production-ready, beginner-friendly | Cross-cutting attributes |
+| **category** (137) | ai, llm, cloud, database, auth, payments, mobile, testing, etc. | Derived from categories & subcategories |
+| **pricing** (12) | free-tier, freemium, trial, usage-based, no-card, card-required, pay-what-you-want, donation, forever-free, generous-free-tier, usage-limits, rate-limited | Cost/billing attributes |
+| **region** (12) | global, india-friendly, us-friendly, eu-compliant, china-restricted, russia-restricted, sanctioned-restricted, us-only, eu-only, asia-pacific, multi-region | Geographic attributes |
+| **compatibility** (33) | javascript, typescript, python, rust, go, java, ruby, php, dotnet, swift, kotlin, react, nextjs, vue, svelte, nodejs, docker, kubernetes, graphql, rest, grpc, webhook, postgresql, mysql, mongodb, redis, s3-compatible, stripe-compatible, openai-compatible, oauth, saml, webassembly | Tech stack compatibility |
+| **verification** (7) | tested, community-verified, unverified, deprecated, limited, requires-invite, waitlist | Status verification |
 
 ---
 
-## 6. Community System
+## 6. Automation & CI
 
-### 6.1 Issue Templates (`.github/ISSUE_TEMPLATE/`)
+### 6.1 Validation Pipeline
 
-4 YAML-based forms:
+All resources undergo automated checks:
 
-| Template | Fields | Labels |
-|---|---|---|
-| `add-resource.yml` | Tool Name, Website, Category (20-option dropdown), Description, Free Tier, Paid Plan, Card Required (Y/N), Verification checkboxes (4), Notes | `resource`, `new-submission` |
-| `report-broken-tool.yml` | Tool Name, File Path, Issue Type (7 options: dead-link, free-tier-removed, shut-down, card-required, region-changed, student-benefits-gone, outdated, other), Details, Source/Evidence, Confirmation checkbox | `bug`, `maintenance` |
-| `suggest-category.yml` | Category Name, Type (top-level/subcategory), Parent (if subcategory), Rationale, Example Resources, Research checkbox | `enhancement`, `taxonomy` |
-| `feature-request.yml` | Area (8 options: structure, automation, tooling, website, docs, contribution, community, other), Problem, Solution, Alternatives, Duplicate check | `enhancement` |
+1. **JSON Schema validation** — against `data/resources-schema.json` (ajv, draft-07)
+2. **Taxonomy validation** — category and subcategory must exist in `data/taxonomy.json`
+3. **Tag validation** — every tag must exist in `data/tags.json` with a non-zero count
+4. **Markdown presence** — every resource must have a markdown file at `categories/<category>/<slug>.md`
+5. **Subcategory validity** — subcategory must exist within the assigned category
+6. **Duplicate detection** — no duplicate IDs, slugs, or names across resources
+7. **Rating validation** — overall score must match the weighted formula within ±0.05
+8. **Link checking** — all URLs checked by lychee link checker
 
-### 6.2 Discussion Templates (`.github/DISCUSSION_TEMPLATE/`)
+### 6.2 GitHub Automation
 
-6 markdown templates:
+- **PR validation** — runs all checks on pull requests
+- **Scheduled re-verification** — periodic badge expiry checks
+- **Ranking updates** — quarterly ranking re-computation
+- **Deprecation sweeps** — automatic deprecation of stale entries
 
-| Template | Sections |
-|---|---|
-| `ideas.md` | Description, Why This Matters, Implementation Thoughts, Related |
-| `tool-requests.md` | Tool Name, Website, Category, Why It Belongs, Free Tier Details, Paid Plan, Why Better Than Listed, Verification checkboxes (3) |
-| `comparisons.md` | Tools Being Compared, Comparison Criteria, Your Experience, Free Tier Comparison (table), Verdict |
-| `monthly-highlights.md` | Month, Top Additions (Best New Resource + Runner-Up), Trending Discussions, Community Highlights, By the Numbers |
-| `support.md` | Summary, Resource, What I've Tried, Question, Additional Context |
-| `voting.md` | Topic, Nominees, Voting Criteria, How to Vote, Results |
+### 6.3 Stack
 
-### 6.3 PR Template (`.github/PULL_REQUEST_TEMPLATE.md`)
-
-Checklist-based template with 3 sections:
-- **Submission**: CONTRIBUTING read, template used, no duplicate, meaningful free tier, valid category
-- **Content**: Clear description, specific limits, card requirement disclosed, valid tags, working URLs
-- **Verification**: Personally tested, tool active, region restrictions documented, student benefits documented
-
-### 6.4 Resource Template (`.github/resource-template.md`)
-
-Complete template with all fields, quick-reference table showing required/optional per field, and submission workflow reference.
-
-### 6.5 Recognition System
-
-Active community members earn badges:
-- 🏅 **Top Voter** — Most votes cast in a quarter
-- ⭐ **Helpful Member** — Frequently provides accurate answers
-- 🔍 **Bug Hunter** — Reports broken tools with verified evidence
+- **Runtime**: Node.js 20
+- **Validation**: ajv (JSON Schema draft-07, ajv-formats)
+- **Links**: lychee
+- **CI**: GitHub Actions
 
 ---
 
-## 7. Category Taxonomy (Full)
+## 7. Contribution Workflow
 
-20 categories, 135 subcategories total. See `CATEGORIES.md` and `data/taxonomy.json`.
+### 7.1 Adding a New Resource
 
-| # | Category | Icon | Subcategories |
-|---|---|---|---|
-| 1 | AI | 🤖 | APIs, Models, Agents, RAG, Embeddings, Image Generation, Video Generation, Speech, Vector Databases, ML Platforms, Prompt Tools |
-| 2 | Deployment | 🚀 | Serverless, Containers, PaaS, Edge Functions, Platform Orchestration, BaaS |
-| 3 | Cloud | ☁️ | Compute, Serverless Compute, Cloud Storage, Networking, CDN, Cloud Functions, Free Tier |
-| 4 | Hosting | 🌐 | Static Sites, VPS, Web Servers, DNS, SSL Certificates, Reverse Proxy |
-| 5 | Databases | 🗄️ | SQL, NoSQL, Managed Databases, Caching, Vector Databases, Graph Databases, Time Series, Backend Platforms |
-| 6 | Storage | 💾 | Object Storage, File Hosting, CDN Storage, Backup, Image Optimization |
-| 7 | Auth | 🔐 | Authentication, SSO, MFA, User Management, Authorization, Passwordless, Social Login |
-| 8 | Payments | 💳 | Payment Processing, Invoicing, Subscription Management, Checkout, Fraud Detection, Payouts |
-| 9 | Email & SMS | 📧 | Transactional Email, Email Marketing, Email API, SMS, Push Notifications, Multi-Channel |
-| 10 | Monitoring | 📊 | APM, Log Management, Uptime Monitoring, Error Tracking, Real User Monitoring, Infrastructure Monitoring, Synthetic Monitoring |
-| 11 | CI/CD | 🔄 | Pipelines, Build Automation, Artifact Hosting, Testing Automation, Code Quality, Deployment Automation |
-| 12 | DevTools | 🛠️ | Code Editors, Version Control, CLI Tools, API Tools, Package Managers, Browser DevTools, Code Generation, Collaboration |
-| 13 | Design | 🎨 | UI Kits, Icons, Illustrations, Prototyping, Design Systems, Color Tools, Typography, Mockups, Screenshot Tools |
-| 14 | Domains | 🔗 | Free Domains, Subdomains, DNS Management, Domain Forwarding, Dynamic DNS |
-| 15 | Testing | 🧪 | Unit Testing, E2E Testing, API Testing, Load Testing, Browser Testing, Test Management, Visual Regression |
-| 16 | Mobile | 📱 | Mobile SDKs, Push Notifications, App Hosting, App Builders, Deep Linking, App Testing, App Analytics |
-| 17 | Learning | 📚 | Platforms, Courses, Certifications, Interactive Tutorials, Coding Challenges, Documentation, Newsletters, Podcasts |
-| 18 | Student Packs | 🎓 | GitHub Student Pack, Cloud Credits, IDE Licenses, Learning Platforms, Design Tools, Domain Benefits |
-| 19 | Startup Credits | 🏢 | Cloud Programs, SaaS Programs, Incubators, Founder Perks, Open Source Grants |
-| 20 | Open Source | 🌍 | Self-Hostable, Libraries, Community Editions, Templates, Boilerplates |
+1. Choose the correct category and subcategory from `data/taxonomy.json`
+2. Check `data/resources.json` for existing entries (no duplicates)
+3. Add JSON entry to `data/resources.json` with all 22 fields
+4. Create markdown file at `categories/<category>/<slug>.md`
+5. Ensure tags exist in `data/tags.json` (add new tags with count updates)
+6. Open a PR — automated validation runs, maintainer reviews within 2–5 business days
 
----
+### 7.2 What is NOT Accepted
 
-## 8. Content Layer Details
-
-### 8.1 Student Packs (`categories/student-packs/`)
-
-9 files providing $5,000+/year in free tools for verified students:
-
-| File | Tool | Value | Verification |
-|---|---|---|---|
-| `github-student-pack.md` | GitHub Student Pack | $200k+ | .edu / ISIC / SheerID |
-| `aws-educate.md` | AWS Educate | $110 credits | .edu / ISIC |
-| `azure-for-students.md` | Azure for Students | $100 credits | .edu |
-| `google-cloud-for-students.md` | Google Cloud for Students | $300 credits | .edu |
-| `figma-education.md` | Figma Education | Free Pro ($144/yr) | .edu / SSO / ISIC |
-| `notion-education.md` | Notion Education | Free Plus ($120/yr) | .edu |
-| `jetbrains-student.md` | JetBrains Student | $649/yr | .edu / ISIC / docs |
-| `verification-guide.md` | Verification Guide | 5 methods, 15+ platforms | Reference |
-| `benefits-overview.md` | Benefits overview | All benefits combined | Reference |
-
-**Verification methods** (from verification-guide.md):
-1. `.edu` email (fastest, most platforms)
-2. ISIC card (~$25, accepted by 6+ platforms)
-3. Enrollment documentation (certificate, schedule, tuition receipt, ID, transcript)
-4. SSO (Microsoft/Google for Education — GitHub, GCP, Azure, Figma)
-5. SheerID (third-party verification — GitHub, Figma, Canva)
-
-### 8.2 Startup Credits (`categories/startup-credits/`)
-
-5 files tracking $600,000+ in available credits:
-
-| File | Focus | Max Credits |
-|---|---|---|
-| `cloud-credits.md` | AWS Activate ($100k), GCP Startup ($200k), Azure for Startups ($150k), Oracle ($10k) | $450k+ |
-| `ai-credits.md` | OpenAI ($5k+), Anthropic ($5k), Vertex ($2k+), Cohere ($1k), DeepSeek, Groq, Together | $16k+ |
-| `hosting-credits.md` | Vercel ($240/yr), Cloudflare ($240/yr), Netlify ($180/yr), DigitalOcean ($100), Railway, Fly.io | $1k+ |
-| `accelerator-programs.md` | YC ($500k+deal), Techstars ($120k), 500 Global ($150k), Seedcamp, Entrepreneur First, no-equity options | $2M+ |
-| `startup-support.md` | Stripe ($20k waived), Notion ($240/seat), Figma ($360), Linear ($468), Intercom ($3.6k), HubSpot ($4.5k) | $40k+ |
-
-### 8.3 Alternatives (`alternatives/`)
-
-5 files, 80+ paid-to-free swaps across 12 categories:
-
-| File | Paid Tools Replaced | Free Alternatives | Swaps |
-|---|---|---|---|
-| `index.md` | Notion, Confluence, Miro, Linear, Jira, Firebase, Vercel, AWS, Heroku, ChatGPT, Midjourney, Copilot, MongoDB, Redis, Snowflake, Dropbox, Datadog, New Relic, Splunk, Auth0, Okta, SendGrid, Mailchimp, Figma Pro, Canva Pro, etc. | AppFlowy, Supabase, Gemini, Vercel free, Grafana, Clerk, Resend, Cloudflare R2, FreeCodeCamp, etc. | 80+ |
-| `notion.md` | Notion paid | AppFlowy, Outline, Anytype, SiYuan | 4 |
-| `firebase.md` | Firebase | Supabase, Appwrite, PocketBase, Nhost | 4 |
-| `chatgpt.md` | ChatGPT Plus | Gemini, DeepSeek, Claude, Groq, Perplexity | 5 |
-| `vercel.md` | Vercel paid | Cloudflare Pages, Netlify, Render | 3 |
-
-### 8.4 Build Recipes (`recipes/`)
-
-7 recipes, each with specific ₹0/month stack:
-
-| Recipe | Stack | Key Free Tools |
-|---|---|---|
-| Build a SaaS | Next.js + Supabase + Vercel + Resend | Vercel Free (100GB), Supabase Free (500MB PG, 50k MAU), Resend (100/day) |
-| Build an AI App | Groq + pgvector + Vercel AI SDK + Clerk | Groq (30 req/min), Clerk (10k MAU), Vercel AI SDK, Supabase pgvector |
-| Build a Startup MVP | Next.js + Supabase + Stripe + Sentry | Same as SaaS + Stripe (per-transaction), Sentry Free |
-| Build a Portfolio | Astro + Cloudflare Pages + Umami | Cloudflare Pages (unlimited bandwidth), Umami (self-host) |
-| Build a Mobile App | Expo + Supabase + EAS + PostHog | Expo (free build), EAS (30 builds/mo), PostHog (1M events) |
-| Build a Docs Site | Next.js + MDX + Meilisearch + Clerk | Meilisearch Cloud (10k docs), Clerk Auth |
-| Build File Sharing | Next.js + R2 + Supabase + Resend | Cloudflare R2 (10GB), Supabase Storage (2GB) |
-
-### 8.5 Learning Paths (`learning-paths/`)
-
-7 paths, each with phases, tools, platforms, and build projects:
-
-| Path | Duration | From → To |
-|---|---|---|
-| Frontend | 16 weeks | HTML/CSS → Deployed Next.js |
-| Backend | 14 weeks | Node.js/Python → Dockerized API |
-| Full Stack | 18 weeks | JavaScript → Full-stack SaaS |
-| AI Engineer | 16 weeks | Python → RAG + LangChain |
-| DevOps | 20 weeks | Linux → K8s → Terraform |
-| Mobile | 16 weeks | Expo → Published app |
-| Indie Hacker | 10 weeks | Idea → First dollar |
-
-### 8.6 Deprecated Tracking (`deprecated/`)
-
-12 entries across 4 files:
-
-| File | Count | Status | Examples |
-|---|---|---|---|
-| `deprecated.md` | 11 | ⚠️ Deprecated | Heroku, Replit, Glitch, Auth0, Algolia, CodeSandbox, npm, Oracle VPS, Babel, Imgix |
-| `archived.md` | 1 | 🗄️ Archived | Parse.com |
-| `unmaintained.md` | 0 (template) | 🔧 Unmaintained | — |
-| `dead-projects.md` | 1 | 💀 Dead | Pusher Chatkit |
-
-### 8.7 Rankings (`rankings/`)
-
-3 published rankings with composite scores:
-
-| Ranking | #1 | #2 | #3 |
-|---|---|---|---|
-| Best Free AI Tools 2026 | Gemini API (4.7) | Groq API (4.5) | DeepSeek API (4.3) |
-| Best Free Databases 2026 | Supabase (4.8) | Neon (4.5) | MongoDB Atlas (4.2) |
-| Best Free Hosting 2026 | Vercel (4.7) | Cloudflare Pages (4.6) | Netlify (4.2) |
-
----
-
-## 9. Current Repository Status
-
-### 9.1 What Exists
-
-| Component | Status | Details |
-|---|---|---|
-| README.md | ✅ Comprehensive | SEO-optimized with stats, architecture, features, badges |
-| CATEGORIES.md | ✅ Complete | 20 categories, 135 subcategories |
-| CONTRIBUTING.md | ✅ Complete | Resource requirements, style guide, review process |
-| CODE_OF_CONDUCT.md | ✅ Complete | Contributor Covenant v2.1 |
-| DISCUSSIONS.md | ✅ Complete | 6 categories, guidelines, voting, recognition |
-| data/*.json | ✅ 9 files, 2 schemas | Full data layer with validation |
-| .github/workflows/ | ✅ 6 workflows | All automation operational |
-| .github/ISSUE_TEMPLATE/ | ✅ 4 templates | All YAML forms |
-| .github/DISCUSSION_TEMPLATE/ | ✅ 6 templates | All markdown templates |
-| .github/PULL_REQUEST_TEMPLATE.md | ✅ Complete | Checklist-based |
-| .github/resource-template.md | ✅ Complete | Full template + quick reference |
-| categories/student-packs/ | ✅ 9 files | 7 guides + verification + overview |
-| categories/startup-credits/ | ✅ 5 files | Cloud, AI, hosting, accelerators, SaaS support |
-| alternatives/ | ✅ 5 files, 80+ swaps | index + 4 detailed files |
-| recipes/ | ✅ 7 recipes | All zero-budget stacks |
-| learning-paths/ | ✅ 7 paths | All developer roles covered |
-| rankings/ | ✅ 3 rankings | AI, databases, hosting |
-| deprecated/ | ✅ 4 files | 12 entries tracked |
-| SEO Keywords | ✅ 21 keywords | Full SEO keyword list |
-
-### 9.2 What Is Empty / Needs Content
-
-| File / Directory | Status | Notes |
-|---|---|---|
-| `LICENSE` | ❌ Empty (0 lines) | No license selected |
-| `ROADMAP.md` | ❌ Empty (0 lines) | No roadmap defined |
-| `CHANGELOG.md` | ❌ Empty (0 lines) | No change history |
-| `FAQ.md` | ❌ Empty (0 lines) | No FAQ content |
-| `categories/ai/` | ❌ .gitkeep only | No resource files created |
-| `categories/deployment/` | ❌ .gitkeep only | No resource files created |
-| `categories/cloud/` | ❌ .gitkeep only | No resource files created |
-| `categories/hosting/` | ❌ .gitkeep only | No resource files created |
-| `categories/databases/` | ❌ .gitkeep only | No resource files created |
-| `categories/storage/` | ❌ .gitkeep only | No resource files created |
-| `categories/auth/` | ❌ .gitkeep only | No resource files created |
-| `categories/payments/` | ❌ .gitkeep only | No resource files created |
-| `categories/email-sms/` | ❌ .gitkeep only | No resource files created |
-| `categories/monitoring/` | ❌ .gitkeep only | No resource files created |
-| `categories/ci-cd/` | ❌ .gitkeep only | No resource files created |
-| `categories/devtools/` | ❌ .gitkeep only | No resource files created |
-| `categories/design/` | ❌ .gitkeep only | No resource files created |
-| `categories/domains/` | ❌ .gitkeep only | No resource files created |
-| `categories/testing/` | ❌ .gitkeep only | No resource files created |
-| `categories/mobile/` | ❌ .gitkeep only | No resource files created |
-| `categories/learning/` | ❌ .gitkeep only | No resource files created |
-| `categories/open-source/` | ❌ .gitkeep only | No resource files created |
-| `data/stats.json` | ❌ Not generated | Auto-generated by generate-stats.yml workflow |
-| `data/*.json` files | ⚠️ Minimal | resources.json has only 4 example entries |
-| `deprecated/unmaintained.md` | ⚠️ Template only | Format defined, no entries yet |
-
-### 9.3 Known Gaps for Future Work
-
-1. **Populate all 20 categories** with real resource markdown files
-2. **Fill LICENSE, ROADMAP, CHANGELOG, FAQ**
-3. **Add more entries to `data/resources.json`** (currently only 4 examples)
-4. **Generate `data/stats.json`** (workflow will auto-create)
-5. **Publish more rankings** (monitoring, auth, payments, CI/CD, etc.)
-6. **Add unmaintained entries** to `deprecated/unmaintained.md`
-7. **Build a website** from the JSON data layer
-8. **Expand deprecated tracking** with community-sourced reports
-9. **Add more alternative mappings** (databases, monitoring, CI/CD deep dives)
-10. **Add more build recipes** (currently 7)
-
----
-
-## 10. Constraints & Coding Conventions
-
-### 10.1 Naming Conventions
-
-| Entity | Convention | Example |
-|---|---|---|
-| File names (markdown) | kebab-case | `build-saas-with-zero-budget.md` |
-| File names (YAML) | kebab-case | `detect-broken-resources.yml` |
-| IDs (resources, categories, tags) | kebab-case | `openai-api`, `vector-databases` |
-| Slugs (resources) | kebab-case | `openai-api`, `gemini-api` |
-| Tool names (display) | Sentence case | Supabase, not SUPABASE |
-
-### 10.2 Content Conventions
-
-| Rule | Requirement |
-|---|---|
-| Description length | Max 200 characters |
-| Free tier details | Specific numbers, not vague terms |
-| Internal links | Relative paths |
-| Tags | Must reference approved list in `data/tags.json` |
-| Categories | Must exist in `data/taxonomy.json` |
-| Date format | ISO 8601 (`2026-05-24`) |
-| Rating values | Integers 1-5 |
-| Country codes | ISO 3166-1 alpha-2 |
-| Language codes | ISO 639-1 |
-| GitHub URLs | Must match `^https://github\\.com/` |
-
-### 10.3 Automation Constraints
-
-| Rule | Requirement |
-|---|---|
-| Runner | `ubuntu-latest` |
-| Checkout | `actions/checkout@v4` |
-| Node setup | `actions/setup-node@v4` |
-| Node version | 20 |
-| JSON validation | `ajv-cli` + `ajv-formats` with `--strict=true --all-errors` |
-| Link checking | `lychee` with config file |
-| PR creation | `peter-evans/create-pull-request@v6` |
-| Issue creation | `actions/github-script@v7` |
-| Workflow permissions | `contents: write`, `issues: write`, `pull-requests: write` |
-| Manual trigger | `workflow_dispatch` enabled on all workflows |
-
-### 10.4 Submission Acceptance Criteria
-
-| Criterion | Required |
-|---|---|
-| Meaningful free tier | ✅ (no trial-only) |
-| Active service | ✅ (no abandoned projects) |
-| Accurate free tier details | ✅ (verified before submission) |
-| Card requirement disclosed | ✅ |
-| Category matches taxonomy | ✅ (20 allowed values) |
-| No duplicate | ✅ |
-| Description under 200 chars | ✅ |
-| Specific numeric limits | ✅ |
-| Valid tags | ✅ (from `data/tags.json`) |
-
-### 10.5 What Is NOT Accepted
-
-- Services requiring card for time-limited trial only
-- Tools with no meaningful free tier (<100 requests or 24h trial)
+- Services requiring a credit card for a time-limited trial only
+- Tools with no meaningful free tier (under 100 requests or 24-hour trial)
 - Dead or abandoned projects
 - Pirated software or cracked tools
 - Affiliate links or referral rewards
 - Adult content or crypto/blockchain speculation tools
 
----
+### 7.3 Requirements for Every Resource
 
-## 11. Key File Relationships
-
-```
-resources.json ────────────────────────── resources-schema.json (draft-07)
-     │                                         │
-     ├── taxonomy.json (category validation)   │
-     ├── tags.json (tag validation)            │
-     ├── ratings.json (score computation)      │
-     └── rankings.json (composite scoring)     │
-                                               │
-deprecated.json ────────────────────── deprecated-schema.json
-                                               │
-.github/workflows/ ──── data/*.json (validation, stats, URL checks)
-.github/ISSUE_TEMPLATE/ ──── CONTRIBUTING.md (submission workflow)
-.github/DISCUSSION_TEMPLATE/ ──── DISCUSSIONS.md (community guidelines)
-.github/PULL_REQUEST_TEMPLATE.md ──── .github/resource-template.md
-
-categories/<category>/*.md ──── data/resources.json (dual format sync)
-README.md ──── data/stats.json (auto-updated stats section)
-rankings/*.md ──── data/rankings.json (published from raw data)
-deprecated/*.md ──── data/deprecated.json (published from raw data)
-```
-
----
-
-## 12. Quick Reference for AI Tools
-
-When working with this repository:
-
-| Action | Reference |
+| Criteria | Required |
 |---|---|
-| **Add a resource** | Use `.github/resource-template.md`, place in `categories/<category>/`, add to `data/resources.json` |
-| **Validate data** | `ajv validate -s data/resources-schema.json -d data/resources.json` |
-| **Find categories** | `data/taxonomy.json` (20 categories, 135 subcategories) |
-| **Find tags** | `data/tags.json` (155 tags in 6 groups) |
-| **Score ratings** | `data/ratings.json` (7 metrics, weighted formula, 6 tiers) |
-| **Compute rankings** | `data/rankings.json` (4 factors, composite formula) |
-| **Deprecate a tool** | Move entry to `deprecated/`, add to `data/deprecated.json` |
-| **Apply badges** | `data/badges.json` (10 badges with validity tracking) |
-| **SEO** | Embed keywords naturally; maintain README footer keywords |
-| **Directory naming** | Always kebab-case, descriptive, lowercase |
-| **Internal links** | Always relative paths |
-| **Dates** | ISO 8601 format (`2026-05-24`) |
+| Meaningful free tier | Yes |
+| Active service | Yes |
+| Accurate free tier details | Yes |
+| Card requirement disclosure | Yes |
+| Category match | Yes |
+| No duplicate | Yes |
 
 ---
 
-## 13. All Resources Currently in Data Layer
+## 8. Verification Standards
 
-From `data/resources.json` (4 entries):
-1. **OpenAI API** (ai/models) — $5 free credit, 10k TPM, card required, overall 4.3
-2. **Supabase** (databases/backend-platform) — 500 MB PG, 2 GB storage, 50k MAUs, no card, overall 4.7
-3. **Vercel** (hosting/static-sites) — 100 GB bandwidth, 6k build min, no card, overall 4.9
-4. **Stripe** (payments/payment-processing) — 2.9% + $0.30/charge, no card, overall 4.5
+### 8.1 Tested (✅)
+- Maintainer signed up and successfully used the free tier
+- Free tier limits confirmed accurate
+- No credit card requirement verified
+- Region restrictions confirmed
+- Valid for 6 months, then re-test or downgrade
 
-All are marked `tested`, `active`, and verified `2026-05`.
+### 8.2 Community Verified (🟡)
+- At least 3 independent community reports
+- No conflicting reports of broken free tier
+- Entry in repo for at least 30 days
+- Valid for 3 months
 
----
-
-## 14. All Deprecated Entries (Current)
-
-From `data/deprecated.json` (12 entries):
-
-| Entry | Category | Status | Reason | Migrate To |
-|---|---|---|---|---|
-| Heroku | hosting | deprecated | free-tier-removed (2022-11) | Render, Railway, Fly.io |
-| Replit | devtools | deprecated | free-tier-removed (2024-05) | GitHub Codespaces, GitPod |
-| Glitch | hosting | deprecated | free-tier-removed (2023-03) | Vercel, Render |
-| CodeSandbox | devtools | deprecated | free-tier-removed (2024-01) | StackBlitz, GitHub Codespaces |
-| Algolia | devtools | deprecated | free-tier-removed (2024-06) | Meilisearch, Typesense |
-| Auth0 | auth | deprecated | free-tier-removed (2024-03) | Clerk, Supabase Auth |
-| npm | devtools | deprecated | free-tier-removed (2024-04) | GitHub Packages, JSR |
-| Oracle Cloud VPS | cloud | deprecated | degraded (2025-09) | GCP Free Tier, AWS Free Tier |
-| Parse Server | backend (sic) | archived | service-shut-down (2017-01) | Supabase, Appwrite, Parse Self-Host |
-| Pusher Chatkit | mobile | dead | service-shut-down (2021-07) | Supabase Realtime, Stream Chat |
-| Babel (CI) | ci-cd | deprecated | free-tier-removed (2024-02) | GitHub Actions, SWC |
-| Imgix | storage | deprecated | free-tier-removed (2024-08) | Cloudinary, Cloudflare Images |
+### 8.3 Deprecation Workflow
+1. Mark resource as `status: "limited"` with reason
+2. After 30 days, move to `deprecated/` folder
+3. Keep in `deprecated.json` for historical reference
 
 ---
 
-## 15. All Published Rankings
+## 9. Current Stats
 
-From `data/rankings.json`:
-
-### AI Tools: 1. Gemini (4.7), 2. Groq (4.5), 3. DeepSeek (4.3), 4. OpenAI (4.0), 5. Hugging Face (3.9)
-### Databases: 1. Supabase (4.8), 2. Neon (4.5), 3. MongoDB Atlas (4.2), 4. Appwrite (4.0), 5. PlanetScale (3.5)
-### Hosting: 1. Vercel (4.7), 2. Cloudflare Pages (4.6), 3. Netlify (4.2), 4. Render (3.8), 5. Railway (3.6)
-
-All eligible categories: 20. Published (have entries): 3.
+| Metric | Value |
+|---|---|
+| **Total resources** | 193 |
+| **Total tags** | 175 |
+| **Categories populated** | 20/20 (100%) |
+| **Verification badges** | 10 types |
+| **Testing entries** | 19 tested, 173 community-verified, 1 limited |
+| **No-card entries** | 156 (80.8%) |
+| **Forever-free entries** | 43 (22.3%) |
+| **Student-friendly entries** | 24 (12.4%) |
+| **Rating formula compliance** | 100% |
+| **Field ordering consistency** | 100% |
+| **Missing markdowns** | 0 |
+| **Duplicate IDs** | 0 |
 
 ---
 
-## 16. Git History Summary
+## 10. Future Expansion
 
-**Recent commit context** (most recent ~50 commits):
-- Repository structure: `data/` (9 JSON files + 2 schemas), `.github/` (6 workflows, 4 issues, 6 discussions), `categories/` (20 folders), `alternatives/` (5 files), `recipes/` (7), `learning-paths/` (7), `rankings/` (3), `deprecated/` (4)
-- Documentation: README (multiple overhauls), CATEGORIES.md, DISCUSSIONS.md, CONTRIBUTING.md, CODE_OF_CONDUCT.md, PROJECT_CONTEXT.md
-- SEO: Keywords list (21), repository topics (14)
-- Deprecation: Full tracking system with schemas, JSON, and markdown layers
-- Community: All issue/discussion/PR templates
-- Last commit: README overhaul with architecture, features, stats, badges, rankings
+### 10.1 More Resources (Short-term)
+- Continue adding entries to existing categories (target: 500+ resources)
+- Fill gaps in sparsely populated categories
+
+### 10.2 Planned Enhancements
+- **Interactive web UI** — browse, filter, compare resources visually
+- **User ratings** — direct community ratings integrated with maintainer scores
+- **API endpoint** — programmatic access to the resource index
+- **Changelog automation** — automated changelog from GitHub releases
+- **Deprecation monitoring** — automated checks for free tier changes
+- **Comparison engine** — side-by-side resource comparison
+- **Learning paths generator** — auto-generated paths from resources
+
+### 10.3 AI / Automation
+- **AI-powered validation** — LLM-based free tier extraction from documentation
+- **Smart alternatives** — AI-recommended free alternatives for paid tools
+- **Auto-tagging** — ML-based tag suggestion for new resources
+- **Freshness monitoring** — automated detection of free tier changes via periodic testing
+
+### 10.4 Community Growth
+- **Discussion-based voting** — community upvote system using GitHub Discussions
+- **Leaderboards** — per-category ranked lists
+- **Badge unlock system** — contribution milestones
+- **Verified tester program** — community members can earn "Verified" badge
+
+---
+
+## 11. Key Relationships
+
+### 11.1 Multi-Category Tools
+
+Several tools appear in multiple categories because they offer distinct services:
+
+| Tool | Categories | Entries |
+|---|---|---|
+| **Google** | cloud (GCP), design (Fonts), student-packs, startup-credits | 4 |
+| **Firebase** | deployment (Hosting), databases (Firestore), auth, mobile | 4 |
+| **Cloudflare** | deployment (Pages, Workers), storage (R2), domains (DNS) | 4 |
+| **GitHub** | deployment (Pages), CI/CD (Actions), devtools (Codespaces), student-packs | 4 |
+| **AWS** | cloud (Compute), student-packs (Educate), startup-credits (Activate) | 3 |
+| **Supabase** | databases, storage, auth | 3 |
+| **OpenAI** | ai (API), student-packs, startup-credits | 3 |
+
+### 11.2 File Cross-References
+
+```
+resources.json ──tags────► tags.json
+resources.json ──category/subcategory──► taxonomy.json
+resources.json ──schema────► resources-schema.json
+resources.json ──overall──► ratings.json (formula)
+resources.json ──rank────► rankings.json (factors)
+resources.json ──verification──► badges.json
+deprecated.json ──schema────► deprecated-schema.json
+```
+
+---
+
+## 12. Quick Reference
+
+### 12.1 Key Files
+
+| File | Lines | Size | Description |
+|---|---|---|---|
+| `data/resources.json` | ~13,888 | 414 KB | Master resource index (193 entries) |
+| `data/tags.json` | ~268 | 24 KB | Tag taxonomy (175 tags) |
+| `data/taxonomy.json` | ~323 | 21 KB | Category taxonomy (20 categories) |
+| `data/ratings.json` | ~191 | 7.6 KB | Rating formulas and tiers |
+| `data/rankings.json` | ~232 | 8.1 KB | Ranking algorithm |
+| `data/badges.json` | ~180 | 6.8 KB | Badge definitions |
+| `data/resources-schema.json` | ~301 | 11 KB | Resource JSON Schema |
+| `README.md` | ~583 | 25 KB | Main project documentation |
+| `STANDARDS.md` | ~500+ | 30 KB | Project standards |
+| `CONTRIBUTING.md` | ~88 | 3 KB | Contribution guide |
+
+### 12.2 Validation Commands
+
+```bash
+# Validate resources JSON against schema
+npm install -g ajv-cli ajv-formats
+ajv validate -s data/resources-schema.json -d data/resources.json
+
+# Run comprehensive validation
+node scripts/validate.js
+```
+
+### 12.3 Resource Count by Category
+
+| Category | Count | Category | Count |
+|---|---|---|---|
+| ai | 30 | design | 12 |
+| student-packs | 14 | domains | 11 |
+| deployment | 14 | databases | 11 |
+| startup-credits | 12 | mobile | 10 |
+| learning | 10 | open-source | 10 |
+| cloud | 8 | auth | 8 |
+| hosting | 6 | storage | 6 |
+| devtools | 6 | payments | 5 |
+| email-sms | 5 | monitoring | 5 |
+| ci-cd | 5 | testing | 5 |
+
+---
+
+## 13. License & Community
+
+- **License**: MIT
+- **Contributions**: Welcome via GitHub Issues and Pull Requests
+- **Discussions**: Active on GitHub Discussions (suggestions, questions, voting)
+- **Code of Conduct**: Standard open-source (contributor covenant)
+- **Community Roles**: Contributors → Maintainers → Core Team
+
+---
+
+*This PROJECT_CONTEXT.md is maintained alongside the repository. Update when major structural changes occur.*
