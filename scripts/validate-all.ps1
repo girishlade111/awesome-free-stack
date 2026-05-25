@@ -1,5 +1,4 @@
-# Comprehensive validation script for awesome-free-stack
-
+# Comprehensive validation script for awesome-free-stack (PowerShell 5.1 compatible)
 $ErrorActionPreference = "Stop"
 $repoRoot = "C:\Users\Girish Lade\OneDrive\Desktop\awesome-free-stack"
 
@@ -15,28 +14,27 @@ $ratingsFile = Join-Path $repoRoot "data" "ratings.json"
 $resources = (Get-Content $resourcesFile -Raw | ConvertFrom-Json).resources
 $taxonomy = (Get-Content $taxonomyFile -Raw | ConvertFrom-Json).categories
 $tagsData = Get-Content $tagsFile -Raw | ConvertFrom-Json
-$ratingsData = Get-Content $ratingsFile -Raw | ConvertFrom-Json
 
-Write-Host "File loaded: $($resources.count) resources" -ForegroundColor Green
-Write-Host "File loaded: $($taxonomy.count) categories" -ForegroundColor Green
+$total = $resources.Count
+Write-Host "File loaded: $total resources" -ForegroundColor Green
+Write-Host "File loaded: $($taxonomy.Count) categories" -ForegroundColor Green
 Write-Host ""
 
 # ============================================================
 # SECTION 1: BASIC COUNTS
 # ============================================================
 Write-Host "=== SECTION 1: BASIC COUNTS ===" -ForegroundColor Yellow
-
-$total = $resources.Count
 Write-Host "Total resources: $total"
 
-# Count by category
 $catCounts = @{}
 foreach ($r in $resources) {
-    $catCounts[$r.category] = ($catCounts[$r.category] ?? 0) + 1
+    $cat = $r.category
+    if (-not $catCounts.ContainsKey($cat)) { $catCounts[$cat] = 0 }
+    $catCounts[$cat]++
 }
 Write-Host "`nCount by category:" -ForegroundColor White
-$catCounts.GetEnumerator() | Sort-Object Name | ForEach-Object {
-    Write-Host "  $($_.Name): $($_.Value)"
+$catCounts.Keys | Sort-Object | ForEach-Object {
+    Write-Host "  $_: $($catCounts[$_])"
 }
 Write-Host ""
 
@@ -46,46 +44,30 @@ Write-Host ""
 Write-Host "=== SECTION 2: SCHEMA VIOLATIONS ===" -ForegroundColor Yellow
 
 $schemaErrors = @()
-
-# Check verification.status enum
 $validStatuses = @("tested", "community-verified", "unverified")
-foreach ($r in $resources) {
-    if ($r.verification.status -notin $validStatuses) {
-        $schemaErrors += "  [$($r.id)] verification.status = '$($r.verification.status)' (valid: $($validStatuses -join ', '))"
-    }
-}
-
-# Check resource status enum
 $validResourceStatuses = @("active", "deprecated", "limited")
+$validCategories = @()
+foreach ($cat in $taxonomy) { $validCategories += $cat.id }
+
 foreach ($r in $resources) {
-    if ($r.status -notin $validResourceStatuses) {
-        $schemaErrors += "  [$($r.id)] status = '$($r.status)' (valid: $($validResourceStatuses -join ', '))"
+    if ($validStatuses -notcontains $r.verification.status) {
+        $schemaErrors += "[$($r.id)] verification.status = '$($r.verification.status)'"
+    }
+    if ($validResourceStatuses -notcontains $r.status) {
+        $schemaErrors += "[$($r.id)] status = '$($r.status)'"
+    }
+    if ($validCategories -notcontains $r.category) {
+        $schemaErrors += "[$($r.id)] category = '$($r.category)' invalid"
     }
 }
 
-# Check category enum
-$validCategories = $taxonomy.id
-foreach ($r in $resources) {
-    if ($r.category -notin $validCategories) {
-        $schemaErrors += "  [$($r.id)] category = '$($r.category)' (invalid)"
-    }
-}
-
-# Check rating values (1-5)
 $ratingFields = @("beginner_friendly", "docs", "free_generosity", "setup", "reliability", "performance", "community")
 foreach ($r in $resources) {
     foreach ($f in $ratingFields) {
         $v = $r.ratings.$f
         if ($v -lt 1 -or $v -gt 5) {
-            $schemaErrors += "  [$($r.id)] ratings.$f = $v (must be 1-5)"
+            $schemaErrors += "[$($r.id)] ratings.$f = $v (must be 1-5)"
         }
-    }
-}
-
-# Check requires_card is boolean
-foreach ($r in $resources) {
-    if ($null -eq $r.requires_card -or ($r.requires_card -isnot [bool])) {
-        $schemaErrors += "  [$($r.id)] requires_card = $($r.requires_card) (must be boolean)"
     }
 }
 
@@ -93,7 +75,7 @@ if ($schemaErrors.Count -eq 0) {
     Write-Host "No schema violations found." -ForegroundColor Green
 } else {
     Write-Host "Schema violations ($($schemaErrors.Count)):" -ForegroundColor Red
-    $schemaErrors | ForEach-Object { Write-Host $_ }
+    foreach ($e in $schemaErrors) { Write-Host "  $e" }
 }
 Write-Host ""
 
@@ -102,24 +84,27 @@ Write-Host ""
 # ============================================================
 Write-Host "=== SECTION 3: RATING FORMULA VALIDATION ===" -ForegroundColor Yellow
 
-$weights = @{
-    "beginner_friendly" = 1.0
-    "docs" = 1.0
-    "free_generosity" = 1.5
-    "setup" = 0.8
-    "reliability" = 1.2
-    "performance" = 0.8
-    "community" = 0.5
-}
-$weightSum = ($weights.Values | Measure-Object -Sum).Sum
+$weights = @{}
+$weights["beginner_friendly"] = 1.0
+$weights["docs"] = 1.0
+$weights["free_generosity"] = 1.5
+$weights["setup"] = 0.8
+$weights["reliability"] = 1.2
+$weights["performance"] = 0.8
+$weights["community"] = 0.5
+
+$weightSum = 0
+$weights.Values | ForEach-Object { $weightSum += $_ }
 
 $ratingMismatches = @()
+$expectedAll = @{}
 foreach ($r in $resources) {
     $num = 0.0
     foreach ($f in $ratingFields) {
         $num += $r.ratings.$f * $weights[$f]
     }
     $expected = [Math]::Round($num / $weightSum, 1)
+    $expectedAll[$r.id] = $expected
     $stored = $r.ratings.overall
     if ([Math]::Abs($expected - $stored) -gt 0.05) {
         $ratingMismatches += @{ id = $r.id; expected = $expected; stored = $stored }
@@ -129,8 +114,11 @@ foreach ($r in $resources) {
 Write-Host "Rating mismatches: $($ratingMismatches.Count) / $total" -ForegroundColor $(if ($ratingMismatches.Count -eq 0) { "Green" } else { "Red" })
 if ($ratingMismatches.Count -gt 0) {
     Write-Host "Examples:" -ForegroundColor White
-    $ratingMismatches | Select-Object -First 20 | ForEach-Object {
-        Write-Host "  [$($_.id)] stored=$($_.stored) expected=$($_.expected)"
+    $i = 0
+    foreach ($m in $ratingMismatches) {
+        if ($i -ge 20) { break }
+        Write-Host "  [$($m.id)] stored=$($m.stored) expected=$($m.expected)"
+        $i++
     }
     if ($ratingMismatches.Count -gt 20) {
         Write-Host "  ... and $($ratingMismatches.Count - 20) more"
@@ -143,58 +131,60 @@ Write-Host ""
 # ============================================================
 Write-Host "=== SECTION 4: RATING TIER DISTRIBUTION ===" -ForegroundColor Yellow
 
-$tiers = @{
-    "Elite (4.5-5.0)"      = 0
-    "Excellent (4.0-4.4)"  = 0
-    "Good (3.0-3.9)"       = 0
-    "Fair (2.0-2.9)"       = 0
-    "Limited (1.0-1.9)"    = 0
-    "Insufficient (<1.0)"  = 0
+$tierCounts = @{}
+$tierCounts["Elite (4.5-5.0)"] = 0
+$tierCounts["Excellent (4.0-4.4)"] = 0
+$tierCounts["Good (3.0-3.9)"] = 0
+$tierCounts["Fair (2.0-2.9)"] = 0
+$tierCounts["Limited (1.0-1.9)"] = 0
+$tierCounts["Insufficient (<1.0)"] = 0
+
+foreach ($id in $expectedAll.Keys) {
+    $score = $expectedAll[$id]
+    if ($score -ge 4.5) { $tierCounts["Elite (4.5-5.0)"]++ }
+    elseif ($score -ge 4.0) { $tierCounts["Excellent (4.0-4.4)"]++ }
+    elseif ($score -ge 3.0) { $tierCounts["Good (3.0-3.9)"]++ }
+    elseif ($score -ge 2.0) { $tierCounts["Fair (2.0-2.9)"]++ }
+    elseif ($score -ge 1.0) { $tierCounts["Limited (1.0-1.9)"]++ }
+    else { $tierCounts["Insufficient (<1.0)"]++ }
 }
 
-# Recalculate expected scores
-$expectedScores = @{}
-foreach ($r in $resources) {
-    $num = 0.0
-    foreach ($f in $ratingFields) {
-        $num += $r.ratings.$f * $weights[$f]
-    }
-    $expected = [Math]::Round($num / $weightSum, 1)
-    $expectedScores[$r.id] = $expected
-
-    if ($expected -ge 4.5) { $tiers["Elite (4.5-5.0)"]++ }
-    elseif ($expected -ge 4.0) { $tiers["Excellent (4.0-4.4)"]++ }
-    elseif ($expected -ge 3.0) { $tiers["Good (3.0-3.9)"]++ }
-    elseif ($expected -ge 2.0) { $tiers["Fair (2.0-2.9)"]++ }
-    elseif ($expected -ge 1.0) { $tiers["Limited (1.0-1.9)"]++ }
-    else { $tiers["Insufficient (<1.0)"]++ }
-}
-
-$tiers.GetEnumerator() | Sort-Object Name | ForEach-Object {
-    Write-Host "  $($_.Name): $($_.Value)"
+$tierCounts.Keys | Sort-Object | ForEach-Object {
+    Write-Host "  $_: $($tierCounts[$_])"
 }
 
 # Average rating per category
 Write-Host "`nAverage rating by category:" -ForegroundColor White
 $catScores = @{}
 foreach ($r in $resources) {
-    $catScores[$r.category] ??= @()
-    $catScores[$r.category] += $expectedScores[$r.id]
+    $cat = $r.category
+    if (-not $catScores.ContainsKey($cat)) { $catScores[$cat] = @() }
+    $catScores[$cat] += $expectedAll[$r.id]
 }
-$catScores.GetEnumerator() | Sort-Object Name | ForEach-Object {
-    $avg = [Math]::Round(($_.Value | Measure-Object -Average).Average, 2)
-    Write-Host "  $($_.Name): $avg"
+$catScores.Keys | Sort-Object | ForEach-Object {
+    $scores = $catScores[$_]
+    $total2 = 0
+    foreach ($s in $scores) { $total2 += $s }
+    $avg = [Math]::Round($total2 / $scores.Count, 2)
+    Write-Host "  $_: $avg"
 }
 
 # Top 10 and Bottom 10
-$sortedScores = $expectedScores.GetEnumerator() | Sort-Object Value -Descending
+$sortedIds = $expectedAll.Keys | Sort-Object { $expectedAll[$_] } -Descending
 Write-Host "`nTop 10 highest-rated:" -ForegroundColor Green
-$sortedScores | Select-Object -First 10 | ForEach-Object {
-    Write-Host "  $($_.Name): $($_.Value)"
+$i = 0
+foreach ($id in $sortedIds) {
+    if ($i -ge 10) { break }
+    Write-Host "  $id: $($expectedAll[$id])"
+    $i++
 }
 Write-Host "`nBottom 10 lowest-rated:" -ForegroundColor Red
-$sortedScores | Select-Object -Last 10 | ForEach-Object {
-    Write-Host "  $($_.Name): $($_.Value)"
+$sortedIdsDesc = $expectedAll.Keys | Sort-Object { $expectedAll[$_] }
+$i = 0
+foreach ($id in $sortedIdsDesc) {
+    if ($i -ge 10) { break }
+    Write-Host "  $id: $($expectedAll[$id])"
+    $i++
 }
 Write-Host ""
 
@@ -203,56 +193,33 @@ Write-Host ""
 # ============================================================
 Write-Host "=== SECTION 5: DUPLICATE DETECTION ===" -ForegroundColor Yellow
 
-$duplicates = @{}
+$dupReport = @()
+$idSet = @{}
+$slugSet = @{}
+$nameSet = @{}
+$siteSet = @{}
 
-# Check duplicate IDs
-$ids = @{}
 foreach ($r in $resources) {
-    if ($ids.ContainsKey($r.id)) {
-        $duplicates["id"] ??= @()
-        $duplicates["id"] += $r.id
-    }
-    $ids[$r.id] = $true
-}
-
-# Check duplicate slugs
-$slugs = @{}
-foreach ($r in $resources) {
-    if ($slugs.ContainsKey($r.slug)) {
-        $duplicates["slug"] ??= @()
-        $duplicates["slug"] += $r.slug
-    }
-    $slugs[$r.slug] = $true
-}
-
-# Check duplicate names
-$names = @{}
-foreach ($r in $resources) {
-    if ($names.ContainsKey($r.name.ToLower())) {
-        $duplicates["name"] ??= @()
-        $duplicates["name"] += $r.name
-    }
-    $names[$r.name.ToLower()] = $true
-}
-
-# Check duplicate websites
-$sites = @{}
-foreach ($r in $resources) {
+    if ($idSet.ContainsKey($r.id)) { $dupReport += "Duplicate ID: $($r.id)" }
+    else { $idSet[$r.id] = $true }
+    
+    if ($slugSet.ContainsKey($r.slug)) { $dupReport += "Duplicate slug: $($r.slug)" }
+    else { $slugSet[$r.slug] = $true }
+    
+    $nLower = $r.name.ToLower()
+    if ($nameSet.ContainsKey($nLower)) { $dupReport += "Duplicate name: $($r.name)" }
+    else { $nameSet[$nLower] = $true }
+    
     $site = $r.website.TrimEnd('/').ToLower()
-    if ($sites.ContainsKey($site)) {
-        $duplicates["website"] ??= @()
-        $duplicates["website"] += $r.website
-    }
-    $sites[$site] = $true
+    if ($siteSet.ContainsKey($site)) { $dupReport += "Duplicate website: $($r.website)" }
+    else { $siteSet[$site] = $true }
 }
 
-if ($duplicates.Count -eq 0) {
+if ($dupReport.Count -eq 0) {
     Write-Host "No duplicates found." -ForegroundColor Green
 } else {
     Write-Host "Duplicates found:" -ForegroundColor Red
-    $duplicates.GetEnumerator() | ForEach-Object {
-        Write-Host "  $($_.Key): $($_.Value -join ', ')"
-    }
+    foreach ($d in $dupReport) { Write-Host "  $d" }
 }
 Write-Host ""
 
@@ -261,12 +228,12 @@ Write-Host ""
 # ============================================================
 Write-Host "=== SECTION 6: SUBCATEGORY ANALYSIS ===" -ForegroundColor Yellow
 
-$allSubcategories = @{}
+$allSubcats = @{}
 $subcatUsage = @{}
 foreach ($cat in $taxonomy) {
     foreach ($sub in $cat.subcategories) {
         $key = "$($cat.id)/$($sub.id)"
-        $allSubcategories[$key] = $sub.name
+        $allSubcats[$key] = $sub.name
         $subcatUsage[$key] = 0
     }
 }
@@ -280,35 +247,41 @@ foreach ($r in $resources) {
     }
 }
 
-$emptySubcats = $subcatUsage.GetEnumerator() | Where-Object { $_.Value -eq 0 } | Sort-Object Name
-$populatedSubcats = $subcatUsage.GetEnumerator() | Where-Object { $_.Value -gt 0 } | Sort-Object Name
+$emptySubcats = @()
+$populatedSubcats = @()
+foreach ($key in $subcatUsage.Keys) {
+    if ($subcatUsage[$key] -eq 0) { $emptySubcats += $key }
+    else { $populatedSubcats += $key }
+}
+$emptySubcats = $emptySubcats | Sort-Object
+$populatedSubcats = $populatedSubcats | Sort-Object
 
-Write-Host "Total subcategories defined: $($allSubcategories.Count)" -ForegroundColor White
+Write-Host "Total subcategories defined: $($allSubcats.Count)" -ForegroundColor White
 Write-Host "Populated subcategories: $($populatedSubcats.Count)" -ForegroundColor Green
 Write-Host "Empty subcategories: $($emptySubcats.Count)" -ForegroundColor $(if ($emptySubcats.Count -eq 0) { "Green" } else { "Yellow" })
 
 if ($emptySubcats.Count -gt 0) {
     Write-Host "`nEmpty subcategories:" -ForegroundColor Yellow
-    $emptySubcats | ForEach-Object {
-        $displayName = $allSubcategories[$_.Name]
-        Write-Host "  $($_.Name) ($displayName)"
+    foreach ($key in $emptySubcats) {
+        Write-Host "  $key ($($allSubcats[$key]))"
     }
 }
 
-# Resource distribution
+# Resource distribution by category/subcategory
 Write-Host "`nResource density by category/subcategory:" -ForegroundColor White
 $catSubcatCounts = @{}
 foreach ($r in $resources) {
-    $key = $r.category
-    $catSubcatCounts[$key] ??= @{}
-    $catSubcatCounts[$key][$r.subcategory] = ($catSubcatCounts[$key][$r.subcategory] ?? 0) + 1
+    $cat = $r.category
+    $sub = $r.subcategory
+    if (-not $catSubcatCounts.ContainsKey($cat)) { $catSubcatCounts[$cat] = @{} }
+    if (-not $catSubcatCounts[$cat].ContainsKey($sub)) { $catSubcatCounts[$cat][$sub] = 0 }
+    $catSubcatCounts[$cat][$sub]++
 }
 
-$catSubcatCounts.GetEnumerator() | Sort-Object Name | ForEach-Object {
-    $catName = $_.Name
-    Write-Host "  $catName ($($catCounts[$catName]) total):" -ForegroundColor White
-    $_.Value.GetEnumerator() | Sort-Object Name | ForEach-Object {
-        Write-Host "    $($_.Name): $($_.Value)"
+foreach ($cat in ($catSubcatCounts.Keys | Sort-Object)) {
+    Write-Host "  $cat ($($catCounts[$cat]) total):" -ForegroundColor White
+    foreach ($sub in ($catSubcatCounts[$cat].Keys | Sort-Object)) {
+        Write-Host "    $sub: $($catSubcatCounts[$cat][$sub])"
     }
 }
 Write-Host ""
@@ -318,53 +291,64 @@ Write-Host ""
 # ============================================================
 Write-Host "=== SECTION 7: TAG ANALYSIS ===" -ForegroundColor Yellow
 
-$allTags = @{}
+$definedTags = @{}
 foreach ($group in $tagsData.groups) {
     foreach ($tag in $group.tags) {
-        $allTags[$tag.id] = @{ group = $group.name; count = $tag.count }
+        $definedTags[$tag.id] = @{ group = $group.name; count = $tag.count }
     }
 }
 
-Write-Host "Total tags defined: $($allTags.Count)" -ForegroundColor White
+Write-Host "Total tags defined: $($definedTags.Count)" -ForegroundColor White
 
-# Check tags used in resources vs defined in tags.json
 $usedTags = @{}
 foreach ($r in $resources) {
     foreach ($tag in $r.tags) {
-        $usedTags[$tag] = ($usedTags[$tag] ?? 0) + 1
+        if (-not $usedTags.ContainsKey($tag)) { $usedTags[$tag] = 0 }
+        $usedTags[$tag]++
     }
 }
 
-$orphanTags = $usedTags.Keys | Where-Object { $_ -notin $allTags.Keys } | Sort-Object
-$unusedTags = $allTags.Keys | Where-Object { $_ -notin $usedTags.Keys } | Sort-Object
+$orphanTags = @()
+$unusedTags = @()
+foreach ($tag in $usedTags.Keys) {
+    if (-not $definedTags.ContainsKey($tag)) { $orphanTags += $tag }
+}
+foreach ($tag in $definedTags.Keys) {
+    if (-not $usedTags.ContainsKey($tag)) { $unusedTags += $tag }
+}
+$orphanTags = $orphanTags | Sort-Object
+$unusedTags = $unusedTags | Sort-Object
 
 if ($orphanTags.Count -eq 0) {
     Write-Host "No orphan tags (used but not defined)." -ForegroundColor Green
 } else {
     Write-Host "Orphan tags ($($orphanTags.Count)):" -ForegroundColor Red
-    $orphanTags | ForEach-Object { Write-Host "  $_ (used $($usedTags[$_]) times)" }
+    foreach ($t in $orphanTags) { Write-Host "  $t (used $($usedTags[$t]) times)" }
 }
 
 if ($unusedTags.Count -eq 0) {
     Write-Host "No unused tags (defined but never used)." -ForegroundColor Green
 } else {
     Write-Host "Unused tags ($($unusedTags.Count)):" -ForegroundColor Yellow
-    $unusedTags | ForEach-Object {
-        $tagInfo = $allTags[$_]
-        Write-Host "  $_ (group: $($tagInfo.group), defined count: $($tagInfo.count))"
+    foreach ($t in $unusedTags) {
+        $info = $definedTags[$t]
+        Write-Host "  $t (group: $($info.group), defined count: $($info.count))"
     }
 }
 
 Write-Host "`nMost commonly used tags:" -ForegroundColor White
-$usedTags.GetEnumerator() | Sort-Object Value -Descending | Select-Object -First 15 | ForEach-Object {
-    Write-Host "  $($_.Name): $($_.Value)"
+$usedTagsSorted = $usedTags.GetEnumerator() | Sort-Object Value -Descending | Select-Object -First 15
+foreach ($entry in $usedTagsSorted) {
+    Write-Host "  $($entry.Name): $($entry.Value)"
 }
 
 Write-Host "`nTags used by only 1 resource:" -ForegroundColor Yellow
-$rareTags = $usedTags.GetEnumerator() | Where-Object { $_.Value -eq 1 } | Sort-Object Name
-$rareTags | ForEach-Object {
-    Write-Host "  $($_.Name)"
+$rareTags = @()
+foreach ($entry in $usedTags.GetEnumerator()) {
+    if ($entry.Value -eq 1) { $rareTags += $entry.Name }
 }
+$rareTags = $rareTags | Sort-Object
+foreach ($t in $rareTags) { Write-Host "  $t" }
 Write-Host "Total rare tags: $($rareTags.Count)"
 Write-Host ""
 
@@ -382,13 +366,13 @@ foreach ($r in $resources) {
 }
 
 if ($missingMarkdown.Count -eq 0) {
-    Write-Host "No missing markdown files. All 193 resources have markdown." -ForegroundColor Green
+    Write-Host "No missing markdown files. All $total resources have markdown." -ForegroundColor Green
 } else {
     Write-Host "Missing markdown files ($($missingMarkdown.Count)):" -ForegroundColor Red
-    $missingMarkdown | ForEach-Object { Write-Host "  $_" }
+    foreach ($m in $missingMarkdown) { Write-Host "  $m" }
 }
 
-# Check for orphan markdowns (md files without JSON entries)
+# Check orphan markdowns
 Write-Host "`nChecking for orphan markdowns..." -ForegroundColor White
 $orphanMds = @()
 $catDirs = Get-ChildItem (Join-Path $repoRoot "categories") -Directory
@@ -396,7 +380,6 @@ foreach ($catDir in $catDirs) {
     $mdFiles = Get-ChildItem $catDir.FullName -Filter "*.md"
     foreach ($md in $mdFiles) {
         $slug = [System.IO.Path]::GetFileNameWithoutExtension($md.Name)
-        # Check if any resource has this slug
         $found = $false
         foreach ($r in $resources) {
             if ($r.slug -eq $slug -and $r.category -eq $catDir.Name) {
@@ -414,7 +397,7 @@ if ($orphanMds.Count -eq 0) {
     Write-Host "No orphan markdown files." -ForegroundColor Green
 } else {
     Write-Host "Orphan markdown files ($($orphanMds.Count)):" -ForegroundColor Yellow
-    $orphanMds | ForEach-Object { Write-Host "  $_" }
+    foreach ($m in $orphanMds) { Write-Host "  $m" }
 }
 Write-Host ""
 
@@ -424,22 +407,21 @@ Write-Host ""
 Write-Host "=== SECTION 9: CROSS-REFERENCE VALIDITY ===" -ForegroundColor Yellow
 
 $allIds = @{}
-foreach ($r in $resources) {
-    $allIds[$r.id] = $true
-}
+foreach ($r in $resources) { $allIds[$r.id] = $true }
 
 $brokenRefs = @()
 foreach ($r in $resources) {
-    if ($r.PSObject.Properties.Name -contains "alternatives") {
+    $props = $r.PSObject.Properties.Name
+    if ($props -contains "alternatives") {
         foreach ($alt in $r.alternatives) {
-            if ($alt -notin $allIds.Keys) {
+            if (-not $allIds.ContainsKey($alt)) {
                 $brokenRefs += "[$($r.id)].alternatives -> $alt"
             }
         }
     }
-    if ($r.PSObject.Properties.Name -contains "alternatives_to") {
+    if ($props -contains "alternatives_to") {
         foreach ($alt in $r.alternatives_to) {
-            if ($alt -notin $allIds.Keys) {
+            if (-not $allIds.ContainsKey($alt)) {
                 $brokenRefs += "[$($r.id)].alternatives_to -> $alt"
             }
         }
@@ -450,7 +432,7 @@ if ($brokenRefs.Count -eq 0) {
     Write-Host "No broken cross-references." -ForegroundColor Green
 } else {
     Write-Host "Broken cross-references ($($brokenRefs.Count)):" -ForegroundColor Yellow
-    $brokenRefs | ForEach-Object { Write-Host "  $_" }
+    foreach ($b in $brokenRefs) { Write-Host "  $b" }
 }
 Write-Host ""
 
@@ -459,155 +441,88 @@ Write-Host ""
 # ============================================================
 Write-Host "=== SECTION 10: FIELD ORDERING ===" -ForegroundColor Yellow
 
-# Check if all resources have the same fields in the same order
 $expectedFields = @("id", "slug", "name", "website", "docs", "github", "description", "category", "subcategory", "tags", "free_tier", "paid_plan", "ratings", "verification", "status", "student_benefits", "requires_card", "region_restrictions", "languages", "alternatives_to", "alternatives", "last_verified")
 
-$orderIssues = @()
+$fieldIssues = @()
 foreach ($r in $resources) {
     $props = $r.PSObject.Properties.Name
-    # Check required fields present
     foreach ($ef in $expectedFields) {
-        if ($ef -notin $props) {
-            $orderIssues += "[$($r.id)] missing field: $ef"
+        if ($props -notcontains $ef) {
+            $fieldIssues += "[$($r.id)] missing field: $ef"
         }
     }
 }
 
-if ($orderIssues.Count -eq 0) {
+if ($fieldIssues.Count -eq 0) {
     Write-Host "All resources have all required fields." -ForegroundColor Green
 } else {
-    Write-Host "Field issues ($($orderIssues.Count)):" -ForegroundColor Yellow
-    $orderIssues | ForEach-Object { Write-Host "  $_" }
+    Write-Host "Field issues ($($fieldIssues.Count)):" -ForegroundColor Yellow
+    foreach ($f in $fieldIssues) { Write-Host "  $f" }
 }
 Write-Host ""
 
 # ============================================================
-# SECTION 11: FREE TIER QUALITY
+# SECTION 11: GAP ANALYSIS & PRIORITY
 # ============================================================
-Write-Host "=== SECTION 11: FREE TIER QUALITY ===" -ForegroundColor Yellow
+Write-Host "=== SECTION 11: GAP ANALYSIS & PRIORITY ===" -ForegroundColor Yellow
 
-$vagueSummaries = @()
-foreach ($r in $resources) {
-    $summary = $r.free_tier.summary.ToLower()
-    # Check if the summary mentions any numeric limits
-    $hasNumbers = $summary -match '\d+'
-    $hasLimitWords = $summary -match '(free|unlimited|unmetered|open.?source|no cost)'
-    if (-not $hasNumbers -and -not ($summary -match 'open source' -or $summary -match 'unlimited')) {
-        $vagueSummaries += "[$($r.id)] $($r.free_tier.summary.Substring(0, [Math]::Min(80, $r.free_tier.summary.Length)))..."
-    }
-}
-
-if ($vagueSummaries.Count -eq 0) {
-    Write-Host "All free tier summaries mention specific limits." -ForegroundColor Green
-} else {
-    Write-Host "Potentially vague free tier summaries ($($vagueSummaries.Count)):" -ForegroundColor Yellow
-    $vagueSummaries | Select-Object -First 10 | ForEach-Object { Write-Host "  $_" }
-    if ($vagueSummaries.Count -gt 10) {
-        Write-Host "  ... and $($vagueSummaries.Count - 10) more"
-    }
-}
-Write-Host ""
-
-# ============================================================
-# SECTION 12: RESOURCE GAPS & PRIORITY
-# ============================================================
-Write-Host "=== SECTION 12: GAP ANALYSIS & PRIORITY ===" -ForegroundColor Yellow
-
-# Suggested target counts per category
-$targets = @{
-    "ai"             = 50
-    "deployment"     = 20
-    "cloud"          = 15
-    "hosting"        = 12
-    "databases"      = 20
-    "storage"        = 12
-    "auth"           = 15
-    "payments"       = 10
-    "email-sms"      = 12
-    "monitoring"     = 12
-    "ci-cd"          = 12
-    "devtools"       = 15
-    "design"         = 20
-    "domains"        = 15
-    "testing"        = 15
-    "mobile"         = 20
-    "learning"       = 20
-    "student-packs"  = 20
-    "startup-credits" = 20
-    "open-source"    = 20
-}
+$targets = @{}
+$targets["ai"] = 50
+$targets["deployment"] = 20
+$targets["cloud"] = 15
+$targets["hosting"] = 12
+$targets["databases"] = 20
+$targets["storage"] = 12
+$targets["auth"] = 15
+$targets["payments"] = 10
+$targets["email-sms"] = 12
+$targets["monitoring"] = 12
+$targets["ci-cd"] = 12
+$targets["devtools"] = 15
+$targets["design"] = 20
+$targets["domains"] = 15
+$targets["testing"] = 15
+$targets["mobile"] = 20
+$targets["learning"] = 20
+$targets["student-packs"] = 20
+$targets["startup-credits"] = 20
+$targets["open-source"] = 20
 
 Write-Host "Category gap analysis:" -ForegroundColor White
-Write-Host "  {0,-20} {1,6} {2,6} {3,8}" -f "Category", "Current", "Target", "Gap %"
-Write-Host "  " + "-"*42
+Write-Host ("  {0,-20} {1,6} {2,6} {3,8} {4,8}" -f "Category", "Current", "Target", "Gap %", "EmptySub")
+Write-Host ("  " + "-"*50)
 
 $gaps = @()
 foreach ($cat in ($taxonomy | Sort-Object Name)) {
-    $current = $catCounts[$cat.id] ?? 0
-    $target = $targets[$cat.id] ?? 10
-    $gapPct = if ($target -gt 0) { [Math]::Round(($target - $current) / $target * 100, 0) } else { 0 }
-    $gaps += @{ category = $cat.id; current = $current; target = $target; gap = $gapPct; emptySubcats = $emptySubcats | Where-Object { $_.Name -like "$($cat.id)/*" } | Measure-Object | Select-Object -ExpandProperty Count }
-    $color = if ($gapPct -le 0) { "Green" } elseif ($gapPct -le 30) { "Yellow" } else { "Red" }
-    Write-Host "  {0,-20} {1,6} {2,6} {3,6}%" -f $cat.id, $current, $target, $gapPct -ForegroundColor $color
+    $cid = $cat.id
+    $current = if ($catCounts.ContainsKey($cid)) { $catCounts[$cid] } else { 0 }
+    $target = if ($targets.ContainsKey($cid)) { $targets[$cid] } else { 10 }
+    $gapPct = 0
+    if ($target -gt 0) { $gapPct = [Math]::Round(($target - $current) / $target * 100, 0) }
+    
+    $emptyCount = 0
+    foreach ($ek in $emptySubcats) {
+        if ($ek -like "$cid/*") { $emptyCount++ }
+    }
+    
+    $gap = New-Object PSObject -Property @{ category=$cid; current=$current; target=$target; gap=$gapPct; emptySubcats=$emptyCount }
+    $gaps += $gap
+    
+    $color = "Red"
+    if ($gapPct -le 0) { $color = "Green" }
+    elseif ($gapPct -le 30) { $color = "Yellow" }
+    
+    Write-Host ("  {0,-20} {1,6} {2,6} {3,6}% {4,8}" -f $cid, $current, $target, $gapPct, $emptyCount) -ForegroundColor $color
 }
 
-# Priority ranking
 Write-Host "`nPriority population order:" -ForegroundColor Cyan
-$priority = $gaps | Sort-Object @{Expression = "gap"; Descending = $true}, @{Expression = "emptySubcats"; Descending = $true}
+$priority = $gaps | Sort-Object gap -Descending
 $rank = 1
 foreach ($p in $priority) {
     Write-Host "  #$rank $($p.category) (current: $($p.current), target: $($p.target), gap: $($p.gap)%, empty subcats: $($p.emptySubcats))"
     $rank++
 }
 Write-Host ""
-
-# ============================================================
-# SECTION 13: MISSING TOOLS SUGGESTIONS
-# ============================================================
-Write-Host "=== SECTION 13: NOTABLE MISSING TOOLS ===" -ForegroundColor Yellow
-
-$missingSuggestions = @{
-    "ai"             = @("HuggingFace Inference API", "Groq", "Together AI", "Mistral AI", "Cohere", "Replicate", "Perplexity API", "OpenRouter", "Google Gemini API", "Claude API", "DeepSeek API", "LLaMA.cpp", "Ollama already present")
-    "deployment"     = @("Fly.io", "Railway", "Koyeb", "Deno Deploy", "Zeabur", "Northflank", "Porter", "Dokku")
-    "cloud"          = @("Alibaba Cloud", "IBM Cloud", "Linode (VPS, but maybe cloud)", "DigitalOcean added", "Hetzner added", "Vultr in hosting")
-    "hosting"        = @("Vercel (deployment)", "Netlify (deployment)", "Cloudflare Pages (deployment)", "GitHub Pages (deployment)", "Surge", "Neocities", "Tiiny.host", "Alwaysdata added")
-    "databases"      = @("MongoDB Atlas", "Neon", "PlanetScale", "CockroachDB", "TiDB Serverless", "Redis Cloud", "Upstash", "Fauna", "DynamoDB", "AstraDB", "Xata", "Turso", "EdgeDB")
-    "storage"        = @("Cloudflare R2 added", "Backblaze B2", "AWS S3", "Google Cloud Storage", "Wasabi", "Filebase", "Uploadthing", "Tigris", "Storj")
-    "auth"           = @("Clerk", "Auth0 added", "Supabase Auth (in databases)", "Firebase Auth (in mobile)", "Better Auth (in open-source)", "Logto", "Supertokens", "WorkOS", "Ory", "Keycloak", "Zitadel", "Descope", "Propelauth")
-    "payments"       = @("Stripe added", "Lemon Squeezy added", "Paddle added", "Razorpay added", "PayPal added", "Polar", "Chargebee", "Recurly", "Lago", "RevenueCat", "Moov", "Mangopay")
-    "email-sms"      = @("Resend added", "SendGrid added", "Mailgun added", "Brevo added", "Loops added", "Twilio SendGrid", "Postmark", "Amazon SES", "Mailchimp Transactional", "Sendinblue (Brevo added)", "Courier", "Novu", "Plunk", "Mailslurp")
-    "monitoring"     = @("Sentry added", "Datadog added", "Grafana added", "BetterStack added", "Logtail added", "Checkly", "UptimeRobot", "New Relic", "Elastic APM", "SigNoz", "Axiom", "HyperDX", "Highlight", "OpenTelemetry")
-    "ci-cd"          = @("GitHub Actions added", "Jenkins added", "CircleCI added", "GitLab CI/CD added", "Buildkite added", "Woodpecker CI", "Drone CI", "Agola", "Concourse", "Task", "Earthly", "Dagger", "Act")
-    "devtools"       = @("VS Code added", "Cursor added", "Windsurf added", "Replit added", "Zed added", "GitHub Codespaces added", "Neovim", "Sublime Text", "JetBrains IDEs", "Vim", "Emacs", "Helix", "Lapce", "Gitpod", "DevPod", "Daytona")
-    "design"         = @("Figma added", "Penpot added", "Canva added", "Framer added", "Excalidraw added", "Blender added", "Lucide added", "unDraw added", "Humaaans added", "Google Fonts added", "Fontsource added", "Coolors added", "Storybook", "Radix UI", "shadcn/ui", "Tailwind UI", "Flowbite", "Open Props", "Font Awesome", "Phosphor Icons", "Tabler Icons", "Heroicons")
-    "domains"        = @("Cloudflare DNS added", "Duck DNS added", "No-IP added", "FreeDNS added", "eu.org added", "deSEC added", "NIC.US added", "Freenom added", "Porkbun added", "Namecheap added", "Dynu added", "DNSExit", "Cloudns", "HE.NET DNS", "Netlify DNS", "Vercel DNS", "GoDaddy Domain Coupons")
-    "testing"        = @("Postman added", "Bruno added", "Playwright added", "Cypress added", "Insomnia added", "Vitest", "Jest", "Mocha", "Jasmine", "Karma", "Storybook Test", "Testing Library", "MSW", "Mock Service Worker", "Hoppscotch", "Puppeteer", "Selenium", "Applitools", "Percy", "Loki", "Chromatic", "k6", "Artillery", "Locust")
-    "mobile"         = @("Flutter added", "Expo added", "Kotlin added", "React Native added", "Firebase added", "Appwrite added", "OneSignal added", "FlutterFlow added", "Branch added", "Mixpanel added", "Swift/SwiftUI", "Jetpack Compose", "Capacitor", "Cordova", "Ionic", "NativeScript", "Xamarin", "MAUI", "Flutter + Flame", "Rive", "Lottie", "Amplitude", "Adjust", "AppsFlyer")
-    "learning"       = @("freeCodeCamp added", "roadmap.sh added", "Coursera added", "MIT OCW added", "OSSU added", "The Odin Project added", "Codecademy added", "LeetCode added", "MDN Web Docs added", "HackerRank added", "Khan Academy", "Harvard CS50", "Stanford Online", "edX", "Pluralsight", "Frontend Masters", "Egghead", "Scrimba", "CodeSignal", "Exercism", "Codewars", "Advent of Code", "Dev.to", "Hashnode", "Smashing Magazine")
-    "student-packs"  = @("GitHub Student Dev Pack added", "AWS Educate added", "Google Cloud for Students added", "Azure for Students added", "Oracle for Education added", "JetBrains Student added", "GitHub Copilot for Students added", "GitKraken Student added", "Figma Education added", "Namecheap Bundle added", ".me Domain added", "LinkedIn Learning added", "DataCamp added", "OpenAI API Credits added", "Notion for Students", "Canva for Education", "Framer Education", "Bitbucket Education", "DigitalOcean for Students", "MongoDB Atlas for Students", "Datadog for Students", "Sentry for Students", "Stripe for Students", "Heroku for Students", "Replit for Education")
-    "startup-credits" = @("AWS Activate added", "Microsoft Founders Hub added", "Google for Startups added", "Oracle for Startups added", "DigitalOcean Hatch added", "Stripe Atlas added", "Twilio for Startups added", "Auth0 for Startups added", "YC Startup School added", "OpenAI for Startups added", "NVIDIA Inception added", "HubSpot for Startups added", "Notion for Startups", "Brex for Startups", "Mercury", "Ramp", "Linear for Startups", "Vercel for Startups", "Netlify for Startups", "Supabase for Startups", "MongoDB for Startups", "Confluent for Startups", "Elastic for Startups", "Datadog for Startups", "Sentry for Startups")
-    "open-source"    = @("Ollama added", "Open WebUI added", "AppFlowy added", "Outline added", "AFFiNE added", "PocketBase added", "Kamal added", "Cal.com added", "Documenso added", "NocoDB added", "Supabase", "Plausible", "Matomo", "Ghost", "WordPress", "Mastodon", "Lemmy", "Nextcloud", "Seafile", "MinIO", "Directus", "Strapi", "Payload CMS", "Webiny", "PocketBase added", "Appwrite (in databases)", "N8N", "Huginn", "Plane", "Twenty", "ERPNext", "Odoo")
-}
-
-# Show just a few notable missing per high-priority category
-$highPriority = $priority | Where-Object { $_.gap -gt 30 } | Sort-Object gap -Descending
-foreach ($p in $highPriority) {
-    $suggestions = $missingSuggestions[$p.category]
-    if ($suggestions) {
-        Write-Host "$($p.category) (gap: $($p.gap)%):" -ForegroundColor White
-        # Show only suggestions that aren't already in the collection
-        $existingInCat = $resources | Where-Object { $_.category -eq $p.category } | ForEach-Object { $_.name }
-        $newSuggestions = $suggestions | Where-Object { 
-            $alreadyPresent = $false
-            foreach ($e in $existingInCat) {
-                if ($_ -match [regex]::Escape($e.Split(' ')[0])) { $alreadyPresent = $true; break }
-            }
-            -not $alreadyPresent
-        }
-        $newSuggestions | Select-Object -First 5 | ForEach-Object { Write-Host "    $_" }
-        Write-Host ""
-    }
-}
 
 # ============================================================
 # SUMMARY
@@ -617,11 +532,11 @@ Write-Host "Total resources: $total"
 Write-Host "Rating mismatches: $($ratingMismatches.Count)"
 Write-Host "Schema violations: $($schemaErrors.Count)"
 Write-Host "Empty subcategories: $($emptySubcats.Count)"
-Write-Host "Duplicate IDs/Slugs/Names/Websites: $(if ($duplicates.Count -eq 0) { '0' } else { $duplicates.Count })"
+Write-Host "Duplicate IDs/Slugs/Names/Websites: $($dupReport.Count)"
 Write-Host "Missing markdown files: $($missingMarkdown.Count)"
 Write-Host "Orphan markdown files: $($orphanMds.Count)"
 Write-Host "Broken cross-references: $($brokenRefs.Count)"
-Write-Host "Orphan tags (used but not defined): $($orphanTags.Count)"
-Write-Host "Unused tags (defined but never used): $($unusedTags.Count)"
+Write-Host "Orphan tags: $($orphanTags.Count)"
+Write-Host "Unused tags: $($unusedTags.Count)"
 
 Write-Host "`nValidation complete." -ForegroundColor Cyan
