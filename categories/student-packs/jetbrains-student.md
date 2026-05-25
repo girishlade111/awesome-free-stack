@@ -1,50 +1,54 @@
-# JetBrains Student License
+# JetBrains Student Licenses
 
-Free access to all JetBrains IDEs for students.
+> **Free Professional IDEs for Students**
 
-## Benefits
-
-| Product | Regular Price | Student |
-|---|---|---|
-| **IntelliJ IDEA Ultimate** | $249/yr | Free |
-| **PyCharm Pro** | $249/yr | Free |
-| **WebStorm** | $169/yr | Free |
-| **GoLand** | $199/yr | Free |
-| **DataGrip** | $199/yr | Free |
-| **Rider** | $199/yr | Free |
-| **PhpStorm** | $199/yr | Free |
-| **RubyMine** | $199/yr | Free |
-| **CLion** | $199/yr | Free |
-| **Fleet** | Free | Free |
-| **dotUltimate** | $399/yr | Free |
-| **All Products Pack** | $649/yr | Free |
-
-## Verification
-
-| Method | Details |
+| Detail | Value |
 |---|---|
-| **Platform** | JetBrains Education portal |
-| **Email** | `.edu` email (instant) |
-| **Alternate** | ISIC card, enrollment documentation |
-| **Processing** | Instant with `.edu` |
-| **Duration** | 1 year, renewable |
-| **Renewal** | Re-verify annually while enrolled |
+| **Website** | [jetbrains.com/student](https://www.jetbrains.com/student) |
+| **Docs** | [jetbrains.com/community/education/#students](https://www.jetbrains.com/community/education/#students) |
+| **GitHub** | None |
+| **Category** | student-packs |
+| **Subcategory** | ide-licenses |
+| **Status** | active |
+| **Free Tier** | All JetBrains IDEs free for 1 year (renewable) |
+| **Student Plan** | This IS the student offer |
+| **Card Required** | No |
 
-## How to Claim
+## Free Tier Details
 
-1. Go to [jetbrains.com/student](https://www.jetbrains.com/student)
-2. Sign up with your `.edu` email
-3. Check email for verification link
-4. Free license activates immediately
-5. Install any JetBrains IDE
-6. Re-apply annually
+- **IDEs**: IntelliJ IDEA Ultimate, PyCharm Professional, WebStorm, GoLand, CLion, DataGrip, Rider, PhpStorm, RubyMine
+- **Tools**: JetBrains Space, DataSpell, Aqua
+- **Duration**: 1 year license, renewable while student
+- **Verification**: .edu email or ISIC card
+- **Updates**: All updates during license period
 
-## Resources
+## Pros
 
-- [JetBrains Academy](https://hyperskill.org) — Free learning platform (additional for students)
-- [JetBrains Marketplace](https://plugins.jetbrains.com) — Free plugins
-- [JetBrains YouTube](https://youtube.com/@JetBrainsTV) — Tutorials and tips
+- All JetBrains IDEs included — huge value ($250+/year)
+- Auto-renewable while enrolled
+- No credit card required
+- Full professional features (not limited)
+- Student license converts to discounted commercial
 
-## Website
+## Cons
 
-[https://www.jetbrains.com/student](https://www.jetbrains.com/student)
+- Need to renew annually
+- Only one license per student
+- License expires if you graduate early
+- Heavier IDE compared to VS Code
+
+## Key Features
+
+- IntelliJ IDEA Ultimate (Java, Kotlin, Android)
+- PyCharm Professional (Python, Django, Data Science)
+- WebStorm (JavaScript, TypeScript, React, Angular)
+- GoLand (Go development)
+- CLion (C/C++ with CMake)
+- DataGrip (SQL and databases)
+- Rider (.NET development)
+
+## Alternatives
+
+- VS Code — free, lighter, extensible
+- Cursor — AI-first editor, free tier
+- Eclipse — free, Java-focused
