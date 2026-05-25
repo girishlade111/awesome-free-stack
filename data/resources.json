@@ -10615,7 +10615,7 @@
       "description": "Open-source realtime backend in a single file. Combines SQLite database, file storage, authentication, and admin UI — all embedded in a single Go binary. Zero dependencies.",
       "category": "open-source",
       "subcategory": "self-hostable",
-      "tags": ["open-source", "self-hosted", "backend", "database", "auth", "free-tier", "no-card", "forever-free"],
+      "tags": ["open-source", "self-hosted", "api", "database", "auth", "free-tier", "no-card", "forever-free"],
       "free_tier": {
         "summary": "100% free and open-source (MIT). Unlimited projects, unlimited users, SQLite database, file storage, realtime subscriptions, admin dashboard UI, auth providers",
         "limits": {
