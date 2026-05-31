@@ -8987,9 +8987,7 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "github-codespaces",
-        "gitpod",
-        "stackblitz"
+        "github-codespaces"
       ],
       "last_verified": "2026-05-24"
     },
@@ -9133,9 +9131,7 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "replit",
-        "gitpod",
-        "stackblitz"
+        "replit"
       ],
       "last_verified": "2026-05-24"
     },
@@ -31322,8 +31318,7 @@
       "alternatives": [
         "github",
         "gitlab",
-        "git-lfs",
-        "mercurial"
+        "git-lfs"
       ],
       "last_verified": "2026-05-31"
     },
@@ -31392,8 +31387,7 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "dvc",
-        "git-annex"
+        "dvc"
       ],
       "last_verified": "2026-05-31"
     },
@@ -31464,9 +31458,7 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "git-lfs",
-        "git-annex",
-        "lakefs"
+        "git-lfs"
       ],
       "last_verified": "2026-05-31"
     },
@@ -31534,9 +31526,7 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "git",
-        "sourcetree",
-        "github-desktop"
+        "git"
       ],
       "last_verified": "2026-05-31"
     },
@@ -32595,8 +32585,6 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "apt",
-        "chocolatey",
         "npm"
       ],
       "last_verified": "2026-05-31"
@@ -33241,9 +33229,7 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "webpagetest",
-        "pagespeed-insights",
-        "sitespeed-io"
+        "webpagetest"
       ],
       "last_verified": "2026-05-31"
     },
@@ -33312,9 +33298,7 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "lighthouse",
-        "pagespeed-insights",
-        "sitespeed-io"
+        "lighthouse"
       ],
       "last_verified": "2026-05-31"
     },
@@ -33385,8 +33369,7 @@
       "alternatives_to": [],
       "alternatives": [
         "lighthouse",
-        "webpagetest",
-        "pagespeed-insights"
+        "webpagetest"
       ],
       "last_verified": "2026-05-31"
     },
@@ -33743,9 +33726,7 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "fish-shell",
-        "zsh",
-        "powerlevel10k"
+        "fish-shell"
       ],
       "last_verified": "2026-05-31"
     },
@@ -33814,9 +33795,7 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "oh-my-zsh",
-        "zsh",
-        "bash"
+        "oh-my-zsh"
       ],
       "last_verified": "2026-05-31"
     },
@@ -33883,11 +33862,7 @@
         "en"
       ],
       "alternatives_to": [],
-      "alternatives": [
-        "screen",
-        "byobu",
-        "zellij"
-      ],
+      "alternatives": [],
       "last_verified": "2026-05-31"
     },
     {
@@ -33954,10 +33929,7 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "fd",
-        "ag",
-        "ack",
-        "grep"
+        "fd"
       ],
       "last_verified": "2026-05-31"
     },
@@ -34025,9 +33997,7 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "ripgrep",
-        "find",
-        "locate"
+        "ripgrep"
       ],
       "last_verified": "2026-05-31"
     },
@@ -34094,11 +34064,7 @@
         "en"
       ],
       "alternatives_to": [],
-      "alternatives": [
-        "cat",
-        "less",
-        "most"
-      ],
+      "alternatives": [],
       "last_verified": "2026-05-31"
     },
     {
@@ -34165,8 +34131,6 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "skim",
-        "grep",
         "ripgrep"
       ],
       "last_verified": "2026-05-31"
@@ -34235,9 +34199,7 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "btop",
-        "top",
-        "glances"
+        "btop"
       ],
       "last_verified": "2026-05-31"
     },
@@ -34305,9 +34267,7 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "yq",
-        "gron",
-        "jsonnet"
+        "yq"
       ],
       "last_verified": "2026-05-31"
     },
@@ -34376,9 +34336,7 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "jq",
-        "gron",
-        "yaml-validator"
+        "jq"
       ],
       "last_verified": "2026-05-31"
     },
@@ -34447,8 +34405,6 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "tig",
-        "gitui",
         "gitkraken"
       ],
       "last_verified": "2026-05-31"
@@ -34519,11 +34475,7 @@
         "en"
       ],
       "alternatives_to": [],
-      "alternatives": [
-        "man",
-        "cheat",
-        "eg"
-      ],
+      "alternatives": [],
       "last_verified": "2026-05-31"
     },
     {
@@ -34589,10 +34541,7 @@
         "en"
       ],
       "alternatives_to": [],
-      "alternatives": [
-        "zsh-autosuggestions",
-        "zsh-syntax-highlighting"
-      ],
+      "alternatives": [],
       "last_verified": "2026-05-31"
     },
     {
@@ -34658,11 +34607,7 @@
         "en"
       ],
       "alternatives_to": [],
-      "alternatives": [
-        "z",
-        "autojump",
-        "fasd"
-      ],
+      "alternatives": [],
       "last_verified": "2026-05-31"
     },
     {
@@ -34730,9 +34675,7 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "htop",
-        "glances",
-        "bashtop"
+        "htop"
       ],
       "last_verified": "2026-05-31"
     },
@@ -35162,9 +35105,7 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "swagger-editor",
-        "swagger-codegen",
-        "api-sdk-generator"
+        "swagger-editor"
       ],
       "last_verified": "2026-05-31"
     },
@@ -35303,7 +35244,6 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "gitbook",
         "redoc",
         "scalar"
       ],
@@ -35374,11 +35314,7 @@
         "en"
       ],
       "alternatives_to": [],
-      "alternatives": [
-        "openapi-lint",
-        "api-stylebook",
-        "semantic-lint"
-      ],
+      "alternatives": [],
       "last_verified": "2026-05-31"
     },
     {
@@ -35446,11 +35382,7 @@
         "en"
       ],
       "alternatives_to": [],
-      "alternatives": [
-        "openapi",
-        "graphql",
-        "grpc"
-      ],
+      "alternatives": [],
       "last_verified": "2026-05-31"
     },
     {
@@ -35733,9 +35665,7 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "openapi-generator",
-        "swagger-codegen",
-        "nswag"
+        "openapi-generator"
       ],
       "last_verified": "2026-05-31"
     },
