@@ -50,7 +50,7 @@ active
 **No** — Fully free and open source.
 
 ### Tags
-`ai` `llm` `cli` `open-source` `python` `forever-free` `pattern-library`
+`ai` `llm` `cli` `open-source` `python` `forever-free` `community-pick`
 
 ### Alternatives
 [gpt-prompt-engineer.md](gpt-prompt-engineer.md), [promptfoo.md](promptfoo.md), [promptperfect.md](promptperfect.md)

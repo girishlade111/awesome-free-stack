@@ -48,7 +48,7 @@ active
 **No** — Open-source model, completely free.
 
 ### Tags
-`ai` `embeddings` `open-source` `forever-free` `self-hosted` `huggingface` `python` `machine-learning` `high-performance`
+`ai` `embeddings` `open-source` `forever-free` `self-hosted` `python` `machine-learning` `high-performance`
 
 ### Alternatives To
 BAAI BGE

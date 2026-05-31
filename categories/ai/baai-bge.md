@@ -48,7 +48,7 @@ active
 **No** — Open-source model, no payment required.
 
 ### Tags
-`ai` `embeddings` `open-source` `forever-free` `python` `huggingface` `self-hosted` `machine-learning`
+`ai` `embeddings` `open-source` `forever-free` `python` `self-hosted` `machine-learning`
 
 ### Alternatives To
 OpenAI Embeddings

@@ -50,7 +50,7 @@ active
 **No** — Free tier available without credit card.
 
 ### Tags
-`ai` `embeddings` `open-source` `freemium` `no-card` `python` `huggingface` `self-hosted`
+`ai` `embeddings` `open-source` `freemium` `no-card` `python` `self-hosted`
 
 ### Alternatives To
 OpenAI Embeddings

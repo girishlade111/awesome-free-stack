@@ -53,7 +53,7 @@ active
 **No** — Free serverless tier available without credit card.
 
 ### Tags
-`ai` `embeddings` `api` `open-source` `freemium` `no-card` `huggingface` `rate-limited` `multimodal`
+`ai` `embeddings` `api` `open-source` `freemium` `no-card` `rate-limited` `multimodal`
 
 ### Alternatives To
 OpenAI Embeddings

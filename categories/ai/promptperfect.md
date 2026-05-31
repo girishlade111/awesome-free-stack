@@ -50,7 +50,7 @@ active
 **No** — Free tier available without credit card.
 
 ### Tags
-`ai` `llm` `freemium` `web-ui` `api` `optimization`
+`ai` `llm` `freemium` `web-ui` `api` `automation`
 
 ### Alternatives
 [promptfoo.md](promptfoo.md), [gpt-prompt-engineer.md](gpt-prompt-engineer.md), [fabric.md](fabric.md)

@@ -50,7 +50,7 @@ active
 **No** — Free tier available without credit card.
 
 ### Tags
-`ai` `llm` `freemium` `api` `sdk` `team-collaboration`
+`ai` `llm` `freemium` `api` `sdk` `productivity`
 
 ### Alternatives
 [langsmith-prompt-hub.md](langsmith-prompt-hub.md), [promptlayer.md](promptlayer.md), [agenta.md](agenta.md)

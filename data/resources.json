@@ -18355,7 +18355,7 @@
       "description": "Task-specific embedding models that use instruction prefixes to generate customized embeddings for retrieval, clustering, classification, and similarity tasks. Built on Sentence Transformers.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "open-source", "forever-free", "python", "self-hosted", "huggingface", "machine-learning"],
+      "tags": ["ai", "embeddings", "open-source", "forever-free", "python", "self-hosted", "machine-learning"],
       "free_tier": {
         "summary": "Fully free, MIT license. Models: instructor-base, instructor-large, instructor-xl. Unlimited self-hosted usage. No card required.",
         "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
@@ -18388,7 +18388,7 @@
       "description": "BAAI's BGE-M3 is a state-of-the-art multilingual embedding model supporting dense, sparse, and multi-vector retrieval. With 100+ languages and 8K context window, it excels at cross-lingual hybrid search.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "open-source", "forever-free", "self-hosted", "huggingface", "python", "machine-learning", "high-performance"],
+      "tags": ["ai", "embeddings", "open-source", "forever-free", "self-hosted", "python", "machine-learning", "high-performance"],
       "free_tier": {
         "summary": "Fully free, MIT license. Supports 100+ languages. Dense, sparse, and multi-vector retrieval. 8K context window. Free on HuggingFace.",
         "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
@@ -18454,7 +18454,7 @@
       "description": "Access thousands of open-source embedding models on Hugging Face via the free Inference API. Supports text, image, and multimodal embeddings from BAAI, Jina, Nomic, Sentence Transformers, and more.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "api", "open-source", "freemium", "no-card", "huggingface", "rate-limited", "multimodal"],
+      "tags": ["ai", "embeddings", "api", "open-source", "freemium", "no-card", "rate-limited", "multimodal"],
       "free_tier": {
         "summary": "30,000 free input tokens per month for serverless inference. 150,000+ models available. Rate-limited. No credit card required.",
         "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
@@ -18487,7 +18487,7 @@
       "description": "Alibaba's GTE models are state-of-the-art multilingual embedding models built on the Qwen architecture. GTE-Qwen2 achieves top MTEB scores with strong support for Chinese and English text retrieval.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "open-source", "forever-free", "self-hosted", "huggingface", "python", "machine-learning"],
+      "tags": ["ai", "embeddings", "open-source", "forever-free", "self-hosted", "python", "machine-learning"],
       "free_tier": {
         "summary": "Fully free, Apache 2.0 license. Models: GTE-small, GTE-base, GTE-large, GTE-Qwen2. Unlimited self-hosted usage. Free on HuggingFace.",
         "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
@@ -18520,7 +18520,7 @@
       "description": "The intfloat collection includes E5 and multilingual E5 embedding models that consistently rank at the top of MTEB leaderboards. Delivers strong zero-shot performance for retrieval and semantic similarity tasks.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "open-source", "forever-free", "self-hosted", "huggingface", "python", "machine-learning", "high-performance"],
+      "tags": ["ai", "embeddings", "open-source", "forever-free", "self-hosted", "python", "machine-learning", "high-performance"],
       "free_tier": {
         "summary": "Fully free, MIT license. Models: e5-small-v2, e5-base-v2, e5-large-v2, multilingual-e5. Unlimited self-hosted usage. Free on HuggingFace.",
         "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
@@ -18883,7 +18883,7 @@
       "description": "An AI-native prompt management and versioning platform for teams building LLM-powered applications. Provides prompt templates, version control, team collaboration, and deployment pipelines for production prompts.",
       "category": "ai",
       "subcategory": "prompt-tools",
-      "tags": ["ai", "llm", "freemium", "api", "sdk", "team-collaboration"],
+      "tags": ["ai", "llm", "freemium", "api", "sdk", "productivity"],
       "free_tier": {
         "summary": "Unlimited prompt creation with basic version history, up to 2 users, standard API access.",
         "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": 2 }
@@ -18949,7 +18949,7 @@
       "description": "An AI-powered prompt optimization and testing platform that automatically improves prompts for better LLM outputs. Uses advanced optimization algorithms to refine prompts across multiple models and languages.",
       "category": "ai",
       "subcategory": "prompt-tools",
-      "tags": ["ai", "llm", "freemium", "web-ui", "api", "optimization"],
+      "tags": ["ai", "llm", "freemium", "web-ui", "api", "automation"],
       "free_tier": {
         "summary": "10 free prompt optimizations per month, limited model support, basic testing and optimization features.",
         "limits": { "requests_per_month": 10, "tokens_per_minute": null, "storage_gb": null, "seats": null }
@@ -19015,7 +19015,7 @@
       "description": "An open-source framework for using AI prompts as reusable, composable building blocks. Provides a curated library of 100+ prompt patterns for common tasks like summarization, extraction, analysis, and content generation.",
       "category": "ai",
       "subcategory": "prompt-tools",
-      "tags": ["ai", "llm", "cli", "open-source", "python", "forever-free", "pattern-library"],
+      "tags": ["ai", "llm", "cli", "open-source", "python", "forever-free", "community-pick"],
       "free_tier": {
         "summary": "Completely free under MIT license. 100+ curated prompt patterns, full CLI tool for prompt execution. Unlimited usage.",
         "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }

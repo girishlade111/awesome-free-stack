@@ -48,7 +48,7 @@ active
 **No** — Open-source library, completely free.
 
 ### Tags
-`ai` `embeddings` `open-source` `forever-free` `python` `self-hosted` `huggingface` `machine-learning`
+`ai` `embeddings` `open-source` `forever-free` `python` `self-hosted` `machine-learning`
 
 ### Alternatives To
 Sentence Transformers
