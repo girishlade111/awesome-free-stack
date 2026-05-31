@@ -2,8 +2,8 @@
   "$schema": "./resources-schema.json",
   "meta": {
     "version": "1.0.0",
-    "last_updated": "2026-05-25",
-    "total_resources": 286,
+    "last_updated": "2026-05-31",
+    "total_resources": 301,
     "description": "Curated free & freemium developer resources"
   },
   "resources": [
@@ -13924,7 +13924,7 @@
         "reliability": 4,
         "performance": 4,
         "community": 5,
-        "overall": 4.0
+        "overall": 4
       },
       "verification": {
         "status": "community-verified",
@@ -15021,7 +15021,16 @@
       "description": "AI voice synthesis platform offering ultra-realistic text-to-speech, voice cloning, and dubbing with multilingual support and emotion control. Industry-leading voice quality for content creation and applications.",
       "category": "ai",
       "subcategory": "speech",
-      "tags": ["ai", "speech", "saas", "api", "freemium", "free-tier", "card-required", "usage-based"],
+      "tags": [
+        "ai",
+        "speech",
+        "saas",
+        "api",
+        "freemium",
+        "free-tier",
+        "card-required",
+        "usage-based"
+      ],
       "free_tier": {
         "summary": "10,000 characters per month free with access to 100+ built-in voices. TTS API and voice library included. 25,000 API characters per month.",
         "limits": {
@@ -15059,12 +15068,29 @@
       "requires_card": true,
       "region_restrictions": {
         "global": false,
-        "restricted_countries": ["CN", "RU", "BY", "IR", "KP", "SY", "CU", "VE"],
+        "restricted_countries": [
+          "CN",
+          "RU",
+          "BY",
+          "IR",
+          "KP",
+          "SY",
+          "CU",
+          "VE"
+        ],
         "notes": "Available in most countries; some voice cloning features restricted in certain regions"
       },
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["playht", "fish-audio", "google-text-to-speech", "openai-tts", "coqui-tts"],
+      "alternatives": [
+        "playht",
+        "fish-audio",
+        "google-text-to-speech",
+        "openai-tts",
+        "coqui-tts"
+      ],
       "last_verified": "2026-05-24"
     },
     {
@@ -15077,7 +15103,16 @@
       "description": "Real-time speech-to-text API powered by the Nova-2 model, the fastest and most accurate ASR engine. Supports 30+ languages with punctuation, diarization, and custom vocabulary.",
       "category": "ai",
       "subcategory": "speech",
-      "tags": ["ai", "speech", "saas", "api", "freemium", "free-tier", "no-card", "usage-based"],
+      "tags": [
+        "ai",
+        "speech",
+        "saas",
+        "api",
+        "freemium",
+        "free-tier",
+        "no-card",
+        "usage-based"
+      ],
       "free_tier": {
         "summary": "$200 free initial credit. 5 hours/month free for pre-recorded audio and 5 hours/month free for real-time streaming.",
         "limits": {
@@ -15118,9 +15153,17 @@
         "restricted_countries": [],
         "notes": "Available globally"
       },
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["assemblyai", "openai-whisper-api", "whisperx", "faster-whisper", "google-speech-to-text"],
+      "alternatives": [
+        "assemblyai",
+        "openai-whisper-api",
+        "whisperx",
+        "faster-whisper",
+        "google-speech-to-text"
+      ],
       "last_verified": "2026-05-24"
     },
     {
@@ -15133,7 +15176,16 @@
       "description": "Speech recognition API with state-of-the-art accuracy for transcription, speaker diarization, content moderation, and summarization. Offers easy-to-use REST API with SDKs in multiple languages.",
       "category": "ai",
       "subcategory": "speech",
-      "tags": ["ai", "speech", "saas", "api", "freemium", "free-tier", "no-card", "usage-based"],
+      "tags": [
+        "ai",
+        "speech",
+        "saas",
+        "api",
+        "freemium",
+        "free-tier",
+        "no-card",
+        "usage-based"
+      ],
       "free_tier": {
         "summary": "10 hours of audio processing per month free. Includes Conformer-2 model, punctuation, sentiment analysis, entity detection, and summarization. 2 concurrent requests.",
         "limits": {
@@ -15174,9 +15226,17 @@
         "restricted_countries": [],
         "notes": "Available globally"
       },
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["deepgram", "openai-whisper-api", "whisperx", "faster-whisper", "google-speech-to-text"],
+      "alternatives": [
+        "deepgram",
+        "openai-whisper-api",
+        "whisperx",
+        "faster-whisper",
+        "google-speech-to-text"
+      ],
       "last_verified": "2026-05-24"
     },
     {
@@ -15189,7 +15249,17 @@
       "description": "OpenAI's speech-to-text API powered by the Whisper model supporting transcription and translation across 100+ languages. Available through the OpenAI API platform with high accuracy.",
       "category": "ai",
       "subcategory": "speech",
-      "tags": ["ai", "speech", "saas", "api", "freemium", "free-tier", "card-required", "usage-based", "openai-compatible"],
+      "tags": [
+        "ai",
+        "speech",
+        "saas",
+        "api",
+        "freemium",
+        "free-tier",
+        "card-required",
+        "usage-based",
+        "openai-compatible"
+      ],
       "free_tier": {
         "summary": "$5 free credit for new users. $0.006 per minute (transcription). Rate-limited to 50 requests per minute.",
         "limits": {
@@ -15228,12 +15298,29 @@
       "requires_card": true,
       "region_restrictions": {
         "global": false,
-        "restricted_countries": ["CN", "RU", "BY", "IR", "KP", "SY", "CU", "VE"],
+        "restricted_countries": [
+          "CN",
+          "RU",
+          "BY",
+          "IR",
+          "KP",
+          "SY",
+          "CU",
+          "VE"
+        ],
         "notes": "Available in most countries; restricted in US-sanctioned regions"
       },
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["deepgram", "assemblyai", "whisperx", "faster-whisper", "whisper-cpp"],
+      "alternatives": [
+        "deepgram",
+        "assemblyai",
+        "whisperx",
+        "faster-whisper",
+        "whisper-cpp"
+      ],
       "last_verified": "2026-05-24"
     },
     {
@@ -15246,7 +15333,16 @@
       "description": "OpenAI's text-to-speech API offering six natural-sounding voices across tts-1 and tts-1-hd models. Supports streaming, SSML, and multiple output formats including MP3, Opus, AAC, and FLAC.",
       "category": "ai",
       "subcategory": "speech",
-      "tags": ["ai", "speech", "saas", "api", "freemium", "free-tier", "card-required", "usage-based"],
+      "tags": [
+        "ai",
+        "speech",
+        "saas",
+        "api",
+        "freemium",
+        "free-tier",
+        "card-required",
+        "usage-based"
+      ],
       "free_tier": {
         "summary": "$5 free credit for new users. $0.015 per 1K input characters (tts-1), $0.030 per 1K (tts-1-hd). 50 requests per minute rate limit.",
         "limits": {
@@ -15285,12 +15381,29 @@
       "requires_card": true,
       "region_restrictions": {
         "global": false,
-        "restricted_countries": ["CN", "RU", "BY", "IR", "KP", "SY", "CU", "VE"],
+        "restricted_countries": [
+          "CN",
+          "RU",
+          "BY",
+          "IR",
+          "KP",
+          "SY",
+          "CU",
+          "VE"
+        ],
         "notes": "Available in most countries; restricted in US-sanctioned regions"
       },
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["elevenlabs", "playht", "google-text-to-speech", "azure-speech", "coqui-tts"],
+      "alternatives": [
+        "elevenlabs",
+        "playht",
+        "google-text-to-speech",
+        "azure-speech",
+        "coqui-tts"
+      ],
       "last_verified": "2026-05-24"
     },
     {
@@ -15303,7 +15416,17 @@
       "description": "Google Cloud's speech recognition API supporting 125+ languages with real-time and async transcription. Features diarization, profanity filtering, word-level confidence, and domain-specific models.",
       "category": "ai",
       "subcategory": "speech",
-      "tags": ["ai", "speech", "saas", "api", "freemium", "free-tier", "card-required", "usage-based", "google"],
+      "tags": [
+        "ai",
+        "speech",
+        "saas",
+        "api",
+        "freemium",
+        "free-tier",
+        "card-required",
+        "usage-based",
+        "google"
+      ],
       "free_tier": {
         "summary": "60 minutes per month free with standard and enhanced models. Real-time streaming and batch transcription included.",
         "limits": {
@@ -15342,12 +15465,28 @@
       "requires_card": true,
       "region_restrictions": {
         "global": false,
-        "restricted_countries": ["CN", "RU", "BY", "IR", "KP", "SY", "CU", "VE"],
+        "restricted_countries": [
+          "CN",
+          "RU",
+          "BY",
+          "IR",
+          "KP",
+          "SY",
+          "CU",
+          "VE"
+        ],
         "notes": "Available globally except US-sanctioned countries"
       },
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["azure-speech", "deepgram", "assemblyai", "openai-whisper-api"],
+      "alternatives": [
+        "azure-speech",
+        "deepgram",
+        "assemblyai",
+        "openai-whisper-api"
+      ],
       "last_verified": "2026-05-24"
     },
     {
@@ -15360,7 +15499,17 @@
       "description": "Google Cloud's text-to-speech API with 380+ voices across 50+ languages. Features WaveNet and Neural2 voices for natural-sounding speech, SSML support, and custom voice tuning.",
       "category": "ai",
       "subcategory": "speech",
-      "tags": ["ai", "speech", "saas", "api", "freemium", "free-tier", "card-required", "usage-based", "google"],
+      "tags": [
+        "ai",
+        "speech",
+        "saas",
+        "api",
+        "freemium",
+        "free-tier",
+        "card-required",
+        "usage-based",
+        "google"
+      ],
       "free_tier": {
         "summary": "1 million characters per month free with standard and WaveNet voices. SSML and pitch/speed/volume controls included.",
         "limits": {
@@ -15399,12 +15548,28 @@
       "requires_card": true,
       "region_restrictions": {
         "global": false,
-        "restricted_countries": ["CN", "RU", "BY", "IR", "KP", "SY", "CU", "VE"],
+        "restricted_countries": [
+          "CN",
+          "RU",
+          "BY",
+          "IR",
+          "KP",
+          "SY",
+          "CU",
+          "VE"
+        ],
         "notes": "Available globally except US-sanctioned countries"
       },
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["azure-speech", "elevenlabs", "openai-tts", "coqui-tts"],
+      "alternatives": [
+        "azure-speech",
+        "elevenlabs",
+        "openai-tts",
+        "coqui-tts"
+      ],
       "last_verified": "2026-05-24"
     },
     {
@@ -15417,7 +15582,17 @@
       "description": "Microsoft's cloud speech platform offering speech-to-text and text-to-speech via a unified Speech SDK. Supports real-time translation, custom voice models, and speaker recognition.",
       "category": "ai",
       "subcategory": "speech",
-      "tags": ["ai", "speech", "saas", "api", "freemium", "free-tier", "card-required", "usage-based", "azure"],
+      "tags": [
+        "ai",
+        "speech",
+        "saas",
+        "api",
+        "freemium",
+        "free-tier",
+        "card-required",
+        "usage-based",
+        "azure"
+      ],
       "free_tier": {
         "summary": "5 hours/month free STT (standard model), 5 million characters/month free TTS (neural voices), 1 custom voice endpoint model free.",
         "limits": {
@@ -15459,9 +15634,16 @@
         "restricted_countries": [],
         "notes": "Available globally; Azure regions in 60+ datacenter regions"
       },
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["google-speech-to-text", "google-text-to-speech", "deepgram", "elevenlabs"],
+      "alternatives": [
+        "google-speech-to-text",
+        "google-text-to-speech",
+        "deepgram",
+        "elevenlabs"
+      ],
       "last_verified": "2026-05-24"
     },
     {
@@ -15474,7 +15656,16 @@
       "description": "Text-to-speech API and web platform with 900+ ultra-realistic AI voices across 140+ languages. Offers voice cloning, real-time streaming, SSML support, and an embeddable audio player.",
       "category": "ai",
       "subcategory": "speech",
-      "tags": ["ai", "speech", "saas", "api", "freemium", "free-tier", "card-required", "usage-based"],
+      "tags": [
+        "ai",
+        "speech",
+        "saas",
+        "api",
+        "freemium",
+        "free-tier",
+        "card-required",
+        "usage-based"
+      ],
       "free_tier": {
         "summary": "20,000 characters per month free with access to standard voice library. 100 requests per day rate limit. Basic TTS API included.",
         "limits": {
@@ -15515,9 +15706,16 @@
         "restricted_countries": [],
         "notes": "Available globally"
       },
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["elevenlabs", "openai-tts", "fish-audio", "coqui-tts"],
+      "alternatives": [
+        "elevenlabs",
+        "openai-tts",
+        "fish-audio",
+        "coqui-tts"
+      ],
       "last_verified": "2026-05-24"
     },
     {
@@ -15530,7 +15728,15 @@
       "description": "Accelerated Whisper inference with word-level timestamps, speaker diarization, and voice activity detection. Uses CTranslate2 for 70x faster than real-time transcription on GPU with batch processing.",
       "category": "ai",
       "subcategory": "speech",
-      "tags": ["ai", "speech", "python", "open-source", "self-hosted", "gpu", "high-performance"],
+      "tags": [
+        "ai",
+        "speech",
+        "python",
+        "open-source",
+        "self-hosted",
+        "gpu",
+        "high-performance"
+      ],
       "free_tier": {
         "summary": "Completely free and open source. Supports large-v2, large-v3, and distilled Whisper model variants. Word-level timestamps and speaker diarization included.",
         "limits": {
@@ -15571,9 +15777,16 @@
         "restricted_countries": [],
         "notes": "Open-source, available globally"
       },
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["faster-whisper", "whisper-cpp", "openai-whisper-api", "deepgram"],
+      "alternatives": [
+        "faster-whisper",
+        "whisper-cpp",
+        "openai-whisper-api",
+        "deepgram"
+      ],
       "last_verified": "2026-05-24"
     },
     {
@@ -15586,7 +15799,14 @@
       "description": "Open-source deep learning toolkit for text-to-speech with 1100+ pre-trained models including XTTS-v2, YourTTS, and Bark. Supports multi-speaker TTS, voice cloning, and fine-tuning on custom datasets.",
       "category": "ai",
       "subcategory": "speech",
-      "tags": ["ai", "speech", "python", "open-source", "self-hosted", "gpu"],
+      "tags": [
+        "ai",
+        "speech",
+        "python",
+        "open-source",
+        "self-hosted",
+        "gpu"
+      ],
       "free_tier": {
         "summary": "Completely free and open source with 1100+ pre-trained models across 80+ languages. Multi-speaker TTS, voice cloning, and fine-tuning API included.",
         "limits": {
@@ -15627,9 +15847,17 @@
         "restricted_countries": [],
         "notes": "Open-source, available globally"
       },
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["elevenlabs", "playht", "openai-tts", "bark", "fish-audio"],
+      "alternatives": [
+        "elevenlabs",
+        "playht",
+        "openai-tts",
+        "bark",
+        "fish-audio"
+      ],
       "last_verified": "2026-05-24"
     },
     {
@@ -15642,7 +15870,14 @@
       "description": "Suno's transformer-based text-to-speech model generating realistic speech with emotion, pitch, rhythm, and non-verbal sounds. Supports 25+ languages with voice cloning capabilities.",
       "category": "ai",
       "subcategory": "speech",
-      "tags": ["ai", "speech", "python", "open-source", "self-hosted", "gpu"],
+      "tags": [
+        "ai",
+        "speech",
+        "python",
+        "open-source",
+        "self-hosted",
+        "gpu"
+      ],
       "free_tier": {
         "summary": "Completely free and open source. Full model weights available on Hugging Face. Emotional TTS, non-verbal sounds, and voice cloning included.",
         "limits": {
@@ -15683,9 +15918,15 @@
         "restricted_countries": [],
         "notes": "Open-source, available globally"
       },
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["coqui-tts", "elevenlabs", "openai-tts"],
+      "alternatives": [
+        "coqui-tts",
+        "elevenlabs",
+        "openai-tts"
+      ],
       "last_verified": "2026-05-24"
     },
     {
@@ -15698,7 +15939,14 @@
       "description": "Open-source real-time voice conversion tool using retrieval-based methods with a WebUI. Extracts speaker embeddings via HuBERT, trains lightweight vocoders, and converts voice with minimal latency.",
       "category": "ai",
       "subcategory": "speech",
-      "tags": ["ai", "speech", "python", "open-source", "self-hosted", "gpu"],
+      "tags": [
+        "ai",
+        "speech",
+        "python",
+        "open-source",
+        "self-hosted",
+        "gpu"
+      ],
       "free_tier": {
         "summary": "Completely free and open source. Real-time voice conversion, speaker embedding training on 10-60 minutes of audio. WebUI included.",
         "limits": {
@@ -15739,9 +15987,14 @@
         "restricted_countries": [],
         "notes": "Open-source, available globally"
       },
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["elevenlabs", "fish-audio"],
+      "alternatives": [
+        "elevenlabs",
+        "fish-audio"
+      ],
       "last_verified": "2026-05-24"
     },
     {
@@ -15754,7 +16007,16 @@
       "description": "Speech synthesis and voice cloning API with fast inference and high-quality output. Offers TTS, voice cloning from short audio samples, and a marketplace of 300+ community voices.",
       "category": "ai",
       "subcategory": "speech",
-      "tags": ["ai", "speech", "saas", "api", "freemium", "free-tier", "no-card", "usage-based"],
+      "tags": [
+        "ai",
+        "speech",
+        "saas",
+        "api",
+        "freemium",
+        "free-tier",
+        "no-card",
+        "usage-based"
+      ],
       "free_tier": {
         "summary": "$1 free credit on signup plus 60,000 characters per month free. Access to 300+ community voices and basic voice cloning.",
         "limits": {
@@ -15795,9 +16057,16 @@
         "restricted_countries": [],
         "notes": "Available globally; some features may have regional limitations"
       },
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["elevenlabs", "playht", "rvc-voice-conversion", "coqui-tts"],
+      "alternatives": [
+        "elevenlabs",
+        "playht",
+        "rvc-voice-conversion",
+        "coqui-tts"
+      ],
       "last_verified": "2026-05-24"
     },
     {
@@ -15810,7 +16079,15 @@
       "description": "Highly optimized Whisper inference using CTranslate2, achieving up to 4x faster transcription than OpenAI's implementation. Supports all Whisper models with reduced memory usage and batched inference.",
       "category": "ai",
       "subcategory": "speech",
-      "tags": ["ai", "speech", "python", "open-source", "self-hosted", "gpu", "high-performance"],
+      "tags": [
+        "ai",
+        "speech",
+        "python",
+        "open-source",
+        "self-hosted",
+        "gpu",
+        "high-performance"
+      ],
       "free_tier": {
         "summary": "Completely free and open source. Supports tiny through large-v3 models. Batched inference, VAD, and diarization integration. CPU int8 and GPU FP16 inference.",
         "limits": {
@@ -15851,9 +16128,16 @@
         "restricted_countries": [],
         "notes": "Open-source, available globally"
       },
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["whisperx", "whisper-cpp", "openai-whisper-api", "deepgram"],
+      "alternatives": [
+        "whisperx",
+        "whisper-cpp",
+        "openai-whisper-api",
+        "deepgram"
+      ],
       "last_verified": "2026-05-24"
     },
     {
@@ -15866,7 +16150,15 @@
       "description": "High-performance C++ port of OpenAI's Whisper model using GGML-accelerated inference. Runs entirely on CPU without GPU, supporting all Whisper model sizes including distilled variants.",
       "category": "ai",
       "subcategory": "speech",
-      "tags": ["ai", "speech", "cli", "open-source", "self-hosted", "gpu", "high-performance"],
+      "tags": [
+        "ai",
+        "speech",
+        "cli",
+        "open-source",
+        "self-hosted",
+        "gpu",
+        "high-performance"
+      ],
       "free_tier": {
         "summary": "Completely free and open source. Supports tiny through large-v3 plus distilled variants. CLI tool, library API, real-time streaming, and VAD. CPU and GPU inference.",
         "limits": {
@@ -15907,9 +16199,16 @@
         "restricted_countries": [],
         "notes": "Open-source, available globally"
       },
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["whisperx", "faster-whisper", "openai-whisper-api", "deepgram"],
+      "alternatives": [
+        "whisperx",
+        "faster-whisper",
+        "openai-whisper-api",
+        "deepgram"
+      ],
       "last_verified": "2026-05-24"
     },
     {
@@ -16167,7 +16466,7 @@
         "reliability": 3,
         "performance": 3,
         "community": 5,
-        "overall": 4.0
+        "overall": 4
       },
       "verification": {
         "status": "community-verified",
@@ -16305,7 +16604,7 @@
         "reliability": 3,
         "performance": 3,
         "community": 4,
-        "overall": 4.0
+        "overall": 4
       },
       "verification": {
         "status": "community-verified",
@@ -16945,7 +17244,7 @@
         "reliability": 3,
         "performance": 3,
         "community": 5,
-        "overall": 4.0
+        "overall": 4
       },
       "verification": {
         "status": "community-verified",
@@ -17014,7 +17313,7 @@
         "reliability": 4,
         "performance": 4,
         "community": 4,
-        "overall": 4.0
+        "overall": 4
       },
       "verification": {
         "status": "community-verified",
@@ -18025,10 +18324,24 @@
       "description": "Industry-leading text embedding models including text-embedding-3-small and text-embedding-3-large. Produce dense vector representations optimized for semantic search, clustering, and RAG pipelines.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "api", "freemium", "card-required", "rate-limited", "openai-compatible", "sdk"],
+      "tags": [
+        "ai",
+        "embeddings",
+        "api",
+        "freemium",
+        "card-required",
+        "rate-limited",
+        "openai-compatible",
+        "sdk"
+      ],
       "free_tier": {
         "summary": "$5 free credit for new users. 3,000 tokens per minute rate limit. text-embedding-3-small available on free tier.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": 3000, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": 3000,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "Pay-as-you-go: $0.02/1M tokens (text-embedding-3-small). Usage-based per token.",
@@ -18036,16 +18349,50 @@
         "billing_model": "usage-based"
       },
       "ratings": {
-        "beginner_friendly": 5, "docs": 5, "free_generosity": 3, "setup": 5, "reliability": 5, "performance": 5, "community": 5, "overall": 4.6
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.6
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": true, "details": "Free credits via GitHub Student Developer Pack", "verification_method": "github-education" },
+      "student_benefits": {
+        "available": true,
+        "details": "Free credits via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
       "requires_card": true,
-      "region_restrictions": { "global": false, "restricted_countries": ["CN", "RU", "BY", "IR", "KP", "SY", "CU", "VE"], "notes": "Available in most countries; restricted in US-sanctioned regions" },
-      "languages": ["en"],
+      "region_restrictions": {
+        "global": false,
+        "restricted_countries": [
+          "CN",
+          "RU",
+          "BY",
+          "IR",
+          "KP",
+          "SY",
+          "CU",
+          "VE"
+        ],
+        "notes": "Available in most countries; restricted in US-sanctioned regions"
+      },
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["google-embeddings", "cohere-embed", "sentence-transformers"],
+      "alternatives": [
+        "google-embeddings",
+        "cohere-embed",
+        "sentence-transformers"
+      ],
       "last_verified": "2026-05-25"
     },
     {
@@ -18058,10 +18405,25 @@
       "description": "Google's text embedding models via the Gemini API, including text-embedding-004 and multimodal embeddings. Offers a generous free tier with 1M token context window and excellent multilingual support.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "api", "sdk", "free-tier", "no-card", "google", "rate-limited", "multimodal"],
+      "tags": [
+        "ai",
+        "embeddings",
+        "api",
+        "sdk",
+        "free-tier",
+        "no-card",
+        "google",
+        "rate-limited",
+        "multimodal"
+      ],
       "free_tier": {
         "summary": "60 requests per minute, 1,500 requests per day. text-embedding-004 available on free tier. 1M token context window. No credit card required.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": 60, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": 60,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "Pay-as-you-go starting at $0.0001/1K input characters (embedding). Usage-based.",
@@ -18069,16 +18431,43 @@
         "billing_model": "usage-based"
       },
       "ratings": {
-        "beginner_friendly": 5, "docs": 5, "free_generosity": 5, "setup": 5, "reliability": 4, "performance": 4, "community": 4, "overall": 4.6
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.6
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": true, "details": "Google for Education credits and extended API access via Google Cloud Education grants", "verification_method": "edu-email" },
+      "student_benefits": {
+        "available": true,
+        "details": "Google for Education credits and extended API access via Google Cloud Education grants",
+        "verification_method": "edu-email"
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally via Google AI Studio" },
-      "languages": ["en"],
-      "alternatives_to": ["openai-embeddings"],
-      "alternatives": ["openai-embeddings", "cohere-embed", "huggingface-embeddings"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally via Google AI Studio"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "openai-embeddings"
+      ],
+      "alternatives": [
+        "openai-embeddings",
+        "cohere-embed",
+        "huggingface-embeddings"
+      ],
       "last_verified": "2026-05-25"
     },
     {
@@ -18091,10 +18480,24 @@
       "description": "Cohere's Embed endpoint provides multilingual and English embedding models optimized for semantic search, classification, and clustering. Supports over 100 languages with v3 models.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "api", "sdk", "freemium", "no-card", "rate-limited", "machine-learning"],
+      "tags": [
+        "ai",
+        "embeddings",
+        "api",
+        "sdk",
+        "freemium",
+        "no-card",
+        "rate-limited",
+        "machine-learning"
+      ],
       "free_tier": {
         "summary": "100 trial requests for new users. 5 API calls per minute rate limit. Embed v3 models (English and multilingual). No credit card required.",
-        "limits": { "requests_per_month": 100, "tokens_per_minute": 5, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": 100,
+          "tokens_per_minute": 5,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "Usage-based; custom enterprise pricing available for high-volume usage.",
@@ -18102,16 +18505,43 @@
         "billing_model": "usage-based"
       },
       "ratings": {
-        "beginner_friendly": 4, "docs": 4, "free_generosity": 3, "setup": 3, "reliability": 4, "performance": 4, "community": 4, "overall": 3.7
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.7
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": true, "details": "Enhanced API access with .edu email via educational plans", "verification_method": "edu-email" },
+      "student_benefits": {
+        "available": true,
+        "details": "Enhanced API access with .edu email via educational plans",
+        "verification_method": "edu-email"
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally; SOC 2 compliant" },
-      "languages": ["en"],
-      "alternatives_to": ["openai-embeddings"],
-      "alternatives": ["openai-embeddings", "google-embeddings", "jina-embeddings"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; SOC 2 compliant"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "openai-embeddings"
+      ],
+      "alternatives": [
+        "openai-embeddings",
+        "google-embeddings",
+        "jina-embeddings"
+      ],
       "last_verified": "2026-05-25"
     },
     {
@@ -18124,10 +18554,24 @@
       "description": "Jina AI offers open-source embedding models via cloud API with the Jina Embeddings platform. Provides state-of-the-art text and multimodal embeddings with 1M free tokens for prototyping.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "api", "open-source", "freemium", "no-card", "multimodal", "rate-limited"],
+      "tags": [
+        "ai",
+        "embeddings",
+        "api",
+        "open-source",
+        "freemium",
+        "no-card",
+        "multimodal",
+        "rate-limited"
+      ],
       "free_tier": {
         "summary": "1 million free tokens per month. 100 requests per minute rate limit. jina-embeddings-v3 and jina-clip-v1 models. No card required.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": 100, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": 100,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "Pay-as-you-go: $0.01/1K input tokens. Usage-based pricing.",
@@ -18135,16 +18579,42 @@
         "billing_model": "usage-based"
       },
       "ratings": {
-        "beginner_friendly": 4, "docs": 4, "free_generosity": 4, "setup": 4, "reliability": 3, "performance": 4, "community": 3, "overall": 3.8
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.8
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally" },
-      "languages": ["en"],
-      "alternatives_to": ["openai-embeddings"],
-      "alternatives": ["openai-embeddings", "cohere-embed", "sentence-transformers"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "openai-embeddings"
+      ],
+      "alternatives": [
+        "openai-embeddings",
+        "cohere-embed",
+        "sentence-transformers"
+      ],
       "last_verified": "2026-05-25"
     },
     {
@@ -18157,10 +18627,23 @@
       "description": "BAAI's BGE models are among the most popular open-source embedding models on HuggingFace. The BGE series delivers top-tier MTEB performance and supports multiple languages with various model sizes.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "open-source", "forever-free", "python", "self-hosted", "machine-learning"],
+      "tags": [
+        "ai",
+        "embeddings",
+        "open-source",
+        "forever-free",
+        "python",
+        "self-hosted",
+        "machine-learning"
+      ],
       "free_tier": {
         "summary": "Fully free, MIT license. Models: bge-small-en, bge-base-en, bge-large-en, bge-m3. Unlimited self-hosted usage. Download from HuggingFace.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "No paid version; fully open source",
@@ -18168,16 +18651,42 @@
         "billing_model": null
       },
       "ratings": {
-        "beginner_friendly": 3, "docs": 4, "free_generosity": 5, "setup": 3, "reliability": 4, "performance": 4, "community": 4, "overall": 4.0
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Open-source model, available globally" },
-      "languages": ["en"],
-      "alternatives_to": ["openai-embeddings"],
-      "alternatives": ["sentence-transformers", "bge-m3", "instructor-embeddings"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source model, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "openai-embeddings"
+      ],
+      "alternatives": [
+        "sentence-transformers",
+        "bge-m3",
+        "instructor-embeddings"
+      ],
       "last_verified": "2026-05-25"
     },
     {
@@ -18190,10 +18699,24 @@
       "description": "Mixedbread AI develops mxbai-embed-large, a state-of-the-art open-source embedding model. Offers a free API tier alongside the open-source model for semantic search and RAG applications.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "open-source", "freemium", "no-card", "python", "rate-limited", "self-hosted"],
+      "tags": [
+        "ai",
+        "embeddings",
+        "open-source",
+        "freemium",
+        "no-card",
+        "python",
+        "rate-limited",
+        "self-hosted"
+      ],
       "free_tier": {
         "summary": "1,000 free API requests per month. 10 requests per minute rate limit. mxbai-embed-large open-source model. No credit card required.",
-        "limits": { "requests_per_month": 1000, "tokens_per_minute": 10, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": 1000,
+          "tokens_per_minute": 10,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "Pay-as-you-go: $0.0003/1K input tokens. Usage-based.",
@@ -18201,16 +18724,42 @@
         "billing_model": "usage-based"
       },
       "ratings": {
-        "beginner_friendly": 3, "docs": 3, "free_generosity": 4, "setup": 3, "reliability": 3, "performance": 4, "community": 3, "overall": 3.3
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.3
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally" },
-      "languages": ["en"],
-      "alternatives_to": ["openai-embeddings"],
-      "alternatives": ["baai-bge", "sentence-transformers", "fastembed"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "openai-embeddings"
+      ],
+      "alternatives": [
+        "baai-bge",
+        "sentence-transformers",
+        "fastembed"
+      ],
       "last_verified": "2026-05-25"
     },
     {
@@ -18223,10 +18772,23 @@
       "description": "Voyage AI provides specialized embedding models optimized for code, finance, and legal domains. Their models achieve top scores on specialized embedding benchmarks with fine-tuned enterprise embeddings.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "api", "freemium", "card-required", "high-performance", "machine-learning"],
+      "tags": [
+        "ai",
+        "embeddings",
+        "api",
+        "freemium",
+        "card-required",
+        "high-performance",
+        "machine-learning"
+      ],
       "free_tier": {
         "summary": "$5 free credit for new users. 100 requests per minute rate limit. Models: voyage-2, voyage-code-2, voyage-law-2, voyage-finance-2.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": 100, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": 100,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "Pay-as-you-go: $0.0001/1K input tokens. Usage-based.",
@@ -18234,16 +18796,42 @@
         "billing_model": "usage-based"
       },
       "ratings": {
-        "beginner_friendly": 3, "docs": 4, "free_generosity": 2, "setup": 3, "reliability": 4, "performance": 5, "community": 3, "overall": 3.3
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 2,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 3.3
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": true,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally" },
-      "languages": ["en"],
-      "alternatives_to": ["openai-embeddings"],
-      "alternatives": ["openai-embeddings", "cohere-embed", "google-embeddings"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "openai-embeddings"
+      ],
+      "alternatives": [
+        "openai-embeddings",
+        "cohere-embed",
+        "google-embeddings"
+      ],
       "last_verified": "2026-05-25"
     },
     {
@@ -18256,10 +18844,24 @@
       "description": "The most popular open-source Python library for generating sentence, text, and image embeddings. Provides thousands of pre-trained transformer models for semantic search, clustering, and paraphrase mining.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "open-source", "forever-free", "python", "sdk", "self-hosted", "machine-learning"],
+      "tags": [
+        "ai",
+        "embeddings",
+        "open-source",
+        "forever-free",
+        "python",
+        "sdk",
+        "self-hosted",
+        "machine-learning"
+      ],
       "free_tier": {
         "summary": "Fully free, Apache 2.0 license. 1,000+ pre-trained models on HuggingFace. Unlimited local usage. No card required.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "No paid version; fully open source",
@@ -18267,16 +18869,42 @@
         "billing_model": null
       },
       "ratings": {
-        "beginner_friendly": 4, "docs": 5, "free_generosity": 5, "setup": 4, "reliability": 4, "performance": 4, "community": 5, "overall": 4.4
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.4
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Open-source library, available globally" },
-      "languages": ["en"],
-      "alternatives_to": ["openai-embeddings"],
-      "alternatives": ["baai-bge", "fastembed", "instructor-embeddings"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source library, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "openai-embeddings"
+      ],
+      "alternatives": [
+        "baai-bge",
+        "fastembed",
+        "instructor-embeddings"
+      ],
       "last_verified": "2026-05-25"
     },
     {
@@ -18289,10 +18917,24 @@
       "description": "FastEmbed is Qdrant's open-source library for fast, efficient embedding generation using ONNX Runtime. Supports popular embedding models with optimized inference and minimal dependencies for production RAG.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "open-source", "forever-free", "python", "self-hosted", "high-performance", "machine-learning"],
+      "tags": [
+        "ai",
+        "embeddings",
+        "open-source",
+        "forever-free",
+        "python",
+        "self-hosted",
+        "high-performance",
+        "machine-learning"
+      ],
       "free_tier": {
         "summary": "Fully free, Apache 2.0 license. Supports BGE, Instructor, E5, Jina, Nomic models. Unlimited local usage, no API calls needed.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "No paid version; fully open source",
@@ -18300,16 +18942,42 @@
         "billing_model": null
       },
       "ratings": {
-        "beginner_friendly": 4, "docs": 4, "free_generosity": 5, "setup": 4, "reliability": 4, "performance": 5, "community": 3, "overall": 4.3
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 4.3
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Open-source, available globally" },
-      "languages": ["en"],
-      "alternatives_to": ["sentence-transformers"],
-      "alternatives": ["sentence-transformers", "baai-bge", "intfloat-embeddings"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "sentence-transformers"
+      ],
+      "alternatives": [
+        "sentence-transformers",
+        "baai-bge",
+        "intfloat-embeddings"
+      ],
       "last_verified": "2026-05-25"
     },
     {
@@ -18322,10 +18990,23 @@
       "description": "Nomic AI's open-source embedding model with top-tier MTEB and LoCo benchmark performance. Offers an 8K context window and supports both API-based and self-hosted deployment for semantic search.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "open-source", "freemium", "no-card", "python", "self-hosted"],
+      "tags": [
+        "ai",
+        "embeddings",
+        "open-source",
+        "freemium",
+        "no-card",
+        "python",
+        "self-hosted"
+      ],
       "free_tier": {
         "summary": "1,000 free API requests per month. 100 requests per minute rate limit. nomic-embed-text-v1.5 with 8K context. No card required.",
-        "limits": { "requests_per_month": 1000, "tokens_per_minute": 100, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": 1000,
+          "tokens_per_minute": 100,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "Pay-as-you-go: $0.00001/1K input tokens. Usage-based.",
@@ -18333,16 +19014,42 @@
         "billing_model": "usage-based"
       },
       "ratings": {
-        "beginner_friendly": 3, "docs": 4, "free_generosity": 4, "setup": 3, "reliability": 3, "performance": 4, "community": 3, "overall": 3.5
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.5
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally" },
-      "languages": ["en"],
-      "alternatives_to": ["openai-embeddings"],
-      "alternatives": ["baai-bge", "sentence-transformers", "fastembed"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "openai-embeddings"
+      ],
+      "alternatives": [
+        "baai-bge",
+        "sentence-transformers",
+        "fastembed"
+      ],
       "last_verified": "2026-05-25"
     },
     {
@@ -18355,10 +19062,23 @@
       "description": "Task-specific embedding models that use instruction prefixes to generate customized embeddings for retrieval, clustering, classification, and similarity tasks. Built on Sentence Transformers.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "open-source", "forever-free", "python", "self-hosted", "machine-learning"],
+      "tags": [
+        "ai",
+        "embeddings",
+        "open-source",
+        "forever-free",
+        "python",
+        "self-hosted",
+        "machine-learning"
+      ],
       "free_tier": {
         "summary": "Fully free, MIT license. Models: instructor-base, instructor-large, instructor-xl. Unlimited self-hosted usage. No card required.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "No paid version; fully open source",
@@ -18366,16 +19086,42 @@
         "billing_model": null
       },
       "ratings": {
-        "beginner_friendly": 3, "docs": 3, "free_generosity": 5, "setup": 3, "reliability": 3, "performance": 3, "community": 3, "overall": 3.4
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.4
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Open-source library, available globally" },
-      "languages": ["en"],
-      "alternatives_to": ["sentence-transformers"],
-      "alternatives": ["sentence-transformers", "baai-bge", "fastembed"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source library, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "sentence-transformers"
+      ],
+      "alternatives": [
+        "sentence-transformers",
+        "baai-bge",
+        "fastembed"
+      ],
       "last_verified": "2026-05-25"
     },
     {
@@ -18388,10 +19134,24 @@
       "description": "BAAI's BGE-M3 is a state-of-the-art multilingual embedding model supporting dense, sparse, and multi-vector retrieval. With 100+ languages and 8K context window, it excels at cross-lingual hybrid search.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "open-source", "forever-free", "self-hosted", "python", "machine-learning", "high-performance"],
+      "tags": [
+        "ai",
+        "embeddings",
+        "open-source",
+        "forever-free",
+        "self-hosted",
+        "python",
+        "machine-learning",
+        "high-performance"
+      ],
       "free_tier": {
         "summary": "Fully free, MIT license. Supports 100+ languages. Dense, sparse, and multi-vector retrieval. 8K context window. Free on HuggingFace.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "No paid version; fully open source",
@@ -18399,16 +19159,42 @@
         "billing_model": null
       },
       "ratings": {
-        "beginner_friendly": 3, "docs": 4, "free_generosity": 5, "setup": 3, "reliability": 4, "performance": 5, "community": 3, "overall": 4.0
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 4
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Open-source model, available globally" },
-      "languages": ["en"],
-      "alternatives_to": ["baai-bge"],
-      "alternatives": ["baai-bge", "intfloat-embeddings", "sentence-transformers"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source model, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "baai-bge"
+      ],
+      "alternatives": [
+        "baai-bge",
+        "intfloat-embeddings",
+        "sentence-transformers"
+      ],
       "last_verified": "2026-05-25"
     },
     {
@@ -18421,10 +19207,24 @@
       "description": "OpenAI's CLIP model generates joint embeddings for text and images, enabling zero-shot classification, image-text similarity search, and multimodal retrieval. Widely used in AI art and search applications.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "open-source", "forever-free", "python", "multimodal", "self-hosted", "machine-learning"],
+      "tags": [
+        "ai",
+        "embeddings",
+        "open-source",
+        "forever-free",
+        "python",
+        "multimodal",
+        "self-hosted",
+        "machine-learning"
+      ],
       "free_tier": {
         "summary": "Fully free, MIT license. Models: CLIP-ViT-B/32, CLIP-ViT-L/14. Unlimited local usage. No card required.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "No paid version; fully open source",
@@ -18432,16 +19232,40 @@
         "billing_model": null
       },
       "ratings": {
-        "beginner_friendly": 3, "docs": 4, "free_generosity": 5, "setup": 3, "reliability": 4, "performance": 4, "community": 5, "overall": 4.0
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Open-source model, available globally" },
-      "languages": ["en"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source model, available globally"
+      },
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["jina-embeddings", "sentence-transformers", "huggingface-embeddings"],
+      "alternatives": [
+        "jina-embeddings",
+        "sentence-transformers",
+        "huggingface-embeddings"
+      ],
       "last_verified": "2026-05-25"
     },
     {
@@ -18454,10 +19278,24 @@
       "description": "Access thousands of open-source embedding models on Hugging Face via the free Inference API. Supports text, image, and multimodal embeddings from BAAI, Jina, Nomic, Sentence Transformers, and more.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "api", "open-source", "freemium", "no-card", "rate-limited", "multimodal"],
+      "tags": [
+        "ai",
+        "embeddings",
+        "api",
+        "open-source",
+        "freemium",
+        "no-card",
+        "rate-limited",
+        "multimodal"
+      ],
       "free_tier": {
         "summary": "30,000 free input tokens per month for serverless inference. 150,000+ models available. Rate-limited. No credit card required.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "Pro $9/month or dedicated endpoints from $0.06/hour (CPU). Usage-based for dedicated endpoints.",
@@ -18465,16 +19303,44 @@
         "billing_model": "subscription"
       },
       "ratings": {
-        "beginner_friendly": 4, "docs": 5, "free_generosity": 4, "setup": 4, "reliability": 4, "performance": 3, "community": 5, "overall": 4.1
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 3,
+        "community": 5,
+        "overall": 4.1
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": true, "details": "Free Pro account ($9/month value) with student verification", "verification_method": "github-education" },
+      "student_benefits": {
+        "available": true,
+        "details": "Free Pro account ($9/month value) with student verification",
+        "verification_method": "github-education"
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally; model-specific restrictions may apply" },
-      "languages": ["en"],
-      "alternatives_to": ["openai-embeddings"],
-      "alternatives": ["openai-embeddings", "google-embeddings", "cohere-embed", "sentence-transformers"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; model-specific restrictions may apply"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "openai-embeddings"
+      ],
+      "alternatives": [
+        "openai-embeddings",
+        "google-embeddings",
+        "cohere-embed",
+        "sentence-transformers"
+      ],
       "last_verified": "2026-05-25"
     },
     {
@@ -18487,10 +19353,23 @@
       "description": "Alibaba's GTE models are state-of-the-art multilingual embedding models built on the Qwen architecture. GTE-Qwen2 achieves top MTEB scores with strong support for Chinese and English text retrieval.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "open-source", "forever-free", "self-hosted", "python", "machine-learning"],
+      "tags": [
+        "ai",
+        "embeddings",
+        "open-source",
+        "forever-free",
+        "self-hosted",
+        "python",
+        "machine-learning"
+      ],
       "free_tier": {
         "summary": "Fully free, Apache 2.0 license. Models: GTE-small, GTE-base, GTE-large, GTE-Qwen2. Unlimited self-hosted usage. Free on HuggingFace.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "No paid version; fully open source",
@@ -18498,16 +19377,42 @@
         "billing_model": null
       },
       "ratings": {
-        "beginner_friendly": 3, "docs": 3, "free_generosity": 5, "setup": 3, "reliability": 3, "performance": 4, "community": 3, "overall": 3.6
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.6
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Open-source model, available globally" },
-      "languages": ["en"],
-      "alternatives_to": ["baai-bge"],
-      "alternatives": ["baai-bge", "bge-m3", "intfloat-embeddings"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source model, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "baai-bge"
+      ],
+      "alternatives": [
+        "baai-bge",
+        "bge-m3",
+        "intfloat-embeddings"
+      ],
       "last_verified": "2026-05-25"
     },
     {
@@ -18520,10 +19425,24 @@
       "description": "The intfloat collection includes E5 and multilingual E5 embedding models that consistently rank at the top of MTEB leaderboards. Delivers strong zero-shot performance for retrieval and semantic similarity tasks.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "open-source", "forever-free", "self-hosted", "python", "machine-learning", "high-performance"],
+      "tags": [
+        "ai",
+        "embeddings",
+        "open-source",
+        "forever-free",
+        "self-hosted",
+        "python",
+        "machine-learning",
+        "high-performance"
+      ],
       "free_tier": {
         "summary": "Fully free, MIT license. Models: e5-small-v2, e5-base-v2, e5-large-v2, multilingual-e5. Unlimited self-hosted usage. Free on HuggingFace.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "No paid version; fully open source",
@@ -18531,16 +19450,43 @@
         "billing_model": null
       },
       "ratings": {
-        "beginner_friendly": 3, "docs": 3, "free_generosity": 5, "setup": 3, "reliability": 4, "performance": 4, "community": 3, "overall": 3.7
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.7
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Open-source model, available globally" },
-      "languages": ["en"],
-      "alternatives_to": ["baai-bge"],
-        "alternatives": ["baai-bge", "bge-m3", "alibaba-gte", "sentence-transformers"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source model, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "baai-bge"
+      ],
+      "alternatives": [
+        "baai-bge",
+        "bge-m3",
+        "alibaba-gte",
+        "sentence-transformers"
+      ],
       "last_verified": "2026-05-25"
     },
     {
@@ -18553,10 +19499,23 @@
       "description": "A collaborative prompt management and versioning platform integrated with the LangChain ecosystem. Enables teams to version, test, evaluate, and deploy prompts with integrated tracing and feedback collection.",
       "category": "ai",
       "subcategory": "prompt-tools",
-      "tags": ["ai", "llm", "monitoring", "observability", "freemium", "python", "sdk"],
+      "tags": [
+        "ai",
+        "llm",
+        "monitoring",
+        "observability",
+        "freemium",
+        "python",
+        "sdk"
+      ],
       "free_tier": {
         "summary": "Unlimited prompt creation with version history, 5,000 traces/month, 1 user, 7-day trace retention.",
-        "limits": { "requests_per_month": 5000, "tokens_per_minute": null, "storage_gb": null, "seats": 1 }
+        "limits": {
+          "requests_per_month": 5000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1
+        }
       },
       "paid_plan": {
         "summary": "Team plan at $99/month for higher limits, team collaboration, and advanced features",
@@ -18564,16 +19523,40 @@
         "billing_model": "subscription"
       },
       "ratings": {
-        "beginner_friendly": 4, "docs": 4, "free_generosity": 3, "setup": 4, "reliability": 4, "performance": 4, "community": 4, "overall": 3.8
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.8
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally" },
-      "languages": ["en"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["langfuse", "promptlayer", "helicone"],
+      "alternatives": [
+        "langfuse",
+        "promptlayer",
+        "helicone"
+      ],
       "last_verified": "2026-05-31"
     },
     {
@@ -18586,10 +19569,23 @@
       "description": "A free browser-based prompt playground for testing and iterating on prompts with Claude models. Features system prompt editing, multi-turn conversations, JSON output mode, and direct API key generation.",
       "category": "ai",
       "subcategory": "prompt-tools",
-      "tags": ["ai", "llm", "web-ui", "freemium", "no-card", "beginner-friendly", "api"],
+      "tags": [
+        "ai",
+        "llm",
+        "web-ui",
+        "freemium",
+        "no-card",
+        "beginner-friendly",
+        "api"
+      ],
       "free_tier": {
         "summary": "Unlimited free prompt testing in browser, 5 API requests/minute, Claude 3.5 Sonnet and Haiku available. Unlimited free chat on claude.ai.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": 5, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": 5,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "Pay-as-you-go API starting at $3/1M input tokens (Claude 3.5 Sonnet)",
@@ -18597,16 +19593,39 @@
         "billing_model": "usage-based"
       },
       "ratings": {
-        "beginner_friendly": 5, "docs": 4, "free_generosity": 5, "setup": 5, "reliability": 4, "performance": 5, "community": 3, "overall": 4.5
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 4.5
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally" },
-      "languages": ["en"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["google-ai-studio", "openai-playground"],
+      "alternatives": [
+        "google-ai-studio",
+        "openai-playground"
+      ],
       "last_verified": "2026-05-31"
     },
     {
@@ -18619,10 +19638,24 @@
       "description": "A free web-based IDE for prototyping and testing prompts with Gemini models. Provides prompt templates, system instructions, safety settings, model comparison, and one-click API key generation.",
       "category": "ai",
       "subcategory": "prompt-tools",
-      "tags": ["ai", "llm", "multimodal", "web-ui", "free-tier", "no-card", "generous-free-tier", "api"],
+      "tags": [
+        "ai",
+        "llm",
+        "multimodal",
+        "web-ui",
+        "free-tier",
+        "no-card",
+        "generous-free-tier",
+        "api"
+      ],
       "free_tier": {
         "summary": "60 requests/minute, 1,500 requests/day, 1M token context window, free Gemini 1.5 Flash and Pro (rate limited). No credit card required.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": 60, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": 60,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "Pay-as-you-go API starting at $0.00025/1K input characters (Gemini 1.5 Pro)",
@@ -18630,16 +19663,40 @@
         "billing_model": "usage-based"
       },
       "ratings": {
-        "beginner_friendly": 5, "docs": 5, "free_generosity": 5, "setup": 5, "reliability": 4, "performance": 5, "community": 3, "overall": 4.7
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 4.7
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": true, "details": "Google for Education grants and free API credits for students", "verification_method": "edu-email" },
+      "student_benefits": {
+        "available": true,
+        "details": "Google for Education grants and free API credits for students",
+        "verification_method": "edu-email"
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally via Google AI Studio" },
-      "languages": ["en"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally via Google AI Studio"
+      },
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["openai-playground", "anthropic-console"],
+      "alternatives": [
+        "openai-playground",
+        "anthropic-console"
+      ],
       "last_verified": "2026-05-31"
     },
     {
@@ -18652,10 +19709,24 @@
       "description": "A web-based prompt playground for experimenting with GPT-4 and GPT-4o models. Includes system prompt editing, temperature and top-p controls, multi-turn chat, and JSON mode for structured output testing.",
       "category": "ai",
       "subcategory": "prompt-tools",
-      "tags": ["ai", "llm", "gpt", "web-ui", "freemium", "card-required", "api", "beginner-friendly"],
+      "tags": [
+        "ai",
+        "llm",
+        "gpt",
+        "web-ui",
+        "freemium",
+        "card-required",
+        "api",
+        "beginner-friendly"
+      ],
       "free_tier": {
         "summary": "Free web playground, $5 free API credits for new users, 10K TPM rate limit on GPT-4o mini.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": 10000, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": 10000,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "Pay-as-you-go starting at $0.15/1M input tokens (GPT-4o mini)",
@@ -18663,16 +19734,49 @@
         "billing_model": "usage-based"
       },
       "ratings": {
-        "beginner_friendly": 5, "docs": 5, "free_generosity": 3, "setup": 5, "reliability": 5, "performance": 5, "community": 5, "overall": 4.6
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.6
       },
-      "verification": { "status": "tested", "verified_by": "maintainer", "date": "2026-05" },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": true, "details": "Free credits via GitHub Student Developer Pack", "verification_method": "github-education" },
+      "student_benefits": {
+        "available": true,
+        "details": "Free credits via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
       "requires_card": true,
-      "region_restrictions": { "global": false, "restricted_countries": ["CN", "RU", "BY", "IR", "KP", "SY", "CU", "VE"], "notes": "Available in most countries; restricted in US-sanctioned regions" },
-      "languages": ["en"],
+      "region_restrictions": {
+        "global": false,
+        "restricted_countries": [
+          "CN",
+          "RU",
+          "BY",
+          "IR",
+          "KP",
+          "SY",
+          "CU",
+          "VE"
+        ],
+        "notes": "Available in most countries; restricted in US-sanctioned regions"
+      },
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["anthropic-console", "google-ai-studio"],
+      "alternatives": [
+        "anthropic-console",
+        "google-ai-studio"
+      ],
       "last_verified": "2026-05-31"
     },
     {
@@ -18685,10 +19789,24 @@
       "description": "A prompt management platform for logging, versioning, and analyzing LLM prompts in production. Provides a collaborative dashboard for tracking prompt performance, A/B testing, and team-based prompt engineering workflows.",
       "category": "ai",
       "subcategory": "prompt-tools",
-      "tags": ["ai", "llm", "monitoring", "observability", "freemium", "python", "api", "sdk"],
+      "tags": [
+        "ai",
+        "llm",
+        "monitoring",
+        "observability",
+        "freemium",
+        "python",
+        "api",
+        "sdk"
+      ],
       "free_tier": {
         "summary": "1,000 requests/month, 7-day retention, 1 user, basic prompt versioning and logging.",
-        "limits": { "requests_per_month": 1000, "tokens_per_minute": null, "storage_gb": null, "seats": 1 }
+        "limits": {
+          "requests_per_month": 1000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1
+        }
       },
       "paid_plan": {
         "summary": "Team plan at $99/month for higher limits and collaboration features",
@@ -18696,16 +19814,40 @@
         "billing_model": "subscription"
       },
       "ratings": {
-        "beginner_friendly": 4, "docs": 4, "free_generosity": 3, "setup": 4, "reliability": 4, "performance": 4, "community": 3, "overall": 3.7
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.7
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally" },
-      "languages": ["en"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["langfuse", "langsmith-prompt-hub", "helicone"],
+      "alternatives": [
+        "langfuse",
+        "langsmith-prompt-hub",
+        "helicone"
+      ],
       "last_verified": "2026-05-31"
     },
     {
@@ -18718,10 +19860,24 @@
       "description": "An open-source evaluation and red-teaming tool for testing LLM prompts. Automates prompt testing with side-by-side model comparisons, regression testing, and customizable assertions via CLI and library integration.",
       "category": "ai",
       "subcategory": "prompt-tools",
-      "tags": ["ai", "llm", "testing", "cli", "open-source", "python", "typescript", "forever-free"],
+      "tags": [
+        "ai",
+        "llm",
+        "testing",
+        "cli",
+        "open-source",
+        "python",
+        "typescript",
+        "forever-free"
+      ],
       "free_tier": {
         "summary": "Completely free under MIT license. Unlimited evaluations and tests. Works with any LLM provider. CLI, library, and CI/CD integration.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "No paid version; fully free and open source",
@@ -18729,16 +19885,39 @@
         "billing_model": null
       },
       "ratings": {
-        "beginner_friendly": 3, "docs": 4, "free_generosity": 5, "setup": 3, "reliability": 4, "performance": 4, "community": 4, "overall": 4.0
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Open-source tool, available globally" },
-      "languages": ["en"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source tool, available globally"
+      },
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["promptperfect", "gpt-prompt-engineer"],
+      "alternatives": [
+        "promptperfect",
+        "gpt-prompt-engineer"
+      ],
       "last_verified": "2026-05-31"
     },
     {
@@ -18751,10 +19930,24 @@
       "description": "An LLM observability and prompt management platform with an AI gateway for monitoring, versioning, and managing prompts across multiple providers. Includes request logging, cost tracking, and prompt version control.",
       "category": "ai",
       "subcategory": "prompt-tools",
-      "tags": ["ai", "llm", "monitoring", "observability", "freemium", "api", "sdk", "openai-compatible"],
+      "tags": [
+        "ai",
+        "llm",
+        "monitoring",
+        "observability",
+        "freemium",
+        "api",
+        "sdk",
+        "openai-compatible"
+      ],
       "free_tier": {
         "summary": "10,000 requests/month, 3-day retention, 1 user, multi-provider support with logging and analytics.",
-        "limits": { "requests_per_month": 10000, "tokens_per_minute": null, "storage_gb": null, "seats": 1 }
+        "limits": {
+          "requests_per_month": 10000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1
+        }
       },
       "paid_plan": {
         "summary": "Team plan at $49/month for higher limits and advanced features",
@@ -18762,16 +19955,40 @@
         "billing_model": "subscription"
       },
       "ratings": {
-        "beginner_friendly": 4, "docs": 4, "free_generosity": 4, "setup": 4, "reliability": 4, "performance": 4, "community": 3, "overall": 3.9
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.9
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally" },
-      "languages": ["en"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["helicone", "langfuse", "promptlayer"],
+      "alternatives": [
+        "helicone",
+        "langfuse",
+        "promptlayer"
+      ],
       "last_verified": "2026-05-31"
     },
     {
@@ -18784,10 +20001,24 @@
       "description": "An open-source platform for prompt engineering, versioning, and LLM evaluation. Provides a collaborative web UI for A/B testing prompts across models, human evaluation workflows, and continuous improvement pipelines.",
       "category": "ai",
       "subcategory": "prompt-tools",
-      "tags": ["ai", "llm", "testing", "web-ui", "open-source", "freemium", "python", "typescript"],
+      "tags": [
+        "ai",
+        "llm",
+        "testing",
+        "web-ui",
+        "open-source",
+        "freemium",
+        "python",
+        "typescript"
+      ],
       "free_tier": {
         "summary": "Self-hosted is fully free under MIT license. Cloud free tier: 1,000 evaluations/month, 2 users.",
-        "limits": { "requests_per_month": 1000, "tokens_per_minute": null, "storage_gb": null, "seats": 2 }
+        "limits": {
+          "requests_per_month": 1000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 2
+        }
       },
       "paid_plan": {
         "summary": "Cloud Pro at $29/month for higher limits and team features",
@@ -18795,16 +20026,40 @@
         "billing_model": "subscription"
       },
       "ratings": {
-        "beginner_friendly": 4, "docs": 3, "free_generosity": 4, "setup": 3, "reliability": 3, "performance": 3, "community": 3, "overall": 3.4
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.4
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally; self-hosted version is free" },
-      "languages": ["en"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; self-hosted version is free"
+      },
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["promptfoo", "langfuse", "promptlayer"],
+      "alternatives": [
+        "promptfoo",
+        "langfuse",
+        "promptlayer"
+      ],
       "last_verified": "2026-05-31"
     },
     {
@@ -18817,10 +20072,24 @@
       "description": "An open-source LLM observability platform for monitoring, debugging, and optimizing prompts in production. Provides request logging, cost tracking, prompt experimentation, and custom dashboards with a generous free tier.",
       "category": "ai",
       "subcategory": "prompt-tools",
-      "tags": ["ai", "llm", "monitoring", "observability", "open-source", "freemium", "api", "sdk"],
+      "tags": [
+        "ai",
+        "llm",
+        "monitoring",
+        "observability",
+        "open-source",
+        "freemium",
+        "api",
+        "sdk"
+      ],
       "free_tier": {
         "summary": "100,000 requests/month, 14-day retention, request logging, cost tracking, and basic analytics. Self-hosted unlimited (MIT license).",
-        "limits": { "requests_per_month": 100000, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": 100000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "Growth plan at $20/month for longer retention and advanced features",
@@ -18828,16 +20097,40 @@
         "billing_model": "subscription"
       },
       "ratings": {
-        "beginner_friendly": 4, "docs": 4, "free_generosity": 5, "setup": 4, "reliability": 4, "performance": 4, "community": 3, "overall": 4.1
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.1
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally" },
-      "languages": ["en"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["langfuse", "portkey", "langsmith-prompt-hub"],
+      "alternatives": [
+        "langfuse",
+        "portkey",
+        "langsmith-prompt-hub"
+      ],
       "last_verified": "2026-05-31"
     },
     {
@@ -18850,10 +20143,24 @@
       "description": "An open-source observability and prompt management platform for LLM applications. Combines tracing, prompt versioning, evaluation, and cost tracking in one dashboard with self-hosted and managed cloud options.",
       "category": "ai",
       "subcategory": "prompt-tools",
-      "tags": ["ai", "llm", "monitoring", "observability", "open-source", "freemium", "python", "typescript"],
+      "tags": [
+        "ai",
+        "llm",
+        "monitoring",
+        "observability",
+        "open-source",
+        "freemium",
+        "python",
+        "typescript"
+      ],
       "free_tier": {
         "summary": "Self-hosted is fully free under MIT license. Cloud free tier: 50,000 observations/month with prompt management and tracing.",
-        "limits": { "requests_per_month": 50000, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": 50000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "Cloud Team at $59/month for higher limits and advanced features",
@@ -18861,16 +20168,40 @@
         "billing_model": "subscription"
       },
       "ratings": {
-        "beginner_friendly": 4, "docs": 5, "free_generosity": 5, "setup": 3, "reliability": 4, "performance": 4, "community": 4, "overall": 4.3
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.3
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally; self-hosted version is free" },
-      "languages": ["en"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; self-hosted version is free"
+      },
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["helicone", "langsmith-prompt-hub", "portkey"],
+      "alternatives": [
+        "helicone",
+        "langsmith-prompt-hub",
+        "portkey"
+      ],
       "last_verified": "2026-05-31"
     },
     {
@@ -18883,10 +20214,22 @@
       "description": "An AI-native prompt management and versioning platform for teams building LLM-powered applications. Provides prompt templates, version control, team collaboration, and deployment pipelines for production prompts.",
       "category": "ai",
       "subcategory": "prompt-tools",
-      "tags": ["ai", "llm", "freemium", "api", "sdk", "productivity"],
+      "tags": [
+        "ai",
+        "llm",
+        "freemium",
+        "api",
+        "sdk",
+        "productivity"
+      ],
       "free_tier": {
         "summary": "Unlimited prompt creation with basic version history, up to 2 users, standard API access.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": 2 }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 2
+        }
       },
       "paid_plan": {
         "summary": "Team plan at $99/month for higher limits and advanced collaboration",
@@ -18894,16 +20237,40 @@
         "billing_model": "subscription"
       },
       "ratings": {
-        "beginner_friendly": 4, "docs": 3, "free_generosity": 3, "setup": 4, "reliability": 3, "performance": 3, "community": 2, "overall": 3.2
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 2,
+        "overall": 3.2
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally" },
-      "languages": ["en"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["langsmith-prompt-hub", "promptlayer", "agenta"],
+      "alternatives": [
+        "langsmith-prompt-hub",
+        "promptlayer",
+        "agenta"
+      ],
       "last_verified": "2026-05-31"
     },
     {
@@ -18916,10 +20283,23 @@
       "description": "A prompt engineering and LLM observability module within the Weights & Biases ML platform. Tracks prompts, model responses, tokens, and costs with rich visualizations, versioning, and team collaboration.",
       "category": "ai",
       "subcategory": "prompt-tools",
-      "tags": ["ai", "llm", "monitoring", "observability", "freemium", "python", "sdk"],
+      "tags": [
+        "ai",
+        "llm",
+        "monitoring",
+        "observability",
+        "freemium",
+        "python",
+        "sdk"
+      ],
       "free_tier": {
         "summary": "Unlimited personal dashboard, 100 GB artifact storage, log prompt traces and model responses. Unlimited shared reports.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": 100, "seats": null }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 100,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "Team plan at $50/month for higher limits and organization features",
@@ -18927,16 +20307,41 @@
         "billing_model": "subscription"
       },
       "ratings": {
-        "beginner_friendly": 3, "docs": 4, "free_generosity": 4, "setup": 3, "reliability": 4, "performance": 4, "community": 4, "overall": 3.7
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.7
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": true, "details": "Free W&B Academic plan for students and educators", "verification_method": "edu-email" },
+      "student_benefits": {
+        "available": true,
+        "details": "Free W&B Academic plan for students and educators",
+        "verification_method": "edu-email"
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally" },
-      "languages": ["en"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["langfuse", "helicone", "langsmith-prompt-hub"],
+      "alternatives": [
+        "langfuse",
+        "helicone",
+        "langsmith-prompt-hub"
+      ],
       "last_verified": "2026-05-31"
     },
     {
@@ -18949,10 +20354,22 @@
       "description": "An AI-powered prompt optimization and testing platform that automatically improves prompts for better LLM outputs. Uses advanced optimization algorithms to refine prompts across multiple models and languages.",
       "category": "ai",
       "subcategory": "prompt-tools",
-      "tags": ["ai", "llm", "freemium", "web-ui", "api", "automation"],
+      "tags": [
+        "ai",
+        "llm",
+        "freemium",
+        "web-ui",
+        "api",
+        "automation"
+      ],
       "free_tier": {
         "summary": "10 free prompt optimizations per month, limited model support, basic testing and optimization features.",
-        "limits": { "requests_per_month": 10, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": 10,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "Pro plan at $29/month for unlimited optimizations and advanced features",
@@ -18960,16 +20377,40 @@
         "billing_model": "subscription"
       },
       "ratings": {
-        "beginner_friendly": 4, "docs": 4, "free_generosity": 2, "setup": 3, "reliability": 3, "performance": 3, "community": 3, "overall": 3.1
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 2,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.1
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally" },
-      "languages": ["en"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["promptfoo", "gpt-prompt-engineer", "fabric"],
+      "alternatives": [
+        "promptfoo",
+        "gpt-prompt-engineer",
+        "fabric"
+      ],
       "last_verified": "2026-05-31"
     },
     {
@@ -18982,10 +20423,23 @@
       "description": "An open-source Python library for systematically generating, testing, and evaluating LLM prompts at scale. Automates prompt generation from task descriptions and runs evaluation across multiple prompt variants.",
       "category": "ai",
       "subcategory": "prompt-tools",
-      "tags": ["ai", "llm", "python", "open-source", "testing", "cli", "forever-free"],
+      "tags": [
+        "ai",
+        "llm",
+        "python",
+        "open-source",
+        "testing",
+        "cli",
+        "forever-free"
+      ],
       "free_tier": {
         "summary": "Completely free under MIT license. Unlimited prompt generations and evaluations. Works with OpenAI models.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "No paid version; fully free and open source",
@@ -18993,16 +20447,40 @@
         "billing_model": null
       },
       "ratings": {
-        "beginner_friendly": 3, "docs": 3, "free_generosity": 5, "setup": 3, "reliability": 3, "performance": 3, "community": 3, "overall": 3.4
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.4
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Open-source library, available globally" },
-      "languages": ["en"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source library, available globally"
+      },
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["promptfoo", "fabric", "promptperfect"],
+      "alternatives": [
+        "promptfoo",
+        "fabric",
+        "promptperfect"
+      ],
       "last_verified": "2026-05-31"
     },
     {
@@ -19015,10 +20493,23 @@
       "description": "An open-source framework for using AI prompts as reusable, composable building blocks. Provides a curated library of 100+ prompt patterns for common tasks like summarization, extraction, analysis, and content generation.",
       "category": "ai",
       "subcategory": "prompt-tools",
-      "tags": ["ai", "llm", "cli", "open-source", "python", "forever-free", "community-pick"],
+      "tags": [
+        "ai",
+        "llm",
+        "cli",
+        "open-source",
+        "python",
+        "forever-free",
+        "community-pick"
+      ],
       "free_tier": {
         "summary": "Completely free under MIT license. 100+ curated prompt patterns, full CLI tool for prompt execution. Unlimited usage.",
-        "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
       },
       "paid_plan": {
         "summary": "No paid version; fully free and open source",
@@ -19026,16 +20517,1101 @@
         "billing_model": null
       },
       "ratings": {
-        "beginner_friendly": 4, "docs": 3, "free_generosity": 5, "setup": 3, "reliability": 3, "performance": 3, "community": 4, "overall": 3.7
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.7
       },
-      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
       "status": "active",
-      "student_benefits": { "available": false, "details": "" },
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
       "requires_card": false,
-      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Open-source tool, available globally" },
-      "languages": ["en"],
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source tool, available globally"
+      },
+      "languages": [
+        "en"
+      ],
       "alternatives_to": [],
-      "alternatives": ["gpt-prompt-engineer", "promptfoo", "promptperfect"],
+      "alternatives": [
+        "gpt-prompt-engineer",
+        "promptfoo",
+        "promptperfect"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "kaggle-notebooks",
+      "slug": "kaggle-notebooks",
+      "name": "Kaggle Notebooks",
+      "website": "https://www.kaggle.com/code",
+      "docs": "https://www.kaggle.com/docs/notebooks",
+      "github": "https://github.com/Kaggle",
+      "description": "Free cloud-based Jupyter notebook environment with GPU (NVIDIA T4 x2) and TPU acceleration. Access to 50K+ public datasets, community competitions, and pre-installed ML libraries — all free with a Kaggle account.",
+      "category": "ai",
+      "subcategory": "ml-platforms",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "gpu",
+        "python",
+        "freemium",
+        "no-card",
+        "generous-free-tier"
+      ],
+      "free_tier": {
+        "summary": "30 hours/week GPU (T4 x2), 30 hours/week TPU v3-8, 20GB notebook storage, unlimited CPU usage, access to 50K+ datasets",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 20,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid tier; all features free with fair usage limits",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Full access with Kaggle account; no additional student verification needed"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; some regions may have restricted dataset access"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "google-colab",
+        "paperspace-gradient"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "huggingface-spaces",
+      "slug": "huggingface-spaces",
+      "name": "Hugging Face Spaces",
+      "website": "https://huggingface.co/spaces",
+      "docs": "https://huggingface.co/docs/hub/spaces",
+      "github": "https://github.com/huggingface",
+      "description": "Free hosting platform for ML demo apps using Gradio, Streamlit, or Docker. Deploy interactive AI demos with CPU/GPU support, custom domains, and seamless Hugging Face Hub integration with a generous free tier.",
+      "category": "ai",
+      "subcategory": "ml-platforms",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "api",
+        "sdk",
+        "open-source",
+        "free-tier",
+        "no-card",
+        "generous-free-tier"
+      ],
+      "free_tier": {
+        "summary": "Unlimited CPU spaces, 2 GPU spaces (T4 small), 30GB storage, community tier includes 500 monthly active users",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 30,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — /month: 4 GPU spaces, 10GB CDN bandwidth, custom domains",
+        "starting_price_usd": 9,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 3,
+        "community": 5,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free Pro account (/month value) with student verification via GitHub Student Developer Pack or .edu email",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "huggingface-api",
+        "replicate-api"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "gradio",
+      "slug": "gradio",
+      "name": "Gradio",
+      "website": "https://gradio.app",
+      "docs": "https://gradio.app/docs",
+      "github": "https://github.com/gradio-app/gradio",
+      "description": "Open-source Python library for building ML demo web apps with minimal code. Create shareable UIs for any ML model with drag-and-drop interfaces, live API endpoints, and free hosting on Hugging Face Spaces.",
+      "category": "ai",
+      "subcategory": "ml-platforms",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "python",
+        "open-source",
+        "api",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free under Apache 2.0 license. Unlimited local usage. Free hosting on Hugging Face Spaces.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source. Gradio Cloud free tier for hosted demos.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 3,
+        "community": 5,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; fully free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source library, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "streamlit",
+        "huggingface-spaces"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "streamlit",
+      "slug": "streamlit",
+      "name": "Streamlit",
+      "website": "https://streamlit.io",
+      "docs": "https://docs.streamlit.io",
+      "github": "https://github.com/streamlit/streamlit",
+      "description": "Open-source Python library for turning data scripts into shareable web apps in minutes. Build interactive ML dashboards, data apps, and AI demos with pure Python. Free community cloud hosting included.",
+      "category": "ai",
+      "subcategory": "ml-platforms",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "python",
+        "open-source",
+        "api",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free under Apache 2.0 license. Streamlit Community Cloud: 1 app with 1GB storage, unlimited public apps.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 1,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Streamlit Teams — custom pricing for private apps, SSO, and team features",
+        "starting_price_usd": null,
+        "billing_model": "contact-sales"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 3,
+        "community": 5,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free Community Cloud sufficient for student projects; Snowflake for Education may offer additional benefits",
+        "verification_method": null
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source framework, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "gradio",
+        "huggingface-spaces"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "wandb",
+      "slug": "wandb",
+      "name": "Weights & Biases",
+      "website": "https://wandb.ai",
+      "docs": "https://docs.wandb.ai",
+      "github": "https://github.com/wandb/wandb",
+      "description": "ML experiment tracking, model management, and visualization platform. Log hyperparameters, metrics, and model checkpoints with a free tier for personal and academic use. Integrates with all major ML frameworks.",
+      "category": "ai",
+      "subcategory": "ml-platforms",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "api",
+        "python",
+        "freemium",
+        "no-card",
+        "generous-free-tier"
+      ],
+      "free_tier": {
+        "summary": "Unlimited personal projects, 100GB artifact storage, 3 team members, experiment tracking, and basic dashboards",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 100,
+          "seats": 3
+        }
+      },
+      "paid_plan": {
+        "summary": "Teams — /month: unlimited team members, advanced reporting, service accounts",
+        "starting_price_usd": 50,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free academic tier for students and researchers with .edu email",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; US and EU data regions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "mlflow",
+        "neptune-ai",
+        "comet-ml"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "mlflow",
+      "slug": "mlflow",
+      "name": "MLflow",
+      "website": "https://mlflow.org",
+      "docs": "https://mlflow.org/docs",
+      "github": "https://github.com/mlflow/mlflow",
+      "description": "Open-source platform for managing the complete ML lifecycle — experiment tracking, model registry, packaging, and deployment. Industry-standard tool for MLOps with extensive framework support.",
+      "category": "ai",
+      "subcategory": "ml-platforms",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "python",
+        "open-source",
+        "api",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free under Apache 2.0 license. Self-hosted with unlimited experiments, models, and users. Databricks Community Edition free tier available.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Databricks MLflow: managed hosting with enterprise features, custom pricing",
+        "starting_price_usd": null,
+        "billing_model": "contact-sales"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 3,
+        "community": 5,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; framework is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source framework, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "wandb",
+        "kubeflow"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "modal",
+      "slug": "modal",
+      "name": "Modal",
+      "website": "https://modal.com",
+      "docs": "https://modal.com/docs",
+      "github": "https://github.com/modal-labs/modal-client",
+      "description": "Serverless GPU compute platform for AI and ML workloads. Run containerized Python apps with GPU acceleration (A100, T4, L4), auto-scaling, and pay-per-second billing. Generous free monthly credits included.",
+      "category": "ai",
+      "subcategory": "ml-platforms",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "gpu",
+        "python",
+        "serverless",
+        "freemium",
+        "no-card",
+        "generous-free-tier"
+      ],
+      "free_tier": {
+        "summary": "/month free credits (~500 GPU hours on T4), 17GB persistent storage, 1GB ephemeral disk per app",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 17,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go beyond free credits: .000035/second (T4), .000115/second (A100-40GB)",
+        "starting_price_usd": 0.000035,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; free credits are generous for student projects"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; US and EU regions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "runpod",
+        "banana",
+        "cerebrium"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "runpod",
+      "slug": "runpod",
+      "name": "RunPod",
+      "website": "https://runpod.io",
+      "docs": "https://docs.runpod.io",
+      "github": "https://github.com/runpod",
+      "description": "Cloud GPU platform offering on-demand and serverless GPU compute for AI inference and training. Access to RTX 4090, A100, H100, and more with .34/hour starting prices and free credits for new users.",
+      "category": "ai",
+      "subcategory": "ml-platforms",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "gpu",
+        "api",
+        "serverless",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": " free credits for new users with no card required. Community templates for one-click deployments.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go: .34/hour (RTX 4090), .09/hour (A100 40GB), .49/hour (H100)",
+        "starting_price_usd": 0.34,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; free credits available"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; US, EU, and Asia regions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "modal",
+        "paperspace-gradient",
+        "banana"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "lightning-ai",
+      "slug": "lightning-ai",
+      "name": "Lightning AI",
+      "website": "https://lightning.ai",
+      "docs": "https://lightning.ai/docs",
+      "github": "https://github.com/Lightning-AI",
+      "description": "Platform for building, training, and deploying AI models with PyTorch Lightning. Provides cloud IDE with GPU access, multi-machine training, and one-click deployment. Free tier includes GPU compute credits.",
+      "category": "ai",
+      "subcategory": "ml-platforms",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "gpu",
+        "python",
+        "api",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "2 free GPU credits (~2 hours T4), unlimited CPU compute, cloud IDE access, 5GB persistent storage per project",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Teams — /month: 500 GPU credits, 50GB storage, team collaboration features",
+        "starting_price_usd": 50,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free tier is generous for student projects; Lightning AI has academic partnerships",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; US and EU compute regions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "google-colab",
+        "kaggle-notebooks",
+        "determined-ai"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "determined-ai",
+      "slug": "determined-ai",
+      "name": "Determined AI",
+      "website": "https://determined.ai",
+      "docs": "https://docs.determined.ai",
+      "github": "https://github.com/determined-ai/determined",
+      "description": "Open-source deep learning training platform that automates hyperparameter search, distributed training, and experiment management. Supports PyTorch, TensorFlow, and Keras with GPU cluster orchestration.",
+      "category": "ai",
+      "subcategory": "ml-platforms",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "gpu",
+        "python",
+        "open-source",
+        "api",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free under Apache 2.0 license. Self-hosted with unlimited experiments, distributed training, and hyperparameter search.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Determined Cloud: managed hosting with GPU compute, usage-based pricing",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; self-hosted version is free"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source platform, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "kubeflow",
+        "mlflow",
+        "lightning-ai"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "kubeflow",
+      "slug": "kubeflow",
+      "name": "Kubeflow",
+      "website": "https://www.kubeflow.org",
+      "docs": "https://www.kubeflow.org/docs",
+      "github": "https://github.com/kubeflow/kubeflow",
+      "description": "Open-source ML platform for Kubernetes that orchestrates the entire ML workflow — from pipeline creation and experiment tracking to model serving and monitoring. Industry standard for enterprise MLOps on K8s.",
+      "category": "ai",
+      "subcategory": "ml-platforms",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "gpu",
+        "python",
+        "open-source",
+        "kubernetes",
+        "docker",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free under Apache 2.0 license. Self-hosted on any Kubernetes cluster with unlimited pipelines, notebooks, and model serving.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully open source. Cloud provider K8s services have separate pricing.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 1,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; platform is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source platform, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "determined-ai",
+        "mlflow",
+        "lightning-ai"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "autotrain",
+      "slug": "autotrain",
+      "name": "AutoTrain",
+      "website": "https://huggingface.co/autotrain",
+      "docs": "https://huggingface.co/docs/autotrain",
+      "github": "https://github.com/huggingface/autotrain-advanced",
+      "description": "Hugging Face's no-code AutoML platform for fine-tuning LLMs, vision models, and text classifiers. Upload data, configure training, and deploy models — all without writing code. Free tier includes GPU training credits.",
+      "category": "ai",
+      "subcategory": "ml-platforms",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "gpu",
+        "python",
+        "api",
+        "freemium",
+        "no-card",
+        "no-code"
+      ],
+      "free_tier": {
+        "summary": "1 free GPU training per day (T4 small), unlimited CPU training, free model hosting on Hugging Face Hub",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — /month: 10 GPU trainings/day, more compute options, priority queues",
+        "starting_price_usd": 9,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free Pro account (/month value) with student verification via .edu email or GitHub Student Pack",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally via Hugging Face Hub"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "google-colab",
+        "kaggle-notebooks",
+        "lightning-ai"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "banana",
+      "slug": "banana",
+      "name": "Banana",
+      "website": "https://banana.dev",
+      "docs": "https://docs.banana.dev",
+      "github": "https://github.com/bananaml",
+      "description": "Serverless GPU inference platform for deploying ML models as scalable APIs. Supports PyTorch, TensorFlow, ONNX, and custom models with auto-scaling and per-second billing. Free tier includes monthly credits.",
+      "category": "ai",
+      "subcategory": "ml-platforms",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "gpu",
+        "api",
+        "python",
+        "serverless",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": " free credits/month, 5 concurrent requests, 1GB container storage, community support",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 1,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go: .0005/second (T4), .001/second (A100). Scale plan: custom pricing for high volume.",
+        "starting_price_usd": 0.0005,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; free credits available"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; US and EU regions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "modal",
+        "runpod",
+        "cerebrium"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "cerebrium",
+      "slug": "cerebrium",
+      "name": "Cerebrium",
+      "website": "https://www.cerebrium.ai",
+      "docs": "https://docs.cerebrium.ai",
+      "github": "https://github.com/cerebrium",
+      "description": "Serverless GPU inference platform optimized for AI model deployment. Deploy PyTorch, TensorFlow, and Hugging Face models with auto-scaling, cold-start optimization, and pay-per-inference pricing.",
+      "category": "ai",
+      "subcategory": "ml-platforms",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "gpu",
+        "api",
+        "python",
+        "serverless",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "10,000 free inference requests/month, 10 concurrent requests, community support, basic monitoring",
+        "limits": {
+          "requests_per_month": 10000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go: .000083/inference (T4). Custom pricing for high-throughput deployments.",
+        "starting_price_usd": 0.000083,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 2,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; US and EU regions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "modal",
+        "banana",
+        "runpod"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "paperspace-gradient",
+      "slug": "paperspace-gradient",
+      "name": "Paperspace Gradient",
+      "website": "https://www.paperspace.com/gradient",
+      "docs": "https://docs.paperspace.com/gradient",
+      "github": "https://github.com/Paperspace",
+      "description": "Cloud ML platform with free GPU-powered Jupyter notebooks and full-stack AI development environment. One-click access to NVIDIA GPUs, pre-built ML containers, and team collaboration features.",
+      "category": "ai",
+      "subcategory": "ml-platforms",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "gpu",
+        "python",
+        "api",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free GPU Jupyter notebooks (limited hours/month), 5GB storage, CPU-only runtime for unlimited sessions",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro — /month: 6 GPU compute hours (Quadro M4000), /month: 30 GPU hours. Pay-as-you-go GPU options.",
+        "starting_price_usd": 8,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free Pro tier for students with .edu email verification, includes additional GPU hours",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; US and EU data center regions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "google-colab",
+        "kaggle-notebooks",
+        "lightning-ai"
+      ],
       "last_verified": "2026-05-31"
     }
   ]
