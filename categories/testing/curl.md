@@ -49,6 +49,5 @@ active
 
 ### Tags
 `open-source` `testing` `api` `rest` `cli` `c` `library` `forever-free` `no-card`
-
 ### Alternatives
-[httpie](httpie.md), [wget](wget.md), [postman](postman.md), [rest-client](rest-client.md)
+[httpie](httpie.md), [postman](postman.md), [rest-client](rest-client.md)

@@ -29868,7 +29868,6 @@
       "alternatives_to": [],
       "alternatives": [
         "httpie",
-        "wget",
         "postman",
         "rest-client"
       ],
