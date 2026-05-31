@@ -14,7 +14,7 @@
 | Resources in `data/resources.json` | 4 | ❌ Only 4 entries cover 3 categories |
 | Resource files in `categories/` (non-guide) | 0 | ❌ Zero actual tool entries exist |
 | Student/startup guide files | 14 | ✅ Content exists but not in `resources.json` |
-| Tags defined | 155 | ❌ Only ~13 tags used across 4 resources |
+| Tags defined | 175 | ❌ Only ~13 tags used across 4 resources |
 | Tags valid (exist in `tags.json`) | — | ❌ 11 invalid tags used in resources |
 | Schema compliance | — | ✅ All 4 resources pass field validation |
 | Rankings composite accuracy | — | ❌ 5/15 entries have wrong scores |
@@ -431,7 +431,7 @@ These categories are mentioned most in `alternatives/`, `recipes/`, `learning-pa
 |---|---|---|---|
 | `data/resources.json` | 4 resources | Schema: ✅ | Tags: ❌, Limits: ❌, Sync: ❌ |
 | `data/taxonomy.json` | 20 categories, 135 subcategories | ✅ | None |
-| `data/tags.json` | 155 tags in 6 groups | ✅ | ❌ Missing 11 tags used by resources |
+| `data/tags.json` | 175 tags in 6 groups | ✅ | ❌ Missing 11 tags used by resources |
 | `data/ratings.json` | 7 metrics, 6 tiers | ✅ | None |
 | `data/badges.json` | 10 badges | ✅ | None |
 | `data/rankings.json` | 3 rankings, 15 entries | Schema: ✅ | Scores: ❌ (5 wrong) |

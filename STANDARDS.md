@@ -115,7 +115,7 @@ Every resource MUST have all 16 fields below. Fields marked **MUST** are require
 
 | Rule | Standard |
 |---|---|
-| Source | Must exist in `data/tags.json` (155 tags in 6 groups) |
+| Source | Must exist in `data/tags.json` (175 tags in 6 groups) |
 | Minimum | 1 tag |
 | Maximum | 10 tags |
 | Required patterns | See [Section 5 — Tag Assignment Rules](#5-tag-assignment-rules) |
@@ -259,7 +259,7 @@ rounded to 1 decimal place
 
 ## 3. Tag Assignment Rules
 
-Every resource MUST use tags from `data/tags.json` (155 tags, 6 groups). Follow these rules:
+Every resource MUST use tags from `data/tags.json` (175 tags, 6 groups). Follow these rules:
 
 ### 3.1 Required Tags by Group
 

@@ -51,29 +51,35 @@ This repository is the largest curated collection of **free and freemium resourc
 ### 📋 Core Features
 
 - **20 Categories** — AI, hosting, databases, auth, payments, monitoring, CI/CD, design, mobile, and more
-- **135 Subcategories** — Fine-grained classification (e.g., AI has: APIs, Models, Agents, RAG, Embeddings, etc.)
-- **155 Standardized Tags** — Cross-cutting filters: open-source, no-card, india-friendly, student-friendly, etc.
-- **7-Dimension Rating System** — Beginner friendly, docs, free generosity, setup, reliability, performance, community
+- **135 Subcategories** — Fine-grained classification (e.g., AI has: APIs, Models, Agents, RAG, Embeddings, Speech, Image Generation, ML Platforms, Vector DBs)
+- **175 Standardized Tags** — Cross-cutting filters across 6 groups: Global, Category, Pricing, Region, Compatibility, Verification
+- **7-Dimension Rating System** — Each resource scored 1-5 on beginner friendliness, docs quality, free generosity (weighted ×1.5), setup ease, reliability (×1.2), performance, and community
 - **Composite Ranking Algorithm** — Weighted scores from community votes (25%), popularity (20%), maintainer score (30%), free quality (25%)
-- **10 Verification Badges** — Tested, community-verified, deprecated, student-friendly, india-friendly, top-rated, no-card, global
-- **Paid-to-Free Mapping** — 80+ direct replacements for expensive tools
+- **10 Verification Badges** — Tested, community-verified, deprecated, archived, student-friendly, india-friendly, top-rated, no-card, global, unverified
+- **Paid-to-Free Mapping** — 80+ direct replacements for expensive tools like Notion → AppFlowy, Firebase → Supabase, ChatGPT → Gemini
+- **7 Build Recipes** — Complete free stacks for SaaS, AI apps, MVPs, portfolios, mobile apps, docs sites, and file-sharing platforms
+- **7 Learning Paths** — Curated roadmaps for Frontend, Backend, Full Stack, AI Engineering, DevOps, Mobile, and Indie Hacking
+- **7 Student Pack Guides** — Step-by-step guides to claim $200k+ in free tools including GitHub Student Pack, AWS Educate, Azure for Students, Google Cloud for Students, Figma Education, Notion Education, JetBrains Student
+- **5 Startup Credit Guides** — Apply to AWS Activate ($100k), Google Cloud for Startups ($200k), Azure for Startups ($150k), and more
 
-### 🛠️ Automation Features
+### 🛠️ Automation & DevOps Features
 
-- **Link checking** — Monthly scans for broken URLs across all markdown
-- **JSON validation** — Schema enforcement, category consistency, tag validation
-- **Verification expiry** — Flags resources not re-tested in 6+ months
-- **Stats generation** — Auto-computed repository metrics
-- **README updates** — Auto-generated stats section via PR
-- **Broken resource detection** — HTTP checks on all resource URLs
+- **6 GitHub Actions Workflows** — Automated validation, link checking, verification expiry detection, stats generation, README updates, and broken resource detection
+- **JSON Schema Validation** — Full schema enforcement across all data files (resources, taxonomy, tags, ratings, badges, rankings, deprecated)
+- **Monthly Verification Expiry** — Flags resources not re-tested in 6+ months; generates actionable issues
+- **Bi-weekly Broken Resource Detection** — HTTP HEAD/GET checks on every resource URL; auto-creates issues for broken links
+- **Monthly Link Checking** — `lychee` scans all markdown files for broken URLs
+- **Monthly Stats Generation** — Auto-computed repository metrics committed to the repo
+- **README Auto-Update** — Pull request with updated stats, categories, and top-rated resources
 
 ### 👥 Community Features
 
-- **6 Discussion categories** — Ideas, Tool Requests, Comparisons, Monthly Highlights, Support, Voting
-- **4 Issue templates** — Add Resource, Report Broken Tool, Suggest Category, Feature Request
-- **PR template** — Standardized submission checklist
-- **Contributor badges** — Recognition for active community members
-- **Voting system** — Community polls influence rankings
+- **6 Discussion Categories** — Ideas, Tool Requests, Comparisons, Monthly Highlights, Support, Voting — each with dedicated templates
+- **4 Issue Templates** — Add Resource, Report Broken Tool, Suggest Category, Feature Request — standardized for quick triage
+- **PR Template** — Standardized submission checklist including free tier verification, category matching, tag validation, and cross-reference checking
+- **Contributor Badges** — Tiered recognition for community members (Bronze/Silver/Gold based on contribution count)
+- **Quarterly Voting System** — Community polls influence official rankings; votes weighted by contributor status
+- **2-5 Business Day Review** — Maintainers review all submissions within 2-5 business days
 
 ---
 
@@ -98,7 +104,7 @@ flowchart TB
     subgraph DATA["Data Layer"]
         RES[data/resources.json<br/>Resource Entries]
         TAX[data/taxonomy.json<br/>20 Categories + 135 Subcategories]
-        TAGS[data/tags.json<br/>155 Tags in 6 Groups]
+        TAGS[data/tags.json<br/>175 Tags in 6 Groups]
         RATINGS[data/ratings.json<br/>7-Metric Scoring System]
         BADGES[data/badges.json<br/>10 Verification Badges]
         RANK_DATA[data/rankings.json<br/>4-Factor Ranking Engine]
@@ -217,7 +223,7 @@ data/
 ├── resources.json         # Resource entries (22 fields each)
 ├── resources-schema.json  # Validation schema
 ├── taxonomy.json          # 20 categories, 135 subcategories
-├── tags.json              # 155 tags in 6 groups
+├── tags.json              # 175 tags in 6 groups
 ├── ratings.json           # 7 metrics, weighted formula, 6 tiers
 ├── badges.json            # 10 badges with criteria + expiry
 ├── rankings.json          # 4 ranking factors, 3 published rankings
@@ -273,9 +279,9 @@ data/
 |---|---|
 | **Total Categories** | 20 |
 | **Total Subcategories** | 135 |
-| **Standardized Tags** | 155 |
+| **Standardized Tags** | 175 |
 | **Tag Groups** | 6 (Global, Category, Pricing, Region, Compatibility, Verification) |
-| **Resource Entries (example)** | 4 |
+| **Resource Entries** | 601 |
 | **Published Rankings** | 3 |
 | **Deprecated Entries** | 12 |
 | **Verification Badges** | 10 |
