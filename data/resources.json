@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "last_updated": "2026-05-31",
-    "total_resources": 421,
+    "total_resources": 511,
     "description": "Curated free & freemium developer resources"
   },
   "resources": [
@@ -30457,6 +30457,6450 @@
         "insomnia",
         "hoppscotch",
         "bruno"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "github",
+      "slug": "github",
+      "name": "GitHub",
+      "website": "https://github.com",
+      "docs": "https://docs.github.com",
+      "github": "https://github.com/github",
+      "description": "The world's largest code hosting platform with Git-based version control. Features pull requests, issues, actions CI/CD, code review, wikis, and project management. Free tier includes unlimited private repositories with collaborators.",
+      "category": "devtools",
+      "subcategory": "version-control",
+      "tags": [
+        "saas",
+        "devtools",
+        "git",
+        "version-control",
+        "ci-cd",
+        "freemium",
+        "no-card",
+        "generous-free-tier"
+      ],
+      "free_tier": {
+        "summary": "Free tier: unlimited public and private repositories, 2,000 CI/minutes/month, 500MB storage, 1GB bandwidth. Student Pack includes $200+ in credits.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 0.5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Team from $4/month per user. Enterprise from $21/month per user with SAML SSO, audit log, and 50GB storage.",
+        "starting_price_usd": 4,
+        "billing_model": "per-user-monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "gitlab",
+        "bitbucket",
+        "gitea",
+        "sourcehut"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "gitlab",
+      "slug": "gitlab",
+      "name": "GitLab",
+      "website": "https://gitlab.com",
+      "docs": "https://docs.gitlab.com",
+      "github": "https://gitlab.com/gitlab-org/gitlab",
+      "description": "Complete DevOps platform with Git repositories, CI/CD, container registry, and security scanning. Self-hosted or SaaS with built-in CI/CD pipelines. Free tier includes unlimited private repos and 400 CI/CD minutes.",
+      "category": "devtools",
+      "subcategory": "version-control",
+      "tags": [
+        "open-source",
+        "saas",
+        "self-hosted",
+        "devtools",
+        "git",
+        "version-control",
+        "ci-cd",
+        "docker",
+        "kubernetes",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "SaaS free tier: unlimited repos, 400 CI/minutes/month, 5GB storage. Self-hosted Community Edition is completely free.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 5,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Premium from $24/month per user. Ultimate from $99/month per user with security scanning and compliance.",
+        "starting_price_usd": 24,
+        "billing_model": "per-user-monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "github",
+        "bitbucket",
+        "gitea",
+        "gogs"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "bitbucket",
+      "slug": "bitbucket",
+      "name": "Bitbucket",
+      "website": "https://bitbucket.org",
+      "docs": "https://support.atlassian.com/bitbucket-cloud/",
+      "github": null,
+      "description": "Atlassian's Git code hosting with Jira integration. Supports unlimited private repos, pull requests, and built-in CI/CD via Bitbucket Pipelines. Free tier for small teams with 50 build minutes per month.",
+      "category": "devtools",
+      "subcategory": "version-control",
+      "tags": [
+        "saas",
+        "devtools",
+        "git",
+        "version-control",
+        "ci-cd",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: up to 5 users, unlimited private repos, 50 CI build minutes/month, 1GB file storage.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 1,
+          "seats": 5
+        }
+      },
+      "paid_plan": {
+        "summary": "Standard from $3/month per user for unlimited build minutes. Premium from $6/month per user with advanced deployment.",
+        "starting_price_usd": 3,
+        "billing_model": "per-user-monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "github",
+        "gitlab",
+        "gitea"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "gitea",
+      "slug": "gitea",
+      "name": "Gitea",
+      "website": "https://gitea.io",
+      "docs": "https://docs.gitea.io",
+      "github": "https://github.com/go-gitea/gitea",
+      "description": "Lightweight, self-hosted Git service written in Go. Minimal resource usage with high performance. Features repository management, issue tracking, pull requests, CI/CD via Actions, and OAuth integration.",
+      "category": "devtools",
+      "subcategory": "version-control",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "devtools",
+        "git",
+        "version-control",
+        "go",
+        "docker",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Self-hosted with unlimited users, repos, and storage (depends on host).",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source. Cloud hosting available from codeberg.org.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "gogs",
+        "gitlab",
+        "github",
+        "codeberg"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "gogs",
+      "slug": "gogs",
+      "name": "Gogs",
+      "website": "https://gogs.io",
+      "docs": "https://gogs.io/docs",
+      "github": "https://github.com/gogs/gogs",
+      "description": "Self-hosted Git service written in Go with minimal resource requirements. Runs on Raspberry Pi-level hardware. Supports repository browsing, issue tracker, pull requests, webhooks, and LDAP authentication.",
+      "category": "devtools",
+      "subcategory": "version-control",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "devtools",
+        "git",
+        "version-control",
+        "go",
+        "docker",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Extremely lightweight — runs on 512MB RAM. Unlimited users and repos.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "gitea",
+        "gitlab",
+        "gitbucket"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "sourcehut",
+      "slug": "sourcehut",
+      "name": "SourceHut",
+      "website": "https://sourcehut.org",
+      "docs": "https://man.sr.ht",
+      "github": "https://git.sr.ht/~sircmpwn/sr.ht",
+      "description": "Privacy-focused open-source code hosting and collaboration platform. Offers Git and Mercurial hosting, CI/CD, mailing lists, issue tracking, and wiki. Minimalist design with Unix philosophy. CLI-first workflow.",
+      "category": "devtools",
+      "subcategory": "version-control",
+      "tags": [
+        "open-source",
+        "saas",
+        "devtools",
+        "git",
+        "version-control",
+        "ci-cd",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Open source projects hosted for free. Free tier: 1 repository, limited builds. Paid accounts start at $2/month for full access.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "SourceHut account from $2/month for unlimited repos, CI/CD minutes, and mailing lists.",
+        "starting_price_usd": 2,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "github",
+        "gitlab",
+        "codeberg",
+        "gitea"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "codeberg",
+      "slug": "codeberg",
+      "name": "Codeberg",
+      "website": "https://codeberg.org",
+      "docs": "https://docs.codeberg.org",
+      "github": null,
+      "description": "Community-driven Git hosting platform run by the Codeberg non-profit. Based on Forgejo (Gitea fork). Free for all open source projects worldwide. Privacy-focused with no advertising or tracking.",
+      "category": "devtools",
+      "subcategory": "version-control",
+      "tags": [
+        "open-source",
+        "saas",
+        "devtools",
+        "git",
+        "version-control",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free for open source projects and personal use. Unlimited public and private repositories. No limits on collaborators.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Donation-supported platform. No paid tiers — entirely community-funded and free for all users.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "github",
+        "gitlab",
+        "gitea",
+        "sourcehut"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "gitbucket",
+      "slug": "gitbucket",
+      "name": "GitBucket",
+      "website": "https://gitbucket.github.io",
+      "docs": "https://github.com/gitbucket/gitbucket/wiki",
+      "github": "https://github.com/gitbucket/gitbucket",
+      "description": "Self-hosted Git platform written in Scala with a GitHub-like interface. Single JAR deployment with no external database required. Supports pull requests, issues, wiki, and Git LFS. Lightweight and easy to set up.",
+      "category": "devtools",
+      "subcategory": "version-control",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "devtools",
+        "git",
+        "version-control",
+        "scala",
+        "java",
+        "docker",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0. Runs as a single JAR file with embedded H2 database. Unlimited repos and users.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "gitea",
+        "gogs",
+        "gitlab"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "gerrit",
+      "slug": "gerrit",
+      "name": "Gerrit",
+      "website": "https://www.gerritcodereview.com",
+      "docs": "https://gerrit-review.googlesource.com/Documentation/",
+      "github": "https://github.com/GerritCodeReview/gerrit",
+      "description": "Web-based code review system for Git repositories with line-by-line commenting. Used by Android, Eclipse, and Chrome projects. Supports patch sets, verified CI integration, and access control policies.",
+      "category": "devtools",
+      "subcategory": "version-control",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "devtools",
+        "git",
+        "version-control",
+        "java",
+        "docker",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0. Self-hosted with unlimited users, projects, and code reviews.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "github",
+        "gitlab",
+        "bitbucket"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "aws-codecommit",
+      "slug": "aws-codecommit",
+      "name": "AWS CodeCommit",
+      "website": "https://aws.amazon.com/codecommit/",
+      "docs": "https://docs.aws.amazon.com/codecommit/",
+      "github": null,
+      "description": "Amazon's managed Git repository service with no repository size limits. Integrated with AWS IAM, CodeBuild, CodePipeline, and CloudTrail. Encrypted at rest with 50GB storage per repo.",
+      "category": "devtools",
+      "subcategory": "version-control",
+      "tags": [
+        "saas",
+        "cloud",
+        "devtools",
+        "git",
+        "version-control",
+        "aws",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 5 active users, 50GB storage, 10,000 Git requests/month. Unlimited repositories within free limits.",
+        "limits": {
+          "requests_per_month": 10000,
+          "tokens_per_minute": null,
+          "storage_gb": 50,
+          "seats": 5
+        }
+      },
+      "paid_plan": {
+        "summary": "$1/user/month for active users beyond free tier. $0.10/GB of storage beyond free tier. Pay-as-you-go pricing.",
+        "starting_price_usd": 1,
+        "billing_model": "per-user-monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 3,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "github",
+        "gitlab",
+        "azure-repos",
+        "bitbucket"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "azure-repos",
+      "slug": "azure-repos",
+      "name": "Azure Repos",
+      "website": "https://azure.microsoft.com/en-us/services/devops/repos/",
+      "docs": "https://docs.microsoft.com/en-us/azure/devops/repos/",
+      "github": null,
+      "description": "Microsoft's Git repository hosting as part of Azure DevOps. Supports unlimited private repos, pull requests, branch policies, and semantic code search. Free for teams up to 5 users with Azure Pipelines.",
+      "category": "devtools",
+      "subcategory": "version-control",
+      "tags": [
+        "saas",
+        "cloud",
+        "devtools",
+        "git",
+        "version-control",
+        "azure",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: up to 5 users, unlimited private Git repos, 1,800 CI/CD pipeline minutes/month, 2GB storage.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 2,
+          "seats": 5
+        }
+      },
+      "paid_plan": {
+        "summary": "Basic from $6/month per user for unlimited CI/CD, self-hosted agents, and advanced features.",
+        "starting_price_usd": 6,
+        "billing_model": "per-user-monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "github",
+        "gitlab",
+        "bitbucket",
+        "aws-codecommit"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "git",
+      "slug": "git",
+      "name": "Git",
+      "website": "https://git-scm.com",
+      "docs": "https://git-scm.com/doc",
+      "github": "https://github.com/git/git",
+      "description": "The world's most widely used version control system by Linus Torvalds. Distributed architecture with branching, merging, rebasing, and staging areas. Foundation for GitHub, GitLab, and all modern code hosting.",
+      "category": "devtools",
+      "subcategory": "version-control",
+      "tags": [
+        "open-source",
+        "devtools",
+        "git",
+        "version-control",
+        "cli",
+        "c",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under GPLv2. Pre-installed on most systems. No usage limits or license restrictions.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "github",
+        "gitlab",
+        "git-lfs",
+        "mercurial"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "git-lfs",
+      "slug": "git-lfs",
+      "name": "Git LFS",
+      "website": "https://git-lfs.com",
+      "docs": "https://github.com/git-lfs/git-lfs#git-lfs",
+      "github": "https://github.com/git-lfs/git-lfs",
+      "description": "Git extension for handling large files by replacing them with text pointers. Stores large binary files (design assets, datasets, audio) on external storage while Git tracks lightweight references. Supported by major hosting platforms.",
+      "category": "devtools",
+      "subcategory": "version-control",
+      "tags": [
+        "open-source",
+        "devtools",
+        "git",
+        "version-control",
+        "cli",
+        "go",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Open-source Git extension free under MIT license. GitHub free tier: 2GB LFS storage, 2GB bandwidth/month.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 2,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "GitHub LFS paid: $5/month for 50GB storage, 50GB bandwidth. GitLab and Bitbucket have separate LFS pricing.",
+        "starting_price_usd": 5,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "dvc",
+        "git-annex"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "dvc",
+      "slug": "dvc",
+      "name": "DVC",
+      "website": "https://dvc.org",
+      "docs": "https://dvc.org/doc",
+      "github": "https://github.com/iterative/dvc",
+      "description": "Open-source version control for machine learning projects. Extends Git to track datasets, models, and experiments. Manages data pipelines with caching, remote storage (S3, GCS, Azure), and experiment tracking.",
+      "category": "devtools",
+      "subcategory": "version-control",
+      "tags": [
+        "open-source",
+        "devtools",
+        "git",
+        "version-control",
+        "cli",
+        "python",
+        "machine-learning",
+        "ai",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0. CLI tool with no usage limits. Integrates with any cloud storage backend.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "DVC Studio free tier: 25GB storage, 1 project. Pro from $50/month for more storage and collaboration.",
+        "starting_price_usd": 50,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "git-lfs",
+        "git-annex",
+        "lakefs"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "gitkraken",
+      "slug": "gitkraken",
+      "name": "GitKraken",
+      "website": "https://www.gitkraken.com",
+      "docs": "https://help.gitkraken.com",
+      "github": null,
+      "description": "Cross-platform Git GUI client with intuitive visual interface. Features drag-and-drop branching, built-in merge conflict editor, interactive rebase, and Git LFS support. Free for non-commercial use with premium features.",
+      "category": "devtools",
+      "subcategory": "version-control",
+      "tags": [
+        "freemium",
+        "devtools",
+        "git",
+        "version-control",
+        "gui",
+        "desktop",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free plan: Git GUI with visual commits, branching, and staging. No commercial use. Integrates with GitHub, GitLab, Bitbucket.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro from $59/year for commercial use, Glo boards, and premium support. Enterprise with SSO and admin controls.",
+        "starting_price_usd": 59,
+        "billing_model": "annual"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "git",
+        "sourcetree",
+        "github-desktop"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "npm",
+      "slug": "npm",
+      "name": "npm",
+      "website": "https://www.npmjs.com",
+      "docs": "https://docs.npmjs.com",
+      "github": "https://github.com/npm/cli",
+      "description": "The default Node.js package manager with the world's largest software registry (2M+ packages). CLI for installing, publishing, and managing dependencies. Supports workspaces, lockfiles, and semver versioning.",
+      "category": "devtools",
+      "subcategory": "package-managers",
+      "tags": [
+        "open-source",
+        "devtools",
+        "package-manager",
+        "javascript",
+        "nodejs",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "CLI is free open-source. Public packages free to publish and install. Free private packages: 2 users per org, unlimited packages.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro from $7/month for unlimited private packages and teams. Enterprise with SSO and custom registry.",
+        "starting_price_usd": 7,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "yarn",
+        "pnpm",
+        "pip"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "yarn",
+      "slug": "yarn",
+      "name": "Yarn",
+      "website": "https://yarnpkg.com",
+      "docs": "https://yarnpkg.com/getting-started",
+      "github": "https://github.com/yarnpkg/berry",
+      "description": "Fast, reliable Node.js package manager by Meta. Features Plug'n'Play (PnP) zero-install, offline caching, workspaces, and constrained dependency resolution. v4 (Berry) supports modern features with TypeScript.",
+      "category": "devtools",
+      "subcategory": "package-managers",
+      "tags": [
+        "open-source",
+        "devtools",
+        "package-manager",
+        "javascript",
+        "nodejs",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under BSD license. No usage limits. Works with any npm registry.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "npm",
+        "pnpm",
+        "pip"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "pnpm",
+      "slug": "pnpm",
+      "name": "pnpm",
+      "website": "https://pnpm.io",
+      "docs": "https://pnpm.io/motivation",
+      "github": "https://github.com/pnpm/pnpm",
+      "description": "Fast, disk-space-efficient Node.js package manager using content-addressable storage. Features strict dependency isolation, workspaces, and monorepo support. Up to 2x faster than npm with significantly less disk usage.",
+      "category": "devtools",
+      "subcategory": "package-managers",
+      "tags": [
+        "open-source",
+        "devtools",
+        "package-manager",
+        "javascript",
+        "nodejs",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Content-addressable storage saves disk space across projects.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "npm",
+        "yarn",
+        "pip"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "pip",
+      "slug": "pip",
+      "name": "pip",
+      "website": "https://pip.pypa.io",
+      "docs": "https://pip.pypa.io/en/stable/",
+      "github": "https://github.com/pypa/pip",
+      "description": "The standard Python package installer. Installs packages from PyPI with dependency resolution, virtual environment support, and requirements files. Included by default with Python 3.4+.",
+      "category": "devtools",
+      "subcategory": "package-managers",
+      "tags": [
+        "open-source",
+        "devtools",
+        "package-manager",
+        "python",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Pre-installed with Python. No usage limits for installing packages from PyPI.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "poetry",
+        "conda",
+        "npm",
+        "cargo"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "poetry",
+      "slug": "poetry",
+      "name": "Poetry",
+      "website": "https://python-poetry.org",
+      "docs": "https://python-poetry.org/docs/",
+      "github": "https://github.com/python-poetry/poetry",
+      "description": "Modern Python packaging and dependency management tool. Handles virtual environments, lockfiles, build systems, and publishing to PyPI. Uses pyproject.toml with deterministic dependency resolution.",
+      "category": "devtools",
+      "subcategory": "package-managers",
+      "tags": [
+        "open-source",
+        "devtools",
+        "package-manager",
+        "python",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Modern pyproject.toml-based build system with lockfile support.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "pip",
+        "conda",
+        "npm"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "conda",
+      "slug": "conda",
+      "name": "Conda",
+      "website": "https://docs.conda.io",
+      "docs": "https://docs.conda.io/en/latest/",
+      "github": "https://github.com/conda/conda",
+      "description": "Cross-platform package and environment manager for Python and data science. Manages binary packages for Python, R, C/C++, and CUDA. Supports environment snapshots, reproducible builds, and channel-based distribution.",
+      "category": "devtools",
+      "subcategory": "package-managers",
+      "tags": [
+        "open-source",
+        "devtools",
+        "package-manager",
+        "python",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under BSD license. Largest package ecosystem for data science with Anaconda repository.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Anaconda Business from $49/user/year with commercial license. Team and Enterprise tiers available.",
+        "starting_price_usd": 49,
+        "billing_model": "annual"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "pip",
+        "poetry",
+        "npm"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "cargo",
+      "slug": "cargo",
+      "name": "Cargo",
+      "website": "https://doc.rust-lang.org/cargo/",
+      "docs": "https://doc.rust-lang.org/cargo/guide/",
+      "github": "https://github.com/rust-lang/cargo",
+      "description": "Rust's built-in package manager and build system. Handles dependencies from crates.io, builds, tests, benchmarks, and documentation. Features workspaces, lockfiles, semantic versioning, and custom registries.",
+      "category": "devtools",
+      "subcategory": "package-managers",
+      "tags": [
+        "open-source",
+        "devtools",
+        "package-manager",
+        "rust",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT/Apache 2.0. Ships with Rust. Access to crates.io with unlimited package publishing.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "npm",
+        "pip",
+        "maven",
+        "go-modules"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "go-modules",
+      "slug": "go-modules",
+      "name": "Go Modules",
+      "website": "https://go.dev/ref/mod",
+      "docs": "https://go.dev/doc/modules/managing-dependencies",
+      "github": "https://github.com/golang/go",
+      "description": "Go's official dependency management system built into the Go toolchain. Uses go.mod and go.sum files for reproducible builds. Fetches packages directly from Git repositories with semantic versioning and minimal version selection.",
+      "category": "devtools",
+      "subcategory": "package-managers",
+      "tags": [
+        "open-source",
+        "devtools",
+        "package-manager",
+        "go",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source part of Go. Built-in with no additional tools needed. Fetches directly from any Git repo.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "cargo",
+        "npm",
+        "maven"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "maven",
+      "slug": "maven",
+      "name": "Maven",
+      "website": "https://maven.apache.org",
+      "docs": "https://maven.apache.org/guides/",
+      "github": "https://github.com/apache/maven",
+      "description": "Apache build automation and dependency management tool for Java. Uses POM (Project Object Model) XML for project configuration. Manages dependencies from Maven Central with lifecycle phases (compile, test, package, deploy).",
+      "category": "devtools",
+      "subcategory": "package-managers",
+      "tags": [
+        "open-source",
+        "devtools",
+        "package-manager",
+        "java",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0. Central repository with unlimited artifact publishing and downloads.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "gradle",
+        "cargo",
+        "nuget",
+        "npm"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "gradle",
+      "slug": "gradle",
+      "name": "Gradle",
+      "website": "https://gradle.org",
+      "docs": "https://docs.gradle.org",
+      "github": "https://github.com/gradle/gradle",
+      "description": "Advanced build automation tool for Java, Kotlin, Android, and Groovy. Uses Groovy/Kotlin DSL with incremental builds and build caching. Default build system for Android with multi-project support.",
+      "category": "devtools",
+      "subcategory": "package-managers",
+      "tags": [
+        "open-source",
+        "devtools",
+        "package-manager",
+        "java",
+        "kotlin",
+        "android",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0. Build caching and parallel execution included. No usage limits.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Gradle Enterprise from $500/user/year with build scans, insights, and remote caching.",
+        "starting_price_usd": 500,
+        "billing_model": "annual"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "maven",
+        "cargo",
+        "npm"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "nuget",
+      "slug": "nuget",
+      "name": "NuGet",
+      "website": "https://www.nuget.org",
+      "docs": "https://docs.microsoft.com/en-us/nuget/",
+      "github": "https://github.com/NuGet/NuGet.Client",
+      "description": "Microsoft's package manager for .NET. Hosts over 300K packages on nuget.org. Integrates with Visual Studio, CLI, and Azure DevOps. Supports semantic versioning, package signing, and private feeds.",
+      "category": "devtools",
+      "subcategory": "package-managers",
+      "tags": [
+        "open-source",
+        "devtools",
+        "package-manager",
+        "dotnet",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "CLI and public registry are free. Unlimited package publishing and downloads from nuget.org. GitHub free tier includes 2GB nuget storage.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 2,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Azure Artifacts free tier: 2GB storage. Paid from $6/month for unlimited storage and private feeds.",
+        "starting_price_usd": 6,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "maven",
+        "cargo",
+        "npm"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "rubygems",
+      "slug": "rubygems",
+      "name": "RubyGems",
+      "website": "https://rubygems.org",
+      "docs": "https://guides.rubygems.org",
+      "github": "https://github.com/rubygems/rubygems",
+      "description": "Ruby's standard package manager with the rubygems.org registry. CLI for building, publishing, and installing Ruby libraries. Bundler integration for dependency resolution and Gemfile management.",
+      "category": "devtools",
+      "subcategory": "package-managers",
+      "tags": [
+        "open-source",
+        "devtools",
+        "package-manager",
+        "ruby",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Unlimited gem publishing and installation from rubygems.org.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "pip",
+        "npm",
+        "cargo"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "composer",
+      "slug": "composer",
+      "name": "Composer",
+      "website": "https://getcomposer.org",
+      "docs": "https://getcomposer.org/doc/",
+      "github": "https://github.com/composer/composer",
+      "description": "PHP dependency manager with Packagist registry. Manages libraries, autoloading, and platform requirements. Uses composer.json and composer.lock for deterministic dependency resolution across environments.",
+      "category": "devtools",
+      "subcategory": "package-managers",
+      "tags": [
+        "open-source",
+        "devtools",
+        "package-manager",
+        "php",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Packagist registry free for public and private packages.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Private Packagist from $10/month for private package hosting and team features.",
+        "starting_price_usd": 10,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "npm",
+        "pip",
+        "rubygems"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "hex",
+      "slug": "hex",
+      "name": "Hex",
+      "website": "https://hex.pm",
+      "docs": "https://hex.pm/docs",
+      "github": "https://github.com/hexpm/hex",
+      "description": "Package manager for the Erlang ecosystem (Elixir and Erlang). Provides hex.pm registry with dependency resolution, documentation hosting, and package publishing. Mix integration for Elixir projects.",
+      "category": "devtools",
+      "subcategory": "package-managers",
+      "tags": [
+        "open-source",
+        "devtools",
+        "package-manager",
+        "elixir",
+        "erlang",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Unlimited package publishing and documentation on hex.pm.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "npm",
+        "cargo",
+        "rubygems"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "homebrew",
+      "slug": "homebrew",
+      "name": "Homebrew",
+      "website": "https://brew.sh",
+      "docs": "https://docs.brew.sh",
+      "github": "https://github.com/Homebrew/brew",
+      "description": "The missing package manager for macOS (and Linux). Installs command-line tools, libraries, and desktop apps with a simple formula system. Manages 6,000+ formulas and 6,000+ casks with automatic dependency resolution.",
+      "category": "devtools",
+      "subcategory": "package-managers",
+      "tags": [
+        "open-source",
+        "devtools",
+        "package-manager",
+        "macos",
+        "linux",
+        "cli",
+        "ruby",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under BSD 2-Clause. No usage limits. Maintained by community contributors and volunteers.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "apt",
+        "chocolatey",
+        "npm"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "chrome-devtools",
+      "slug": "chrome-devtools",
+      "name": "Chrome DevTools",
+      "website": "https://developer.chrome.com/docs/devtools/",
+      "docs": "https://developer.chrome.com/docs/devtools/overview/",
+      "github": "https://github.com/ChromeDevTools",
+      "description": "Built-in set of web authoring and debugging tools in Google Chrome. Features Elements panel, Console, Sources debugger, Network analyzer, Performance profiler, Lighthouse audits, and Application storage viewer.",
+      "category": "devtools",
+      "subcategory": "browser-devtools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "browser-devtools",
+        "debugging",
+        "performance",
+        "javascript",
+        "css",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free — built into every Chrome/Chromium browser. No installation or configuration needed.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; built into Chrome for free",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "firefox-devtools",
+        "safari-web-inspector",
+        "edge-devtools"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "firefox-devtools",
+      "slug": "firefox-devtools",
+      "name": "Firefox Developer Tools",
+      "website": "https://firefox-dev.tools",
+      "docs": "https://developer.mozilla.org/en-US/docs/Tools",
+      "github": "https://github.com/firefox-devtools",
+      "description": "Integrated web development tools in Firefox. Unique features like CSS Grid/Flexbox inspectors, accessibility inspector, 3D view, and responsive design mode. Advanced debugging with source map support.",
+      "category": "devtools",
+      "subcategory": "browser-devtools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "browser-devtools",
+        "debugging",
+        "css",
+        "javascript",
+        "accessibility",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free — built into every Firefox and Firefox Developer Edition browser. No configuration needed.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; built into Firefox for free",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "chrome-devtools",
+        "safari-web-inspector",
+        "edge-devtools"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "safari-web-inspector",
+      "slug": "safari-web-inspector",
+      "name": "Safari Web Inspector",
+      "website": "https://webkit.org/web-inspector/",
+      "docs": "https://webkit.org/web-inspector/web-inspector-guide/",
+      "github": "https://github.com/WebKit/webkit",
+      "description": "Apple's built-in web development tools in Safari. Features Elements tab, Timeline, Debugger, Console, Storage, Accessibility tree, and responsive design mode. Essential for iOS web debugging via remote inspection.",
+      "category": "devtools",
+      "subcategory": "browser-devtools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "browser-devtools",
+        "debugging",
+        "css",
+        "javascript",
+        "ios",
+        "webkit",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free — built into Safari on macOS and iOS. Enable via Develop menu in Safari preferences.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; built into Safari for free",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 3,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "chrome-devtools",
+        "firefox-devtools",
+        "edge-devtools"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "edge-devtools",
+      "slug": "edge-devtools",
+      "name": "Edge DevTools",
+      "website": "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/",
+      "docs": "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/overview",
+      "github": null,
+      "description": "Chromium-based Edge developer tools with Microsoft-specific features. Includes CSS grid tools, 3D view, issues tab, and AI-powered debugging. Available in Edge browser with deep Azure/Office 365 integration.",
+      "category": "devtools",
+      "subcategory": "browser-devtools",
+      "tags": [
+        "devtools",
+        "browser-devtools",
+        "debugging",
+        "css",
+        "javascript",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free — built into Microsoft Edge browser. Based on Chrome DevTools with additional Microsoft features.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; built into Edge for free",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 3,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "chrome-devtools",
+        "firefox-devtools",
+        "safari-web-inspector"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "react-devtools",
+      "slug": "react-devtools",
+      "name": "React Developer Tools",
+      "website": "https://react.dev/learn/react-developer-tools",
+      "docs": "https://react.dev/learn/react-developer-tools",
+      "github": "https://github.com/facebook/react-devtools",
+      "description": "Browser extension for inspecting React component hierarchies, props, state, and hooks. Available for Chrome, Firefox, and Edge. Standalone app for React Native debugging. Essential for React application development.",
+      "category": "devtools",
+      "subcategory": "browser-devtools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "browser-devtools",
+        "react",
+        "javascript",
+        "debugging",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Browser extension with no usage limits or cloud dependency.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "vue-devtools",
+        "redux-devtools",
+        "angular-devtools"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "vue-devtools",
+      "slug": "vue-devtools",
+      "name": "Vue DevTools",
+      "website": "https://devtools.vuejs.org",
+      "docs": "https://devtools.vuejs.org/guide/",
+      "github": "https://github.com/vuejs/devtools",
+      "description": "Browser extension and standalone app for debugging Vue.js applications. Inspect component tree, reactive data, computed properties, Vuex store, and router. Timeline for event and performance tracing.",
+      "category": "devtools",
+      "subcategory": "browser-devtools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "browser-devtools",
+        "vue",
+        "javascript",
+        "debugging",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Browser extension with offline usage. No remote servers or accounts needed.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "react-devtools",
+        "redux-devtools",
+        "angular-devtools"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "redux-devtools",
+      "slug": "redux-devtools",
+      "name": "Redux DevTools",
+      "website": "https://github.com/reduxjs/redux-devtools",
+      "docs": "https://github.com/reduxjs/redux-devtools/tree/main/docs",
+      "github": "https://github.com/reduxjs/redux-devtools",
+      "description": "Developer tools for Redux state management. Features time-travel debugging, action replay, state diffing, and custom monitors. Available as browser extension and standalone app. Integrates with Redux Toolkit.",
+      "category": "devtools",
+      "subcategory": "browser-devtools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "browser-devtools",
+        "redux",
+        "javascript",
+        "react",
+        "debugging",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Browser extension with action history and state export/import.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "react-devtools",
+        "vue-devtools",
+        "angular-devtools"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "angular-devtools",
+      "slug": "angular-devtools",
+      "name": "Angular DevTools",
+      "website": "https://angular.io/guide/devtools",
+      "docs": "https://angular.io/guide/devtools",
+      "github": "https://github.com/angular/angular-devtools",
+      "description": "Browser extension for debugging Angular applications. Inspect component tree, change detection, dependency injection, and NgRx state. Performance profiling with flame graphs and change detection cycle visualization.",
+      "category": "devtools",
+      "subcategory": "browser-devtools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "browser-devtools",
+        "angular",
+        "javascript",
+        "typescript",
+        "debugging",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Browser extension with tree inspector and profiler.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "react-devtools",
+        "vue-devtools",
+        "redux-devtools"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "lighthouse",
+      "slug": "lighthouse",
+      "name": "Lighthouse",
+      "website": "https://developer.chrome.com/docs/lighthouse/",
+      "docs": "https://developer.chrome.com/docs/lighthouse/overview/",
+      "github": "https://github.com/GoogleChrome/lighthouse",
+      "description": "Automated auditing tool for web page quality by Google. Audits performance, accessibility, SEO, best practices, and Progressive Web Apps. Generates actionable reports with scores and optimization suggestions.",
+      "category": "devtools",
+      "subcategory": "browser-devtools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "browser-devtools",
+        "performance",
+        "accessibility",
+        "seo",
+        "cli",
+        "javascript",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0. CLI, Node module, Chrome DevTools panel, and PageSpeed Insights available.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "webpagetest",
+        "pagespeed-insights",
+        "sitespeed-io"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "webpagetest",
+      "slug": "webpagetest",
+      "name": "WebPageTest",
+      "website": "https://www.webpagetest.org",
+      "docs": "https://docs.webpagetest.org",
+      "github": "https://github.com/WPO-Foundation/webpagetest",
+      "description": "Web performance testing tool with real browsers from worldwide locations. Provides waterfall charts, filmstrip view, performance grades, content breakdown, and TTFB analysis. Free public instance with advanced tests.",
+      "category": "devtools",
+      "subcategory": "browser-devtools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "browser-devtools",
+        "performance",
+        "speed-test",
+        "web-ui",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free public instance on webpagetest.org with real Chrome browsers. Run custom tests from multiple global locations.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "API plans from $50/month for higher test volumes. Enterprise with private instances and SLA.",
+        "starting_price_usd": 50,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "lighthouse",
+        "pagespeed-insights",
+        "sitespeed-io"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "bundlephobia",
+      "slug": "bundlephobia",
+      "name": "BundlePhobia",
+      "website": "https://bundlephobia.com",
+      "docs": "https://bundlephobia.com/docs",
+      "github": "https://github.com/pastelsky/bundlephobia",
+      "description": "Find the size of npm packages before adding them to your project. Analyzes minified and gzipped bundle sizes with tree-shaking analysis. Shows dependency graph and compares alternative package sizes.",
+      "category": "devtools",
+      "subcategory": "browser-devtools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "browser-devtools",
+        "performance",
+        "javascript",
+        "npm",
+        "web-ui",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free web tool. No account required. Unlimited package size lookups with dependency analysis.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "lighthouse",
+        "webpagetest",
+        "pagespeed-insights"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "responsively",
+      "slug": "responsively",
+      "name": "Responsively App",
+      "website": "https://responsively.app",
+      "docs": "https://responsively.app/docs",
+      "github": "https://github.com/responsively-org/responsively-app",
+      "description": "Open-source web browser for responsive web development. Mirrors page across multiple screen sizes simultaneously with device frames. Features element inspection, screenshot capture, and hot-reload for live editing.",
+      "category": "devtools",
+      "subcategory": "browser-devtools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "browser-devtools",
+        "responsive",
+        "css",
+        "desktop",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source desktop app under AGPLv3. All responsive testing features included with no limits.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "chrome-devtools",
+        "firefox-devtools",
+        "polypane"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "polypane",
+      "slug": "polypane",
+      "name": "Polypane",
+      "website": "https://polypane.app",
+      "docs": "https://polypane.app/docs/",
+      "github": null,
+      "description": "Purpose-built browser for responsive web development and design. Displays multiple viewports simultaneously with synchronized browsing. Includes CSS grid tools, accessibility checker, and social media preview generator.",
+      "category": "devtools",
+      "subcategory": "browser-devtools",
+      "tags": [
+        "freemium",
+        "devtools",
+        "browser-devtools",
+        "responsive",
+        "css",
+        "desktop",
+        "accessibility",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 3 viewports, basic features. Ideal for individual developers testing responsiveness.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro from $19/month for unlimited viewports, advanced features, and team sync.",
+        "starting_price_usd": 19,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "responsively",
+        "chrome-devtools",
+        "browserstack"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "devtools-protocol",
+      "slug": "devtools-protocol",
+      "name": "Chrome DevTools Protocol",
+      "website": "https://chromedevtools.github.io/devtools-protocol/",
+      "docs": "https://chromedevtools.github.io/devtools-protocol/tot/",
+      "github": "https://github.com/ChromeDevTools/devtools-protocol",
+      "description": "API for instrumenting, inspecting, debugging, and profiling Chromium-based browsers. Enables programmatic control of browser automation, network interception, performance metrics, and DOM inspection via WebSocket.",
+      "category": "devtools",
+      "subcategory": "browser-devtools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "browser-devtools",
+        "automation",
+        "debugging",
+        "protocol",
+        "javascript",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source protocol. Built into every Chrome/Chromium instance. No usage limits or license required.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; built into Chrome for free",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "puppeteer",
+        "selenium",
+        "playwright"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "selenium-ide",
+      "slug": "selenium-ide",
+      "name": "Selenium IDE",
+      "website": "https://www.selenium.dev/selenium-ide/",
+      "docs": "https://www.selenium.dev/documentation/ide/",
+      "github": "https://github.com/SeleniumHQ/selenium-ide",
+      "description": "Browser extension for record-and-playback web test automation. Records user interactions for replay as Selenium tests. Export tests to Python, Java, C#, Ruby, and JavaScript. Built-in locator assistance.",
+      "category": "devtools",
+      "subcategory": "browser-devtools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "browser-devtools",
+        "testing",
+        "automation",
+        "selenium",
+        "javascript",
+        "python",
+        "java",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source browser extension under Apache 2.0. Record unlimited tests with export to multiple languages.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "chrome-devtools",
+        "playwright",
+        "cypress"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "oh-my-zsh",
+      "slug": "oh-my-zsh",
+      "name": "Oh My Zsh",
+      "website": "https://ohmyz.sh",
+      "docs": "https://github.com/ohmyzsh/ohmyzsh/wiki",
+      "github": "https://github.com/ohmyzsh/ohmyzsh",
+      "description": "Community-driven framework for managing Zsh configuration with 300+ plugins and 140+ themes. Features Git, Node.js, Docker, Python, and Kubernetes plugin integrations. Auto-completions and aliases for daily development.",
+      "category": "devtools",
+      "subcategory": "cli-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "cli",
+        "shell",
+        "terminal",
+        "zsh",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Extensive plugin ecosystem with 300+ community-contributed plugins.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "fish-shell",
+        "zsh",
+        "powerlevel10k"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "fish-shell",
+      "slug": "fish-shell",
+      "name": "Fish Shell",
+      "website": "https://fishshell.com",
+      "docs": "https://fishshell.com/docs/current/",
+      "github": "https://github.com/fish-shell/fish-shell",
+      "description": "Smart, user-friendly command-line shell with auto-suggestions, syntax highlighting, and web-based configuration. Features tab completions out of the box, Sane scripting, and 5,000+ community completions.",
+      "category": "devtools",
+      "subcategory": "cli-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "cli",
+        "shell",
+        "terminal",
+        "cpp",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under GPLv2. Auto-suggestions, syntax highlighting, and web config all built-in.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "oh-my-zsh",
+        "zsh",
+        "bash"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "tmux",
+      "slug": "tmux",
+      "name": "tmux",
+      "website": "https://github.com/tmux/tmux",
+      "docs": "https://github.com/tmux/tmux/wiki",
+      "github": "https://github.com/tmux/tmux",
+      "description": "Terminal multiplexer enabling multiple terminal sessions within a single window. Features session persistence, split panes, window management, and customizable key bindings. Essential for remote server work and development.",
+      "category": "devtools",
+      "subcategory": "cli-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "cli",
+        "terminal",
+        "c",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under BSD license. Runs in any terminal without GUI. Session persistence across network disconnects.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "screen",
+        "byobu",
+        "zellij"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "ripgrep",
+      "slug": "ripgrep",
+      "name": "ripgrep (rg)",
+      "website": "https://github.com/BurntSushi/ripgrep",
+      "docs": "https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md",
+      "github": "https://github.com/BurntSushi/ripgrep",
+      "description": "Ultra-fast text search tool recursively searching directories. Uses Rust's regex engine with automatic gitignore filtering. Significantly faster than grep, ack, and ag. Supports PCRE2, multi-line search, and binary detection.",
+      "category": "devtools",
+      "subcategory": "cli-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "cli",
+        "search",
+        "rust",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Single binary with no dependencies. Recursive search with smart-case matching.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "fd",
+        "ag",
+        "ack",
+        "grep"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "fd",
+      "slug": "fd",
+      "name": "fd",
+      "website": "https://github.com/sharkdp/fd",
+      "docs": "https://github.com/sharkdp/fd#fd",
+      "github": "https://github.com/sharkdp/fd",
+      "description": "Fast and user-friendly alternative to the find command. Uses parallel traversal with regex/glob patterns, colorized output, and smart case detection. Respects gitignore by default. Single binary written in Rust.",
+      "category": "devtools",
+      "subcategory": "cli-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "cli",
+        "search",
+        "rust",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0/MIT. Single binary with colorized output and parallel file traversal.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "ripgrep",
+        "find",
+        "locate"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "bat",
+      "slug": "bat",
+      "name": "bat",
+      "website": "https://github.com/sharkdp/bat",
+      "docs": "https://github.com/sharkdp/bat#bat",
+      "github": "https://github.com/sharkdp/bat",
+      "description": "A cat(1) clone with syntax highlighting for 200+ languages. Integrates with Git to show modifications, line numbers, and paging. Works as a drop-in replacement for cat with less-like paging through large files.",
+      "category": "devtools",
+      "subcategory": "cli-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "cli",
+        "file-viewer",
+        "rust",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0/MIT. Syntax highlighting for 200+ languages with Git integration.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "cat",
+        "less",
+        "most"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "fzf",
+      "slug": "fzf",
+      "name": "fzf",
+      "website": "https://github.com/junegunn/fzf",
+      "docs": "https://github.com/junegunn/fzf#fzf",
+      "github": "https://github.com/junegunn/fzf",
+      "description": "General-purpose command-line fuzzy finder written in Go. Searches through lists of files, command history, processes, Git branches, and more. Blazing-fast with incremental search, preview window, and Vim/Neovim integration.",
+      "category": "devtools",
+      "subcategory": "cli-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "cli",
+        "search",
+        "go",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Fuzzy matching with preview window and multi-select support.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "skim",
+        "grep",
+        "ripgrep"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "htop",
+      "slug": "htop",
+      "name": "htop",
+      "website": "https://htop.dev",
+      "docs": "https://htop.dev/docs/",
+      "github": "https://github.com/htop-dev/htop",
+      "description": "Interactive process viewer and system monitor for the terminal. Color-coded display of processes, CPU, memory, and swap usage. Features tree view, mouse support, process filtering, and signal sending via function keys.",
+      "category": "devtools",
+      "subcategory": "cli-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "cli",
+        "system-monitor",
+        "c",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under GPLv2. Interactive process viewer with mouse support and tree layout.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "btop",
+        "top",
+        "glances"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "jq",
+      "slug": "jq",
+      "name": "jq",
+      "website": "https://jqlang.github.io/jq/",
+      "docs": "https://jqlang.github.io/jq/manual/",
+      "github": "https://github.com/jqlang/jq",
+      "description": "Lightweight and flexible command-line JSON processor. Filters, transforms, and queries JSON data with a concise DSL. Features array/slice operations, map/reduce, string interpolation, and custom function definitions.",
+      "category": "devtools",
+      "subcategory": "cli-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "cli",
+        "json",
+        "c",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Single binary with JSON querying, transformations, and pretty-printing.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "yq",
+        "gron",
+        "jsonnet"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "yq",
+      "slug": "yq",
+      "name": "yq",
+      "website": "https://mikefarah.gitbook.io/yq/",
+      "docs": "https://mikefarah.gitbook.io/yq/usage",
+      "github": "https://github.com/mikefarah/yq",
+      "description": "Portable command-line YAML processor with jq-like syntax. Reads, writes, updates, and merges YAML, JSON, and XML files. Supports CSS-style selectors, shell variable injection, and in-place file editing.",
+      "category": "devtools",
+      "subcategory": "cli-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "cli",
+        "yaml",
+        "json",
+        "go",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Single binary for YAML/JSON/XML processing with jq-like syntax.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "jq",
+        "gron",
+        "yaml-validator"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "lazygit",
+      "slug": "lazygit",
+      "name": "lazygit",
+      "website": "https://github.com/jesseduffield/lazygit",
+      "docs": "https://github.com/jesseduffield/lazygit/wiki",
+      "github": "https://github.com/jesseduffield/lazygit",
+      "description": "Terminal UI for Git with an intuitive side-panel interface. Manage branches, staging, commits, stashes, rebasing, and merge conflicts. Mouse support with vim-keybindings. Blazingly fast with built-in diff viewer.",
+      "category": "devtools",
+      "subcategory": "cli-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "cli",
+        "git",
+        "tui",
+        "go",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Terminal-based Git GUI with mouse and keyboard support.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "tig",
+        "gitui",
+        "gitkraken"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "tldr",
+      "slug": "tldr",
+      "name": "tldr",
+      "website": "https://tldr.sh",
+      "docs": "https://github.com/tldr-pages/tldr#tldr",
+      "github": "https://github.com/tldr-pages/tldr",
+      "description": "Simplified, community-driven man pages with practical examples. Shows the most common use cases for CLI commands with concise examples. Available as a CLI client, web app, and IDE extension. Supported in multiple languages.",
+      "category": "devtools",
+      "subcategory": "cli-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "cli",
+        "documentation",
+        "go",
+        "python",
+        "nodejs",
+        "rust",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under various licenses. CLI client and web app with 1,000+ community-maintained command pages.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "man",
+        "cheat",
+        "eg"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "thefuck",
+      "slug": "thefuck",
+      "name": "The Fuck",
+      "website": "https://github.com/nvbn/thefuck",
+      "docs": "https://github.com/nvbn/thefuck#the-fuck",
+      "github": "https://github.com/nvbn/thefuck",
+      "description": "Command correction tool that fixes your previous shell command. Detects and corrects common errors like misspellings, missing sudo, wrong Git commands, and incorrect directory names. Activates with the \"fuck\" command.",
+      "category": "devtools",
+      "subcategory": "cli-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "cli",
+        "shell",
+        "python",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Learns from shell history with 50+ correction rules.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "zsh-autosuggestions",
+        "zsh-syntax-highlighting"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "zoxide",
+      "slug": "zoxide",
+      "name": "zoxide",
+      "website": "https://github.com/ajeetdsouza/zoxide",
+      "docs": "https://github.com/ajeetdsouza/zoxide#zoxide",
+      "github": "https://github.com/ajeetdsouza/zoxide",
+      "description": "Smarter cd command that learns your directory preferences. Uses a frecency algorithm to rank directories based on frequency and recency of access. Navigate to any directory with just a few keystrokes and fuzzy matching.",
+      "category": "devtools",
+      "subcategory": "cli-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "cli",
+        "navigation",
+        "rust",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Rust-based with shell hooks for automatic learning. Single binary.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "z",
+        "autojump",
+        "fasd"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "btop",
+      "slug": "btop",
+      "name": "btop",
+      "website": "https://github.com/aristocratos/btop",
+      "docs": "https://github.com/aristocratos/btop#btop",
+      "github": "https://github.com/aristocratos/btop",
+      "description": "Modern resource monitor with GPU support and responsive UI. Displays CPU, memory, disks, network, and GPU usage in real-time. Features mouse support, custom themes, and process management. Written in C++ with true color.",
+      "category": "devtools",
+      "subcategory": "cli-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "cli",
+        "system-monitor",
+        "cpp",
+        "gpu",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0. GPU monitoring with NVIDIA, AMD, and Intel GPU support.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "htop",
+        "glances",
+        "bashtop"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "swagger-editor",
+      "slug": "swagger-editor",
+      "name": "Swagger Editor",
+      "website": "https://editor.swagger.io",
+      "docs": "https://swagger.io/docs/open-source-tools/swagger-editor/",
+      "github": "https://github.com/swagger-api/swagger-editor",
+      "description": "Browser-based editor for OpenAPI/Swagger specification files. Real-time validation, syntax highlighting, and live preview of API documentation. Supports YAML and JSON formats with auto-completion for API definitions.",
+      "category": "devtools",
+      "subcategory": "api-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "api",
+        "openapi",
+        "swagger",
+        "web-ui",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0. Browser-based with no installation needed. Can be self-hosted or used on editor.swagger.io.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "SwaggerHub free tier: 1 user, 2 private APIs. Pro from $49/month for team API design collaboration.",
+        "starting_price_usd": 49,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "swagger-ui",
+        "stoplight-studio",
+        "redoc"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "swagger-ui",
+      "slug": "swagger-ui",
+      "name": "Swagger UI",
+      "website": "https://swagger.io/tools/swagger-ui/",
+      "docs": "https://swagger.io/docs/open-source-tools/swagger-ui/",
+      "github": "https://github.com/swagger-api/swagger-ui",
+      "description": "Interactive API documentation renderer for OpenAPI specs. Generates a fully interactive web UI where users can explore and test API endpoints. Supports try-it-out functionality with request/response visualization.",
+      "category": "devtools",
+      "subcategory": "api-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "api",
+        "openapi",
+        "documentation",
+        "web-ui",
+        "javascript",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0. Self-hosted or use the hosted demo. Interactive \"Try it out\" API testing built-in.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "redoc",
+        "scalar",
+        "swagger-editor"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "redoc",
+      "slug": "redoc",
+      "name": "Redoc",
+      "website": "https://redocly.com/redoc/",
+      "docs": "https://redocly.com/docs/redoc/",
+      "github": "https://github.com/Redocly/redoc",
+      "description": "Open-source OpenAPI documentation renderer with three-panel layout. Generates responsive, searchable API reference docs from any OpenAPI/Swagger spec. Features code samples, schema tables, and Try It console.",
+      "category": "devtools",
+      "subcategory": "api-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "api",
+        "openapi",
+        "documentation",
+        "javascript",
+        "react",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Self-hosted with customizable theme and branding options.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Redocly Workflows from $20/month for API governance, linting, and team collaboration.",
+        "starting_price_usd": 20,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "swagger-ui",
+        "scalar",
+        "stoplight-studio"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "scalar",
+      "slug": "scalar",
+      "name": "Scalar",
+      "website": "https://scalar.com",
+      "docs": "https://docs.scalar.com",
+      "github": "https://github.com/scalar/scalar",
+      "description": "Modern OpenAPI documentation and API client platform. Generates beautiful API reference docs with dark/light modes and interactive API playground. Features code example generation, API client, and built-in testing.",
+      "category": "devtools",
+      "subcategory": "api-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "api",
+        "openapi",
+        "documentation",
+        "javascript",
+        "vue",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: unlimited public API docs, 1 private workspace, interactive API testing, and code example generation.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Team from $49/month for private workspaces, SSO, and priority support.",
+        "starting_price_usd": 49,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "redoc",
+        "swagger-ui",
+        "stoplight-studio"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "stoplight-studio",
+      "slug": "stoplight-studio",
+      "name": "Stoplight Studio",
+      "website": "https://stoplight.io/studio",
+      "docs": "https://docs.stoplight.io/docs/studio/",
+      "github": "https://github.com/stoplightio",
+      "description": "Visual API design editor with OpenAPI 3.0 support. Drag-and-drop interface for designing REST APIs with real-time validation. Generates server stubs, client SDKs, and interactive documentation from API specs.",
+      "category": "devtools",
+      "subcategory": "api-tools",
+      "tags": [
+        "freemium",
+        "devtools",
+        "api",
+        "openapi",
+        "design",
+        "desktop",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: desktop app with visual API designer, real-time validation, and mock server. Limited to 1 workspace.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro from $59/month for cloud collaboration, advanced mocking, and team workspaces.",
+        "starting_price_usd": 59,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "swagger-editor",
+        "redoc",
+        "scalar"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "openapi-generator",
+      "slug": "openapi-generator",
+      "name": "OpenAPI Generator",
+      "website": "https://openapi-generator.tech",
+      "docs": "https://openapi-generator.tech/docs/usage",
+      "github": "https://github.com/OpenAPITools/openapi-generator",
+      "description": "Automatically generate API client libraries, server stubs, and documentation from OpenAPI specs. Supports 70+ languages and frameworks. Customizable generator with CLI, Maven plugin, and Docker image.",
+      "category": "devtools",
+      "subcategory": "api-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "api",
+        "openapi",
+        "code-generation",
+        "cli",
+        "java",
+        "javascript",
+        "python",
+        "go",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0. Generate server stubs and client SDKs in 70+ languages.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "swagger-editor",
+        "swagger-codegen",
+        "api-sdk-generator"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "swaggerhub",
+      "slug": "swaggerhub",
+      "name": "SwaggerHub",
+      "website": "https://swagger.io/tools/swaggerhub/",
+      "docs": "https://swagger.io/docs/swaggerhub/",
+      "github": null,
+      "description": "API design and documentation platform by SmartBear. Collaboratively design OpenAPI specs with integrated editor, mock server, and auto-generated docs. Free tier for individual developers and open source projects.",
+      "category": "devtools",
+      "subcategory": "api-tools",
+      "tags": [
+        "saas",
+        "devtools",
+        "api",
+        "openapi",
+        "design",
+        "documentation",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 1 user, 2 private APIs, unlimited public APIs. Includes API editor, mock server, and documentation.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro from $49/month for unlimited APIs and collaborators. Enterprise with SSO, audit logs, and SLA.",
+        "starting_price_usd": 49,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "stoplight-studio",
+        "scalar",
+        "readme-io"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "readme-io",
+      "slug": "readme-io",
+      "name": "ReadMe.io",
+      "website": "https://readme.com",
+      "docs": "https://docs.readme.com",
+      "github": null,
+      "description": "Beautiful API documentation hosting platform with interactive features. Automatically syncs from OpenAPI specs with code examples and try-it-out API console. Free tier for public documentation pages.",
+      "category": "devtools",
+      "subcategory": "api-tools",
+      "tags": [
+        "saas",
+        "devtools",
+        "api",
+        "documentation",
+        "openapi",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: unlimited public docs, 1 project, community support. Auto-generated from OpenAPI/Swagger specs.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro from $99/month for custom domain, private docs, and API metrics. Enterprise with SSO and audit log.",
+        "starting_price_usd": 99,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "gitbook",
+        "redoc",
+        "scalar"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "spectral",
+      "slug": "spectral",
+      "name": "Spectral",
+      "website": "https://stoplight.io/open-source/spectral/",
+      "docs": "https://docs.stoplight.io/docs/spectral/",
+      "github": "https://github.com/stoplightio/spectral",
+      "description": "Open-source API style guide linter for OpenAPI and JSON Schema. Custom rules for enforcing API design standards, naming conventions, and security policies. CLI tool with GitHub Actions and VS Code integration.",
+      "category": "devtools",
+      "subcategory": "api-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "api",
+        "openapi",
+        "linting",
+        "cli",
+        "javascript",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0. Custom rulesets with CLI and CI/CD integration.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "openapi-lint",
+        "api-stylebook",
+        "semantic-lint"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "asyncapi",
+      "slug": "asyncapi",
+      "name": "AsyncAPI",
+      "website": "https://www.asyncapi.com",
+      "docs": "https://www.asyncapi.com/docs",
+      "github": "https://github.com/asyncapi/spec",
+      "description": "Open-source specification for event-driven APIs (async APIs). Defines WebSocket, Kafka, MQTT, AMQP, and other message-driven protocols. Tooling includes code generators, documentation renderers, and validation tools.",
+      "category": "devtools",
+      "subcategory": "api-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "api",
+        "asyncapi",
+        "specification",
+        "event-driven",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0. Specification and all tooling free to use. Community-maintained generators and docs.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "openapi",
+        "graphql",
+        "grpc"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "graphql-playground",
+      "slug": "graphql-playground",
+      "name": "GraphQL Playground",
+      "website": "https://github.com/graphql/graphql-playground",
+      "docs": "https://github.com/graphql/graphql-playground#graphql-playground",
+      "github": "https://github.com/graphql/graphql-playground",
+      "description": "Interactive GraphQL IDE for exploring schemas and testing queries. Features schema viewer, query history, subscription support, and multiple themes. Works as a standalone app, browser tool, or embedded IDE.",
+      "category": "devtools",
+      "subcategory": "api-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "api",
+        "graphql",
+        "ide",
+        "javascript",
+        "react",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Desktop app and browser-based IDE with full GraphQL introspection support.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "altair-graphql",
+        "postman",
+        "insomnia"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "altair-graphql",
+      "slug": "altair-graphql",
+      "name": "Altair GraphQL",
+      "website": "https://altairgraphql.dev",
+      "docs": "https://altairgraphql.dev/docs",
+      "github": "https://github.com/altair-graphql/altair",
+      "description": "Feature-rich GraphQL client for debugging and exploring GraphQL APIs. Supports subscriptions, query variables, headers, documentation viewer, and API collections. Cross-platform desktop app and browser extension.",
+      "category": "devtools",
+      "subcategory": "api-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "api",
+        "graphql",
+        "client",
+        "desktop",
+        "javascript",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Desktop app, CLI, and browser extension all free with full features.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "graphql-playground",
+        "postman",
+        "insomnia"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "apidog",
+      "slug": "apidog",
+      "name": "ApiDog",
+      "website": "https://www.apidog.com",
+      "docs": "https://docs.apidog.com",
+      "github": null,
+      "description": "All-in-one API collaboration platform combining design, debugging, testing, and documentation. Supports REST, GraphQL, WebSocket, and gRPC. Free team collaboration with CI/CD integration and API mocking.",
+      "category": "devtools",
+      "subcategory": "api-tools",
+      "tags": [
+        "freemium",
+        "devtools",
+        "api",
+        "rest",
+        "graphql",
+        "documentation",
+        "testing",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 3 team members, unlimited API requests, API documentation, and cloud mocking. 30-day version history.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 3
+        }
+      },
+      "paid_plan": {
+        "summary": "Team from $9.90/month per user for unlimited team members, advanced mocking, and priority support.",
+        "starting_price_usd": 10,
+        "billing_model": "per-user-monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "postman",
+        "hoppscotch",
+        "stoplight-studio"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "apimatic",
+      "slug": "apimatic",
+      "name": "APIMatic",
+      "website": "https://www.apimatic.io",
+      "docs": "https://apimatic.io/docs",
+      "github": null,
+      "description": "API SDK generation platform that creates client libraries from OpenAPI specs. Generates idiomatic SDKs in 20+ languages including C#, Python, Java, Go, Ruby, and TypeScript. Free tier for individual developers.",
+      "category": "devtools",
+      "subcategory": "api-tools",
+      "tags": [
+        "saas",
+        "devtools",
+        "api",
+        "openapi",
+        "code-generation",
+        "sdk",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 1 user, 5 APIs, SDK generation in all languages, community support. API transformation and validation included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Business from $99/month for team collaboration, custom generators, and priority support.",
+        "starting_price_usd": 99,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "openapi-generator",
+        "swagger-codegen",
+        "nswag"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "dredd",
+      "slug": "dredd",
+      "name": "Dredd",
+      "website": "https://dredd.org",
+      "docs": "https://dredd.readthedocs.io",
+      "github": "https://github.com/apiaryio/dredd",
+      "description": "Language-agnostic API testing framework for validating API specs against backend implementations. Reads OpenAPI or API Blueprint specs and compares HTTP transactions for accuracy. CI-friendly with custom hooks.",
+      "category": "devtools",
+      "subcategory": "api-tools",
+      "tags": [
+        "open-source",
+        "devtools",
+        "api",
+        "testing",
+        "openapi",
+        "cli",
+        "javascript",
+        "python",
+        "go",
+        "ruby",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. CLI tool with hook handlers for validation logic.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "postman",
+        "spectral",
+        "newman"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "github-copilot",
+      "slug": "github-copilot",
+      "name": "GitHub Copilot",
+      "website": "https://github.com/features/copilot",
+      "docs": "https://docs.github.com/en/copilot",
+      "github": "https://github.com/github/copilot-docs",
+      "description": "AI pair programmer from GitHub and OpenAI that suggests code in real-time. Trained on public code repositories with support for all major languages. Integrates with VS Code, JetBrains, Neovim, and Azure. Context-aware completions.",
+      "category": "devtools",
+      "subcategory": "code-generation",
+      "tags": [
+        "saas",
+        "devtools",
+        "code-generation",
+        "ai",
+        "javascript",
+        "python",
+        "typescript",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 2,000 code completions/month, 50 chat requests/month. Supports all languages and IDE integrations.",
+        "limits": {
+          "requests_per_month": 2000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Copilot Pro from $10/month for unlimited completions and chat. Enterprise from $19/user/month with policy controls.",
+        "starting_price_usd": 10,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "tabnine",
+        "amazon-q-developer",
+        "codeium",
+        "cursor"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "tabnine",
+      "slug": "tabnine",
+      "name": "Tabnine",
+      "website": "https://www.tabnine.com",
+      "docs": "https://www.tabnine.com/docs",
+      "github": "https://github.com/codota/tabnine",
+      "description": "AI code completion assistant with local and cloud models. Supports 90+ languages and 15+ IDEs. Offers context-aware completions based on entire codebase. Enterprise version can be deployed on-premises with data privacy.",
+      "category": "devtools",
+      "subcategory": "code-generation",
+      "tags": [
+        "freemium",
+        "devtools",
+        "code-generation",
+        "ai",
+        "javascript",
+        "python",
+        "java",
+        "typescript",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: basic code completions, all languages, community support. Local model runs on your machine with no data sharing.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro from $12/month for full-line completions, whole-codebase context, and priority support.",
+        "starting_price_usd": 12,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "github-copilot",
+        "codeium",
+        "amazon-q-developer",
+        "continue-dev"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "amazon-q-developer",
+      "slug": "amazon-q-developer",
+      "name": "Amazon Q Developer",
+      "website": "https://aws.amazon.com/q/developer/",
+      "docs": "https://docs.aws.amazon.com/amazonq/",
+      "github": null,
+      "description": "AWS's AI-powered development assistant with code generation, debugging, and AWS expertise. Generates code, explains code, detects vulnerabilities, and helps build cloud applications. Free tier with generous monthly limits.",
+      "category": "devtools",
+      "subcategory": "code-generation",
+      "tags": [
+        "saas",
+        "devtools",
+        "code-generation",
+        "ai",
+        "cloud",
+        "aws",
+        "freemium",
+        "no-card",
+        "generous-free-tier"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 50 code completions/month, unlimited chat requests, AWS infrastructure expertise. Code vulnerability scanning included.",
+        "limits": {
+          "requests_per_month": 50,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Professional from $19/user/month with unlimited completions. Enterprise with admin controls and SAML SSO.",
+        "starting_price_usd": 19,
+        "billing_model": "per-user-monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "github-copilot",
+        "tabnine",
+        "codeium",
+        "sourcegraph-cody"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "codeium",
+      "slug": "codeium",
+      "name": "Codeium",
+      "website": "https://codeium.com",
+      "docs": "https://docs.codeium.com",
+      "github": "https://github.com/Exafunction/codeium",
+      "description": "Free AI code acceleration platform with code completion, search, and chat. Supports 70+ languages and 40+ IDEs. Features natural language search across codebases and AI-powered refactoring suggestions.",
+      "category": "devtools",
+      "subcategory": "code-generation",
+      "tags": [
+        "freemium",
+        "devtools",
+        "code-generation",
+        "ai",
+        "javascript",
+        "python",
+        "typescript",
+        "java",
+        "no-card",
+        "generous-free-tier"
+      ],
+      "free_tier": {
+        "summary": "Free tier: unlimited code completions, code search, and AI chat for individual developers. No credit card required.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Teams from $15/user/month for admin controls, SSO, and usage analytics.",
+        "starting_price_usd": 15,
+        "billing_model": "per-user-monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "github-copilot",
+        "tabnine",
+        "amazon-q-developer",
+        "continue-dev"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "sourcegraph-cody",
+      "slug": "sourcegraph-cody",
+      "name": "Sourcegraph Cody",
+      "website": "https://sourcegraph.com/cody",
+      "docs": "https://docs.sourcegraph.com/cody",
+      "github": "https://github.com/sourcegraph/cody",
+      "description": "AI coding assistant with deep codebase understanding. Answers questions about your entire codebase, generates code, and fixes bugs. Uses code graph indexing for context-aware completions beyond file-level scope.",
+      "category": "devtools",
+      "subcategory": "code-generation",
+      "tags": [
+        "freemium",
+        "devtools",
+        "code-generation",
+        "ai",
+        "javascript",
+        "python",
+        "typescript",
+        "go",
+        "java",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: unlimited code completions and chat with Cody Free. 10 chat messages/week with Pro LLMs. Code graph search included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro from $9/month for unlimited Pro LLM messages, custom commands, and advanced context.",
+        "starting_price_usd": 9,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "github-copilot",
+        "continue-dev",
+        "codeium",
+        "askcodi"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "continue-dev",
+      "slug": "continue-dev",
+      "name": "Continue.dev",
+      "website": "https://continue.dev",
+      "docs": "https://docs.continue.dev",
+      "github": "https://github.com/continuedev/continue",
+      "description": "Open-source AI assistant for VS Code and JetBrains with custom model support. Bring your own API key for any LLM provider (OpenAI, Anthropic, Llama, Mistral). Features tab-autocomplete, chat, and codebase search.",
+      "category": "devtools",
+      "subcategory": "code-generation",
+      "tags": [
+        "open-source",
+        "devtools",
+        "code-generation",
+        "ai",
+        "javascript",
+        "python",
+        "vscode",
+        "jetbrains",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source IDE extension. Use with any LLM API key. No usage limits or cloud dependency.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 5,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "github-copilot",
+        "sourcegraph-cody",
+        "codeium",
+        "tabnine"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "phind",
+      "slug": "phind",
+      "name": "Phind",
+      "website": "https://www.phind.com",
+      "docs": "https://www.phind.com/blog",
+      "github": null,
+      "description": "AI-powered search engine and coding assistant for developers. Provides answers with code examples and relevant web context. Features an AI model specifically fine-tuned for technical and programming questions.",
+      "category": "devtools",
+      "subcategory": "code-generation",
+      "tags": [
+        "saas",
+        "devtools",
+        "code-generation",
+        "ai",
+        "search",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: unlimited search queries with AI-powered answers. Code generation and debugging assistance included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Phind Pro from $15/month for unlimited GPT-4 queries, priority access, and longer context windows.",
+        "starting_price_usd": 15,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "sourcegraph-cody",
+        "askcodi",
+        "github-copilot"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "claude-code",
+      "slug": "claude-code",
+      "name": "Claude Code",
+      "website": "https://docs.anthropic.com/en/docs/claude-code/overview",
+      "docs": "https://docs.anthropic.com/en/docs/claude-code/overview",
+      "github": null,
+      "description": "Anthropic's AI coding assistant powered by Claude. Terminal-native tool for code generation, debugging, refactoring, and workflow automation. Handles complex multi-file changes with agentic code exploration.",
+      "category": "devtools",
+      "subcategory": "code-generation",
+      "tags": [
+        "saas",
+        "devtools",
+        "code-generation",
+        "ai",
+        "cli",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: limited daily conversations with Claude. Pay-as-you-go for extended usage via Anthropic API.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Anthropic API: pay per token. Claude Pro: $20/month for higher usage limits. Team from $25/user/month.",
+        "starting_price_usd": 20,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "github-copilot",
+        "phind",
+        "sourcegraph-cody",
+        "aider"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "askcodi",
+      "slug": "askcodi",
+      "name": "AskCodi",
+      "website": "https://www.askcodi.com",
+      "docs": "https://docs.askcodi.com",
+      "github": null,
+      "description": "AI coding assistant with code generation, explanation, testing, and documentation features. Supports 50+ languages with IDE integrations for VS Code, JetBrains, and more. Includes SQL, regex, and Excel formula generators.",
+      "category": "devtools",
+      "subcategory": "code-generation",
+      "tags": [
+        "freemium",
+        "devtools",
+        "code-generation",
+        "ai",
+        "javascript",
+        "python",
+        "typescript",
+        "java",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 10 AI requests per week, basic code generation, and community support. All features included with limits.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro from $12.99/month for unlimited requests, priority support, and advanced AI models.",
+        "starting_price_usd": 13,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 3,
+        "free_generosity": 2,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 3,
+        "community": 2,
+        "overall": 3.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "github-copilot",
+        "codeium",
+        "phind",
+        "sourcegraph-cody"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "mutableai",
+      "slug": "mutableai",
+      "name": "MutableAI",
+      "website": "https://mutable.ai",
+      "docs": "https://docs.mutable.ai",
+      "github": null,
+      "description": "AI-powered code generation and refactoring tool with natural language commands. Features AI-driven codebase search, documentation generation, and code review. Designed for large codebases with enterprise-grade context handling.",
+      "category": "devtools",
+      "subcategory": "code-generation",
+      "tags": [
+        "saas",
+        "devtools",
+        "code-generation",
+        "ai",
+        "javascript",
+        "python",
+        "typescript",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 1,000 AI requests/month, all features, community support. Individual developer usage included.",
+        "limits": {
+          "requests_per_month": 1000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro from $25/month for 10K requests and priority support. Enterprise with custom limits and SSO.",
+        "starting_price_usd": 25,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 4,
+        "community": 2,
+        "overall": 3.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "github-copilot",
+        "sourcegraph-cody",
+        "tabnine"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "blackbox-ai",
+      "slug": "blackbox-ai",
+      "name": "Blackbox AI",
+      "website": "https://www.blackbox.ai",
+      "docs": "https://docs.blackbox.ai",
+      "github": null,
+      "description": "AI coding assistant with code generation, real-time search, and code completion. Features chat-based AI with multi-language support and VS Code integration. Includes a massive code repository search and snippet sharing.",
+      "category": "devtools",
+      "subcategory": "code-generation",
+      "tags": [
+        "freemium",
+        "devtools",
+        "code-generation",
+        "ai",
+        "javascript",
+        "python",
+        "typescript",
+        "web-ui",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: unlimited daily conversations, code generation, and search. Web-based chat with VS Code extension.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Blackbox Pro from $10/month for faster responses, priority access, and advanced models.",
+        "starting_price_usd": 10,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "github-copilot",
+        "codeium",
+        "phind",
+        "askcodi"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "cline",
+      "slug": "cline",
+      "name": "Cline",
+      "website": "https://cline.bot",
+      "docs": "https://docs.cline.bot",
+      "github": "https://github.com/cline/cline",
+      "description": "Autonomous coding agent in VS Code that can create and edit files, execute terminal commands, and use browser automation. Operates with AI model approval workflows and task-by-task execution for complex coding projects.",
+      "category": "devtools",
+      "subcategory": "code-generation",
+      "tags": [
+        "open-source",
+        "devtools",
+        "code-generation",
+        "ai",
+        "vscode",
+        "javascript",
+        "python",
+        "typescript",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source VS Code extension. Use with your own API key for any compatible AI model.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "continue-dev",
+        "aider",
+        "github-copilot"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "aider",
+      "slug": "aider",
+      "name": "Aider",
+      "website": "https://aider.chat",
+      "docs": "https://aider.chat/docs/",
+      "github": "https://github.com/paul-gauthier/aider",
+      "description": "Open-source AI coding assistant in the terminal. Works directly with Git to make well-structured commits. Supports multiple LLM providers and automatic code editing with architect/editor mode. Lazy commit messages.",
+      "category": "devtools",
+      "subcategory": "code-generation",
+      "tags": [
+        "open-source",
+        "devtools",
+        "code-generation",
+        "ai",
+        "cli",
+        "python",
+        "git",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source CLI tool under Apache 2.0. Use with any API key. Git integration with automatic commit messages.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "cline",
+        "continue-dev",
+        "github-copilot",
+        "sourcegraph-cody"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "pieces",
+      "slug": "pieces",
+      "name": "Pieces",
+      "website": "https://pieces.app",
+      "docs": "https://docs.pieces.app",
+      "github": "https://github.com/pieces-app",
+      "description": "AI-powered code snippet manager and productivity tool. Automatically saves snippets from your IDE, browser, and clipboard with AI-generated titles and descriptions. Features on-device AI for offline use and context retrieval.",
+      "category": "devtools",
+      "subcategory": "code-generation",
+      "tags": [
+        "freemium",
+        "devtools",
+        "code-generation",
+        "ai",
+        "productivity",
+        "desktop",
+        "vscode",
+        "jetbrains",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: unlimited local snippets, AI enrichment, on-device AI, and 3 cloud-connected devices. All core features included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro from $20/month for unlimited cloud snippets, team sharing, and advanced AI models.",
+        "starting_price_usd": 20,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "github-copilot",
+        "sourcegraph-cody",
+        "tabnine"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "mentor-ai",
+      "slug": "mentor-ai",
+      "name": "Mentor AI",
+      "website": "https://www.mentor.codes",
+      "docs": "https://docs.mentor.codes",
+      "github": null,
+      "description": "AI coding mentor powered by codebase awareness. Provides step-by-step explanations, contextual code generation, and architectural recommendations. Integrates with GitHub to analyze pull requests and suggest improvements.",
+      "category": "devtools",
+      "subcategory": "code-generation",
+      "tags": [
+        "saas",
+        "devtools",
+        "code-generation",
+        "ai",
+        "github",
+        "code-review",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 1 repo, 50 daily conversations, basic code review suggestions. Community support.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro from $15/month for unlimited repos, conversations, and priority AI model access.",
+        "starting_price_usd": 15,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 3,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 4,
+        "community": 2,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "github-copilot",
+        "sourcegraph-cody",
+        "phind",
+        "askcodi"
       ],
       "last_verified": "2026-05-31"
     }
