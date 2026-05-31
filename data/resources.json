@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "last_updated": "2026-05-25",
-    "total_resources": 255,
+    "total_resources": 271,
     "description": "Curated free & freemium developer resources"
   },
   "resources": [
@@ -16970,6 +16970,1048 @@
       "alternatives": [
         "open-webui",
         "text-generation-webui"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "haystack",
+      "slug": "haystack",
+      "name": "Haystack",
+      "website": "https://haystack.deepset.ai",
+      "docs": "https://docs.haystack.deepset.ai",
+      "github": "https://github.com/deepset-ai/haystack",
+      "description": "Open-source NLP framework for building production-grade RAG pipelines, search systems, and agent-based applications with modular components for document processing, retrieval, and LLM orchestration.",
+      "category": "ai",
+      "subcategory": "rag",
+      "tags": [
+        "ai",
+        "rag",
+        "llm",
+        "python",
+        "typescript",
+        "open-source",
+        "search"
+      ],
+      "free_tier": {
+        "summary": "Apache 2.0 open-source. Unlimited self-hosted usage. Haystack Cloud free tier available.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Haystack Cloud: custom pricing for managed pipeline hosting",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; framework is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source framework, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "llama-index-rag",
+        "embedchain"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "llama-index-rag",
+      "slug": "llama-index-rag",
+      "name": "LlamaIndex",
+      "website": "https://llamaindex.ai",
+      "docs": "https://docs.llamaindex.ai",
+      "github": "https://github.com/run-llama/llama_index",
+      "description": "Data framework for LLM applications with powerful RAG capabilities. Connects LLMs to 160+ data sources with ingestion, indexing, retrieval, and agentic workflows for building retrieval-augmented generation pipelines.",
+      "category": "ai",
+      "subcategory": "rag",
+      "tags": [
+        "ai",
+        "rag",
+        "llm",
+        "python",
+        "typescript",
+        "open-source",
+        "data-framework"
+      ],
+      "free_tier": {
+        "summary": "MIT open-source. Unlimited self-hosted usage. LlamaCloud free tier for managed parsing and retrieval.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "LlamaCloud: managed parsing and retrieval, custom pricing",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; framework is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source framework, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "haystack",
+        "embedchain"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "canopy",
+      "slug": "canopy",
+      "name": "Canopy",
+      "website": "https://www.pinecone.io/products/canopy",
+      "docs": "https://github.com/pinecone-io/canopy",
+      "github": "https://github.com/pinecone-io/canopy",
+      "description": "Open-source RAG framework built on Pinecone vector database. Provides an end-to-end pipeline for ingesting documents, generating embeddings, and answering questions with LLM integration for rapid RAG prototyping.",
+      "category": "ai",
+      "subcategory": "rag",
+      "tags": [
+        "ai",
+        "rag",
+        "llm",
+        "python",
+        "open-source",
+        "embeddings"
+      ],
+      "free_tier": {
+        "summary": "Apache 2.0 open-source. Unlimited self-hosted usage. Requires Pinecone API key (free tier: 1M vectors).",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pinecone dependency required: $0.075/pod-hour or serverless pricing",
+        "starting_price_usd": 0.075,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 3,
+        "community": 2,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; framework is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source framework, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "embedchain",
+        "haystack",
+        "llama-index-rag"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "embedchain",
+      "slug": "embedchain",
+      "name": "Embedchain",
+      "website": "https://embedchain.ai",
+      "docs": "https://docs.embedchain.ai",
+      "github": "https://github.com/embedchain/embedchain",
+      "description": "Open-source RAG framework designed for unstructured data from any source. Supports documents, websites, YouTube videos, and code with a simple API that abstracts chunking, embedding, and retrieval complexity.",
+      "category": "ai",
+      "subcategory": "rag",
+      "tags": [
+        "ai",
+        "rag",
+        "llm",
+        "python",
+        "open-source",
+        "beginner-friendly",
+        "embeddings"
+      ],
+      "free_tier": {
+        "summary": "Apache 2.0 open-source. Unlimited self-hosted usage with OpenAI, Anthropic, Hugging Face, Ollama, or local LLMs.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Embedchain Cloud: managed hosting, custom pricing",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; framework is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source framework, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "canopy",
+        "haystack",
+        "llama-index-rag"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "chunkviz",
+      "slug": "chunkviz",
+      "name": "ChunkViz",
+      "website": "https://chunkviz.upstash.app",
+      "docs": "https://github.com/upstash/chunkviz",
+      "github": "https://github.com/upstash/chunkviz",
+      "description": "Open-source visualizer for text chunking strategies in RAG pipelines. Helps developers compare recursive, semantic, and fixed-size chunking methods to optimize retrieval quality through better document splitting.",
+      "category": "ai",
+      "subcategory": "rag",
+      "tags": [
+        "ai",
+        "rag",
+        "llm",
+        "open-source",
+        "free-tier",
+        "beginner-friendly"
+      ],
+      "free_tier": {
+        "summary": "MIT license, fully open-source. Free hosted web tool available. Unlimited self-hosted usage.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; tool is fully free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 3,
+        "community": 2,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; tool is free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "chonky",
+        "docling"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "r2r",
+      "slug": "r2r",
+      "name": "R2R (RAG to Riches)",
+      "website": "https://r2r-docs.sciphi.ai",
+      "docs": "https://r2r-docs.sciphi.ai",
+      "github": "https://github.com/SciPhi-AI/R2R",
+      "description": "Production-ready open-source RAG system with built-in API server, vector search, knowledge graph extraction, and user management. Deploy RAG applications in minutes with hybrid search and evaluation features.",
+      "category": "ai",
+      "subcategory": "rag",
+      "tags": [
+        "ai",
+        "rag",
+        "llm",
+        "python",
+        "open-source",
+        "production-ready",
+        "search"
+      ],
+      "free_tier": {
+        "summary": "MIT license, fully open-source. Unlimited self-hosted usage. R2R Cloud free tier available.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "R2R Cloud: managed hosting, custom pricing",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; framework is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source framework, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "ragchain",
+        "haystack",
+        "qdrant-rag"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "qdrant-rag",
+      "slug": "qdrant-rag",
+      "name": "Qdrant RAG",
+      "website": "https://qdrant.tech",
+      "docs": "https://qdrant.tech/documentation/tutorials/rag",
+      "github": "https://github.com/qdrant/qdrant",
+      "description": "Collection of RAG examples, tools, and reference architectures built around Qdrant vector database. Includes production-ready RAG patterns with hybrid search, semantic caching, and multi-modal retrieval.",
+      "category": "ai",
+      "subcategory": "rag",
+      "tags": [
+        "ai",
+        "rag",
+        "llm",
+        "python",
+        "open-source",
+        "vector-database",
+        "docker"
+      ],
+      "free_tier": {
+        "summary": "Apache 2.0 open-source. Self-hosted unlimited. Qdrant Cloud free tier: 1 cluster with 1GB storage.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 1,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Qdrant Cloud: $25+/month for dedicated clusters with higher limits",
+        "starting_price_usd": 25,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; self-hosted version is free"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; self-hosted or multi-region cloud"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "ragchain",
+        "r2r",
+        "haystack"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "ragchain",
+      "slug": "ragchain",
+      "name": "RAGchain",
+      "website": "https://ragchain.xyz",
+      "docs": "https://github.com/NomaDamas/ragchain",
+      "github": "https://github.com/NomaDamas/ragchain",
+      "description": "Open-source RAG framework with modular pipeline components for document ingestion, chunking, embedding, retrieval, and generation. Supports advanced strategies including RAPTOR, context compression, and hybrid search.",
+      "category": "ai",
+      "subcategory": "rag",
+      "tags": [
+        "ai",
+        "rag",
+        "llm",
+        "python",
+        "open-source",
+        "embeddings",
+        "search"
+      ],
+      "free_tier": {
+        "summary": "Apache 2.0 open-source. Unlimited self-hosted usage with OpenAI, Anthropic, Cohere, Hugging Face, or local LLMs.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; framework is free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; framework is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source framework, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "haystack",
+        "r2r",
+        "llama-index-rag"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "vectorhub",
+      "slug": "vectorhub",
+      "name": "VectorHub",
+      "website": "https://superlinked.com/vectorhub",
+      "docs": "https://github.com/superlinked/VectorHub",
+      "github": "https://github.com/superlinked/VectorHub",
+      "description": "Open-source collection of RAG evaluation tools, recipes, and best practices by Superlinked. Provides notebooks, benchmarks, and reference implementations for comparing vector databases, embeddings, and RAG strategies.",
+      "category": "ai",
+      "subcategory": "rag",
+      "tags": [
+        "ai",
+        "rag",
+        "llm",
+        "python",
+        "open-source",
+        "free-tier",
+        "vector-database"
+      ],
+      "free_tier": {
+        "summary": "Apache 2.0 open-source. Hundreds of free notebooks, evaluation recipes, and reference implementations.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; content library is free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; resources are free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "ragas",
+        "trulens",
+        "qdrant-rag"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "ragas",
+      "slug": "ragas",
+      "name": "RAGAS",
+      "website": "https://docs.ragas.io",
+      "docs": "https://docs.ragas.io",
+      "github": "https://github.com/explodinggradients/ragas",
+      "description": "Open-source evaluation framework for RAG pipelines with automated metrics for retrieval quality (context precision, recall) and generation quality (faithfulness, answer relevancy). The standard RAG evaluation benchmark.",
+      "category": "ai",
+      "subcategory": "rag",
+      "tags": [
+        "ai",
+        "rag",
+        "llm",
+        "python",
+        "open-source",
+        "testing",
+        "embeddings"
+      ],
+      "free_tier": {
+        "summary": "Apache 2.0 open-source. Unlimited self-hosted usage with all metrics included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; framework is free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; framework is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source framework, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "trulens",
+        "vectorhub"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "trulens",
+      "slug": "trulens",
+      "name": "TruLens",
+      "website": "https://www.trulens.org",
+      "docs": "https://www.trulens.org/docs",
+      "github": "https://github.com/truera/trulens",
+      "description": "Open-source evaluation and observability framework for RAG applications and LLM agents. Provides feedback functions to measure relevance, groundedness, and answer quality with a visual debugging dashboard.",
+      "category": "ai",
+      "subcategory": "rag",
+      "tags": [
+        "ai",
+        "rag",
+        "llm",
+        "python",
+        "open-source",
+        "observability",
+        "monitoring"
+      ],
+      "free_tier": {
+        "summary": "Apache 2.0 open-source. Unlimited self-hosted usage. Free local dashboard with SQLite storage.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "TruLens Cloud: managed observability, custom pricing",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; framework is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source framework, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "ragas",
+        "vectorhub"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "nemo-guardrails",
+      "slug": "nemo-guardrails",
+      "name": "NeMo Guardrails",
+      "website": "https://developer.nvidia.com/nemo-guardrails",
+      "docs": "https://docs.nvidia.com/nemo/guardrails",
+      "github": "https://github.com/NVIDIA/NeMo-Guardrails",
+      "description": "Open-source guardrails framework by NVIDIA for building safe RAG applications. Programmable guardrails for input/output validation, fact-checking, hallucination detection, and topical boundaries integrated with LangChain.",
+      "category": "ai",
+      "subcategory": "rag",
+      "tags": [
+        "ai",
+        "rag",
+        "llm",
+        "python",
+        "open-source",
+        "production-ready",
+        "self-hosted"
+      ],
+      "free_tier": {
+        "summary": "Apache 2.0 open-source. Unlimited self-hosted usage with LangChain, NeMo, or custom LLM backends.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; framework is free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; framework is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source framework, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "trulens",
+        "ragas"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "docling",
+      "slug": "docling",
+      "name": "Docling",
+      "website": "https://ds4sd.github.io/docling",
+      "docs": "https://ds4sd.github.io/docling",
+      "github": "https://github.com/DS4SD/docling",
+      "description": "IBM's open-source document understanding library for RAG pipelines. Parses PDFs, DOCX, and PPTX into structured Markdown with layout preservation, table extraction, and OCR for clean RAG ingestion.",
+      "category": "ai",
+      "subcategory": "rag",
+      "tags": [
+        "ai",
+        "rag",
+        "llm",
+        "python",
+        "open-source",
+        "docker",
+        "self-hosted"
+      ],
+      "free_tier": {
+        "summary": "MIT license, fully open-source. Unlimited self-hosted usage. Supports PDF, DOCX, PPTX, and image formats.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; library is free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; library is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "unstructured",
+        "chunkviz",
+        "chonky"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "chonky",
+      "slug": "chonky",
+      "name": "Chonky",
+      "website": "https://github.com/garrettluu/chonky",
+      "docs": "https://github.com/garrettluu/chonky",
+      "github": "https://github.com/garrettluu/chonky",
+      "description": "Open-source library for optimal text chunking strategies in RAG pipelines. Implements semantic chunking, recursive splitting, sentence windowing, and context-aware segmentation for improved retrieval quality.",
+      "category": "ai",
+      "subcategory": "rag",
+      "tags": [
+        "ai",
+        "rag",
+        "llm",
+        "python",
+        "open-source",
+        "self-hosted"
+      ],
+      "free_tier": {
+        "summary": "MIT license, fully open-source. Unlimited self-hosted usage with multiple chunking strategies.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; library is free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 2,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; library is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "chunkviz",
+        "docling",
+        "unstructured"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "unstructured",
+      "slug": "unstructured",
+      "name": "Unstructured",
+      "website": "https://unstructured.io",
+      "docs": "https://unstructured.io/docs",
+      "github": "https://github.com/Unstructured-IO/unstructured",
+      "description": "Document preprocessing platform for RAG pipelines. Parses PDFs, HTML, emails, images, and 20+ file formats into structured data ready for vector databases. Free hosted API and open-source library.",
+      "category": "ai",
+      "subcategory": "rag",
+      "tags": [
+        "ai",
+        "rag",
+        "llm",
+        "python",
+        "open-source",
+        "api",
+        "free-tier",
+        "docker"
+      ],
+      "free_tier": {
+        "summary": "Free hosted API: 1,000 pages/month. MIT open-source library for unlimited self-hosted usage.",
+        "limits": {
+          "requests_per_month": 1000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Unstructured API: custom pricing for higher volume with priority support",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; free tier is generous for learning"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; open-source library for self-hosting"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "docling",
+        "chonky",
+        "chunkviz"
       ],
       "last_verified": "2026-05-24"
     }
