@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "last_updated": "2026-05-25",
-    "total_resources": 270,
+    "total_resources": 271,
     "description": "Curated free & freemium developer resources"
   },
   "resources": [
@@ -18157,7 +18157,7 @@
       "description": "BAAI's BGE models are among the most popular open-source embedding models on HuggingFace. The BGE series delivers top-tier MTEB performance and supports multiple languages with various model sizes.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "open-source", "forever-free", "python", "huggingface", "self-hosted", "machine-learning"],
+      "tags": ["ai", "embeddings", "open-source", "forever-free", "python", "self-hosted", "machine-learning"],
       "free_tier": {
         "summary": "Fully free, MIT license. Models: bge-small-en, bge-base-en, bge-large-en, bge-m3. Unlimited self-hosted usage. Download from HuggingFace.",
         "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
@@ -18256,7 +18256,7 @@
       "description": "The most popular open-source Python library for generating sentence, text, and image embeddings. Provides thousands of pre-trained transformer models for semantic search, clustering, and paraphrase mining.",
       "category": "ai",
       "subcategory": "embeddings",
-      "tags": ["ai", "embeddings", "open-source", "forever-free", "python", "sdk", "self-hosted", "huggingface", "machine-learning"],
+      "tags": ["ai", "embeddings", "open-source", "forever-free", "python", "sdk", "self-hosted", "machine-learning"],
       "free_tier": {
         "summary": "Fully free, Apache 2.0 license. 1,000+ pre-trained models on HuggingFace. Unlimited local usage. No card required.",
         "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
@@ -18540,8 +18540,503 @@
       "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Open-source model, available globally" },
       "languages": ["en"],
       "alternatives_to": ["baai-bge"],
-      "alternatives": ["baai-bge", "bge-m3", "alibaba-gte", "sentence-transformers"],
+        "alternatives": ["baai-bge", "bge-m3", "alibaba-gte", "sentence-transformers"],
       "last_verified": "2026-05-25"
+    },
+    {
+      "id": "langsmith-prompt-hub",
+      "slug": "langsmith-prompt-hub",
+      "name": "LangSmith Prompt Hub",
+      "website": "https://smith.langchain.com",
+      "docs": "https://docs.smith.langchain.com",
+      "github": "https://github.com/langchain-ai/langsmith",
+      "description": "A collaborative prompt management and versioning platform integrated with the LangChain ecosystem. Enables teams to version, test, evaluate, and deploy prompts with integrated tracing and feedback collection.",
+      "category": "ai",
+      "subcategory": "prompt-tools",
+      "tags": ["ai", "llm", "monitoring", "observability", "freemium", "python", "sdk"],
+      "free_tier": {
+        "summary": "Unlimited prompt creation with version history, 5,000 traces/month, 1 user, 7-day trace retention.",
+        "limits": { "requests_per_month": 5000, "tokens_per_minute": null, "storage_gb": null, "seats": 1 }
+      },
+      "paid_plan": {
+        "summary": "Team plan at $99/month for higher limits, team collaboration, and advanced features",
+        "starting_price_usd": 99,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4, "docs": 4, "free_generosity": 3, "setup": 4, "reliability": 4, "performance": 4, "community": 4, "overall": 3.8
+      },
+      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "status": "active",
+      "student_benefits": { "available": false, "details": "" },
+      "requires_card": false,
+      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally" },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["langfuse", "promptlayer", "helicone"],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "anthropic-console",
+      "slug": "anthropic-console",
+      "name": "Anthropic Console",
+      "website": "https://console.anthropic.com",
+      "docs": "https://docs.anthropic.com",
+      "github": "https://github.com/anthropics",
+      "description": "A free browser-based prompt playground for testing and iterating on prompts with Claude models. Features system prompt editing, multi-turn conversations, JSON output mode, and direct API key generation.",
+      "category": "ai",
+      "subcategory": "prompt-tools",
+      "tags": ["ai", "llm", "web-ui", "freemium", "no-card", "beginner-friendly", "api"],
+      "free_tier": {
+        "summary": "Unlimited free prompt testing in browser, 5 API requests/minute, Claude 3.5 Sonnet and Haiku available. Unlimited free chat on claude.ai.",
+        "limits": { "requests_per_month": null, "tokens_per_minute": 5, "storage_gb": null, "seats": null }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go API starting at $3/1M input tokens (Claude 3.5 Sonnet)",
+        "starting_price_usd": 3,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 5, "docs": 4, "free_generosity": 5, "setup": 5, "reliability": 4, "performance": 5, "community": 3, "overall": 4.5
+      },
+      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "status": "active",
+      "student_benefits": { "available": false, "details": "" },
+      "requires_card": false,
+      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally" },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["google-ai-studio", "openai-playground"],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "google-ai-studio",
+      "slug": "google-ai-studio",
+      "name": "Google AI Studio",
+      "website": "https://aistudio.google.com",
+      "docs": "https://ai.google.dev",
+      "github": "https://github.com/google-gemini",
+      "description": "A free web-based IDE for prototyping and testing prompts with Gemini models. Provides prompt templates, system instructions, safety settings, model comparison, and one-click API key generation.",
+      "category": "ai",
+      "subcategory": "prompt-tools",
+      "tags": ["ai", "llm", "multimodal", "web-ui", "free-tier", "no-card", "generous-free-tier", "api"],
+      "free_tier": {
+        "summary": "60 requests/minute, 1,500 requests/day, 1M token context window, free Gemini 1.5 Flash and Pro (rate limited). No credit card required.",
+        "limits": { "requests_per_month": null, "tokens_per_minute": 60, "storage_gb": null, "seats": null }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go API starting at $0.00025/1K input characters (Gemini 1.5 Pro)",
+        "starting_price_usd": 0.00025,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 5, "docs": 5, "free_generosity": 5, "setup": 5, "reliability": 4, "performance": 5, "community": 3, "overall": 4.7
+      },
+      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "status": "active",
+      "student_benefits": { "available": true, "details": "Google for Education grants and free API credits for students", "verification_method": "edu-email" },
+      "requires_card": false,
+      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally via Google AI Studio" },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["openai-playground", "anthropic-console"],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "openai-playground",
+      "slug": "openai-playground",
+      "name": "OpenAI Playground",
+      "website": "https://platform.openai.com/playground",
+      "docs": "https://platform.openai.com/docs/guides/prompt-engineering",
+      "github": "https://github.com/openai",
+      "description": "A web-based prompt playground for experimenting with GPT-4 and GPT-4o models. Includes system prompt editing, temperature and top-p controls, multi-turn chat, and JSON mode for structured output testing.",
+      "category": "ai",
+      "subcategory": "prompt-tools",
+      "tags": ["ai", "llm", "gpt", "web-ui", "freemium", "card-required", "api", "beginner-friendly"],
+      "free_tier": {
+        "summary": "Free web playground, $5 free API credits for new users, 10K TPM rate limit on GPT-4o mini.",
+        "limits": { "requests_per_month": null, "tokens_per_minute": 10000, "storage_gb": null, "seats": null }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go starting at $0.15/1M input tokens (GPT-4o mini)",
+        "starting_price_usd": 0.15,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 5, "docs": 5, "free_generosity": 3, "setup": 5, "reliability": 5, "performance": 5, "community": 5, "overall": 4.6
+      },
+      "verification": { "status": "tested", "verified_by": "maintainer", "date": "2026-05" },
+      "status": "active",
+      "student_benefits": { "available": true, "details": "Free credits via GitHub Student Developer Pack", "verification_method": "github-education" },
+      "requires_card": true,
+      "region_restrictions": { "global": false, "restricted_countries": ["CN", "RU", "BY", "IR", "KP", "SY", "CU", "VE"], "notes": "Available in most countries; restricted in US-sanctioned regions" },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["anthropic-console", "google-ai-studio"],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "promptlayer",
+      "slug": "promptlayer",
+      "name": "PromptLayer",
+      "website": "https://promptlayer.com",
+      "docs": "https://docs.promptlayer.com",
+      "github": "https://github.com/MagnivOrg/promptlayer",
+      "description": "A prompt management platform for logging, versioning, and analyzing LLM prompts in production. Provides a collaborative dashboard for tracking prompt performance, A/B testing, and team-based prompt engineering workflows.",
+      "category": "ai",
+      "subcategory": "prompt-tools",
+      "tags": ["ai", "llm", "monitoring", "observability", "freemium", "python", "api", "sdk"],
+      "free_tier": {
+        "summary": "1,000 requests/month, 7-day retention, 1 user, basic prompt versioning and logging.",
+        "limits": { "requests_per_month": 1000, "tokens_per_minute": null, "storage_gb": null, "seats": 1 }
+      },
+      "paid_plan": {
+        "summary": "Team plan at $99/month for higher limits and collaboration features",
+        "starting_price_usd": 99,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4, "docs": 4, "free_generosity": 3, "setup": 4, "reliability": 4, "performance": 4, "community": 3, "overall": 3.7
+      },
+      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "status": "active",
+      "student_benefits": { "available": false, "details": "" },
+      "requires_card": false,
+      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally" },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["langfuse", "langsmith-prompt-hub", "helicone"],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "promptfoo",
+      "slug": "promptfoo",
+      "name": "Promptfoo",
+      "website": "https://promptfoo.dev",
+      "docs": "https://promptfoo.dev/docs",
+      "github": "https://github.com/promptfoo/promptfoo",
+      "description": "An open-source evaluation and red-teaming tool for testing LLM prompts. Automates prompt testing with side-by-side model comparisons, regression testing, and customizable assertions via CLI and library integration.",
+      "category": "ai",
+      "subcategory": "prompt-tools",
+      "tags": ["ai", "llm", "testing", "cli", "open-source", "python", "typescript", "forever-free"],
+      "free_tier": {
+        "summary": "Completely free under MIT license. Unlimited evaluations and tests. Works with any LLM provider. CLI, library, and CI/CD integration.",
+        "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3, "docs": 4, "free_generosity": 5, "setup": 3, "reliability": 4, "performance": 4, "community": 4, "overall": 4.0
+      },
+      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "status": "active",
+      "student_benefits": { "available": false, "details": "" },
+      "requires_card": false,
+      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Open-source tool, available globally" },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["promptperfect", "gpt-prompt-engineer"],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "portkey",
+      "slug": "portkey",
+      "name": "Portkey",
+      "website": "https://portkey.ai",
+      "docs": "https://docs.portkey.ai",
+      "github": "https://github.com/Portkey-AI/gateway",
+      "description": "An LLM observability and prompt management platform with an AI gateway for monitoring, versioning, and managing prompts across multiple providers. Includes request logging, cost tracking, and prompt version control.",
+      "category": "ai",
+      "subcategory": "prompt-tools",
+      "tags": ["ai", "llm", "monitoring", "observability", "freemium", "api", "sdk", "openai-compatible"],
+      "free_tier": {
+        "summary": "10,000 requests/month, 3-day retention, 1 user, multi-provider support with logging and analytics.",
+        "limits": { "requests_per_month": 10000, "tokens_per_minute": null, "storage_gb": null, "seats": 1 }
+      },
+      "paid_plan": {
+        "summary": "Team plan at $49/month for higher limits and advanced features",
+        "starting_price_usd": 49,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4, "docs": 4, "free_generosity": 4, "setup": 4, "reliability": 4, "performance": 4, "community": 3, "overall": 3.9
+      },
+      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "status": "active",
+      "student_benefits": { "available": false, "details": "" },
+      "requires_card": false,
+      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally" },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["helicone", "langfuse", "promptlayer"],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "agenta",
+      "slug": "agenta",
+      "name": "Agenta",
+      "website": "https://agenta.ai",
+      "docs": "https://docs.agenta.ai",
+      "github": "https://github.com/Agenta-AI/agenta",
+      "description": "An open-source platform for prompt engineering, versioning, and LLM evaluation. Provides a collaborative web UI for A/B testing prompts across models, human evaluation workflows, and continuous improvement pipelines.",
+      "category": "ai",
+      "subcategory": "prompt-tools",
+      "tags": ["ai", "llm", "testing", "web-ui", "open-source", "freemium", "python", "typescript"],
+      "free_tier": {
+        "summary": "Self-hosted is fully free under MIT license. Cloud free tier: 1,000 evaluations/month, 2 users.",
+        "limits": { "requests_per_month": 1000, "tokens_per_minute": null, "storage_gb": null, "seats": 2 }
+      },
+      "paid_plan": {
+        "summary": "Cloud Pro at $29/month for higher limits and team features",
+        "starting_price_usd": 29,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4, "docs": 3, "free_generosity": 4, "setup": 3, "reliability": 3, "performance": 3, "community": 3, "overall": 3.4
+      },
+      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "status": "active",
+      "student_benefits": { "available": false, "details": "" },
+      "requires_card": false,
+      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally; self-hosted version is free" },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["promptfoo", "langfuse", "promptlayer"],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "helicone",
+      "slug": "helicone",
+      "name": "Helicone",
+      "website": "https://helicone.ai",
+      "docs": "https://docs.helicone.ai",
+      "github": "https://github.com/Helicone/helicone",
+      "description": "An open-source LLM observability platform for monitoring, debugging, and optimizing prompts in production. Provides request logging, cost tracking, prompt experimentation, and custom dashboards with a generous free tier.",
+      "category": "ai",
+      "subcategory": "prompt-tools",
+      "tags": ["ai", "llm", "monitoring", "observability", "open-source", "freemium", "api", "sdk"],
+      "free_tier": {
+        "summary": "100,000 requests/month, 14-day retention, request logging, cost tracking, and basic analytics. Self-hosted unlimited (MIT license).",
+        "limits": { "requests_per_month": 100000, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+      },
+      "paid_plan": {
+        "summary": "Growth plan at $20/month for longer retention and advanced features",
+        "starting_price_usd": 20,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4, "docs": 4, "free_generosity": 5, "setup": 4, "reliability": 4, "performance": 4, "community": 3, "overall": 4.1
+      },
+      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "status": "active",
+      "student_benefits": { "available": false, "details": "" },
+      "requires_card": false,
+      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally" },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["langfuse", "portkey", "langsmith-prompt-hub"],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "langfuse",
+      "slug": "langfuse",
+      "name": "LangFuse",
+      "website": "https://langfuse.com",
+      "docs": "https://langfuse.com/docs",
+      "github": "https://github.com/langfuse/langfuse",
+      "description": "An open-source observability and prompt management platform for LLM applications. Combines tracing, prompt versioning, evaluation, and cost tracking in one dashboard with self-hosted and managed cloud options.",
+      "category": "ai",
+      "subcategory": "prompt-tools",
+      "tags": ["ai", "llm", "monitoring", "observability", "open-source", "freemium", "python", "typescript"],
+      "free_tier": {
+        "summary": "Self-hosted is fully free under MIT license. Cloud free tier: 50,000 observations/month with prompt management and tracing.",
+        "limits": { "requests_per_month": 50000, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+      },
+      "paid_plan": {
+        "summary": "Cloud Team at $59/month for higher limits and advanced features",
+        "starting_price_usd": 59,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4, "docs": 5, "free_generosity": 5, "setup": 3, "reliability": 4, "performance": 4, "community": 4, "overall": 4.3
+      },
+      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "status": "active",
+      "student_benefits": { "available": false, "details": "" },
+      "requires_card": false,
+      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally; self-hosted version is free" },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["helicone", "langsmith-prompt-hub", "portkey"],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "phrase",
+      "slug": "phrase",
+      "name": "Phrase",
+      "website": "https://phrase.com",
+      "docs": "https://docs.phrase.com",
+      "github": "https://github.com/phrase",
+      "description": "An AI-native prompt management and versioning platform for teams building LLM-powered applications. Provides prompt templates, version control, team collaboration, and deployment pipelines for production prompts.",
+      "category": "ai",
+      "subcategory": "prompt-tools",
+      "tags": ["ai", "llm", "freemium", "api", "sdk", "team-collaboration"],
+      "free_tier": {
+        "summary": "Unlimited prompt creation with basic version history, up to 2 users, standard API access.",
+        "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": 2 }
+      },
+      "paid_plan": {
+        "summary": "Team plan at $99/month for higher limits and advanced collaboration",
+        "starting_price_usd": 99,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4, "docs": 3, "free_generosity": 3, "setup": 4, "reliability": 3, "performance": 3, "community": 2, "overall": 3.2
+      },
+      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "status": "active",
+      "student_benefits": { "available": false, "details": "" },
+      "requires_card": false,
+      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally" },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["langsmith-prompt-hub", "promptlayer", "agenta"],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "wandb-prompts",
+      "slug": "wandb-prompts",
+      "name": "W&B Prompts",
+      "website": "https://wandb.ai",
+      "docs": "https://docs.wandb.ai/guides/prompts",
+      "github": "https://github.com/wandb/wandb",
+      "description": "A prompt engineering and LLM observability module within the Weights & Biases ML platform. Tracks prompts, model responses, tokens, and costs with rich visualizations, versioning, and team collaboration.",
+      "category": "ai",
+      "subcategory": "prompt-tools",
+      "tags": ["ai", "llm", "monitoring", "observability", "freemium", "python", "sdk"],
+      "free_tier": {
+        "summary": "Unlimited personal dashboard, 100 GB artifact storage, log prompt traces and model responses. Unlimited shared reports.",
+        "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": 100, "seats": null }
+      },
+      "paid_plan": {
+        "summary": "Team plan at $50/month for higher limits and organization features",
+        "starting_price_usd": 50,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 3, "docs": 4, "free_generosity": 4, "setup": 3, "reliability": 4, "performance": 4, "community": 4, "overall": 3.7
+      },
+      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "status": "active",
+      "student_benefits": { "available": true, "details": "Free W&B Academic plan for students and educators", "verification_method": "edu-email" },
+      "requires_card": false,
+      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally" },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["langfuse", "helicone", "langsmith-prompt-hub"],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "promptperfect",
+      "slug": "promptperfect",
+      "name": "PromptPerfect",
+      "website": "https://promptperfect.jina.ai",
+      "docs": "https://promptperfect.jina.ai/docs",
+      "github": "https://github.com/jina-ai/promptperfect",
+      "description": "An AI-powered prompt optimization and testing platform that automatically improves prompts for better LLM outputs. Uses advanced optimization algorithms to refine prompts across multiple models and languages.",
+      "category": "ai",
+      "subcategory": "prompt-tools",
+      "tags": ["ai", "llm", "freemium", "web-ui", "api", "optimization"],
+      "free_tier": {
+        "summary": "10 free prompt optimizations per month, limited model support, basic testing and optimization features.",
+        "limits": { "requests_per_month": 10, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+      },
+      "paid_plan": {
+        "summary": "Pro plan at $29/month for unlimited optimizations and advanced features",
+        "starting_price_usd": 29,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4, "docs": 4, "free_generosity": 2, "setup": 3, "reliability": 3, "performance": 3, "community": 3, "overall": 3.1
+      },
+      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "status": "active",
+      "student_benefits": { "available": false, "details": "" },
+      "requires_card": false,
+      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Available globally" },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["promptfoo", "gpt-prompt-engineer", "fabric"],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "gpt-prompt-engineer",
+      "slug": "gpt-prompt-engineer",
+      "name": "GPT Prompt Engineer",
+      "website": "https://github.com/mshumer/gpt-prompt-engineer",
+      "docs": "https://github.com/mshumer/gpt-prompt-engineer",
+      "github": "https://github.com/mshumer/gpt-prompt-engineer",
+      "description": "An open-source Python library for systematically generating, testing, and evaluating LLM prompts at scale. Automates prompt generation from task descriptions and runs evaluation across multiple prompt variants.",
+      "category": "ai",
+      "subcategory": "prompt-tools",
+      "tags": ["ai", "llm", "python", "open-source", "testing", "cli", "forever-free"],
+      "free_tier": {
+        "summary": "Completely free under MIT license. Unlimited prompt generations and evaluations. Works with OpenAI models.",
+        "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3, "docs": 3, "free_generosity": 5, "setup": 3, "reliability": 3, "performance": 3, "community": 3, "overall": 3.4
+      },
+      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "status": "active",
+      "student_benefits": { "available": false, "details": "" },
+      "requires_card": false,
+      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Open-source library, available globally" },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["promptfoo", "fabric", "promptperfect"],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "fabric",
+      "slug": "fabric",
+      "name": "Fabric",
+      "website": "https://github.com/danielmiessler/fabric",
+      "docs": "https://github.com/danielmiessler/fabric",
+      "github": "https://github.com/danielmiessler/fabric",
+      "description": "An open-source framework for using AI prompts as reusable, composable building blocks. Provides a curated library of 100+ prompt patterns for common tasks like summarization, extraction, analysis, and content generation.",
+      "category": "ai",
+      "subcategory": "prompt-tools",
+      "tags": ["ai", "llm", "cli", "open-source", "python", "forever-free", "pattern-library"],
+      "free_tier": {
+        "summary": "Completely free under MIT license. 100+ curated prompt patterns, full CLI tool for prompt execution. Unlimited usage.",
+        "limits": { "requests_per_month": null, "tokens_per_minute": null, "storage_gb": null, "seats": null }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4, "docs": 3, "free_generosity": 5, "setup": 3, "reliability": 3, "performance": 3, "community": 4, "overall": 3.7
+      },
+      "verification": { "status": "community-verified", "verified_by": "community", "date": "2026-05" },
+      "status": "active",
+      "student_benefits": { "available": false, "details": "" },
+      "requires_card": false,
+      "region_restrictions": { "global": true, "restricted_countries": [], "notes": "Open-source tool, available globally" },
+      "languages": ["en"],
+      "alternatives_to": [],
+      "alternatives": ["gpt-prompt-engineer", "promptfoo", "promptperfect"],
+      "last_verified": "2026-05-31"
     }
   ]
 }
