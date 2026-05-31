@@ -13883,6 +13883,1133 @@
         "directus"
       ],
       "last_verified": "2026-05-24"
+    },
+    {
+      "id": "stable-diffusion-35",
+      "slug": "stable-diffusion-35",
+      "name": "Stable Diffusion 3.5",
+      "website": "https://stability.ai",
+      "docs": "https://platform.stability.ai/docs",
+      "github": "https://github.com/Stability-AI/generative-models",
+      "description": "State-of-the-art open text-to-image model by Stability AI with improved prompt adherence, typography, and image quality. Available under open weights license for local or cloud inference.",
+      "category": "ai",
+      "subcategory": "image-generation",
+      "tags": [
+        "ai",
+        "image-generation",
+        "open-source",
+        "free-tier",
+        "self-hosted",
+        "gpu"
+      ],
+      "free_tier": {
+        "summary": "Open weights available for free local use. Stability AI platform: 25 free API credits per day.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "API starting at $0.004 per image. Usage-based pricing.",
+        "starting_price_usd": 0.004,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; self-hosted version is free"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source model, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "flux-1",
+        "dalle-3",
+        "comfyui"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "flux-1",
+      "slug": "flux-1",
+      "name": "Flux.1 by BFL",
+      "website": "https://blackforestlabs.ai",
+      "docs": "https://docs.blackforestlabs.ai",
+      "github": "https://github.com/black-forest-labs/flux",
+      "description": "Advanced text-to-image generation model by Black Forest Labs offering high-quality outputs with precise prompt adherence. Available in Pro, Dev, and Schnell variants with open-source options.",
+      "category": "ai",
+      "subcategory": "image-generation",
+      "tags": [
+        "ai",
+        "image-generation",
+        "api",
+        "freemium",
+        "rate-limited",
+        "open-source"
+      ],
+      "free_tier": {
+        "summary": "Flux Schnell open-source model for local use. BFL API: 10 free image generations on signup, 5 req/min rate limit.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": 5,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Flux Pro API starting at $0.05 per image. Usage-based pricing.",
+        "starting_price_usd": 0.05,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 3,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "stable-diffusion-35",
+        "midjourney",
+        "ideogram"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "dalle-3",
+      "slug": "dalle-3",
+      "name": "DALL-E 3",
+      "website": "https://platform.openai.com",
+      "docs": "https://platform.openai.com/docs/guides/images",
+      "github": "https://github.com/openai",
+      "description": "OpenAI's most advanced image generation model accessible via API. Produces high-quality images from text descriptions with excellent prompt adherence and photorealistic output.",
+      "category": "ai",
+      "subcategory": "image-generation",
+      "tags": [
+        "ai",
+        "image-generation",
+        "api",
+        "sdk",
+        "freemium",
+        "card-required",
+        "rate-limited"
+      ],
+      "free_tier": {
+        "summary": "$5 free credit for new users. 1 image per minute rate limit on free tier. Available in free ChatGPT plan.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": 1,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Standard DALL-E 3 starting at $0.040 per image (1024x1024). HD pricing tier available.",
+        "starting_price_usd": 0.04,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 2,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free credits via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": false,
+        "restricted_countries": [
+          "CN",
+          "RU",
+          "BY",
+          "IR",
+          "KP",
+          "SY",
+          "CU",
+          "VE"
+        ],
+        "notes": "Available in most countries; restricted in US-sanctioned regions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "stable-diffusion-35",
+        "midjourney",
+        "adobe-firefly"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "comfyui",
+      "slug": "comfyui",
+      "name": "ComfyUI",
+      "website": "https://www.comfy.org",
+      "docs": "https://docs.comfy.org",
+      "github": "https://github.com/comfyanonymous/ComfyUI",
+      "description": "Powerful open-source node-based interface for Stable Diffusion image generation. Provides a visual workflow editor for building complex diffusion pipelines with custom nodes and advanced control.",
+      "category": "ai",
+      "subcategory": "image-generation",
+      "tags": [
+        "ai",
+        "image-generation",
+        "open-source",
+        "self-hosted",
+        "gpu",
+        "python"
+      ],
+      "free_tier": {
+        "summary": "Open source under GPL-3.0. Run locally on your GPU with no usage limits. 1000+ community custom nodes.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 4,
+        "performance": 5,
+        "community": 5,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; software is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "automatic1111",
+        "forge",
+        "invokeai"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "automatic1111",
+      "slug": "automatic1111",
+      "name": "Automatic1111",
+      "website": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "docs": "https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki",
+      "github": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "description": "The most popular open-source web interface for Stable Diffusion. Feature-rich UI with inpainting, outpainting, img2img, textual inversion, LoRA support, and extensive extension ecosystem.",
+      "category": "ai",
+      "subcategory": "image-generation",
+      "tags": [
+        "ai",
+        "image-generation",
+        "open-source",
+        "self-hosted",
+        "gpu",
+        "python"
+      ],
+      "free_tier": {
+        "summary": "Open source under AGPL-3.0. Run locally on any GPU with no restrictions. 200+ community extensions available.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 5,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; software is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "comfyui",
+        "forge",
+        "fooocus"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "invokeai",
+      "slug": "invokeai",
+      "name": "InvokeAI",
+      "website": "https://invoke.ai",
+      "docs": "https://invoke-ai.github.io/InvokeAI",
+      "github": "https://github.com/invoke-ai/InvokeAI",
+      "description": "Professional open-source image generation toolkit with a unified canvas interface for Stable Diffusion. Features node-based workflows, layer support, and integrated editing with inpainting and outpainting.",
+      "category": "ai",
+      "subcategory": "image-generation",
+      "tags": [
+        "ai",
+        "image-generation",
+        "open-source",
+        "self-hosted",
+        "gpu",
+        "python"
+      ],
+      "free_tier": {
+        "summary": "Open source under Apache 2.0. Run locally with unlimited generations. Built-in Unified Canvas for image compositing and editing.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; software is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "comfyui",
+        "automatic1111",
+        "krita-ai-diffusion"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "forge",
+      "slug": "forge",
+      "name": "Forge",
+      "website": "https://github.com/lllyasviel/stable-diffusion-webui-forge",
+      "docs": "https://github.com/lllyasviel/stable-diffusion-webui-forge",
+      "github": "https://github.com/lllyasviel/stable-diffusion-webui-forge",
+      "description": "Optimized fork of Automatic1111's Stable Diffusion Web UI with significantly faster inference speeds and lower memory usage. Supports all major SD models with enhanced performance and minimal VRAM requirements.",
+      "category": "ai",
+      "subcategory": "image-generation",
+      "tags": [
+        "ai",
+        "image-generation",
+        "open-source",
+        "self-hosted",
+        "gpu",
+        "python"
+      ],
+      "free_tier": {
+        "summary": "Open source under AGPL-3.0. Up to 3x faster than Automatic1111. Runs on GPUs with 4GB VRAM. Compatible with most A1111 extensions.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; software is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "automatic1111",
+        "comfyui",
+        "fooocus"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "krita-ai-diffusion",
+      "slug": "krita-ai-diffusion",
+      "name": "Krita AI Diffusion",
+      "website": "https://github.com/Acly/krita-ai-diffusion",
+      "docs": "https://github.com/Acly/krita-ai-diffusion/wiki",
+      "github": "https://github.com/Acly/krita-ai-diffusion",
+      "description": "Open-source plugin that integrates Stable Diffusion directly into Krita, the professional digital painting application. Enables in-context generation, inpainting, outpainting, and live painting with AI assistance.",
+      "category": "ai",
+      "subcategory": "image-generation",
+      "tags": [
+        "ai",
+        "image-generation",
+        "open-source",
+        "self-hosted",
+        "gpu",
+        "python"
+      ],
+      "free_tier": {
+        "summary": "Open source under GPL-3.0. Runs on your GPU with no usage limits. Seamless layer-based AI painting workflow in Krita.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; software is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "invokeai",
+        "comfyui",
+        "automatic1111"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "fooocus",
+      "slug": "fooocus",
+      "name": "Fooocus",
+      "website": "https://github.com/lllyasviel/Fooocus",
+      "docs": "https://github.com/lllyasviel/Fooocus",
+      "github": "https://github.com/lllyasviel/Fooocus",
+      "description": "Open-source image generation tool with one-click install and a streamlined, beginner-friendly interface. Based on Gradio with automatic prompt optimization and advanced style presets.",
+      "category": "ai",
+      "subcategory": "image-generation",
+      "tags": [
+        "ai",
+        "image-generation",
+        "open-source",
+        "self-hosted",
+        "gpu",
+        "python",
+        "beginner-friendly"
+      ],
+      "free_tier": {
+        "summary": "Open source under GPL-3.0. One-click install with automatic setup. 100+ built-in style presets. Runs on GPU with minimal VRAM.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; software is free and open source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "automatic1111",
+        "forge",
+        "invokeai"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "midjourney",
+      "slug": "midjourney",
+      "name": "Midjourney",
+      "website": "https://www.midjourney.com",
+      "docs": "https://docs.midjourney.com",
+      "github": null,
+      "description": "Premium AI image generation platform known for exceptional artistic quality, stylistic variety, and community-driven creation. Accessible via Discord with a generous free trial for new users.",
+      "category": "ai",
+      "subcategory": "image-generation",
+      "tags": [
+        "ai",
+        "image-generation",
+        "freemium",
+        "trial",
+        "card-required",
+        "no-code"
+      ],
+      "free_tier": {
+        "summary": "25 free image generations for new users. Access via Discord bot. Community gallery with millions of creations.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Basic plan starting at $10/month (3.3h GPU time). Pro plan available for $30/month.",
+        "starting_price_usd": 10,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 2,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "dalle-3",
+        "stable-diffusion-35",
+        "ideogram"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "adobe-firefly",
+      "slug": "adobe-firefly",
+      "name": "Adobe Firefly",
+      "website": "https://firefly.adobe.com",
+      "docs": "https://helpx.adobe.com/firefly",
+      "github": null,
+      "description": "Adobe's commercial-safe generative AI platform for image creation and editing. Deeply integrated with Adobe Creative Cloud with legally safe training data suitable for commercial use.",
+      "category": "ai",
+      "subcategory": "image-generation",
+      "tags": [
+        "ai",
+        "image-generation",
+        "freemium",
+        "free-tier",
+        "card-required",
+        "no-code"
+      ],
+      "free_tier": {
+        "summary": "25 monthly generative credits on free plan. Generative fill in Adobe Express. Free text effects. Commercial use safe.",
+        "limits": {
+          "requests_per_month": 25,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Premium starting at $4.99/month (100 generative credits). Creative Cloud bundle available.",
+        "starting_price_usd": 4.99,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free Adobe Creative Cloud subscription for students with Firefly included",
+        "verification_method": "edu-email"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": false,
+        "restricted_countries": [
+          "CN",
+          "RU",
+          "BY",
+          "IR",
+          "KP",
+          "SY",
+          "CU",
+          "VE"
+        ],
+        "notes": "Available in most countries; restricted in US-sanctioned regions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "dalle-3",
+        "midjourney",
+        "leonardo-ai"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "playground-ai",
+      "slug": "playground-ai",
+      "name": "Playground AI",
+      "website": "https://playgroundai.com",
+      "docs": "https://docs.playgroundai.com",
+      "github": null,
+      "description": "Free image generation platform offering access to Stable Diffusion, DALL-E, and custom models through a user-friendly web interface. Provides daily free credits for prompt-based image creation.",
+      "category": "ai",
+      "subcategory": "image-generation",
+      "tags": [
+        "ai",
+        "image-generation",
+        "freemium",
+        "free-tier",
+        "no-card",
+        "generous-free-tier"
+      ],
+      "free_tier": {
+        "summary": "50 free image generations per day. Access to Playground v2, SDXL, and DALL-E 3. Built-in inpainting and outpainting. No card required.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro plan starting at $15/month (1,000 credits). Priority queue and faster generation.",
+        "starting_price_usd": 15,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "leonardo-ai",
+        "ideogram",
+        "clipdrop"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "clipdrop",
+      "slug": "clipdrop",
+      "name": "Clipdrop by Stability AI",
+      "website": "https://clipdrop.co",
+      "docs": "https://clipdrop.co/apis/docs",
+      "github": null,
+      "description": "Stability AI's suite of image editing and generation tools with a free API tier. Offers text-to-image, image upscaling, background removal, relighting, and image-to-image translation.",
+      "category": "ai",
+      "subcategory": "image-generation",
+      "tags": [
+        "ai",
+        "image-generation",
+        "api",
+        "freemium",
+        "free-tier",
+        "no-card",
+        "rate-limited"
+      ],
+      "free_tier": {
+        "summary": "100 free API calls per month. 10 requests per minute rate limit. Free web platform access with daily limits.",
+        "limits": {
+          "requests_per_month": 100,
+          "tokens_per_minute": 10,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro plan starting at $9/month (1,000 API calls). Higher rate limits and priority processing.",
+        "starting_price_usd": 9,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "stable-diffusion-35",
+        "playground-ai",
+        "dalle-3"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "ideogram",
+      "slug": "ideogram",
+      "name": "Ideogram",
+      "website": "https://ideogram.ai",
+      "docs": "https://docs.ideogram.ai",
+      "github": null,
+      "description": "AI image generation platform with best-in-class text rendering capabilities. Produces high-quality images with accurate text integration, logos, and typography directly within generated visuals.",
+      "category": "ai",
+      "subcategory": "image-generation",
+      "tags": [
+        "ai",
+        "image-generation",
+        "freemium",
+        "free-tier",
+        "no-card",
+        "generous-free-tier"
+      ],
+      "free_tier": {
+        "summary": "10 free image generations per day. Industry-best text rendering in images. Multiple style options including realistic, design, and 3D.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Plus plan starting at $20/month (unlimited slow generations). Priority speed available.",
+        "starting_price_usd": 20,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "midjourney",
+        "dalle-3",
+        "leonardo-ai"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "leonardo-ai",
+      "slug": "leonardo-ai",
+      "name": "Leonardo AI",
+      "website": "https://leonardo.ai",
+      "docs": "https://docs.leonardo.ai",
+      "github": null,
+      "description": "Feature-rich AI image generation platform with a generous free tier and integrated training tools. Offers custom model training, image generation, editing, and a community gallery with millions of creations.",
+      "category": "ai",
+      "subcategory": "image-generation",
+      "tags": [
+        "ai",
+        "image-generation",
+        "freemium",
+        "free-tier",
+        "no-card",
+        "generous-free-tier"
+      ],
+      "free_tier": {
+        "summary": "150 free tokens per day (30-50 images). Train custom AI models for free. 100+ community style presets. Up to 1536x1536 images.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro plan starting at $10/month (2,000 tokens). Higher resolution and faster generation queues.",
+        "starting_price_usd": 10,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "ideogram",
+        "playground-ai",
+        "midjourney"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "draw-things",
+      "slug": "draw-things",
+      "name": "Draw Things",
+      "website": "https://drawthings.ai",
+      "docs": "https://drawthings.ai/help",
+      "github": null,
+      "description": "Native local image generation app for macOS and iOS powered by Stable Diffusion. Runs entirely on-device with GPU acceleration optimized for Apple Silicon, requiring no internet connection.",
+      "category": "ai",
+      "subcategory": "image-generation",
+      "tags": [
+        "ai",
+        "image-generation",
+        "free-tier",
+        "self-hosted",
+        "gpu",
+        "forever-free"
+      ],
+      "free_tier": {
+        "summary": "Completely free with no paid tiers. Runs on Apple Silicon GPU (M1-M4). Supports SD 1.5, SDXL, SD3, and Flux models.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; completely free forever",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 3,
+        "community": 2,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "App is completely free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available on App Store globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "comfyui",
+        "automatic1111",
+        "invokeai"
+      ],
+      "last_verified": "2026-05-24"
     }
   ]
 }
