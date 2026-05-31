@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "last_updated": "2026-05-31",
-    "total_resources": 357,
+    "total_resources": 421,
     "description": "Curated free & freemium developer resources"
   },
   "resources": [
@@ -25817,6 +25817,4647 @@
         "apple-sign-in",
         "supertokens",
         "auth0"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "jest",
+      "slug": "jest",
+      "name": "Jest",
+      "website": "https://jestjs.io",
+      "docs": "https://jestjs.io/docs/getting-started",
+      "github": "https://github.com/jestjs/jest",
+      "description": "Delightful JavaScript testing framework by Meta with zero-config setup. Features built-in mocking, code coverage, snapshot testing, and parallel test execution. Works with React, Vue, Node.js, and TypeScript.",
+      "category": "testing",
+      "subcategory": "unit-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "unit-test",
+        "javascript",
+        "typescript",
+        "react",
+        "nodejs",
+        "cli",
+        "sdk",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. No usage limits, no cloud dependency. Runs entirely on local CI or developer machines.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "vitest",
+        "mocha",
+        "jasmine",
+        "ava"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "vitest",
+      "slug": "vitest",
+      "name": "Vitest",
+      "website": "https://vitest.dev",
+      "docs": "https://vitest.dev/guide/",
+      "github": "https://github.com/vitest-dev/vitest",
+      "description": "Blazing-fast unit testing framework powered by Vite. Jest-compatible API with native TypeScript and ESM support. Features HMR-powered test updates, built-in coverage, and workspace monorepo support.",
+      "category": "testing",
+      "subcategory": "unit-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "unit-test",
+        "javascript",
+        "typescript",
+        "vite",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. No usage limits. Integrates seamlessly with Vite projects and runs in watch mode with HMR.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "jest",
+        "mocha",
+        "ava"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "mocha",
+      "slug": "mocha",
+      "name": "Mocha",
+      "website": "https://mochajs.org",
+      "docs": "https://mochajs.org/#getting-started",
+      "github": "https://github.com/mochajs/mocha",
+      "description": "Feature-rich JavaScript test framework running on Node.js and browsers. Supports asynchronous testing, flexible reporting, and works with any assertion library. Highly extensible with plugins and custom reporters.",
+      "category": "testing",
+      "subcategory": "unit-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "unit-test",
+        "javascript",
+        "nodejs",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Runs locally or in CI. Works with Chai, Should.js, and any assertion library.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "jest",
+        "vitest",
+        "jasmine",
+        "ava"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "jasmine",
+      "slug": "jasmine",
+      "name": "Jasmine",
+      "website": "https://jasmine.github.io",
+      "docs": "https://jasmine.github.io/pages/docs_home.html",
+      "github": "https://github.com/jasmine/jasmine",
+      "description": "Behavior-driven JavaScript testing framework with no DOM or framework dependencies. Provides built-in assertions, spies, and clock mocking. Works standalone or with Karma, Angular, and other test runners.",
+      "category": "testing",
+      "subcategory": "unit-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "unit-test",
+        "javascript",
+        "typescript",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Standalone framework with no external dependencies required.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "jest",
+        "mocha",
+        "qunit"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "ava",
+      "slug": "ava",
+      "name": "AVA",
+      "website": "https://avajs.dev",
+      "docs": "https://github.com/avajs/ava/blob/main/docs/01-writing-tests.md",
+      "github": "https://github.com/avajs/ava",
+      "description": "Minimal JavaScript test runner running each test in a separate Node.js process for isolation. Features built-in TypeScript support, parallel execution, snapshot testing, and power-assert integration.",
+      "category": "testing",
+      "subcategory": "unit-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "unit-test",
+        "javascript",
+        "typescript",
+        "nodejs",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Process isolation and parallel execution built in with no config.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "jest",
+        "vitest",
+        "mocha",
+        "tape"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "tape",
+      "slug": "tape",
+      "name": "Tape",
+      "website": "https://github.com/tape-testing/tape",
+      "docs": "https://github.com/tape-testing/tape#tape",
+      "github": "https://github.com/tape-testing/tape",
+      "description": "Minimalist JavaScript test framework producing TAP-output. Zero dependencies with a simple API. Designed for testing that produces standard TAP output consumable by any TAP reporter. Works with Node.js and browsers.",
+      "category": "testing",
+      "subcategory": "unit-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "unit-test",
+        "javascript",
+        "nodejs",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Minimal design with zero configuration needed.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "ava",
+        "mocha",
+        "qunit"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "qunit",
+      "slug": "qunit",
+      "name": "QUnit",
+      "website": "https://qunitjs.com",
+      "docs": "https://qunitjs.com/intro/",
+      "github": "https://github.com/qunitjs/qunit",
+      "description": "JavaScript unit testing framework originally for jQuery. Works in browsers and Node.js with async testing, callback support, and module-scoped fixtures. The jQuery project's official test suite runner.",
+      "category": "testing",
+      "subcategory": "unit-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "unit-test",
+        "javascript",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Browser-native testing with CLI support via qunit CLI package.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "jasmine",
+        "mocha",
+        "jest"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "pytest",
+      "slug": "pytest",
+      "name": "pytest",
+      "website": "https://pytest.org",
+      "docs": "https://docs.pytest.org",
+      "github": "https://github.com/pytest-dev/pytest",
+      "description": "Mature Python testing framework with simple syntax and powerful features. Supports fixtures, parameterized testing, plugin architecture, and automatic test discovery. The de facto standard for Python unit testing.",
+      "category": "testing",
+      "subcategory": "unit-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "unit-test",
+        "python",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Extensive plugin ecosystem with hundreds of community plugins.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "phpunit",
+        "junit5",
+        "google-test"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "phpunit",
+      "slug": "phpunit",
+      "name": "PHPUnit",
+      "website": "https://phpunit.de",
+      "docs": "https://docs.phpunit.de",
+      "github": "https://github.com/sebastianbergmann/phpunit",
+      "description": "The standard PHP testing framework for unit testing. Features code coverage, test doubles, data providers, and test dependencies. Supports PHP 8+ with strict typing and attribute-based test configuration.",
+      "category": "testing",
+      "subcategory": "unit-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "unit-test",
+        "php",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under BSD license. Industry standard for PHP testing with extensive documentation.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "pytest",
+        "junit5",
+        "rspec"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "junit5",
+      "slug": "junit5",
+      "name": "JUnit 5",
+      "website": "https://junit.org/junit5/",
+      "docs": "https://junit.org/junit5/docs/current/user-guide/",
+      "github": "https://github.com/junit-team/junit5",
+      "description": "Next-generation Java unit testing framework with platform launcher and extension model. Supports parameterized tests, dynamic tests, repeated tests, and nested test classes. Foundation for the Java testing ecosystem.",
+      "category": "testing",
+      "subcategory": "unit-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "unit-test",
+        "java",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under EPL-2.0 license. The standard Java testing framework used in virtually all Java projects.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "testng",
+        "pytest",
+        "phpunit"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "testng",
+      "slug": "testng",
+      "name": "TestNG",
+      "website": "https://testng.org",
+      "docs": "https://testng.org/doc/documentation-main.html",
+      "github": "https://github.com/cbeust/testng",
+      "description": "Java testing framework inspired by JUnit and NUnit with advanced features. Supports data-driven testing, parallel execution, test groups, dependencies, and XML-based test configuration. Widely used in enterprise Java.",
+      "category": "testing",
+      "subcategory": "unit-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "unit-test",
+        "java",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0 license. Mature framework with enterprise-grade features.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "junit5",
+        "pytest"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "rspec",
+      "slug": "rspec",
+      "name": "RSpec",
+      "website": "https://rspec.info",
+      "docs": "https://rspec.info/documentation/",
+      "github": "https://github.com/rspec/rspec",
+      "description": "Behavior-driven development testing framework for Ruby. Features readable DSL with describe/it syntax, matchers, mocks, stubs, and shared examples. The standard Ruby testing framework for Rails and Ruby applications.",
+      "category": "testing",
+      "subcategory": "unit-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "unit-test",
+        "ruby",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. De facto standard for testing Ruby and Rails applications.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "pytest",
+        "phpunit",
+        "junit5"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "google-test",
+      "slug": "google-test",
+      "name": "Google Test",
+      "website": "https://google.github.io/googletest/",
+      "docs": "https://google.github.io/googletest/primer.html",
+      "github": "https://github.com/google/googletest",
+      "description": "Google's C++ testing framework with xUnit architecture. Features value-parameterized tests, death tests, type-parameterized tests, and mocking via Google Mock. Widely used in C++ projects across the industry.",
+      "category": "testing",
+      "subcategory": "unit-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "unit-test",
+        "cpp",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under BSD license. Industry standard for C++ unit testing with extensive documentation.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "catch2",
+        "pytest"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "catch2",
+      "slug": "catch2",
+      "name": "Catch2",
+      "website": "https://github.com/catchorg/Catch2",
+      "docs": "https://github.com/catchorg/Catch2/blob/devel/docs/Readme.md",
+      "github": "https://github.com/catchorg/Catch2",
+      "description": "Header-only C++ test framework with BDD-style sections and native benchmarks. Simple to use with single-header integration. Supports test cases, sections, matchers, generators, and microbenchmarks.",
+      "category": "testing",
+      "subcategory": "unit-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "unit-test",
+        "cpp",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under BSL-1.0 license. Single-header version simplifies integration into any C++ project.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "google-test",
+        "pytest"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "ginkgo",
+      "slug": "ginkgo",
+      "name": "Ginkgo",
+      "website": "https://onsi.github.io/ginkgo/",
+      "docs": "https://onsi.github.io/ginkgo/",
+      "github": "https://github.com/onsi/ginkgo",
+      "description": "BDD-style Go testing framework with expressive DSL. Features nested describe/it blocks, before/after hooks, async testing, and parallel execution. Pairs with Gomega matchers for readable test assertions.",
+      "category": "testing",
+      "subcategory": "unit-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "unit-test",
+        "go",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. De facto standard BDD testing framework for Go applications.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "pytest",
+        "rspec",
+        "google-test"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "browserstack",
+      "slug": "browserstack",
+      "name": "BrowserStack",
+      "website": "https://www.browserstack.com",
+      "docs": "https://www.browserstack.com/docs",
+      "github": null,
+      "description": "Cloud-based cross-browser testing platform with 3,000+ real browser-device-OS combinations. Supports live interactive testing, automated Selenium/Cypress/Playwright testing, and Percy visual regression. Free for open source projects.",
+      "category": "testing",
+      "subcategory": "browser-testing",
+      "tags": [
+        "saas",
+        "testing",
+        "qa",
+        "automation",
+        "selenium",
+        "javascript",
+        "python",
+        "freemium",
+        "cloud"
+      ],
+      "free_tier": {
+        "summary": "Free for open source projects with unlimited automated tests. Developer plan includes 60-min live testing sessions.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Live plans from $29/month for 30-min parallel sessions. Automate plans from $129/month for 5 parallel tests.",
+        "starting_price_usd": 29,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "lambdatest",
+        "sauce-labs",
+        "testingbot",
+        "browserling"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "lambdatest",
+      "slug": "lambdatest",
+      "name": "LambdaTest",
+      "website": "https://www.lambdatest.com",
+      "docs": "https://www.lambdatest.com/support/docs/",
+      "github": null,
+      "description": "Cloud cross-browser testing platform with 3,000+ browsers and real devices. Supports live interactive, automated Selenium/Cypress/Playwright testing, and visual regression. Free tier with monthly testing minutes.",
+      "category": "testing",
+      "subcategory": "browser-testing",
+      "tags": [
+        "saas",
+        "testing",
+        "qa",
+        "automation",
+        "selenium",
+        "javascript",
+        "python",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free for life plan: 60 min/month live testing, 30 min/month automated testing, 6 parallel sessions, 10 screenshot tests.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Live plans from $15/month for 2 parallel sessions. Automate plans from $99/month for 25 parallel tests.",
+        "starting_price_usd": 15,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "browserstack",
+        "sauce-labs",
+        "testingbot"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "sauce-labs",
+      "slug": "sauce-labs",
+      "name": "Sauce Labs",
+      "website": "https://saucelabs.com",
+      "docs": "https://docs.saucelabs.com",
+      "github": null,
+      "description": "Enterprise cloud testing platform with real browsers, devices, and emulators. Supports Selenium, Appium, Playwright, and Cypress automated testing. Features live testing, visual testing, and API testing.",
+      "category": "testing",
+      "subcategory": "browser-testing",
+      "tags": [
+        "saas",
+        "testing",
+        "qa",
+        "automation",
+        "selenium",
+        "javascript",
+        "freemium",
+        "cloud"
+      ],
+      "free_tier": {
+        "summary": "Free trial with 2 parallel tests, 30 min/test timeout, and access to desktop browsers and mobile emulators.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Plans start at $19/month for 2 parallel VMs and 120 min/month. Enterprise with custom pricing and SLAs.",
+        "starting_price_usd": 19,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 2,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "browserstack",
+        "lambdatest",
+        "testingbot"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "testingbot",
+      "slug": "testingbot",
+      "name": "TestingBot",
+      "website": "https://testingbot.com",
+      "docs": "https://testingbot.com/support/",
+      "github": null,
+      "description": "Cloud browser and mobile testing platform with Selenium and Appium support. Provides real iOS and Android devices, 5,000+ browser combinations, and parallel testing. Free trial with monthly testing minutes.",
+      "category": "testing",
+      "subcategory": "browser-testing",
+      "tags": [
+        "saas",
+        "testing",
+        "qa",
+        "automation",
+        "selenium",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free trial: 200 minutes/month live testing, 6 parallel tests, all browser and device combinations included.",
+        "limits": {
+          "requests_per_month": 200,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Plans from $25/month for 400 min and 2 parallel tests. Enterprise with dedicated devices and support.",
+        "starting_price_usd": 25,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 2,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "browserstack",
+        "lambdatest",
+        "browserling"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "browserling",
+      "slug": "browserling",
+      "name": "Browserling",
+      "website": "https://www.browserling.com",
+      "docs": "https://www.browserling.com/docs",
+      "github": null,
+      "description": "Live interactive cross-browser testing service with instant browser sessions. Test websites in real browsers via the web without setup. Free tier for quick testing with 3-minute session duration.",
+      "category": "testing",
+      "subcategory": "browser-testing",
+      "tags": [
+        "saas",
+        "testing",
+        "qa",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free plan: 3-minute interactive sessions on Windows desktop browsers. No account required for basic use.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Plans from $19/month for 30-min sessions, Android/iOS testing, and tunnel testing for local URLs.",
+        "starting_price_usd": 19,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 3,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 3,
+        "community": 2,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "browserstack",
+        "lambdatest",
+        "testingbot"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "crossbrowsertesting",
+      "slug": "crossbrowsertesting",
+      "name": "CrossBrowserTesting",
+      "website": "https://crossbrowsertesting.com",
+      "docs": "https://crossbrowsertesting.com/documentation",
+      "github": null,
+      "description": "SmartBear's cloud cross-browser testing platform with 2,050+ real browsers. Supports live interactive, automated Selenium testing, and visual screenshot comparison. Integrates with CI/CD pipelines.",
+      "category": "testing",
+      "subcategory": "browser-testing",
+      "tags": [
+        "saas",
+        "testing",
+        "qa",
+        "automation",
+        "selenium",
+        "freemium",
+        "cloud"
+      ],
+      "free_tier": {
+        "summary": "Free trial: 100 minutes of automated testing and 30 minutes of live testing with all browser/OS combinations.",
+        "limits": {
+          "requests_per_month": 100,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Plans from $49/month for 2 parallel tests and 60-min sessions. Enterprise with dedicated account management.",
+        "starting_price_usd": 49,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 2,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "browserstack",
+        "lambdatest",
+        "sauce-labs"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "selenium",
+      "slug": "selenium",
+      "name": "Selenium",
+      "website": "https://www.selenium.dev",
+      "docs": "https://www.selenium.dev/documentation/",
+      "github": "https://github.com/SeleniumHQ/selenium",
+      "description": "Open-source browser automation framework supporting Chrome, Firefox, Safari, Edge, and IE. Provides WebDriver API for all major languages. Foundation for most browser testing tools and services.",
+      "category": "testing",
+      "subcategory": "browser-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "qa",
+        "automation",
+        "selenium",
+        "javascript",
+        "python",
+        "java",
+        "go",
+        "ruby",
+        "cpp",
+        "php",
+        "dotnet",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free under Apache 2.0 license. Self-hosted Selenium Grid supports unlimited parallel browser instances.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source. Cloud Selenium Grid services from various providers available separately.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "webdriverio",
+        "puppeteer",
+        "playwright",
+        "nightwatch"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "webdriverio",
+      "slug": "webdriverio",
+      "name": "WebDriverIO",
+      "website": "https://webdriver.io",
+      "docs": "https://webdriver.io/docs/gettingstarted",
+      "github": "https://github.com/webdriverio/webdriverio",
+      "description": "Next-gen browser and mobile automation framework using WebDriver protocol. Features a concise API, automatic waiting, service integration (Sauce Labs, BrowserStack), and WDIO test runner. Supports Chrome DevTools Protocol.",
+      "category": "testing",
+      "subcategory": "browser-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "qa",
+        "automation",
+        "javascript",
+        "typescript",
+        "cli",
+        "selenium",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Integrates with any cloud testing provider or local Selenium Grid.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "selenium",
+        "puppeteer",
+        "nightwatch",
+        "playwright"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "puppeteer",
+      "slug": "puppeteer",
+      "name": "Puppeteer",
+      "website": "https://pptr.dev",
+      "docs": "https://pptr.dev/docs",
+      "github": "https://github.com/puppeteer/puppeteer",
+      "description": "Browser automation library by Google for Chrome/Chromium. Provides a high-level API for browser testing, screenshots, PDF generation, and web scraping. Runs headless by default with DevTools protocol control.",
+      "category": "testing",
+      "subcategory": "browser-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "qa",
+        "automation",
+        "javascript",
+        "typescript",
+        "cli",
+        "nodejs",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0. No usage limits. Bundles Chromium for guaranteed compatibility.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "selenium",
+        "playwright",
+        "webdriverio"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "nightwatch",
+      "slug": "nightwatch",
+      "name": "Nightwatch.js",
+      "website": "https://nightwatchjs.org",
+      "docs": "https://nightwatchjs.org/guide",
+      "github": "https://github.com/nightwatchjs/nightwatch",
+      "description": "Integrated browser testing framework using Selenium WebDriver API. Features built-in test runner, assertion library, page objects, and cloud service integration. Supports parallel testing in CI environments.",
+      "category": "testing",
+      "subcategory": "browser-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "qa",
+        "automation",
+        "javascript",
+        "typescript",
+        "cli",
+        "selenium",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Built-in CLI and configuration for CI/CD integration.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "webdriverio",
+        "selenium",
+        "puppeteer"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "capybara",
+      "slug": "capybara",
+      "name": "Capybara",
+      "website": "https://teamcapybara.github.io/capybara/",
+      "docs": "https://rubydoc.info/github/teamcapybara/capybara",
+      "github": "https://github.com/teamcapybara/capybara",
+      "description": "Ruby acceptance test framework for web applications. Simulates real user interactions with a clean DSL. Supports Selenium, RackTest, and Cuprite drivers. Commonly used with RSpec and Rails system tests.",
+      "category": "testing",
+      "subcategory": "browser-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "qa",
+        "automation",
+        "ruby",
+        "rails",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Integrates with Selenium for real browser testing or RackTest for headless.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 3,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "selenium",
+        "webdriverio",
+        "nightwatch"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "playwright-ct",
+      "slug": "playwright-ct",
+      "name": "Playwright Test Runner",
+      "website": "https://playwright.dev",
+      "docs": "https://playwright.dev/docs/intro",
+      "github": "https://github.com/microsoft/playwright",
+      "description": "Microsoft's cross-browser test runner supporting Chromium, Firefox, and WebKit. Features auto-waiting, network interception, mobile emulation, component testing, and trace viewer. Superior cross-browser reliability vs Selenium.",
+      "category": "testing",
+      "subcategory": "browser-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "qa",
+        "automation",
+        "javascript",
+        "typescript",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0. All three browser engines included. No usage limits or cloud dependency.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "selenium",
+        "puppeteer",
+        "webdriverio",
+        "cypress"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "k6",
+      "slug": "k6",
+      "name": "k6",
+      "website": "https://k6.io",
+      "docs": "https://k6.io/docs/",
+      "github": "https://github.com/grafana/k6",
+      "description": "Grafana's modern load testing tool built with Go. JavaScript-extensible with CLI execution and Grafana dashboard integration. Supports HTTP/1.1, HTTP/2, WebSocket, gRPC, and browser-level testing. Free tier with cloud execution.",
+      "category": "testing",
+      "subcategory": "load-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "performance",
+        "load-testing",
+        "qa",
+        "go",
+        "javascript",
+        "cli",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Open-source CLI is completely free with unlimited local tests. Cloud free tier: 50 virtual users/month, 500K test runs, 10 cloud runs/month.",
+        "limits": {
+          "requests_per_month": 500000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Cloud Pro from $87/month for 1K VUs and 5M test runs. Enterprise with dedicated infrastructure and support.",
+        "starting_price_usd": 87,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "locust",
+        "artillery",
+        "jmeter",
+        "vegeta"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "locust",
+      "slug": "locust",
+      "name": "Locust",
+      "website": "https://locust.io",
+      "docs": "https://docs.locust.io",
+      "github": "https://github.com/locustio/locust",
+      "description": "Python-based load testing tool with distributed architecture. Define user behavior in regular Python code with a web-based real-time UI. Swarm your system with millions of simultaneous users from multiple worker machines.",
+      "category": "testing",
+      "subcategory": "load-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "performance",
+        "load-testing",
+        "python",
+        "cli",
+        "web-ui",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Distributed mode with unlimited users. Web UI for real-time test monitoring.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Locust Cloud managed service available. Self-hosted version remains fully free and open source.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "k6",
+        "jmeter",
+        "artillery",
+        "gatling"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "jmeter",
+      "slug": "jmeter",
+      "name": "Apache JMeter",
+      "website": "https://jmeter.apache.org",
+      "docs": "https://jmeter.apache.org/usermanual/",
+      "github": "https://github.com/apache/jmeter",
+      "description": "Full-featured Java-based load testing tool by Apache. Tests HTTP, JDBC, FTP, SOAP, JMS, LDAP, and more. GUI test planner with CLI execution for distributed load generation. Extensive plugin ecosystem.",
+      "category": "testing",
+      "subcategory": "load-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "performance",
+        "load-testing",
+        "java",
+        "cli",
+        "gui",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free under Apache 2.0 license. GUI-based test creation with CLI for distributed execution.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source. Cloud JMeter services offered by third-party providers.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "k6",
+        "locust",
+        "gatling",
+        "artillery"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "gatling",
+      "slug": "gatling",
+      "name": "Gatling",
+      "website": "https://gatling.io",
+      "docs": "https://gatling.io/docs/",
+      "github": "https://github.com/gatling/gatling",
+      "description": "High-performance load testing tool for HTTP, JMS, MQTT, and WebSocket. Scala/Java DSL for test scenarios with real-time HTML dashboards. Supports 100K+ concurrent users from a single machine with Akka actors.",
+      "category": "testing",
+      "subcategory": "load-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "performance",
+        "load-testing",
+        "scala",
+        "java",
+        "cli",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Open-source OSS version is completely free with unlimited users Cli-based. Gatling Enterprise free tier: 200 users/month.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Gatling Enterprise from $499/month for 5K users. Enterprise with dedicated infrastructure and SLAs.",
+        "starting_price_usd": 499,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "k6",
+        "locust",
+        "jmeter",
+        "artillery"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "artillery",
+      "slug": "artillery",
+      "name": "Artillery",
+      "website": "https://artillery.io",
+      "docs": "https://artillery.io/docs",
+      "github": "https://github.com/artilleryio/artillery",
+      "description": "Modern cloud-scale load testing tool with JavaScript/TypeScript DSL. Tests HTTP, WebSocket, Socket.io, gRPC, and GraphQL services. Features real-time reporting, distributed execution, and CI/CD integration.",
+      "category": "testing",
+      "subcategory": "load-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "performance",
+        "load-testing",
+        "javascript",
+        "typescript",
+        "cli",
+        "nodejs",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Open-source CLI is free with unlimited tests. Artillery Cloud free tier: 10 tests/month, 5 min/test duration, 1 region.",
+        "limits": {
+          "requests_per_month": 10,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Cloud plans from $199/month for 100 tests and 30-min duration. Enterprise with custom pricing.",
+        "starting_price_usd": 199,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "k6",
+        "locust",
+        "jmeter",
+        "gatling"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "vegeta",
+      "slug": "vegeta",
+      "name": "Vegeta",
+      "website": "https://github.com/tsenart/vegeta",
+      "docs": "https://github.com/tsenart/vegeta#usage",
+      "github": "https://github.com/tsenart/vegeta",
+      "description": "Go-based HTTP load testing tool and library. Constant attack rate with flexible target definition and multiple output formats (text, JSON, Plot, Histogram). Simple CLI with Go library for programmatic use.",
+      "category": "testing",
+      "subcategory": "load-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "performance",
+        "load-testing",
+        "go",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. CLI tool with text, JSON, and plot output formats.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "k6",
+        "hey",
+        "wrk",
+        "bombardier"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "hey",
+      "slug": "hey",
+      "name": "Hey",
+      "website": "https://github.com/rakyll/hey",
+      "docs": "https://github.com/rakyll/hey#usage",
+      "github": "https://github.com/rakyll/hey",
+      "description": "Go-based HTTP load generator similar to ApacheBench. Sends configurable numbers of requests with concurrency levels. Provides latency distribution, request statistics, and binary output. Single binary deployment.",
+      "category": "testing",
+      "subcategory": "load-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "performance",
+        "load-testing",
+        "go",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0. Single binary with no dependencies. Supports custom headers and HTTP/2.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "vegeta",
+        "wrk",
+        "bombardier",
+        "siege"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "wrk",
+      "slug": "wrk",
+      "name": "wrk",
+      "website": "https://github.com/wg/wrk",
+      "docs": "https://github.com/wg/wrk#wrk",
+      "github": "https://github.com/wg/wrk",
+      "description": "Modern HTTP benchmarking tool with multi-threaded design. Uses LuaJIT scripting for custom request generation and response handling. Generates significant load from a single multi-core machine with event-driven architecture.",
+      "category": "testing",
+      "subcategory": "load-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "performance",
+        "load-testing",
+        "c",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under modified MIT license. Multi-threaded with Lua scripting for custom benchmarks.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "vegeta",
+        "hey",
+        "bombardier",
+        "siege"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "siege",
+      "slug": "siege",
+      "name": "Siege",
+      "website": "https://www.joedog.org/siege-home/",
+      "docs": "https://www.joedog.org/siege-manual/",
+      "github": "https://github.com/JoeDog/siege",
+      "description": "HTTP/HTTPS load testing and benchmarking utility with configurable concurrency. Supports basic authentication, cookies, random URL selection from a file, and multi-protocol testing. Simulates multiple users hitting a web server.",
+      "category": "testing",
+      "subcategory": "load-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "performance",
+        "load-testing",
+        "c",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under GPLv3. Supports HTTP/HTTPS, FTP, and configurable concurrent user simulation.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "hey",
+        "vegeta",
+        "wrk",
+        "jmeter"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "autocannon",
+      "slug": "autocannon",
+      "name": "Autocannon",
+      "website": "https://github.com/mcollina/autocannon",
+      "docs": "https://github.com/mcollina/autocannon#autocannon",
+      "github": "https://github.com/mcollina/autocannon",
+      "description": "Fast HTTP/1.1 benchmarking tool written in Node.js. Driven by a command-line interface with real-time results display. Supports pipelining, warm-up runs, latency tracking, and histogram output.",
+      "category": "testing",
+      "subcategory": "load-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "performance",
+        "load-testing",
+        "javascript",
+        "nodejs",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. npm-installable with real-time terminal output.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "k6",
+        "vegeta",
+        "hey",
+        "wrk"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "bombardier",
+      "slug": "bombardier",
+      "name": "Bombardier",
+      "website": "https://github.com/codesenberg/bombardier",
+      "docs": "https://github.com/codesenberg/bombardier#bombardier",
+      "github": "https://github.com/codesenberg/bombardier",
+      "description": "Cross-platform HTTP benchmarking tool written in Go. Supports HTTP/2, connection reuse, rate limiting, and multiple output formats. Single binary distribution with minimal configuration needed.",
+      "category": "testing",
+      "subcategory": "load-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "performance",
+        "load-testing",
+        "go",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Single binary with HTTP/2 and rate limiting support.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "vegeta",
+        "hey",
+        "wrk",
+        "autocannon"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "drill",
+      "slug": "drill",
+      "name": "Drill",
+      "website": "https://github.com/fcsonline/drill",
+      "docs": "https://github.com/fcsonline/drill#drill",
+      "github": "https://github.com/fcsonline/drill",
+      "description": "Rust-based HTTP load testing tool with YAML-based test configuration. Features ramp-up patterns, custom metrics, dynamic parameters from CSV, and real-time terminal reports. Focus on simplicity and performance.",
+      "category": "testing",
+      "subcategory": "load-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "performance",
+        "load-testing",
+        "rust",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0. YAML-based scenarios with ramp-up and custom assertions.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 2,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "k6",
+        "vegeta",
+        "bombardier",
+        "hey"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "percy",
+      "slug": "percy",
+      "name": "Percy",
+      "website": "https://percy.io",
+      "docs": "https://docs.percy.io",
+      "github": "https://github.com/percy",
+      "description": "Visual regression testing platform by BrowserStack. Integrates with CI/CD to capture screenshots, compare with baselines, and highlight pixel-level diffs. Supports web, mobile, and component-level visual testing.",
+      "category": "testing",
+      "subcategory": "visual-regression",
+      "tags": [
+        "saas",
+        "testing",
+        "qa",
+        "visual-testing",
+        "ci-cd",
+        "automation",
+        "javascript",
+        "python",
+        "ruby",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 1 user, unlimited projects, 5,000 snapshots/month. Includes parallel builds and GitHub/GitLab CI integration.",
+        "limits": {
+          "requests_per_month": 5000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1
+        }
+      },
+      "paid_plan": {
+        "summary": "Team from $49/month for 5 users and 10K snapshots. Enterprise with SAML SSO, audit logs, and dedicated support.",
+        "starting_price_usd": 49,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "chromatic",
+        "applitools",
+        "backstopjs",
+        "loki"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "chromatic",
+      "slug": "chromatic",
+      "name": "Chromatic",
+      "website": "https://www.chromatic.com",
+      "docs": "https://www.chromatic.com/docs",
+      "github": "https://github.com/chromaui/chromatic-cli",
+      "description": "Visual regression testing for Storybook components. Automatically captures screenshots of every Storybook story and compares against baselines. Integrates with CI/CD and provides UI review workflows for teams.",
+      "category": "testing",
+      "subcategory": "visual-regression",
+      "tags": [
+        "saas",
+        "testing",
+        "qa",
+        "visual-testing",
+        "automation",
+        "javascript",
+        "react",
+        "vue",
+        "storybook",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 5,000 snapshots/month, unlimited projects, 1 user. Includes Storybook integration and CI pipeline support.",
+        "limits": {
+          "requests_per_month": 5000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1
+        }
+      },
+      "paid_plan": {
+        "summary": "Team from $149/month for 3 users and 50K snapshots. Enterprise with SSO, dedicated support, and advanced features.",
+        "starting_price_usd": 149,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "percy",
+        "applitools",
+        "backstopjs"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "applitools",
+      "slug": "applitools",
+      "name": "Applitools Eyes",
+      "website": "https://applitools.com",
+      "docs": "https://applitools.com/docs",
+      "github": "https://github.com/applitools",
+      "description": "AI-powered visual testing and monitoring platform. Uses Ultrafast Grid for cross-browser testing with visual AI that mimics human eyes. Detects layout shifts, missing elements, and visual regressions across 40+ browsers.",
+      "category": "testing",
+      "subcategory": "visual-regression",
+      "tags": [
+        "saas",
+        "testing",
+        "qa",
+        "visual-testing",
+        "automation",
+        "ai",
+        "javascript",
+        "python",
+        "java",
+        "dotnet",
+        "selenium",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 1,000 test checkpoints/month, unlimited users, community support. Cross-browser testing with Ultrafast Grid.",
+        "limits": {
+          "requests_per_month": 1000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Plans from $99/month for 5K checkpoints. Enterprise with AI analytics, SLA, and dedicated support.",
+        "starting_price_usd": 99,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "percy",
+        "chromatic",
+        "screener"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "screener",
+      "slug": "screener",
+      "name": "Screener.io",
+      "website": "https://screener.io",
+      "docs": "https://screener.io/docs",
+      "github": null,
+      "description": "Visual regression testing platform by SmartBear for component and full-page testing. Runs in browsers with pixel-level comparison, responsive testing, and cross-browser visual validation. Integrates with Selenium and Storybook.",
+      "category": "testing",
+      "subcategory": "visual-regression",
+      "tags": [
+        "saas",
+        "testing",
+        "qa",
+        "visual-testing",
+        "automation",
+        "selenium",
+        "storybook",
+        "javascript",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 1 project, 1 user, 1,000 screenshots/month. Cross-browser and responsive visual testing included.",
+        "limits": {
+          "requests_per_month": 1000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1
+        }
+      },
+      "paid_plan": {
+        "summary": "Team from $89/month for 5 users and 5K screenshots. Enterprise with SSO, RBAC, and premium support.",
+        "starting_price_usd": 89,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "percy",
+        "chromatic",
+        "applitools"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "backstopjs",
+      "slug": "backstopjs",
+      "name": "BackstopJS",
+      "website": "https://garris.github.io/BackstopJS/",
+      "docs": "https://github.com/garris/BackstopJS#backstopjs",
+      "github": "https://github.com/garris/BackstopJS",
+      "description": "Open-source visual regression testing tool using Puppeteer and Chrome Headless. Captures DOM screenshots, compares with pixelmatch, and generates HTML reports. CLI-driven with CI/CD-friendly JSON configuration.",
+      "category": "testing",
+      "subcategory": "visual-regression",
+      "tags": [
+        "open-source",
+        "testing",
+        "qa",
+        "visual-testing",
+        "automation",
+        "javascript",
+        "cli",
+        "puppeteer",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Unlimited tests with local or CI execution. HTML reports with side-by-side diff view.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 3,
+        "community": 3,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "loki",
+        "pixelmatch",
+        "resemblejs",
+        "percy"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "loki",
+      "slug": "loki",
+      "name": "Loki",
+      "website": "https://loki.js.org",
+      "docs": "https://loki.js.org/getting-started.html",
+      "github": "https://github.com/oblador/loki",
+      "description": "Open-source visual regression testing for Storybook components. Uses Dockerized Chrome/Firefox for consistent rendering. Supports CI integration with Docker, configurable thresholds, and parallel test execution.",
+      "category": "testing",
+      "subcategory": "visual-regression",
+      "tags": [
+        "open-source",
+        "testing",
+        "qa",
+        "visual-testing",
+        "automation",
+        "javascript",
+        "react",
+        "storybook",
+        "docker",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Docker-based for consistent browser rendering across environments.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "backstopjs",
+        "pixelmatch",
+        "resemblejs",
+        "chromatic"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "pixelmatch",
+      "slug": "pixelmatch",
+      "name": "Pixelmatch",
+      "website": "https://github.com/mapbox/pixelmatch",
+      "docs": "https://github.com/mapbox/pixelmatch#pixelmatch",
+      "github": "https://github.com/mapbox/pixelmatch",
+      "description": "Fast, accurate pixel-level image comparison library by Mapbox. Compares images and outputs a diff PNG with anti-aliased pixel detection. Used by BackstopJS and other visual testing tools as the comparison engine.",
+      "category": "testing",
+      "subcategory": "visual-regression",
+      "tags": [
+        "open-source",
+        "testing",
+        "qa",
+        "visual-testing",
+        "javascript",
+        "nodejs",
+        "library",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under ISC license. Library-only with no CLI or GUI. Designed for integration into testing tools.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "resemblejs",
+        "looks-same",
+        "pixelmatch"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "resemblejs",
+      "slug": "resemblejs",
+      "name": "Resemble.js",
+      "website": "https://github.com/rsmbl/Resemble.js",
+      "docs": "https://github.com/rsmbl/Resemble.js#resemblejs",
+      "github": "https://github.com/rsmbl/Resemble.js",
+      "description": "Image comparison and visual regression library for Node.js and browsers. Analyzes and compares images with tolerance settings, ignoring anti-aliasing. Provides color mismatch analysis and bounding box detection.",
+      "category": "testing",
+      "subcategory": "visual-regression",
+      "tags": [
+        "open-source",
+        "testing",
+        "qa",
+        "visual-testing",
+        "javascript",
+        "nodejs",
+        "library",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Works in browsers and Node.js with canvas-based comparison.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "pixelmatch",
+        "looks-same",
+        "pixelmatch"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "looks-same",
+      "slug": "looks-same",
+      "name": "Looks Same",
+      "website": "https://github.com/gemini-testing/looks-same",
+      "docs": "https://github.com/gemini-testing/looks-same#looks-same",
+      "github": "https://github.com/gemini-testing/looks-same",
+      "description": "Node.js library for comparing images with smart anti-aliasing detection. Creates diff images with highlighted color mismatches. Used in Gemini and Hermione visual testing tools by Yandex. Supports ignore regions.",
+      "category": "testing",
+      "subcategory": "visual-regression",
+      "tags": [
+        "open-source",
+        "testing",
+        "qa",
+        "visual-testing",
+        "javascript",
+        "nodejs",
+        "library",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Library for integration into custom visual testing solutions.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "pixelmatch",
+        "resemblejs",
+        "pixelmatch"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "visual-regression-tracker",
+      "slug": "visual-regression-tracker",
+      "name": "Visual Regression Tracker",
+      "website": "https://visual-regression-tracker.com",
+      "docs": "https://docs.visual-regression-tracker.com",
+      "github": "https://github.com/Visual-Regression-Tracker/Visual-Regression-Tracker",
+      "description": "Open-source visual regression testing tool with a web dashboard. Self-hosted backend with support for numerous integrations (Cypress, Playwright, WebDriverIO, Puppeteer). Tracks image diffs with approval workflow.",
+      "category": "testing",
+      "subcategory": "visual-regression",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "testing",
+        "qa",
+        "visual-testing",
+        "automation",
+        "javascript",
+        "typescript",
+        "docker",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Self-hosted with unlimited screenshots, users, and projects.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "backstopjs",
+        "loki",
+        "percy",
+        "chromatic"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "argos-ci",
+      "slug": "argos-ci",
+      "name": "Argos CI",
+      "website": "https://argos-ci.com",
+      "docs": "https://argos-ci.com/docs",
+      "github": "https://github.com/argos-ci/argos",
+      "description": "Open-source visual regression testing service for developers. Screenshots are compared pixel-by-pixel with AI-powered diff detection. Integrates with Playwright, Cypress, Puppeteer, and Storybook. Free for open source.",
+      "category": "testing",
+      "subcategory": "visual-regression",
+      "tags": [
+        "saas",
+        "open-source",
+        "testing",
+        "qa",
+        "visual-testing",
+        "automation",
+        "javascript",
+        "storybook",
+        "ci-cd",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: unlimited screenshots for open source projects. 1,000 screenshots/month for private repos. Community support.",
+        "limits": {
+          "requests_per_month": 1000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro from $79/month for 10K screenshots. Enterprise with SSO, audit logs, and dedicated support.",
+        "starting_price_usd": 79,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "percy",
+        "chromatic",
+        "applitools",
+        "backstopjs"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "happo",
+      "slug": "happo",
+      "name": "Happo",
+      "website": "https://happo.io",
+      "docs": "https://docs.happo.io",
+      "github": "https://github.com/happo",
+      "description": "Visual regression testing service for cross-browser screenshots. Renders components across Chrome, Firefox, Safari, and Edge. Integrates with Storybook, Playwright, and Cypress. Free tier for small teams.",
+      "category": "testing",
+      "subcategory": "visual-regression",
+      "tags": [
+        "saas",
+        "testing",
+        "qa",
+        "visual-testing",
+        "automation",
+        "javascript",
+        "react",
+        "storybook",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 1 project, 500 screenshots/month, 1 user, community support. Cross-browser rendering included.",
+        "limits": {
+          "requests_per_month": 500,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1
+        }
+      },
+      "paid_plan": {
+        "summary": "Team from $59/month for 3 projects, 3K screenshots, unlimited users. Enterprise with SSO and custom pricing.",
+        "starting_price_usd": 59,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "percy",
+        "chromatic",
+        "argos-ci",
+        "applitools"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "hoppscotch",
+      "slug": "hoppscotch",
+      "name": "Hoppscotch",
+      "website": "https://hoppscotch.io",
+      "docs": "https://docs.hoppscotch.io",
+      "github": "https://github.com/hoppscotch/hoppscotch",
+      "description": "Open-source API development platform running in the browser. Supports REST, GraphQL, WebSocket, SSE, Socket.io, and MQTT. Features collections, environments, pre-request scripts, and team collaboration. PWA with offline support.",
+      "category": "testing",
+      "subcategory": "api-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "api",
+        "graphql",
+        "rest",
+        "web-ui",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free web app with all features: unlimited collections, environments, history, and API methods. Self-hosted version is also free.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Hoppscotch Cloud Pro from $9/month for team features, unlimited API calls, and priority support.",
+        "starting_price_usd": 9,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "postman",
+        "bruno",
+        "insomnia",
+        "thunder-client"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "thunder-client",
+      "slug": "thunder-client",
+      "name": "Thunder Client",
+      "website": "https://www.thunderclient.com",
+      "docs": "https://docs.thunderclient.com",
+      "github": null,
+      "description": "Lightweight REST API client for VS Code with a clean UI. Supports collections, environments, graphql, scripting, and code generation. Fully offline with no login required. Built-in testing assertions and CI support.",
+      "category": "testing",
+      "subcategory": "api-testing",
+      "tags": [
+        "testing",
+        "api",
+        "rest",
+        "graphql",
+        "cli",
+        "ide",
+        "javascript",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free version for VS Code: unlimited requests, collections, environments, GraphQL, and basic scriptless assertions.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Thunder Client Pro from $49/year for scripting, CI integration, and team features.",
+        "starting_price_usd": 49,
+        "billing_model": "annual"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "postman",
+        "insomnia",
+        "hoppscotch",
+        "bruno"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "rest-client",
+      "slug": "rest-client",
+      "name": "REST Client",
+      "website": "https://github.com/Huachao/vscode-restclient",
+      "docs": "https://github.com/Huachao/vscode-restclient#vs-code-rest-client",
+      "github": "https://github.com/Huachao/vscode-restclient",
+      "description": "VS Code extension for sending HTTP requests directly from editor files. Supports cURL format, custom headers, environment variables, and response preview in multiple formats. Lightweight with no external dependencies.",
+      "category": "testing",
+      "subcategory": "api-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "api",
+        "rest",
+        "graphql",
+        "cli",
+        "ide",
+        "javascript",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source VS Code extension. Send HTTP requests from .http files with response preview.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "thunder-client",
+        "postman",
+        "insomnia",
+        "hoppscotch"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "httpie",
+      "slug": "httpie",
+      "name": "HTTPie",
+      "website": "https://httpie.io",
+      "docs": "https://httpie.io/docs",
+      "github": "https://github.com/httpie/cli",
+      "description": "User-friendly CLI HTTP client with intuitive syntax and colored output. Supports JSON, forms, file uploads, authentication, and custom headers. Python-based with HTTPS, proxies, and persistent sessions.",
+      "category": "testing",
+      "subcategory": "api-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "api",
+        "rest",
+        "cli",
+        "python",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "CLI client is completely free open-source under BSD license. Desktop app free with basic features.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "HTTPie Desktop Pro from $9.99/month for team collaboration, environments, and advanced features.",
+        "starting_price_usd": 10,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "curl",
+        "postman",
+        "insomnia",
+        "hoppscotch"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "curl",
+      "slug": "curl",
+      "name": "curl",
+      "website": "https://curl.se",
+      "docs": "https://curl.se/docs/",
+      "github": "https://github.com/curl/curl",
+      "description": "Command-line tool and library for transferring data with URL syntax. Supports HTTP, HTTPS, FTP, SFTP, SCP, LDAP, SMTP, and 20+ protocols. The universal tool for API testing available on virtually every platform.",
+      "category": "testing",
+      "subcategory": "api-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "api",
+        "rest",
+        "cli",
+        "c",
+        "library",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. Pre-installed on most systems. Supports every HTTP method and authentication type.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "httpie",
+        "wget",
+        "postman",
+        "rest-client"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "newman",
+      "slug": "newman",
+      "name": "Newman",
+      "website": "https://github.com/postmanlabs/newman",
+      "docs": "https://learning.postman.com/docs/running-collections/using-newman-cli/",
+      "github": "https://github.com/postmanlabs/newman",
+      "description": "Postman's CLI collection runner for running and testing API collections in CI/CD. Supports data-driven testing, custom reporters (HTML, JSON, JUnit XML), and dynamic variables. Run Postman collections programmatically.",
+      "category": "testing",
+      "subcategory": "api-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "api",
+        "rest",
+        "cli",
+        "javascript",
+        "nodejs",
+        "ci-cd",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0. CLI tool with reporters for CI integration. Unlimited API test runs.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "postman",
+        "bruno",
+        "hoppscotch"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "supertest",
+      "slug": "supertest",
+      "name": "Supertest",
+      "website": "https://github.com/ladjs/supertest",
+      "docs": "https://github.com/ladjs/supertest#readme",
+      "github": "https://github.com/ladjs/supertest",
+      "description": "Node.js library for testing HTTP servers. Provides a high-level abstraction for testing REST APIs with fluent assertions. Integrates with Mocha, Jest, Vitest, and other test frameworks.",
+      "category": "testing",
+      "subcategory": "api-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "api",
+        "rest",
+        "javascript",
+        "nodejs",
+        "library",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. npm library with no usage limits or cloud dependency.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "postman",
+        "newman",
+        "httpie"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "pact",
+      "slug": "pact",
+      "name": "Pact",
+      "website": "https://pact.io",
+      "docs": "https://docs.pact.io",
+      "github": "https://github.com/pact-foundation/pact-js",
+      "description": "Consumer-driven contract testing framework for HTTP and message integrations. Ensures API compatibility between services without end-to-end tests. Supports JavaScript, Java, Python, Go, Ruby, .NET, and more.",
+      "category": "testing",
+      "subcategory": "api-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "api",
+        "contract-testing",
+        "cli",
+        "javascript",
+        "java",
+        "python",
+        "go",
+        "ruby",
+        "dotnet",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source library under MIT license. Self-hosted Pact Broker or use PactFlow free tier: 1 user, 5 contracts.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "PactFlow from $187/month for team features. Enterprise with SSO, RBAC, and dedicated support.",
+        "starting_price_usd": 187,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 2,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "postman",
+        "bruno",
+        "karate"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "karate",
+      "slug": "karate",
+      "name": "Karate",
+      "website": "https://karatelabs.github.io/karate/",
+      "docs": "https://github.com/karatelabs/karate#karate",
+      "github": "https://github.com/karatelabs/karate",
+      "description": "Open-source API test automation framework combining API testing, performance testing, and UI testing. Uses Gherkin-like syntax with no Java compilation needed. Built-in mocking, data-driven testing, and HTML reports.",
+      "category": "testing",
+      "subcategory": "api-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "api",
+        "rest",
+        "graphql",
+        "java",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under MIT license. All features included with CLI and CI/CD integration.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "rest-assured",
+        "postman",
+        "pact",
+        "soapui"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "rest-assured",
+      "slug": "rest-assured",
+      "name": "REST Assured",
+      "website": "https://rest-assured.io",
+      "docs": "https://github.com/rest-assured/rest-assured/wiki",
+      "github": "https://github.com/rest-assured/rest-assured",
+      "description": "Java DSL for testing REST APIs with BDD-like syntax. Supports JSON/XML validation, authentication, OAuth 2.0, and spec reusability. Integrates with JUnit, TestNG, and Spring. The de facto Java API testing library.",
+      "category": "testing",
+      "subcategory": "api-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "api",
+        "rest",
+        "java",
+        "library",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source under Apache 2.0. Java library with no usage limits or cloud dependency.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "karate",
+        "supertest",
+        "postman",
+        "soapui"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "soapui",
+      "slug": "soapui",
+      "name": "SoapUI",
+      "website": "https://www.soapui.org",
+      "docs": "https://www.soapui.org/docs/",
+      "github": "https://github.com/SmartBear/soapui",
+      "description": "Open-source API testing tool for SOAP and REST. Features functional testing, load testing, security scanning, and mock services. GUI-based test creation with Groovy scripting for advanced scenarios.",
+      "category": "testing",
+      "subcategory": "api-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "api",
+        "rest",
+        "soap",
+        "java",
+        "gui",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "SoapUI Open Source is completely free for REST and SOAP API testing. GUI and CLI with all functional testing features.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "SoapUI Pro from $549/year for advanced features like JSON/XML assertions, form editor, and SQL database support.",
+        "starting_price_usd": 549,
+        "billing_model": "annual"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "postman",
+        "karate",
+        "rest-assured",
+        "insomnia"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "swagger-inspector",
+      "slug": "swagger-inspector",
+      "name": "Swagger Inspector",
+      "website": "https://inspector.swagger.io",
+      "docs": "https://swagger.io/docs/tools/swagger-inspector/",
+      "github": null,
+      "description": "Free web-based API testing and validation tool by SmartBear. Test and validate REST APIs with OpenAPI/Swagger specification generation. Easy exploration of endpoints with authentication support and history.",
+      "category": "testing",
+      "subcategory": "api-testing",
+      "tags": [
+        "saas",
+        "testing",
+        "api",
+        "rest",
+        "web-ui",
+        "swagger",
+        "openapi",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free web-based tool. No account required for basic use. Generate OpenAPI specs from any API endpoint.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free web tool",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "postman",
+        "hoppscotch",
+        "insomnia",
+        "httpie"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "mockoon",
+      "slug": "mockoon",
+      "name": "Mockoon",
+      "website": "https://mockoon.com",
+      "docs": "https://mockoon.com/docs/",
+      "github": "https://github.com/mockoon/mockoon",
+      "description": "Open-source API mocking tool for designing and testing APIs locally. Desktop app with instant mock servers, route configuration, response templating, and proxy mode. No cloud dependency with portable configuration files.",
+      "category": "testing",
+      "subcategory": "api-testing",
+      "tags": [
+        "open-source",
+        "testing",
+        "api",
+        "rest",
+        "mock-server",
+        "desktop",
+        "cli",
+        "docker",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source desktop app under MIT license. Unlimited mock routes, response templates, and local mock servers.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "postman",
+        "insomnia",
+        "hoppscotch",
+        "bruno"
       ],
       "last_verified": "2026-05-31"
     }
