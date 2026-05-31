@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "last_updated": "2026-05-31",
-    "total_resources": 302,
+    "total_resources": 357,
     "description": "Curated free & freemium developer resources"
   },
   "resources": [
@@ -21687,6 +21687,4136 @@
         "embedchain",
         "haystack",
         "unstructured"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "keycloak",
+      "slug": "keycloak",
+      "name": "Keycloak",
+      "website": "https://www.keycloak.org",
+      "docs": "https://www.keycloak.org/documentation",
+      "github": "https://github.com/keycloak/keycloak",
+      "description": "Open-source identity and access management by Red Hat. Supports SSO, OAuth 2.0, OIDC, SAML, LDAP, user federation, social login, MFA, and fine-grained authorization policies. Production-ready with clustering support.",
+      "category": "auth",
+      "subcategory": "sso",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "auth",
+        "sso",
+        "authentication",
+        "security",
+        "oauth",
+        "saml",
+        "docker",
+        "kubernetes",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free under Apache 2.0. Self-hosted with no usage limits. Unlimited users, realms, and identity providers.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Red Hat build of Keycloak available with enterprise support subscription",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "zitadel",
+        "authentik",
+        "authelia",
+        "dex"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "zitadel",
+      "slug": "zitadel",
+      "name": "Zitadel",
+      "website": "https://zitadel.com",
+      "docs": "https://zitadel.com/docs",
+      "github": "https://github.com/zitadel/zitadel",
+      "description": "Cloud-native identity and access management platform built for Kubernetes. Supports SSO, OIDC, OAuth 2.0, SAML, LDAP, multi-tenancy, and audit logging. Offers managed cloud and self-hosted open-source versions.",
+      "category": "auth",
+      "subcategory": "sso",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "saas",
+        "auth",
+        "sso",
+        "authentication",
+        "security",
+        "oauth",
+        "saml",
+        "kubernetes",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier includes 5,000 monthly active users. Self-hosted version is free with unlimited users.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 5000
+        }
+      },
+      "paid_plan": {
+        "summary": "Cloud Enterprise: $149/month for 25K MAU. Dedicated and self-hosted enterprise plans available.",
+        "starting_price_usd": 149,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "keycloak",
+        "authentik",
+        "ory",
+        "dex"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "workos",
+      "slug": "workos",
+      "name": "WorkOS",
+      "website": "https://workos.com",
+      "docs": "https://workos.com/docs",
+      "github": "https://github.com/workos",
+      "description": "Enterprise SSO, directory sync, and SCIM API platform. Provides a unified interface for Okta, Azure AD, OneLogin, Google Workspace, and 400+ identity providers. Free tier for development and small deployments.",
+      "category": "auth",
+      "subcategory": "sso",
+      "tags": [
+        "saas",
+        "auth",
+        "sso",
+        "api",
+        "sdk",
+        "authentication",
+        "security",
+        "freemium",
+        "no-card",
+        "generous-free-tier",
+        "oauth",
+        "saml"
+      ],
+      "free_tier": {
+        "summary": "Free Starter plan: unlimited developer accounts, 1 production connection, community support. All features included for development.",
+        "limits": {
+          "requests_per_month": 10000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Scale plan at $99/month per connection. Enterprise plan with dedicated support and SLA available.",
+        "starting_price_usd": 99,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "keycloak",
+        "zitadel",
+        "fusionauth",
+        "stytch"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "ory",
+      "slug": "ory",
+      "name": "Ory",
+      "website": "https://www.ory.sh",
+      "docs": "https://www.ory.sh/docs",
+      "github": "https://github.com/ory",
+      "description": "Open-source identity infrastructure suite. Includes Ory Hydra (OAuth 2.0/OIDC server), Ory Kratos (identity management), Ory Keto (permissions), and Ory Oathkeeper (reverse proxy). Cloud and self-hosted options.",
+      "category": "auth",
+      "subcategory": "sso",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "saas",
+        "auth",
+        "sso",
+        "authentication",
+        "security",
+        "oauth",
+        "saml",
+        "api",
+        "docker",
+        "freemium",
+        "forever-free"
+      ],
+      "free_tier": {
+        "summary": "Free managed tier: 10,000 sessions/month, community support. Self-hosted Ory OSS is completely free under Apache 2.0.",
+        "limits": {
+          "requests_per_month": 10000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Ory Cloud: $25/month for 100K sessions. Enterprise: custom pricing with SLA and dedicated support.",
+        "starting_price_usd": 25,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "keycloak",
+        "zitadel",
+        "authentik",
+        "dex"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "authentik",
+      "slug": "authentik",
+      "name": "Authentik",
+      "website": "https://goauthentik.io",
+      "docs": "https://goauthentik.io/docs",
+      "github": "https://github.com/goauthentik/authentik",
+      "description": "Open-source identity provider with SSO, MFA, LDAP, and proxy integration. Features a no-code policy engine, application library, and flexible providers including OAuth 2.0, OIDC, SAML, and LDAP outposts.",
+      "category": "auth",
+      "subcategory": "sso",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "auth",
+        "sso",
+        "authentication",
+        "security",
+        "oauth",
+        "saml",
+        "docker",
+        "no-code",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free self-hosted version with all features. No user limits, no feature restrictions. Community support via Discord and GitHub.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version for self-hosted. Cloud managed offering planned.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "authelia",
+        "keycloak",
+        "zitadel",
+        "dex"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "authelia",
+      "slug": "authelia",
+      "name": "Authelia",
+      "website": "https://www.authelia.com",
+      "docs": "https://www.authelia.com/docs",
+      "github": "https://github.com/authelia/authelia",
+      "description": "Open-source authentication and authorization server for self-hosted environments. Acts as a companion to reverse proxies like nginx, Traefik, and Caddy. Supports 2FA, LDAP, OIDC, and access control rules.",
+      "category": "auth",
+      "subcategory": "sso",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "auth",
+        "sso",
+        "authentication",
+        "security",
+        "oauth",
+        "docker",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free under Apache 2.0 license. Self-hosted with unlimited users and authentication policies.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "authentik",
+        "keycloak",
+        "dex"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "dex",
+      "slug": "dex",
+      "name": "Dex",
+      "website": "https://dexidp.io",
+      "docs": "https://dexidp.io/docs",
+      "github": "https://github.com/dexidp/dex",
+      "description": "Open-source OIDC identity provider with multiple authentication backends. Originally by CoreOS, Dex connects to LDAP, SAML, GitHub, Google, Microsoft, and other identity providers. Widely used in Kubernetes clusters.",
+      "category": "auth",
+      "subcategory": "sso",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "auth",
+        "sso",
+        "authentication",
+        "security",
+        "oauth",
+        "saml",
+        "kubernetes",
+        "docker",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free under Apache 2.0 license. Self-hosted with unlimited users and connectors. No paid tier exists.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "keycloak",
+        "zitadel",
+        "authelia",
+        "ory"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "cloudflare-zero-trust",
+      "slug": "cloudflare-zero-trust",
+      "name": "Cloudflare Zero Trust",
+      "website": "https://www.cloudflare.com/zero-trust/",
+      "docs": "https://developers.cloudflare.com/cloudflare-one/",
+      "github": "https://github.com/cloudflare",
+      "description": "Cloudflare Zero Trust replaces conventional SSO with identity-aware access control. Supports OIDC, SAML, social login, device posture checks, and integrates with any identity provider. Free tier for up to 50 users.",
+      "category": "auth",
+      "subcategory": "sso",
+      "tags": [
+        "saas",
+        "auth",
+        "sso",
+        "security",
+        "authentication",
+        "oauth",
+        "saml",
+        "social-login",
+        "freemium",
+        "no-card",
+        "multi-region",
+        "cloud"
+      ],
+      "free_tier": {
+        "summary": "Free plan: up to 50 users, unlimited network policies, social SSO, email OTP, and basic device posture checks.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 50
+        }
+      },
+      "paid_plan": {
+        "summary": "Zero Trust plans start at $7/user/month (annual). Includes advanced DLP, CASB, and data protection.",
+        "starting_price_usd": 7,
+        "billing_model": "per-user-monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "keycloak",
+        "authentik",
+        "okta-developer"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "gluu-server",
+      "slug": "gluu-server",
+      "name": "Gluu Server",
+      "website": "https://gluu.org",
+      "docs": "https://gluu.org/docs/gluu-server/",
+      "github": "https://github.com/GluuFederation/gluu-server",
+      "description": "Open-source identity and access management platform. Supports OAuth 2.0, OIDC, SAML 2.0, UMA 2.0, FIDO 2.0, and WebAuthn. Provides certificate authentication, SCIM, and a no-code admin UI for policy configuration.",
+      "category": "auth",
+      "subcategory": "sso",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "auth",
+        "sso",
+        "authentication",
+        "security",
+        "oauth",
+        "saml",
+        "docker",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free CE (Community Edition) version with unlimited users and all standard features. Self-hosted on any Linux server.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Enterprise subscription with support from $15,000/year for production deployments.",
+        "starting_price_usd": 15000,
+        "billing_model": "annual"
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 2,
+        "reliability": 4,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "keycloak",
+        "zitadel",
+        "authentik",
+        "apereo-cas"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "apereo-cas",
+      "slug": "apereo-cas",
+      "name": "Apereo CAS",
+      "website": "https://apereo.github.io/cas/",
+      "docs": "https://apereo.github.io/cas/development/",
+      "github": "https://github.com/apereo/cas",
+      "description": "Enterprise single sign-on platform with 20+ years of history. Supports CAS protocol, SAML, OAuth 2.0, OIDC, and WS-Federation. Features MFA, password management, and delegated authentication to social/corporate identity providers.",
+      "category": "auth",
+      "subcategory": "sso",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "auth",
+        "sso",
+        "authentication",
+        "security",
+        "oauth",
+        "saml",
+        "java",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free under Apache 2.0 license. Self-hosted with unlimited users and protocol support.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Commercial support available through Unicon and other CAS consulting firms.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "keycloak",
+        "gluu-server",
+        "dex"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "okta-developer",
+      "slug": "okta-developer",
+      "name": "Okta Developer",
+      "website": "https://developer.okta.com",
+      "docs": "https://developer.okta.com/docs/",
+      "github": "https://github.com/okta",
+      "description": "Okta free developer tier for building SSO, MFA, and user management into applications. Supports OAuth 2.0, OIDC, SAML, social login, and Lifecycle Management. Includes 25,000 monthly active users in the free tier.",
+      "category": "auth",
+      "subcategory": "sso",
+      "tags": [
+        "saas",
+        "auth",
+        "sso",
+        "authentication",
+        "security",
+        "api",
+        "sdk",
+        "oauth",
+        "saml",
+        "generous-free-tier",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Developer tier: 25,000 MAU, unlimited apps and social providers. Includes MFA, rate limits: 100K API calls/month.",
+        "limits": {
+          "requests_per_month": 100000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 25000
+        }
+      },
+      "paid_plan": {
+        "summary": "Plans start at $2/user/month. Enterprise: custom pricing with advanced security and support.",
+        "starting_price_usd": 2,
+        "billing_model": "per-user-monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "keycloak",
+        "workos",
+        "zitadel",
+        "cloudflare-zero-trust"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "duo-security",
+      "slug": "duo-security",
+      "name": "Duo Security",
+      "website": "https://duo.com",
+      "docs": "https://duo.com/docs",
+      "github": "https://github.com/duosecurity",
+      "description": "Cisco-owned MFA platform providing push notifications, TOTP, hardware tokens, and biometric verification. Free tier supports up to 10 users with core MFA features. Integrates via SSO proxies, RADIUS, and direct SDKs.",
+      "category": "auth",
+      "subcategory": "mfa",
+      "tags": [
+        "saas",
+        "auth",
+        "mfa",
+        "authentication",
+        "security",
+        "sdk",
+        "api",
+        "freemium",
+        "no-card",
+        "multi-region"
+      ],
+      "free_tier": {
+        "summary": "Free plan: up to 10 users, unlimited push and TOTP authentications. Includes Duo Mobile app, device health checks, and self-service enrollment.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 10
+        }
+      },
+      "paid_plan": {
+        "summary": "Duo Advantage from $3/user/month. Includes phone support, SSO connectors, directory sync, and advanced policies.",
+        "starting_price_usd": 3,
+        "billing_model": "per-user-monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "twilio-authy",
+        "google-authenticator",
+        "privacyidea"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "twilio-authy",
+      "slug": "twilio-authy",
+      "name": "Twilio Authy",
+      "website": "https://www.twilio.com/authy",
+      "docs": "https://www.twilio.com/docs/authy",
+      "github": "https://github.com/twilio",
+      "description": "Twilio's 2FA service with push authentication, TOTP, SMS, voice, and hardware token support. Provides SDKs for web and mobile with encrypted backup and multi-device sync. Generous free tier for developers.",
+      "category": "auth",
+      "subcategory": "mfa",
+      "tags": [
+        "saas",
+        "auth",
+        "mfa",
+        "authentication",
+        "security",
+        "api",
+        "sdk",
+        "freemium",
+        "no-card",
+        "javascript",
+        "typescript"
+      ],
+      "free_tier": {
+        "summary": "Free tier: unlimited push authentications, 10 SMS/voice verifications per day. Unlimited applications and users for push 2FA.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Usage-based pricing from $0.045 per verification (SMS), $0.10 per phone call. Enterprise plans available with dedicated support.",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "duo-security",
+        "google-authenticator",
+        "microsoft-authenticator",
+        "freeotp"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "google-authenticator",
+      "slug": "google-authenticator",
+      "name": "Google Authenticator",
+      "website": "https://googleauthenticator.net",
+      "docs": "https://support.google.com/accounts/answer/1066447",
+      "github": null,
+      "description": "Google's free TOTP authenticator app generating time-based one-time passwords for 2FA. Works with any service supporting TOTP standards (RFC 6238). Available on iOS and Android. No internet connection required.",
+      "category": "auth",
+      "subcategory": "mfa",
+      "tags": [
+        "auth",
+        "mfa",
+        "authentication",
+        "security",
+        "forever-free",
+        "no-card",
+        "mobile",
+        "ios",
+        "android"
+      ],
+      "free_tier": {
+        "summary": "Completely free app with unlimited accounts. No ads, no in-app purchases, no data collection. Open standards compliant (TOTP/HOTP).",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; completely free",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "microsoft-authenticator",
+        "freeotp",
+        "aegis-authenticator",
+        "andotp"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "microsoft-authenticator",
+      "slug": "microsoft-authenticator",
+      "name": "Microsoft Authenticator",
+      "website": "https://www.microsoft.com/en-us/security/mobile-authenticator-app",
+      "docs": "https://docs.microsoft.com/en-us/azure/active-directory/user-help/user-help-auth-app-overview",
+      "github": null,
+      "description": "Microsoft's free authenticator app supporting TOTP, push notifications, and passwordless phone sign-in. Works with Microsoft accounts, Azure AD, and any TOTP-compatible service. Available on iOS and Android.",
+      "category": "auth",
+      "subcategory": "mfa",
+      "tags": [
+        "auth",
+        "mfa",
+        "authentication",
+        "security",
+        "forever-free",
+        "no-card",
+        "mobile",
+        "ios",
+        "android"
+      ],
+      "free_tier": {
+        "summary": "Completely free app with unlimited accounts. Supports TOTP codes, push approval, and passwordless authentication. No usage limits.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; completely free",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "google-authenticator",
+        "freeotp",
+        "aegis-authenticator"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "freeotp",
+      "slug": "freeotp",
+      "name": "FreeOTP",
+      "website": "https://freeotp.github.io",
+      "docs": "https://freeotp.github.io/documentation.html",
+      "github": "https://github.com/freeotp",
+      "description": "Open-source TOTP and HOTP authenticator app by Red Hat. Supports time-based and counter-based one-time passwords with QR code scanning. No network permissions required. Lightweight, focused, and privacy-respecting.",
+      "category": "auth",
+      "subcategory": "mfa",
+      "tags": [
+        "open-source",
+        "auth",
+        "mfa",
+        "authentication",
+        "security",
+        "forever-free",
+        "no-card",
+        "mobile",
+        "ios",
+        "android"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source app. No ads, no tracking, no in-app purchases. All TOTP/HOTP features included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "google-authenticator",
+        "aegis-authenticator",
+        "andotp"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "aegis-authenticator",
+      "slug": "aegis-authenticator",
+      "name": "Aegis Authenticator",
+      "website": "https://getaegis.app",
+      "docs": "https://docs.getaegis.app",
+      "github": "https://github.com/beemdevelopment/Aegis",
+      "description": "Open-source 2FA app for Android with encrypted backups, import/export, and Wear OS support. Supports TOTP and HOTP with icons and categories. Material Design interface with biometric lock and auto-lock.",
+      "category": "auth",
+      "subcategory": "mfa",
+      "tags": [
+        "open-source",
+        "auth",
+        "mfa",
+        "authentication",
+        "security",
+        "forever-free",
+        "no-card",
+        "android",
+        "mobile"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source Android app. Encrypted cloud backups (via Drive), Wear OS integration, and all features included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "freeotp",
+        "andotp",
+        "google-authenticator"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "andotp",
+      "slug": "andotp",
+      "name": "andOTP",
+      "website": "https://andotp.github.io",
+      "docs": "https://github.com/andOTP/andOTP/wiki",
+      "github": "https://github.com/andOTP/andOTP",
+      "description": "Open-source TOTP authenticator for Android with encrypted backups (OpenPGP), auto-lock, and multi-profile support. Supports time-based and counter-based OTPs with Material Design and dark theme.",
+      "category": "auth",
+      "subcategory": "mfa",
+      "tags": [
+        "open-source",
+        "auth",
+        "mfa",
+        "authentication",
+        "security",
+        "forever-free",
+        "no-card",
+        "android",
+        "mobile"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source Android app. All features included with no ads or in-app purchases. Encrypted backups via OpenPGP.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "aegis-authenticator",
+        "freeotp",
+        "google-authenticator"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "privacyidea",
+      "slug": "privacyidea",
+      "name": "privacyIDEA",
+      "website": "https://www.privacyidea.org",
+      "docs": "https://privacyidea.readthedocs.io",
+      "github": "https://github.com/privacyidea/privacyidea",
+      "description": "Open-source multi-factor authentication server supporting TOTP, HOTP, SMS, email, U2F, WebAuthn, YubiKey, and push tokens. Centralized MFA management with policy engine, audit logging, and self-service portal.",
+      "category": "auth",
+      "subcategory": "mfa",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "auth",
+        "mfa",
+        "authentication",
+        "security",
+        "api",
+        "cli",
+        "docker",
+        "python",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free community edition under AGPLv3. Unlimited users and tokens. All authentication methods included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Enterprise edition with support subscriptions. Premium features: high availability, push tokens, and phone support.",
+        "starting_price_usd": null,
+        "billing_model": "annual"
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "duo-security",
+        "linotp",
+        "keycloak"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "raivo-otp",
+      "slug": "raivo-otp",
+      "name": "Raivo OTP",
+      "website": "https://raivo-otp.com",
+      "docs": "https://docs.raivo-otp.com",
+      "github": "https://github.com/raivo-otp/ios-app",
+      "description": "Native iOS 2FA authenticator with iCloud sync, Apple Watch support, and biometric lock. Clean, native iOS design with TOTP and HOTP support. Encrypted backups via iCloud with end-to-end encryption.",
+      "category": "auth",
+      "subcategory": "mfa",
+      "tags": [
+        "open-source",
+        "auth",
+        "mfa",
+        "authentication",
+        "security",
+        "forever-free",
+        "no-card",
+        "ios",
+        "mobile",
+        "swift"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source iOS app. iCloud sync, Apple Watch, biometric lock — all features included. No ads or subscriptions.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "google-authenticator",
+        "microsoft-authenticator",
+        "freeotp"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "2fas",
+      "slug": "2fas",
+      "name": "2FAS",
+      "website": "https://2fas.com",
+      "docs": "https://2fas.com/guides",
+      "github": "https://github.com/twofas",
+      "description": "Free 2FA authenticator for iOS and Android with encrypted backup, browser extension, and Wear OS support. Features one-tap import from other auth apps, QR scanning, and secure cloud sync with encryption.",
+      "category": "auth",
+      "subcategory": "mfa",
+      "tags": [
+        "open-source",
+        "auth",
+        "mfa",
+        "authentication",
+        "security",
+        "forever-free",
+        "no-card",
+        "mobile",
+        "ios",
+        "android"
+      ],
+      "free_tier": {
+        "summary": "Completely free with all features: encrypted backups, browser extension, Wear OS, unlimited tokens. No ads or subscription required.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "aegis-authenticator",
+        "raivo-otp",
+        "google-authenticator"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "linotp",
+      "slug": "linotp",
+      "name": "LinOTP",
+      "website": "https://www.linotp.org",
+      "docs": "https://linotp-doc.readthedocs.io",
+      "github": "https://github.com/LINOTP-Project/linotp",
+      "description": "Open-source MFA server with support for TOTP, HOTP, SMS, email, YubiKey, and Push authentication. Centralized management with user self-service, policy enforcement, and RADIUS integration. Python-based with REST API.",
+      "category": "auth",
+      "subcategory": "mfa",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "auth",
+        "mfa",
+        "authentication",
+        "security",
+        "api",
+        "python",
+        "docker",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free community edition under AGPLv3. Unlimited users and authentication methods. Self-hosted with full REST API.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Enterprise edition with commercial support available from LSE Leading Security Experts GmbH.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 4,
+        "performance": 3,
+        "community": 2,
+        "overall": 3.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "privacyidea",
+        "duo-security",
+        "keycloak"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "oso",
+      "slug": "oso",
+      "name": "Oso",
+      "website": "https://www.osohq.com",
+      "docs": "https://docs.osohq.com",
+      "github": "https://github.com/osohq/oso",
+      "description": "Open-source authorization library with declarative Polar policy language. Embeds into applications for fine-grained RBAC and ABAC. Supports Python, Node.js, Go, Java, and Ruby. Free self-hosted community edition.",
+      "category": "auth",
+      "subcategory": "authorization",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "auth",
+        "security",
+        "python",
+        "javascript",
+        "typescript",
+        "go",
+        "java",
+        "ruby",
+        "sdk",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free self-hosted community edition with unlimited policies and users. All language SDKs included. Community support via Slack and GitHub.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Oso Cloud from $4,500/year for up to 10M API calls. Enterprise with SSO, audit logs, and dedicated support available.",
+        "starting_price_usd": 4500,
+        "billing_model": "annual"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "casbin",
+        "openfga",
+        "permit-io",
+        "cerbos"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "casbin",
+      "slug": "casbin",
+      "name": "Casbin",
+      "website": "https://casbin.org",
+      "docs": "https://casbin.org/docs",
+      "github": "https://github.com/casbin/casbin",
+      "description": "Open-source access control library supporting ACL, RBAC, ABAC, and custom permission models. Available in Go, Java, Node.js, Python, PHP, .NET, Rust, and more. Uses a configuration file-based policy model without custom DSL.",
+      "category": "auth",
+      "subcategory": "authorization",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "auth",
+        "security",
+        "go",
+        "java",
+        "javascript",
+        "python",
+        "php",
+        "dotnet",
+        "rust",
+        "sdk",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free under Apache 2.0 license. Unlimited policies, users, and models. All language implementations included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Casbin Cloud and enterprise support available. Self-hosted version remains free.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "oso",
+        "openfga",
+        "permit-io"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "openfga",
+      "slug": "openfga",
+      "name": "OpenFGA",
+      "website": "https://openfga.dev",
+      "docs": "https://openfga.dev/docs",
+      "github": "https://github.com/openfga/openfga",
+      "description": "Google Zanzibar-inspired fine-grained authorization system. Open-source with high-performance, low-latency relationship-based access control. Supports ReBAC with graph-based authorization model. REST API and SDKs.",
+      "category": "auth",
+      "subcategory": "authorization",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "saas",
+        "auth",
+        "security",
+        "api",
+        "sdk",
+        "docker",
+        "go",
+        "javascript",
+        "python",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free self-hosted open-source version. Auth0 FGA free tier: 100 stores, read/write/check operations. Self-hosted has no limits.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Auth0 FGA: from $10/month for 250K operations. Dedicated instances available for enterprise.",
+        "starting_price_usd": 10,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "authzed",
+        "oso",
+        "topaz",
+        "casbin"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "permit-io",
+      "slug": "permit-io",
+      "name": "Permit.io",
+      "website": "https://www.permit.io",
+      "docs": "https://docs.permit.io",
+      "github": "https://github.com/permitio",
+      "description": "Policy-as-code authorization service with low-code UI. Supports RBAC, ABAC, and ReBAC with attribute-based policies. Includes a visual policy editor, decision logging, and audit trails. Free tier for startups.",
+      "category": "auth",
+      "subcategory": "authorization",
+      "tags": [
+        "saas",
+        "auth",
+        "security",
+        "api",
+        "sdk",
+        "no-code",
+        "python",
+        "javascript",
+        "go",
+        "freemium",
+        "no-card",
+        "generous-free-tier"
+      ],
+      "free_tier": {
+        "summary": "Free tier: up to 250 users, unlimited policy evaluations, audit logs, and a low-code policy editor. Community support on Slack.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 250
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro from $17/month for 2K users. Enterprise with SSO, dedicated infra, and SLA available.",
+        "starting_price_usd": 17,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "oso",
+        "cerbos",
+        "openfga",
+        "casbin"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "cerbos",
+      "slug": "cerbos",
+      "name": "Cerbos",
+      "website": "https://cerbos.dev",
+      "docs": "https://docs.cerbos.dev",
+      "github": "https://github.com/cerbos/cerbos",
+      "description": "Open-source, decoupled access control for applications. Uses YAML-based policy definitions for RBAC, ABAC, and derived roles. Lightweight with gRPC and REST APIs. Designed for cloud-native deployments with high performance.",
+      "category": "auth",
+      "subcategory": "authorization",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "saas",
+        "auth",
+        "security",
+        "api",
+        "sdk",
+        "docker",
+        "kubernetes",
+        "go",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free Community Edition: self-hosted with unlimited policies and users. All API features and SDKs included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Cerbos Cloud Free Tier: 10K/month checks. Pro from $25/month for 100K checks. Enterprise with custom limits.",
+        "starting_price_usd": 25,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "oso",
+        "permit-io",
+        "openfga",
+        "topaz"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "topaz",
+      "slug": "topaz",
+      "name": "Topaz",
+      "website": "https://www.topaz.sh",
+      "docs": "https://docs.topaz.sh",
+      "github": "https://github.com/aserto-dev/topaz",
+      "description": "Open-source authorization service by Aserto based on Google Zanzibar. Provides fine-grained access control with directory, relationship-based authz, and policy-as-code (Rego). Includes a no-code authorizer UI for testing.",
+      "category": "auth",
+      "subcategory": "authorization",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "auth",
+        "security",
+        "api",
+        "sdk",
+        "docker",
+        "go",
+        "no-code",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source version. Self-hosted or managed via Aserto Free tier: 500 users, unlimited relationships, and policy decisions.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 500
+        }
+      },
+      "paid_plan": {
+        "summary": "Aserto Pro from $199/month for 5K users. Enterprise with dedicated deployment and SSO.",
+        "starting_price_usd": 199,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "openfga",
+        "authzed",
+        "cerbos",
+        "oso"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "warrant",
+      "slug": "warrant",
+      "name": "Warrant",
+      "website": "https://warrant.dev",
+      "docs": "https://docs.warrant.dev",
+      "github": "https://github.com/warrant-dev/warrant",
+      "description": "Open-source authorization-as-a-service platform. Supports RBAC, ABAC, and relationship-based access control with a simple API. Low-latency authorization checks with SDKs for JavaScript, Python, Go, Java, and Rust.",
+      "category": "auth",
+      "subcategory": "authorization",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "saas",
+        "auth",
+        "security",
+        "api",
+        "sdk",
+        "javascript",
+        "python",
+        "go",
+        "java",
+        "freemium",
+        "generous-free-tier"
+      ],
+      "free_tier": {
+        "summary": "Cloud Free tier: 1M authorizations/month, 1K users, unlimited policies. Self-hosted open-source version has no limits.",
+        "limits": {
+          "requests_per_month": 1000000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1000
+        }
+      },
+      "paid_plan": {
+        "summary": "Scale plan from $99/month for 5M authorizations. Enterprise with dedicated support and SLA.",
+        "starting_price_usd": 99,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "oso",
+        "permit-io",
+        "cerbos",
+        "openfga"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "kanidm",
+      "slug": "kanidm",
+      "name": "Kanidm",
+      "website": "https://kanidm.com",
+      "docs": "https://kanidm.com/docs",
+      "github": "https://github.com/kanidm/kanidm",
+      "description": "Open-source identity and authorization platform written in Rust. Features fine-grained RBAC, OAuth 2.0, OIDC, WebAuthn, and SSH key management. Designed as a modern, secure alternative to LDAP with REST APIs.",
+      "category": "auth",
+      "subcategory": "authorization",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "auth",
+        "security",
+        "rust",
+        "oauth",
+        "api",
+        "cli",
+        "docker",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free under MPL-2.0 license. Self-hosted with unlimited users and groups. All features included with no paid tier.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "keycloak",
+        "zitadel",
+        "casbin"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "authzed",
+      "slug": "authzed",
+      "name": "AuthZed",
+      "website": "https://authzed.com",
+      "docs": "https://authzed.com/docs",
+      "github": "https://github.com/authzed/spicedb",
+      "description": "Managed SpiceDB service built on Google Zanzibar. Provides relationship-based authorization with a graph database model. Features consistency guarantees, CEL-based schema, and SDKs for all major languages. Free tier available.",
+      "category": "auth",
+      "subcategory": "authorization",
+      "tags": [
+        "saas",
+        "open-source",
+        "self-hosted",
+        "auth",
+        "security",
+        "api",
+        "sdk",
+        "go",
+        "javascript",
+        "python",
+        "freemium",
+        "generous-free-tier"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 2 services, 50 relationships/second, 2.5M relationship reads/month. Self-hosted SpiceDB is unlimited.",
+        "limits": {
+          "requests_per_month": 2500000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Team from $250/month with 10 services and 250 relationships/second. Enterprise custom pricing available.",
+        "starting_price_usd": 250,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 3,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "openfga",
+        "topaz",
+        "warrant"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "open-policy-agent",
+      "slug": "open-policy-agent",
+      "name": "Open Policy Agent (OPA)",
+      "website": "https://www.openpolicyagent.org",
+      "docs": "https://www.openpolicyagent.org/docs",
+      "github": "https://github.com/open-policy-agent/opa",
+      "description": "Open-source general-purpose policy engine using Rego policy language. Used for authorization across microservices, Kubernetes, CI/CD, and API gateways. CNCF-graduated project with broad integration and community support.",
+      "category": "auth",
+      "subcategory": "authorization",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "auth",
+        "security",
+        "go",
+        "api",
+        "cli",
+        "docker",
+        "kubernetes",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free under Apache 2.0. Self-hosted with unlimited policies and decisions. No paid tier — fully open source with CNCF governance.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "casbin",
+        "topaz",
+        "aserto",
+        "cerbos"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "aserto",
+      "slug": "aserto",
+      "name": "Aserto",
+      "website": "https://www.aserto.com",
+      "docs": "https://docs.aserto.com",
+      "github": "https://github.com/aserto-dev",
+      "description": "Cloud-native authorization service with directory-based access control. Supports RBAC, ABAC, and ReBAC using Rego policies. Includes a managed directory, policy-aware UI, and real-time authorization audit. Free tier for small teams.",
+      "category": "auth",
+      "subcategory": "authorization",
+      "tags": [
+        "saas",
+        "auth",
+        "security",
+        "api",
+        "sdk",
+        "go",
+        "javascript",
+        "python",
+        "no-code",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: up to 500 users, 100K policy decisions/month, 1 directory, and community support. No credit card required.",
+        "limits": {
+          "requests_per_month": 100000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 500
+        }
+      },
+      "paid_plan": {
+        "summary": "Team plan from $199/month for 5K users. Enterprise with SSO, dedicated support, and custom SLAs.",
+        "starting_price_usd": 199,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "topaz",
+        "openfga",
+        "permit-io",
+        "open-policy-agent"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "stytch",
+      "slug": "stytch",
+      "name": "Stytch",
+      "website": "https://stytch.com",
+      "docs": "https://stytch.com/docs",
+      "github": "https://github.com/stytchauth",
+      "description": "Passwordless-first authentication API platform. Supports email magic links, OTP via SMS/email/WhatsApp, WebAuthn/passkeys, OAuth social login, and crypto wallets. Free tier includes 10K MAU with all auth methods.",
+      "category": "auth",
+      "subcategory": "passwordless",
+      "tags": [
+        "saas",
+        "auth",
+        "passwordless",
+        "authentication",
+        "security",
+        "api",
+        "sdk",
+        "social-login",
+        "freemium",
+        "no-card",
+        "generous-free-tier"
+      ],
+      "free_tier": {
+        "summary": "Free Developer tier: 10K monthly active users, unlimited projects, all auth methods (magic links, OTP, passkeys, OAuth). No credit card required.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 10000
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro from $0.08/user/month. Enterprise with dedicated support, SLA, and data regions available.",
+        "starting_price_usd": null,
+        "billing_model": "per-user-monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "hanko",
+        "descope",
+        "magic-link",
+        "corbado"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "hanko",
+      "slug": "hanko",
+      "name": "Hanko",
+      "website": "https://www.hanko.io",
+      "docs": "https://docs.hanko.io",
+      "github": "https://github.com/teamhanko/hanko",
+      "description": "Open-source passwordless authentication with passkeys and WebAuthn. Provides a pre-built login component, Go backend, and APIs for custom integrations. Supports biometric (Face ID, Touch ID), security keys, and cross-device authentication.",
+      "category": "auth",
+      "subcategory": "passwordless",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "saas",
+        "auth",
+        "passwordless",
+        "authentication",
+        "security",
+        "api",
+        "sdk",
+        "javascript",
+        "go",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Self-hosted open-source version is completely free. Cloud free tier: 5K MAU, all features, community support.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 5000
+        }
+      },
+      "paid_plan": {
+        "summary": "Cloud Pro from $199/month for 25K MAU. Enterprise with custom limits, SLA, and dedicated support.",
+        "starting_price_usd": 199,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "stytch",
+        "corbado",
+        "descope",
+        "passage"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "corbado",
+      "slug": "corbado",
+      "name": "Corbado",
+      "website": "https://www.corbado.com",
+      "docs": "https://docs.corbado.com",
+      "github": "https://github.com/corbado",
+      "description": "Passkey-first authentication platform for consumer and enterprise apps. Supports WebAuthn passkeys with email fallback. Provides pre-built UI components and backend SDKs. Focused on high passkey conversion rates.",
+      "category": "auth",
+      "subcategory": "passwordless",
+      "tags": [
+        "saas",
+        "auth",
+        "passwordless",
+        "authentication",
+        "security",
+        "api",
+        "sdk",
+        "javascript",
+        "typescript",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: up to 1,000 passkey users, unlimited transactions, all core features. No credit card required.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1000
+        }
+      },
+      "paid_plan": {
+        "summary": "Growth from $99/month for 5K users. Enterprise with custom pricing, SLA, and dedicated passkey infrastructure.",
+        "starting_price_usd": 99,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "hanko",
+        "stytch",
+        "descope",
+        "passage"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "descope",
+      "slug": "descope",
+      "name": "Descope",
+      "website": "https://www.descope.com",
+      "docs": "https://docs.descope.com",
+      "github": "https://github.com/descope",
+      "description": "Codeless passwordless authentication and identity platform. Drag-and-drop workflow builder for auth flows with passkeys, magic links, OTP, and biometrics. Includes pre-built login components and step-up MFA.",
+      "category": "auth",
+      "subcategory": "passwordless",
+      "tags": [
+        "saas",
+        "auth",
+        "passwordless",
+        "authentication",
+        "security",
+        "api",
+        "sdk",
+        "no-code",
+        "low-code",
+        "freemium",
+        "no-card",
+        "generous-free-tier"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 7,500 MAU, unlimited workflows, all auth methods, pre-built components, and community support.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 7500
+        }
+      },
+      "paid_plan": {
+        "summary": "Scale from $200/month for 50K MAU. Enterprise with SSO, SAML, audit logs, and dedicated support.",
+        "starting_price_usd": 200,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "stytch",
+        "corbado",
+        "hanko",
+        "magic-link"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "magic-link",
+      "slug": "magic-link",
+      "name": "Magic.link",
+      "website": "https://magic.link",
+      "docs": "https://magic.link/docs",
+      "github": "https://github.com/magiclabs",
+      "description": "Passwordless authentication service using magic links and OTP. Provides email and SMS-based authentication with decentralized identity (DID) support. SDKs for web and mobile with built-in session management.",
+      "category": "auth",
+      "subcategory": "passwordless",
+      "tags": [
+        "saas",
+        "auth",
+        "passwordless",
+        "authentication",
+        "security",
+        "api",
+        "sdk",
+        "javascript",
+        "typescript",
+        "react",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 10K users, 100K transactions/month, email and SMS authentication. Community support on Discord.",
+        "limits": {
+          "requests_per_month": 100000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 10000
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro from $175/month for 50K users. Enterprise with dedicated support, custom domains, and compliance.",
+        "starting_price_usd": 175,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "stytch",
+        "passwordless-dev",
+        "descope",
+        "ownid"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "passwordless-dev",
+      "slug": "passwordless-dev",
+      "name": "Passwordless.dev",
+      "website": "https://passwordless.dev",
+      "docs": "https://docs.passwordless.dev",
+      "github": "https://github.com/bitwarden/passwordless-server",
+      "description": "FIDO2 WebAuthn service by Bitwarden for adding passkeys to applications. Supports biometrics, platform authenticators, and security keys. Provides APIs and SDKs with flexible deployment options including self-hosted.",
+      "category": "auth",
+      "subcategory": "passwordless",
+      "tags": [
+        "saas",
+        "auth",
+        "passwordless",
+        "authentication",
+        "security",
+        "api",
+        "sdk",
+        "javascript",
+        "typescript",
+        "dotnet",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 100 users, 10K passkey registrations/month, email support. Community and open-source self-hosted option available.",
+        "limits": {
+          "requests_per_month": 10000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 100
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro from $67/month for 1K users. Enterprise with custom limits, SLA, and dedicated infrastructure.",
+        "starting_price_usd": 67,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 5,
+        "community": 3,
+        "overall": 4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "stytch",
+        "corbado",
+        "simple-webauthn",
+        "hanko"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "simple-webauthn",
+      "slug": "simple-webauthn",
+      "name": "SimpleWebAuthn",
+      "website": "https://simplewebauthn.dev",
+      "docs": "https://simplewebauthn.dev/docs",
+      "github": "https://github.com/MasterKale/SimpleWebAuthn",
+      "description": "Open-source WebAuthn/FIDO2 library for JavaScript and TypeScript. Provides server-side and client-side packages for adding passkey authentication to web apps. Handles attestation, assertion, and registration ceremonies.",
+      "category": "auth",
+      "subcategory": "passwordless",
+      "tags": [
+        "open-source",
+        "auth",
+        "passwordless",
+        "authentication",
+        "security",
+        "sdk",
+        "javascript",
+        "typescript",
+        "npm",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free open-source library under MIT license. No usage limits, no API calls — self-contained. Works with any backend framework.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "stytch",
+        "corbado",
+        "passwordless-dev"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "ownid",
+      "slug": "ownid",
+      "name": "OwnID",
+      "website": "https://www.ownid.com",
+      "docs": "https://docs.ownid.com",
+      "github": "https://github.com/ownid",
+      "description": "Passwordless authentication solution using passkeys with biometric authentication. Integrates as a drop-in replacement for existing login forms. Supports FIDO2 WebAuthn, QR-based cross-device auth, and email fallback.",
+      "category": "auth",
+      "subcategory": "passwordless",
+      "tags": [
+        "saas",
+        "auth",
+        "passwordless",
+        "authentication",
+        "security",
+        "api",
+        "sdk",
+        "javascript",
+        "react",
+        "nextjs",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: unlimited users and auth requests on shared infrastructure. Community support. No credit card required.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Enterprise plan with dedicated infrastructure, SSO, audit logging, and SLA. Custom pricing based on requirements.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 2,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "stytch",
+        "corbado",
+        "hanko",
+        "passage"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "turnkey",
+      "slug": "turnkey",
+      "name": "Turnkey",
+      "website": "https://turnkey.com",
+      "docs": "https://docs.turnkey.com",
+      "github": "https://github.com/tkhq",
+      "description": "Passkey infrastructure for consumer authentication. Provides secure key management with hardware-level passkey storage. Designed for apps requiring passkey-first auth with multi-device support and recovery flows.",
+      "category": "auth",
+      "subcategory": "passwordless",
+      "tags": [
+        "saas",
+        "auth",
+        "passwordless",
+        "authentication",
+        "security",
+        "api",
+        "sdk",
+        "typescript",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: up to 1K passkeys, unlimited verifications, community support. All API features included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Scale plan from $99/month for 10K passkeys. Enterprise with dedicated HSM, SLA, and compliance.",
+        "starting_price_usd": 99,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 5,
+        "community": 2,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "passage",
+        "stytch",
+        "corbado",
+        "simple-webauthn"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "passage",
+      "slug": "passage",
+      "name": "Passage by 1Password",
+      "website": "https://passage.id",
+      "docs": "https://docs.passage.id",
+      "github": "https://github.com/passageidentity",
+      "description": "Passkey authentication service by 1Password. Drop-in passkey components for web and mobile apps with biometric and PIN verification. Supports multi-device passkey sync and FIDO2 WebAuthn standards.",
+      "category": "auth",
+      "subcategory": "passwordless",
+      "tags": [
+        "saas",
+        "auth",
+        "passwordless",
+        "authentication",
+        "security",
+        "api",
+        "sdk",
+        "javascript",
+        "react",
+        "ios",
+        "android",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free Developer plan: 1 app, up to 1K users, all passkey features. Community support on Discord.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 1000
+        }
+      },
+      "paid_plan": {
+        "summary": "Growth from $99/month for 5K users. Enterprise with custom pricing, dedicated support, and SLA.",
+        "starting_price_usd": 99,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 3,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "stytch",
+        "corbado",
+        "hanko",
+        "passwordless-dev"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "krypton",
+      "slug": "krypton",
+      "name": "Krypton",
+      "website": "https://krypton.co",
+      "docs": "https://docs.krypton.co",
+      "github": "https://github.com/kryptco",
+      "description": "Passwordless authentication using FIDO2 and WebAuthn with a mobile app as authenticator. Supports SSH, PGP, and web authentication via NFC and QR pairing. Aims to replace hardware security keys with mobile devices.",
+      "category": "auth",
+      "subcategory": "passwordless",
+      "tags": [
+        "open-source",
+        "auth",
+        "passwordless",
+        "authentication",
+        "security",
+        "mobile",
+        "ios",
+        "android",
+        "cli",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free for individual use with unlimited personal keys. Supports SSH, WebAuthn, and PGP authentication. Open-source mobile apps.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Krypton Team: $5/user/month with team management, SSO, and audit logs.",
+        "starting_price_usd": 5,
+        "billing_model": "per-user-monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "passage",
+        "stytch",
+        "simple-webauthn"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "supertokens",
+      "slug": "supertokens",
+      "name": "SuperTokens",
+      "website": "https://supertokens.com",
+      "docs": "https://supertokens.com/docs",
+      "github": "https://github.com/supertokens/supertokens-core",
+      "description": "Open-source auth platform with social login support for Google, Apple, GitHub, Discord, Facebook, and 20+ providers. Features session management, MFA, passwordless, and user management. Self-hosted or cloud with generous free tier.",
+      "category": "auth",
+      "subcategory": "social-login",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "saas",
+        "auth",
+        "social-login",
+        "authentication",
+        "security",
+        "api",
+        "sdk",
+        "javascript",
+        "python",
+        "go",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 5K MAU, unlimited social login providers, unlimited APIs. Self-hosted core is completely free under Apache 2.0.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 5000
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro from $50/month for 30K MAU. Enterprise with dedicated support, SSO, and compliance features.",
+        "starting_price_usd": 50,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "logto",
+        "clerk",
+        "better-auth",
+        "nextauth-js"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "fusionauth",
+      "slug": "fusionauth",
+      "name": "FusionAuth",
+      "website": "https://fusionauth.io",
+      "docs": "https://fusionauth.io/docs",
+      "github": "https://github.com/FusionAuth/fusionauth-containers",
+      "description": "Full-featured auth platform with social login, SSO, MFA, and user management. Supports Google, Apple, Facebook, Twitter, GitHub, LinkedIn, and custom OAuth providers. Free community edition for self-hosting.",
+      "category": "auth",
+      "subcategory": "social-login",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "saas",
+        "auth",
+        "social-login",
+        "authentication",
+        "sso",
+        "security",
+        "api",
+        "sdk",
+        "java",
+        "docker",
+        "generous-free-tier",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free Community Edition: unlimited users and social login providers. Self-hosted with no feature restrictions. Paid cloud free tier: 5K MAU.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Cloud from $75/month for 30K MAU. Enterprise with SLA, dedicated support, and advanced compliance.",
+        "starting_price_usd": 75,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "auth0",
+        "keycloak",
+        "supertokens",
+        "logto"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "loginradius",
+      "slug": "loginradius",
+      "name": "LoginRadius",
+      "website": "https://www.loginradius.com",
+      "docs": "https://www.loginradius.com/docs",
+      "github": null,
+      "description": "Social login and customer identity platform supporting 40+ social providers. Features unified login, profile management, and identity federation. Free tier for startups with core social login capabilities.",
+      "category": "auth",
+      "subcategory": "social-login",
+      "tags": [
+        "saas",
+        "auth",
+        "social-login",
+        "authentication",
+        "security",
+        "api",
+        "sdk",
+        "no-code",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free startup plan: 10K MAU, unlimited social login providers, 3 apps, community support. Standard identity management included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 10000
+        }
+      },
+      "paid_plan": {
+        "summary": "Basic from $249/month for 100K MAU. Enterprise with dedicated support, SSO, and SLA.",
+        "starting_price_usd": 249,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "supertokens",
+        "fusionauth",
+        "auth0",
+        "oneall"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "aws-cognito",
+      "slug": "aws-cognito",
+      "name": "AWS Cognito",
+      "website": "https://aws.amazon.com/cognito/",
+      "docs": "https://docs.aws.amazon.com/cognito/",
+      "github": null,
+      "description": "AWS identity platform with social login via Cognito Hosted UI. Supports Google, Apple, Facebook, Amazon, and SAML/OIDC federation. Includes user pools, identity pools, and multi-factor authentication with a generous free tier.",
+      "category": "auth",
+      "subcategory": "social-login",
+      "tags": [
+        "saas",
+        "cloud",
+        "auth",
+        "social-login",
+        "authentication",
+        "security",
+        "api",
+        "sdk",
+        "aws",
+        "multi-region",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 50K MAU for social login, 50GB/month data sync, unlimited federation. Pay only for MAU beyond free limits.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 50,
+          "seats": 50000
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go: $0.015 per MAU for social login beyond free tier. No upfront costs, usage-based pricing.",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "firebase-auth",
+        "auth0",
+        "keycloak",
+        "logto"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "oneall",
+      "slug": "oneall",
+      "name": "OneAll",
+      "website": "https://www.oneall.com",
+      "docs": "https://docs.oneall.com",
+      "github": "https://github.com/OneAll",
+      "description": "Social login and user identity API with 50+ OAuth provider integrations. Centralized management for social network login, share buttons, and user profiles. Free tier for small projects with generous monthly limits.",
+      "category": "auth",
+      "subcategory": "social-login",
+      "tags": [
+        "saas",
+        "auth",
+        "social-login",
+        "authentication",
+        "security",
+        "api",
+        "sdk",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 10K users, 100K API calls/month, unlimited social providers. Includes user profiles and social network data.",
+        "limits": {
+          "requests_per_month": 100000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 10000
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro from $99/month for 50K users and 1M API calls. Enterprise with custom limits and dedicated support.",
+        "starting_price_usd": 99,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 2,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "loginradius",
+        "supertokens",
+        "oauth-io"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "oauth-io",
+      "slug": "oauth-io",
+      "name": "OAuth.io",
+      "website": "https://oauth.io",
+      "docs": "https://docs.oauth.io",
+      "github": null,
+      "description": "OAuth integration API for 100+ identity providers. Simplifies social login implementation with a unified API for Google, Apple, GitHub, Microsoft, Twitter, and more. Free tier for development and small production use.",
+      "category": "auth",
+      "subcategory": "social-login",
+      "tags": [
+        "saas",
+        "auth",
+        "social-login",
+        "authentication",
+        "security",
+        "api",
+        "sdk",
+        "oauth",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 10K connections/month, unlimited providers, community support. Suitable for small applications and development.",
+        "limits": {
+          "requests_per_month": 10000,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Scale from $49/month for 100K connections. Enterprise with dedicated support, SLA, and custom integrations.",
+        "starting_price_usd": 49,
+        "billing_model": "monthly"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 2,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "oneall",
+        "loginradius",
+        "supertokens"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "miniorange-social-login",
+      "slug": "miniorange-social-login",
+      "name": "MiniOrange Social Login",
+      "website": "https://www.miniorange.com/social-login",
+      "docs": "https://www.miniorange.com/social-login/documentation",
+      "github": null,
+      "description": "Social login plugin and API supporting 40+ OAuth providers including Google, Apple, Facebook, LinkedIn, and GitHub. Provides WordPress, Drupal, Joomla plugins plus standalone REST APIs. Free tier for small sites.",
+      "category": "auth",
+      "subcategory": "social-login",
+      "tags": [
+        "saas",
+        "auth",
+        "social-login",
+        "authentication",
+        "security",
+        "api",
+        "php",
+        "no-code",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 1 website, unlimited social login buttons, 2 social providers, community support. Works with popular CMS platforms.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Pro from $99/year for unlimited providers and 3 websites. Enterprise with custom integrations and SLA.",
+        "starting_price_usd": 99,
+        "billing_model": "annual"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 3,
+        "community": 2,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "loginradius",
+        "oneall",
+        "oauth-io"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "azure-ad-b2c",
+      "slug": "azure-ad-b2c",
+      "name": "Azure AD B2C",
+      "website": "https://azure.microsoft.com/en-us/services/active-directory-b2c/",
+      "docs": "https://learn.microsoft.com/en-us/azure/active-directory-b2c/",
+      "github": null,
+      "description": "Microsoft Azure customer identity with social login. Supports Google, Apple, Facebook, Amazon, and any OAuth/OIDC provider. Features custom policies, MFA, and conditional access. Free tier with monthly active user limits.",
+      "category": "auth",
+      "subcategory": "social-login",
+      "tags": [
+        "saas",
+        "cloud",
+        "auth",
+        "social-login",
+        "authentication",
+        "security",
+        "api",
+        "sdk",
+        "azure",
+        "multi-region",
+        "oauth",
+        "saml",
+        "freemium",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 50K monthly active users with social/enterprise identity providers. Includes authentication, MFA, and token management.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": 50000
+        }
+      },
+      "paid_plan": {
+        "summary": "Pay-as-you-go: $0.033 per MAU beyond free tier. First 50K MAU per month free. No upfront costs.",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 5,
+        "performance": 5,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "aws-cognito",
+        "auth0",
+        "keycloak",
+        "firebase-auth"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "google-identity-services",
+      "slug": "google-identity-services",
+      "name": "Google Identity Services",
+      "website": "https://developers.google.com/identity",
+      "docs": "https://developers.google.com/identity/sign-in/web",
+      "github": null,
+      "description": "Google's identity platform providing Sign In with Google, OAuth 2.0, and OIDC integration. Includes One Tap, automatic sign-in, and cross-device sessions. Used by millions of websites for free social login.",
+      "category": "auth",
+      "subcategory": "social-login",
+      "tags": [
+        "saas",
+        "auth",
+        "social-login",
+        "authentication",
+        "security",
+        "api",
+        "sdk",
+        "javascript",
+        "oauth",
+        "forever-free",
+        "no-card",
+        "google"
+      ],
+      "free_tier": {
+        "summary": "Completely free for all applications. No usage limits or payment required. Includes Sign In with Google, One Tap, and Google OAuth.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; completely free. Google Workspace customers get additional enterprise controls.",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "apple-sign-in",
+        "auth0",
+        "firebase-auth"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "apple-sign-in",
+      "slug": "apple-sign-in",
+      "name": "Sign in with Apple",
+      "website": "https://developer.apple.com/sign-in-with-apple/",
+      "docs": "https://developer.apple.com/documentation/sign_in_with_apple",
+      "github": null,
+      "description": "Apple's social login service providing OAuth 2.0 authentication with privacy-focused features. Includes hidden email relay, private user IDs, and cross-platform support. Required for iOS apps using third-party social login.",
+      "category": "auth",
+      "subcategory": "social-login",
+      "tags": [
+        "saas",
+        "auth",
+        "social-login",
+        "authentication",
+        "security",
+        "api",
+        "sdk",
+        "oauth",
+        "ios",
+        "swift",
+        "forever-free",
+        "no-card",
+        "apple"
+      ],
+      "free_tier": {
+        "summary": "Completely free for any app or website. No usage limits or fees. Includes user authentication, email relay, and JS SDK.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; completely free with Apple Developer Program membership (required for iOS distribution).",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "google-identity-services",
+        "auth0",
+        "firebase-auth"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "facebook-login",
+      "slug": "facebook-login",
+      "name": "Facebook Login",
+      "website": "https://developers.facebook.com/docs/facebook-login/",
+      "docs": "https://developers.facebook.com/docs/facebook-login/overview",
+      "github": null,
+      "description": "Facebook's social login OAuth service for web, mobile, and TV apps. Provides user profile data, friend lists, and sharing capabilities with granular permissions. One of the most widely adopted social login providers globally.",
+      "category": "auth",
+      "subcategory": "social-login",
+      "tags": [
+        "saas",
+        "auth",
+        "social-login",
+        "authentication",
+        "security",
+        "api",
+        "sdk",
+        "javascript",
+        "ios",
+        "android",
+        "oauth",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free for app authentication and basic profile data. No usage limits. Requires Facebook App review for extended permissions.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; completely free",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "google-identity-services",
+        "apple-sign-in",
+        "supertokens",
+        "auth0"
       ],
       "last_verified": "2026-05-31"
     }
