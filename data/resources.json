@@ -36833,6 +36833,6205 @@
         "askcodi"
       ],
       "last_verified": "2026-05-31"
+    },
+    {
+      "id": "travis-ci",
+      "slug": "travis-ci",
+      "name": "Travis CI",
+      "website": "https://travis-ci.com",
+      "docs": "https://docs.travis-ci.com",
+      "description": "Pioneering cloud CI/CD platform with native GitHub and Bitbucket integration. YAML-based pipeline configuration, matrix builds across multiple languages and runtimes, parallel testing, and automatic PR deployments. Free for public repositories.",
+      "category": "ci-cd",
+      "subcategory": "pipelines",
+      "tags": [
+        "ci-cd",
+        "pipelines",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "usage-limits",
+        "open-source"
+      ],
+      "free_tier": {
+        "summary": "Free for public repositories. Unlimited builds, unlimited concurrency for open-source. 10,000 build credits/month for private repos.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [
+          "IR",
+          "KP",
+          "SY",
+          "CU"
+        ],
+        "notes": "Available globally with US and EU data centers"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "CircleCI",
+        "GitHub Actions"
+      ],
+      "alternatives": [
+        "circleci",
+        "github-actions"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Travis CI — from $69/month for 20K credits, concurrent builds, private repos",
+        "starting_price_usd": 69,
+        "billing_model": "usage-based"
+      }
+    },
+    {
+      "id": "azure-pipelines",
+      "slug": "azure-pipelines",
+      "name": "Azure Pipelines",
+      "website": "https://azure.microsoft.com/en-us/products/devops/pipelines",
+      "docs": "https://learn.microsoft.com/en-us/azure/devops/pipelines",
+      "description": "Microsoft's cloud CI/CD service with unlimited free minutes for public projects. Supports any language, platform, and cloud. Deep Azure integration, YAML or classic editor pipelines, parallel jobs, and deployment gates.",
+      "category": "ci-cd",
+      "subcategory": "pipelines",
+      "tags": [
+        "ci-cd",
+        "pipelines",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "usage-limits",
+        "azure",
+        "cloud",
+        "container",
+        "kubernetes"
+      ],
+      "free_tier": {
+        "summary": "1,800 minutes/month (30 hours) free. 1 parallel job. Unlimited minutes for public projects. 10 free Azure DevOps users. 2 GiB Git storage.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally with Azure regional data centers"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "GitHub Actions",
+        "CircleCI"
+      ],
+      "alternatives": [
+        "github-actions",
+        "circleci"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Microsoft-hosted — from $40/month for 1 additional parallel job. Self-hosted: unlimited free agents.",
+        "starting_price_usd": 40,
+        "billing_model": "subscription"
+      },
+      "student_benefits": {
+        "available": true,
+        "details": "Free Azure DevOps through Azure for Students ($100 credit, free tier services)",
+        "verification_method": "azure-education"
+      }
+    },
+    {
+      "id": "bitbucket-pipelines",
+      "slug": "bitbucket-pipelines",
+      "name": "Bitbucket Pipelines",
+      "website": "https://bitbucket.org/product/features/pipelines",
+      "docs": "https://support.atlassian.com/bitbucket-cloud/docs/get-started-with-bitbucket-pipelines",
+      "description": "Atlassian's integrated CI/CD for Bitbucket repositories. YAML-based configuration, Docker-native builds, deploy to any cloud.",
+      "category": "ci-cd",
+      "subcategory": "pipelines",
+      "tags": [
+        "ci-cd",
+        "pipelines",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "usage-limits",
+        "docker"
+      ],
+      "free_tier": {
+        "summary": "50 build minutes/month. 1 parallel step. 1 GB artifact storage. Free for up to 5 users in Bitbucket Cloud free plan.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 2,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally with AWS-backed infrastructure"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "GitHub Actions",
+        "GitLab CI/CD"
+      ],
+      "alternatives": [
+        "github-actions",
+        "gitlab-ci"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Standard — from $3/user/month: 2,500 min, 10 parallel steps. Premium: $6/user/month",
+        "starting_price_usd": 3,
+        "billing_model": "per-user"
+      }
+    },
+    {
+      "id": "teamcity",
+      "slug": "teamcity",
+      "name": "TeamCity",
+      "website": "https://www.jetbrains.com/teamcity",
+      "docs": "https://www.jetbrains.com/help/teamcity/getting-started.html",
+      "description": "JetBrains' powerful CI/CD server with intelligent build chains, code coverage, and code inspection. Professional Server free edition supports 3 build agents and 100 build configurations.",
+      "category": "ci-cd",
+      "subcategory": "pipelines",
+      "tags": [
+        "ci-cd",
+        "pipelines",
+        "automation",
+        "devops",
+        "self-hosted",
+        "free-tier",
+        "usage-limits",
+        "java",
+        "dotnet"
+      ],
+      "free_tier": {
+        "summary": "Professional Server: 3 build agents, 100 build configurations, unlimited builds, all features. Self-hosted only.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Self-hosted: no restrictions. Cloud: available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Jenkins",
+        "Bamboo"
+      ],
+      "alternatives": [
+        "jenkins"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "TeamCity Cloud — from $45/month for 3 agents. Enterprise self-hosted: $1,999/year for 3 agents.",
+        "starting_price_usd": 45,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "drone-ci",
+      "slug": "drone-ci",
+      "name": "Drone CI",
+      "website": "https://www.drone.io",
+      "docs": "https://docs.drone.io",
+      "github": "https://github.com/harness/drone",
+      "description": "Lightweight cloud-native CI/CD platform built on container technology. Every pipeline step runs in an isolated Docker container. Single-binary architecture, multi-platform support, and deep VCS integration.",
+      "category": "ci-cd",
+      "subcategory": "pipelines",
+      "tags": [
+        "ci-cd",
+        "pipelines",
+        "automation",
+        "devops",
+        "open-source",
+        "self-hosted",
+        "docker",
+        "container",
+        "forever-free",
+        "saas"
+      ],
+      "free_tier": {
+        "summary": "Open-source: self-hosted, unlimited builds, unlimited repos, unlimited users. Drone Cloud: free for open-source projects.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 5,
+        "community": 3,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Self-hosted: no restrictions. Cloud: global availability"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Jenkins",
+        "CircleCI"
+      ],
+      "alternatives": [
+        "jenkins",
+        "circleci"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Drone Cloud — from $25/month for private repos. Harness CI — from $0/month for 2 users, 100K CI minutes.",
+        "starting_price_usd": 25,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "woodpecker-ci",
+      "slug": "woodpecker-ci",
+      "name": "Woodpecker CI",
+      "website": "https://woodpecker-ci.org",
+      "docs": "https://woodpecker-ci.org/docs/intro",
+      "github": "https://github.com/woodpecker-ci/woodpecker",
+      "description": "Community fork of Drone CI focused on simplicity and reliability. YAML-based pipeline configuration with Docker and Kubernetes runners. Supports GitHub, GitLab, Gitea, and Bitbucket repositories. Completely open-source and self-hostable.",
+      "category": "ci-cd",
+      "subcategory": "pipelines",
+      "tags": [
+        "ci-cd",
+        "pipelines",
+        "automation",
+        "devops",
+        "open-source",
+        "self-hosted",
+        "docker",
+        "kubernetes",
+        "forever-free"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Self-hosted, unlimited builds, unlimited repos, unlimited users.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 2,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Self-hosted: no geographic restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Drone CI",
+        "Jenkins"
+      ],
+      "alternatives": [
+        "drone-ci",
+        "jenkins"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "codefresh",
+      "slug": "codefresh",
+      "name": "Codefresh",
+      "website": "https://codefresh.io",
+      "docs": "https://codefresh.io/docs",
+      "description": "GitOps-powered CI/CD platform designed for Kubernetes and cloud-native applications. Visual pipeline editor, automatic Docker image caching, hybrid runtime, and Argo CD integration.",
+      "category": "ci-cd",
+      "subcategory": "pipelines",
+      "tags": [
+        "ci-cd",
+        "pipelines",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "usage-limits",
+        "kubernetes",
+        "docker",
+        "gitops"
+      ],
+      "free_tier": {
+        "summary": "3 users, 500 build minutes/month, 1 pipeline, 1 GitOps environment. Includes all pipeline features.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally with US and EU regions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "CircleCI",
+        "GitLab CI/CD"
+      ],
+      "alternatives": [
+        "circleci",
+        "gitlab-ci"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Pro — from $34/month: 5 users, 2,500 build minutes, unlimited pipelines",
+        "starting_price_usd": 34,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "semaphore-ci",
+      "slug": "semaphore-ci",
+      "name": "Semaphore CI",
+      "website": "https://semaphoreci.com",
+      "docs": "https://docs.semaphoreci.com",
+      "description": "Fast cloud CI/CD platform with 20-second startup times and parallel test execution. YAML-based workflow configuration, native Docker support, Linux and macOS runners, and automatic caching.",
+      "category": "ci-cd",
+      "subcategory": "pipelines",
+      "tags": [
+        "ci-cd",
+        "pipelines",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "usage-limits",
+        "docker"
+      ],
+      "free_tier": {
+        "summary": "1,200 build minutes/month (20 hours). 1 GB cache storage. 1 parallel job. Unlimited projects for public repos.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally with US and EU data centers"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "CircleCI",
+        "Travis CI"
+      ],
+      "alternatives": [
+        "circleci",
+        "travis-ci"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Team — from $14/month: 4,000 minutes, 2 parallel jobs, 5 GB cache",
+        "starting_price_usd": 14,
+        "billing_model": "subscription"
+      },
+      "student_benefits": {
+        "available": true,
+        "details": "Free plan with 1,200 minutes/month sufficient for student projects",
+        "verification_method": ""
+      }
+    },
+    {
+      "id": "appveyor",
+      "slug": "appveyor",
+      "name": "AppVeyor",
+      "website": "https://www.appveyor.com",
+      "docs": "https://www.appveyor.com/docs",
+      "description": "CI/CD platform with first-class Windows build support alongside Linux and macOS. Ideal for .NET, C++, and cross-platform projects. YAML configuration, NuGet packaging, and deployment to cloud platforms.",
+      "category": "ci-cd",
+      "subcategory": "pipelines",
+      "tags": [
+        "ci-cd",
+        "pipelines",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "open-source",
+        "dotnet",
+        "windows"
+      ],
+      "free_tier": {
+        "summary": "Free for open-source projects: unlimited builds, 1 concurrent job, 60-minute build timeout. Free tier for private repos: 1 project, 14-day build history.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 3,
+        "community": 2,
+        "overall": 3.1
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Azure Pipelines",
+        "CircleCI"
+      ],
+      "alternatives": [
+        "azure-pipelines",
+        "circleci"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Pro — from $39/month: 2 concurrent jobs, unlimited private projects, enhanced support",
+        "starting_price_usd": 39,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "cirrus-ci",
+      "slug": "cirrus-ci",
+      "name": "Cirrus CI",
+      "website": "https://cirrus-ci.org",
+      "docs": "https://cirrus-ci.org/guide/quick-start",
+      "github": "https://github.com/cirruslabs/cirrus-cli",
+      "description": "Modern cloud CI/CD with native support for Linux, macOS, Windows, and ARM containers. YAML configuration with task-level caching, parallel execution, and built-in Docker/Podman support.",
+      "category": "ci-cd",
+      "subcategory": "pipelines",
+      "tags": [
+        "ci-cd",
+        "pipelines",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "open-source",
+        "docker"
+      ],
+      "free_tier": {
+        "summary": "Free for public repositories: 4,000 compute minutes/month. Linux containers free. macOS and Windows credits: 50/min free per month with per-task limits.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 2,
+        "overall": 3.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally with Google Cloud infrastructure"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Travis CI",
+        "CircleCI"
+      ],
+      "alternatives": [
+        "travis-ci",
+        "circleci"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "From $15/month for additional compute credits, macOS/Windows, and private repository support",
+        "starting_price_usd": 15,
+        "billing_model": "usage-based"
+      }
+    },
+    {
+      "id": "codemagic",
+      "slug": "codemagic",
+      "name": "Codemagic",
+      "website": "https://codemagic.io",
+      "docs": "https://docs.codemagic.io",
+      "description": "CI/CD platform specialized for Flutter and mobile app development. Automates building, testing, and publishing to app stores. Pre-configured workflows for Flutter, React Native, and native Android/iOS.",
+      "category": "ci-cd",
+      "subcategory": "pipelines",
+      "tags": [
+        "ci-cd",
+        "pipelines",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "usage-limits",
+        "mobile",
+        "flutter",
+        "android",
+        "ios"
+      ],
+      "free_tier": {
+        "summary": "500 build minutes/month. Unlimited projects. 1 concurrent build. Builds for open-source projects get 1,200 minutes/month.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "CircleCI",
+        "GitLab CI/CD"
+      ],
+      "alternatives": [
+        "circleci",
+        "gitlab-ci"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Personal — from $18/month: 2,500 min, 2 concurrent builds. Team: $48/month: 5,000 min, 5 concurrent builds.",
+        "starting_price_usd": 18,
+        "billing_model": "subscription"
+      },
+      "student_benefits": {
+        "available": true,
+        "details": "Free tier adequate for student mobile projects; GitHub Student Pack may include additional credits",
+        "verification_method": ""
+      }
+    },
+    {
+      "id": "gocd",
+      "slug": "gocd",
+      "name": "GoCD",
+      "website": "https://www.gocd.org",
+      "docs": "https://docs.gocd.org",
+      "github": "https://github.com/gocd/gocd",
+      "description": "Open-source CI/CD server by ThoughtWorks with advanced pipeline modeling. Value stream mapping, fan-in/fan-out dependency management, and template-based configuration. Designed for complex deployment pipelines with approval gates and traceability.",
+      "category": "ci-cd",
+      "subcategory": "pipelines",
+      "tags": [
+        "ci-cd",
+        "pipelines",
+        "automation",
+        "devops",
+        "open-source",
+        "self-hosted",
+        "forever-free",
+        "java"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Self-hosted. Unlimited builds, unlimited pipelines, unlimited agents. All features included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 4,
+        "performance": 3,
+        "community": 2,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Self-hosted: no restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Jenkins",
+        "Spinnaker"
+      ],
+      "alternatives": [
+        "jenkins"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "concourse-ci",
+      "slug": "concourse-ci",
+      "name": "Concourse CI",
+      "website": "https://concourse-ci.org",
+      "docs": "https://concourse-ci.org/docs.html",
+      "github": "https://github.com/concourse/concourse",
+      "description": "Container-centric CI/CD system with a novel pipeline-as-code approach using idempotent resources. Every step runs in a container, pipelines are version-controlled YAML, and the web UI visualizes the full dependency graph.",
+      "category": "ci-cd",
+      "subcategory": "pipelines",
+      "tags": [
+        "ci-cd",
+        "pipelines",
+        "automation",
+        "devops",
+        "open-source",
+        "self-hosted",
+        "docker",
+        "container",
+        "forever-free"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Self-hosted. Unlimited pipelines, unlimited workers. All features included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Self-hosted: no restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Jenkins",
+        "GoCD"
+      ],
+      "alternatives": [
+        "jenkins",
+        "gocd"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "harness-ci",
+      "slug": "harness-ci",
+      "name": "Harness CI",
+      "website": "https://www.harness.io/products/continuous-integration",
+      "docs": "https://developer.harness.io/docs/continuous-integration",
+      "description": "Next-gen CI platform with AI-powered test intelligence, automatic flaky test detection, and intelligent caching. Cloud-native architecture with Git pipeline abstraction and Kubernetes-native builds.",
+      "category": "ci-cd",
+      "subcategory": "pipelines",
+      "tags": [
+        "ci-cd",
+        "pipelines",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "usage-limits",
+        "kubernetes",
+        "ai",
+        "enterprise"
+      ],
+      "free_tier": {
+        "summary": "2 users, 100K CI minutes/month (free for personal accounts). 1 concurrent build. Unlimited repos. All features.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally with cloud SaaS deployment"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "CircleCI",
+        "GitHub Actions"
+      ],
+      "alternatives": [
+        "circleci",
+        "github-actions"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Team — from $50/month: unlimited users, 8 concurrent builds, enterprise features",
+        "starting_price_usd": 50,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "gitea-actions",
+      "slug": "gitea-actions",
+      "name": "Gitea Actions",
+      "website": "https://docs.gitea.com/next/usage/actions/overview",
+      "docs": "https://docs.gitea.com/next/usage/actions/overview",
+      "github": "https://github.com/go-gitea/gitea",
+      "description": "CI/CD natively integrated into Gitea, compatible with GitHub Actions workflow syntax. Self-hosted, lightweight, and supports the same YAML format as GitHub Actions. Runs in Docker containers with matrix builds.",
+      "category": "ci-cd",
+      "subcategory": "pipelines",
+      "tags": [
+        "ci-cd",
+        "pipelines",
+        "automation",
+        "devops",
+        "open-source",
+        "self-hosted",
+        "docker",
+        "forever-free",
+        "git"
+      ],
+      "free_tier": {
+        "summary": "Completely free as part of Gitea. Self-hosted. Unlimited builds, unlimited runners, compatible with all Actions workflow files.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Self-hosted: no restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "GitHub Actions",
+        "Drone CI"
+      ],
+      "alternatives": [
+        "github-actions",
+        "drone-ci"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "bazel",
+      "slug": "bazel",
+      "name": "Bazel",
+      "website": "https://bazel.build",
+      "docs": "https://bazel.build/docs",
+      "github": "https://github.com/bazelbuild/bazel",
+      "description": "Google's fast, scalable, multi-language build system. Correct incremental builds with fine-grained dependency tracking, distributed caching, and remote execution. Supports Java, C++, Python, Go, Android, iOS, and more.",
+      "category": "ci-cd",
+      "subcategory": "build-automation",
+      "tags": [
+        "ci-cd",
+        "pipelines",
+        "automation",
+        "devops",
+        "open-source",
+        "self-hosted",
+        "cli",
+        "java",
+        "python",
+        "go",
+        "android",
+        "forever-free",
+        "high-performance"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Self-hosted. Unlimited builds.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (self-hosted open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Gradle",
+        "Maven",
+        "CMake"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "BuildBuddy (commercial) from $0/month for cloud remote cache/execution; Cloud Build for Bazel",
+        "starting_price_usd": 0,
+        "billing_model": "usage-based"
+      }
+    },
+    {
+      "id": "cmake",
+      "slug": "cmake",
+      "name": "CMake",
+      "website": "https://cmake.org",
+      "docs": "https://cmake.org/documentation",
+      "github": "https://gitlab.kitware.com/cmake/cmake",
+      "description": "Cross-platform build system generator for C, C++, and other languages. Generates native build files for Make, Ninja, Visual Studio, Xcode, and more.",
+      "category": "ci-cd",
+      "subcategory": "build-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "self-hosted",
+        "cli",
+        "cpp",
+        "forever-free",
+        "cross-platform"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Unlimited use. Works on all major platforms.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Make",
+        "Bazel"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "gnu-make",
+      "slug": "gnu-make",
+      "name": "GNU Make",
+      "website": "https://www.gnu.org/software/make",
+      "docs": "https://www.gnu.org/software/make/manual",
+      "description": "The classic build automation tool. Uses Makefiles to define dependencies and commands for building targets. Available on every Unix-like system and Windows.",
+      "category": "ci-cd",
+      "subcategory": "build-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "forever-free",
+        "self-hosted"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Included in virtually every Linux distribution and macOS.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 3,
+        "community": 5,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "CMake",
+        "Ninja"
+      ],
+      "alternatives": [
+        "cmake"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "apache-ant",
+      "slug": "apache-ant",
+      "name": "Apache Ant",
+      "website": "https://ant.apache.org",
+      "docs": "https://ant.apache.org/manual",
+      "description": "Java-based build tool using XML build files. Extensible through custom tasks and Java classes. Platform-independent and well-suited for complex Java projects.",
+      "category": "ci-cd",
+      "subcategory": "build-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "java",
+        "forever-free",
+        "self-hosted"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. No usage limits. Available on all platforms with a Java runtime.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Maven",
+        "Gradle"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "sbt",
+      "slug": "sbt",
+      "name": "SBT",
+      "website": "https://www.scala-sbt.org",
+      "docs": "https://www.scala-sbt.org/documentation.html",
+      "github": "https://github.com/sbt/sbt",
+      "description": "The interactive build tool for Scala and JVM projects. Incremental compilation, continuous compilation/test, dependency management, and integration with IDEs.",
+      "category": "ci-cd",
+      "subcategory": "build-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "scala",
+        "java",
+        "forever-free",
+        "self-hosted"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. No usage limits. Works on all JVM platforms.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 4,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Maven",
+        "Gradle"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "msbuild",
+      "slug": "msbuild",
+      "name": "MSBuild",
+      "website": "https://github.com/dotnet/msbuild",
+      "docs": "https://learn.microsoft.com/en-us/visualstudio/msbuild",
+      "github": "https://github.com/dotnet/msbuild",
+      "description": "Microsoft's build platform for .NET projects. XML-based project files, extensible with custom tasks and targets. Ships with Visual Studio and the .NET SDK.",
+      "category": "ci-cd",
+      "subcategory": "build-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "dotnet",
+        "windows",
+        "forever-free",
+        "self-hosted"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Ships with .NET SDK. Cross-platform via .NET Core version.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Make",
+        "CMake"
+      ],
+      "alternatives": [
+        "cmake"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "nx",
+      "slug": "nx",
+      "name": "Nx",
+      "website": "https://nx.dev",
+      "docs": "https://nx.dev/getting-started/intro",
+      "github": "https://github.com/nrwl/nx",
+      "description": "Smart monorepo build system with caching, task orchestration, and code generation. Supports Angular, React, Next.js, NestJS, Node.js, and more.",
+      "category": "ci-cd",
+      "subcategory": "build-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "javascript",
+        "typescript",
+        "frontend",
+        "angular",
+        "react",
+        "forever-free"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Nx Cloud: 500GB remote caching + 100 distributed task execution hours/month free.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions for OSS; Nx Cloud available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Lerna",
+        "TurboRepo"
+      ],
+      "alternatives": [
+        "lerna",
+        "turborepo"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Nx Cloud Enterprise from $50/month for unlimited caching and distributed execution",
+        "starting_price_usd": 50,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "turborepo",
+      "slug": "turborepo",
+      "name": "TurboRepo",
+      "website": "https://turbo.build/repo",
+      "docs": "https://turbo.build/repo/docs",
+      "github": "https://github.com/vercel/turbo",
+      "description": "Vercel's high-performance monorepo build system. Incremental builds with content-aware caching, parallel task execution, and dependency graph optimization.",
+      "category": "ci-cd",
+      "subcategory": "build-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "javascript",
+        "typescript",
+        "frontend",
+        "nextjs",
+        "react",
+        "forever-free",
+        "high-performance"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Vercel Remote Cache: free tier includes shared cache with 100 GB storage and 500K requests/month.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions for OSS; Vercel cache globally available"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Nx",
+        "Lerna"
+      ],
+      "alternatives": [
+        "nx",
+        "lerna"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Vercel Remote Cache Pro from $20/month for unlimited users, unlimited storage",
+        "starting_price_usd": 20,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "lerna",
+      "slug": "lerna",
+      "name": "Lerna",
+      "website": "https://lerna.js.org",
+      "docs": "https://lerna.js.org/docs/introduction",
+      "github": "https://github.com/lerna/lerna",
+      "description": "Monorepo management tool for JavaScript/TypeScript projects. Optimizes workflows around managing multi-package repositories with git, npm/yarn/pnpm.",
+      "category": "ci-cd",
+      "subcategory": "build-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "javascript",
+        "typescript",
+        "nodejs",
+        "git",
+        "forever-free"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. No usage limits. Works with any npm/yarn/pnpm registry.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Nx",
+        "TurboRepo",
+        "Rush"
+      ],
+      "alternatives": [
+        "nx",
+        "turborepo",
+        "rush"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "rush",
+      "slug": "rush",
+      "name": "Rush",
+      "website": "https://rushjs.io",
+      "docs": "https://rushjs.io/pages/intro/get_started",
+      "github": "https://github.com/microsoft/rushstack",
+      "description": "Microsoft's scalable monorepo manager for large teams. Intelligent orchestration of npm/pnpm/yarn workspaces with parallel builds, incremental builds, and phased builds.",
+      "category": "ci-cd",
+      "subcategory": "build-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "javascript",
+        "typescript",
+        "nodejs",
+        "forever-free"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Unlimited projects. Works with any package manager.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Nx",
+        "Lerna"
+      ],
+      "alternatives": [
+        "nx",
+        "lerna"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "pants-build",
+      "slug": "pants-build",
+      "name": "Pants Build",
+      "website": "https://www.pantsbuild.org",
+      "docs": "https://www.pantsbuild.org/docs",
+      "github": "https://github.com/pantsbuild/pants",
+      "description": "Fast, scalable build system for monorepos supporting Python, Java, Scala, Go, shell, and Docker. Fine-grained invalidation, remote caching, and parallel execution.",
+      "category": "ci-cd",
+      "subcategory": "build-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "python",
+        "java",
+        "go",
+        "docker",
+        "forever-free",
+        "self-hosted"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Self-hosted. Unlimited builds.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 3,
+        "performance": 4,
+        "community": 2,
+        "overall": 3.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Bazel",
+        "Buck2"
+      ],
+      "alternatives": [
+        "bazel",
+        "buck2"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "buck2",
+      "slug": "buck2",
+      "name": "Buck2",
+      "website": "https://buck2.build",
+      "docs": "https://buck2.build/docs",
+      "github": "https://github.com/facebook/buck2",
+      "description": "Meta's open-source build system built in Rust. Designed for large-scale monorepos with fine-grained dependency tracking, distributed builds, and remote execution.",
+      "category": "ci-cd",
+      "subcategory": "build-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "rust",
+        "cpp",
+        "python",
+        "java",
+        "forever-free",
+        "high-performance",
+        "self-hosted"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Self-hosted. Unlimited builds.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 1,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 1,
+        "reliability": 4,
+        "performance": 5,
+        "community": 2,
+        "overall": 3.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Bazel",
+        "Pants Build"
+      ],
+      "alternatives": [
+        "bazel",
+        "pants-build"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "meson-build",
+      "slug": "meson-build",
+      "name": "Meson",
+      "website": "https://mesonbuild.com",
+      "docs": "https://mesonbuild.com/Manual.html",
+      "github": "https://github.com/mesonbuild/meson",
+      "description": "Fast, user-friendly build system designed for speed and developer experience. Python-based configuration language with Ninja as the default backend.",
+      "category": "ci-cd",
+      "subcategory": "build-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "python",
+        "cpp",
+        "rust",
+        "forever-free",
+        "self-hosted",
+        "high-performance"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. No usage limits. Cross-platform (Linux, macOS, Windows).",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "CMake",
+        "GNU Make"
+      ],
+      "alternatives": [
+        "cmake",
+        "gnu-make"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "ninja-build",
+      "slug": "ninja-build",
+      "name": "Ninja",
+      "website": "https://ninja-build.org",
+      "docs": "https://ninja-build.org/manual.html",
+      "github": "https://github.com/ninja-build/ninja",
+      "description": "Blazing-fast small build system focused on speed. Designed as a low-level backend for higher-level build systems like CMake and Meson.",
+      "category": "ci-cd",
+      "subcategory": "build-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "cpp",
+        "forever-free",
+        "self-hosted",
+        "high-performance"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. No usage limits. Available on all major platforms.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Make",
+        "CMake"
+      ],
+      "alternatives": [
+        "gnu-make",
+        "cmake"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "just",
+      "slug": "just",
+      "name": "Just",
+      "website": "https://just.systems",
+      "docs": "https://just.systems/man/en",
+      "github": "https://github.com/casey/just",
+      "description": "Lightweight command runner alternative to Make. Recipes with parameters, dependencies, and cross-platform shell commands. Single-binary, no dependencies, written in Rust.",
+      "category": "ci-cd",
+      "subcategory": "build-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "rust",
+        "forever-free",
+        "self-hosted"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Single binary, works on all platforms.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Make",
+        "Task"
+      ],
+      "alternatives": [
+        "gnu-make"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "tox",
+      "slug": "tox",
+      "name": "Tox",
+      "website": "https://tox.wiki",
+      "docs": "https://tox.wiki/en/latest",
+      "github": "https://github.com/tox-dev/tox",
+      "description": "Python test environment manager for CI. Automates testing across multiple Python versions and dependency configurations. De facto standard for Python CI testing.",
+      "category": "ci-cd",
+      "subcategory": "testing-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "testing",
+        "devops",
+        "open-source",
+        "cli",
+        "python",
+        "forever-free",
+        "self-hosted",
+        "qa"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. No usage limits. Integrates with any CI platform.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source Python tool)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Nox",
+        "pyenv"
+      ],
+      "alternatives": [
+        "nox"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "nox",
+      "slug": "nox",
+      "name": "Nox",
+      "website": "https://nox.thea.codes",
+      "docs": "https://nox.thea.codes/en/stable",
+      "github": "https://github.com/wntrblm/nox",
+      "description": "Flexible Python test session manager inspired by Tox. Standard Python files for configuration instead of INI syntax. Supports parametrized sessions and custom session logic.",
+      "category": "ci-cd",
+      "subcategory": "testing-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "testing",
+        "devops",
+        "open-source",
+        "cli",
+        "python",
+        "forever-free",
+        "self-hosted",
+        "qa"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. No usage limits. Works with any CI/CD system.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 3,
+        "community": 2,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Tox",
+        "pyenv"
+      ],
+      "alternatives": [
+        "tox"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "testcontainers",
+      "slug": "testcontainers",
+      "name": "Testcontainers",
+      "website": "https://testcontainers.com",
+      "docs": "https://testcontainers.com/guides",
+      "github": "https://github.com/testcontainers",
+      "description": "Library for spinning up disposable Docker containers for integration testing. Provides clean, isolated environments for databases, message brokers, web servers, and more.",
+      "category": "ci-cd",
+      "subcategory": "testing-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "testing",
+        "devops",
+        "open-source",
+        "docker",
+        "container",
+        "integration-test",
+        "java",
+        "dotnet",
+        "python",
+        "go",
+        "forever-free",
+        "self-hosted",
+        "qa"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Self-hosted Docker required. No usage limits. All language modules included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 3,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Docker Compose",
+        "LocalStack"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "act",
+      "slug": "act",
+      "name": "Act",
+      "website": "https://github.com/nektos/act",
+      "docs": "https://github.com/nektos/act#readme",
+      "github": "https://github.com/nektos/act",
+      "description": "Run GitHub Actions workflows locally. Execute CI pipelines on your machine before pushing, speeding up iteration. Full workflow YAML support, Docker-based job execution.",
+      "category": "ci-cd",
+      "subcategory": "testing-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "testing",
+        "devops",
+        "open-source",
+        "cli",
+        "docker",
+        "github-actions",
+        "forever-free",
+        "self-hosted",
+        "productivity"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. No usage limits. Requires Docker. Works on Linux, macOS, and Windows.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Docker Compose",
+        "GitHub Actions CLI"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "katalon",
+      "slug": "katalon",
+      "name": "Katalon Studio",
+      "website": "https://katalon.com",
+      "docs": "https://docs.katalon.com",
+      "description": "Comprehensive test automation platform supporting web, mobile, API, and desktop testing. Built-in CI/CD integrations with Jenkins, CircleCI, GitHub Actions, and more.",
+      "category": "ci-cd",
+      "subcategory": "testing-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "testing",
+        "devops",
+        "saas",
+        "free-tier",
+        "usage-limits",
+        "qa",
+        "e2e-testing",
+        "api"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 5 users, 1,000 test runs/month, unlimited test cases, all platform support. Katalon Runtime Engine free for open-source projects.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Selenium",
+        "Cypress"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Premium — from /month: 10 users, 5K test runs, parallel execution",
+        "starting_price_usd": 208,
+        "billing_model": "subscription"
+      },
+      "student_benefits": {
+        "available": true,
+        "details": "Special academic pricing available; Katalon Studio is free for individual learners",
+        "verification_method": ""
+      }
+    },
+    {
+      "id": "testcafe",
+      "slug": "testcafe",
+      "name": "TestCafe",
+      "website": "https://testcafe.io",
+      "docs": "https://testcafe.io/documentation",
+      "github": "https://github.com/DevExpress/testcafe",
+      "description": "Node.js end-to-end testing framework that works without WebDriver. Runs on any browser without plugins. Built-in waiting mechanism, parallel test execution, and screenshot/video recording.",
+      "category": "ci-cd",
+      "subcategory": "testing-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "testing",
+        "devops",
+        "open-source",
+        "cli",
+        "javascript",
+        "typescript",
+        "e2e-testing",
+        "forever-free",
+        "self-hosted"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Unlimited tests, unlimited browsers. TestCafe Studio has a free 30-day trial.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Selenium",
+        "Cypress",
+        "Playwright"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "TestCafe Studio — from /month per user for GUI-based test recorder",
+        "starting_price_usd": 99,
+        "billing_model": "per-user"
+      }
+    },
+    {
+      "id": "selenoid",
+      "slug": "selenoid",
+      "name": "Selenoid",
+      "website": "https://aerokube.com/selenoid",
+      "docs": "https://aerokube.com/selenoid/latest",
+      "github": "https://github.com/aerokube/selenoid",
+      "description": "Lightweight Selenium Grid implementation using Docker containers. Launches browsers on demand, supports video recording, and provides a live browser UI.",
+      "category": "ci-cd",
+      "subcategory": "testing-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "testing",
+        "devops",
+        "open-source",
+        "docker",
+        "container",
+        "e2e-testing",
+        "forever-free",
+        "self-hosted",
+        "qa"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Self-hosted with Docker. Unlimited browser sessions (limited by available resources).",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Self-hosted: no restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Selenium Grid",
+        "Zalenium"
+      ],
+      "alternatives": [
+        "zalenium"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Aerokube Moon (cloud version) — from .17/hour for managed browser clusters",
+        "starting_price_usd": 0,
+        "billing_model": "usage-based"
+      }
+    },
+    {
+      "id": "zalenium",
+      "slug": "zalenium",
+      "name": "Zalenium",
+      "website": "https://zalenium.github.io",
+      "docs": "https://github.com/zalando/zalenium/blob/master/docs/README.md",
+      "github": "https://github.com/zalando/zalenium",
+      "description": "Flexible Selenium Grid extension by Zalando. Dynamically scales browsers using Docker, providing on-demand browser containers for testing.",
+      "category": "ci-cd",
+      "subcategory": "testing-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "testing",
+        "devops",
+        "open-source",
+        "docker",
+        "container",
+        "e2e-testing",
+        "forever-free",
+        "self-hosted"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Self-hosted with Docker Compose. Unlimited scaling based on available resources.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 3,
+        "community": 2,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Self-hosted: no restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Selenoid",
+        "Selenium Grid"
+      ],
+      "alternatives": [
+        "selenoid"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "junit",
+      "slug": "junit",
+      "name": "JUnit",
+      "website": "https://junit.org",
+      "docs": "https://junit.org/junit5/docs/current/user-guide",
+      "github": "https://github.com/junit-team/junit5",
+      "description": "The foundational unit testing framework for Java. JUnit 5 (Jupiter) with parameterized tests, dynamic tests, test extensions, and powerful assertion APIs. Essential CI component for Java projects.",
+      "category": "ci-cd",
+      "subcategory": "testing-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "testing",
+        "devops",
+        "open-source",
+        "java",
+        "unit-test",
+        "forever-free",
+        "self-hosted",
+        "qa"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. No usage limits. Maven/Gradle plugin available. All features included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "TestNG",
+        "Spock"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "cucumber",
+      "slug": "cucumber",
+      "name": "Cucumber",
+      "website": "https://cucumber.io",
+      "docs": "https://cucumber.io/docs",
+      "github": "https://github.com/cucumber",
+      "description": "BDD (Behavior-Driven Development) testing framework supporting Gherkin syntax. Write human-readable test scenarios that execute as automated tests.",
+      "category": "ci-cd",
+      "subcategory": "testing-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "testing",
+        "devops",
+        "open-source",
+        "cli",
+        "java",
+        "javascript",
+        "ruby",
+        "python",
+        "forever-free",
+        "self-hosted",
+        "qa"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Cucumber Studio (collaboration) has a free tier: 5 users, 5 repositories.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source: no restrictions. Studio: global SaaS"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "SpecFlow",
+        "Behave"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Cucumber Studio — from /month for 10 users, unlimited repos",
+        "starting_price_usd": 60,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "robot-framework",
+      "slug": "robot-framework",
+      "name": "Robot Framework",
+      "website": "https://robotframework.org",
+      "docs": "https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html",
+      "github": "https://github.com/robotframework/robotframework",
+      "description": "Keyword-driven test automation framework for acceptance testing and RPA. Human-readable syntax with extensible libraries in Python and Java.",
+      "category": "ci-cd",
+      "subcategory": "testing-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "testing",
+        "devops",
+        "open-source",
+        "cli",
+        "python",
+        "java",
+        "rpa",
+        "qa",
+        "forever-free",
+        "self-hosted"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Unlimited tests, libraries, and integrations.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Cucumber",
+        "Selenium"
+      ],
+      "alternatives": [
+        "cucumber"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "mockito",
+      "slug": "mockito",
+      "name": "Mockito",
+      "website": "https://site.mockito.org",
+      "docs": "https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html",
+      "github": "https://github.com/mockito/mockito",
+      "description": "Most popular Java mocking framework for unit tests. Create mock objects, stub methods, and verify interactions. Clean API with annotations, argument matchers, and BDD-style verification.",
+      "category": "ci-cd",
+      "subcategory": "testing-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "testing",
+        "devops",
+        "open-source",
+        "java",
+        "unit-test",
+        "forever-free",
+        "self-hosted",
+        "qa"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. No usage limits. Works with JUnit 4/5, TestNG, and other test runners.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "EasyMock",
+        "PowerMock"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "sinon",
+      "slug": "sinon",
+      "name": "Sinon.js",
+      "website": "https://sinonjs.org",
+      "docs": "https://sinonjs.org/releases/latest",
+      "github": "https://github.com/sinonjs/sinon",
+      "description": "Standalone test doubles library for JavaScript/Node.js. Spies, stubs, mocks, fake timers, and fake XHR/server. Works with any test framework (Mocha, Jest, Vitest, Jasmine).",
+      "category": "ci-cd",
+      "subcategory": "testing-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "testing",
+        "devops",
+        "open-source",
+        "cli",
+        "javascript",
+        "typescript",
+        "nodejs",
+        "unit-test",
+        "forever-free",
+        "self-hosted",
+        "qa"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. No usage limits. Works with all major JS test frameworks.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Jest mocks",
+        "testdouble.js"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "wiremock",
+      "slug": "wiremock",
+      "name": "WireMock",
+      "website": "https://wiremock.org",
+      "docs": "https://wiremock.org/docs",
+      "github": "https://github.com/wiremock/wiremock",
+      "description": "HTTP mock server for API testing and service virtualization. Stub HTTP responses, verify requests, simulate faults and delays. Standalone server or library for Java, .NET, and Go.",
+      "category": "ci-cd",
+      "subcategory": "testing-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "testing",
+        "devops",
+        "open-source",
+        "cli",
+        "docker",
+        "java",
+        "dotnet",
+        "go",
+        "api",
+        "integration-test",
+        "forever-free",
+        "self-hosted",
+        "qa"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Standalone JAR or Docker image. Unlimited stubs and scenarios.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Self-hosted: no restrictions. Cloud: globally available"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "MockServer",
+        "Mountebank"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "WireMock Cloud — from /month for 5K requests, 2 team members",
+        "starting_price_usd": 0,
+        "billing_model": "usage-based"
+      }
+    },
+    {
+      "id": "appium",
+      "slug": "appium",
+      "name": "Appium",
+      "website": "https://appium.io",
+      "docs": "http://appium.io/docs/en/latest",
+      "github": "https://github.com/appium/appium",
+      "description": "Cross-platform mobile test automation framework. Automate native, hybrid, and mobile web apps on iOS and Android. WebDriver-compatible protocol, runs on simulators, real devices, or cloud services.",
+      "category": "ci-cd",
+      "subcategory": "testing-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "testing",
+        "devops",
+        "open-source",
+        "cli",
+        "mobile",
+        "android",
+        "ios",
+        "e2e-testing",
+        "forever-free",
+        "self-hosted",
+        "qa"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Self-hosted. Requires device/simulator setup. Unlimited tests.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.3
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Espresso",
+        "XCUITest",
+        "Detox"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Appium Pro (advisory) — commercial support; cloud device providers like Sauce Labs, BrowserStack provide Appium-compatible device clouds",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      }
+    },
+    {
+      "id": "sonatype-nexus",
+      "slug": "sonatype-nexus",
+      "name": "Sonatype Nexus Repository",
+      "website": "https://www.sonatype.com/products/sonatype-nexus-repository",
+      "docs": "https://help.sonatype.com/en/sonatype-nexus-repository.html",
+      "description": "Universal artifact repository manager supporting Maven, npm, Docker, PyPI, NuGet, RubyGems, and 30+ formats. OSS edition is free and self-hosted.",
+      "category": "ci-cd",
+      "subcategory": "artifact-hosting",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "self-hosted",
+        "free-tier",
+        "java",
+        "docker",
+        "forever-free",
+        "package-manager"
+      ],
+      "free_tier": {
+        "summary": "Nexus Repository OSS: free and self-hosted. Supports Maven, npm, Docker, PyPI, NuGet, RubyGems, Git LFS, APT, YUM, raw, and more.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Self-hosted: no restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "JFrog Artifactory",
+        "CloudRepo"
+      ],
+      "alternatives": [
+        "jfrog-artifactory"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Nexus Pro — from ,000/year: SAML/SSO, HA clustering, Form-based formats",
+        "starting_price_usd": 12000,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "jfrog-artifactory",
+      "slug": "jfrog-artifactory",
+      "name": "JFrog Artifactory",
+      "website": "https://jfrog.com/artifactory",
+      "docs": "https://jfrog.com/help/r/jfrog-artifactory-documentation",
+      "description": "Universal artifact repository manager with enterprise-grade features. Supports all major package formats, Docker registries, Helm charts, and generic repositories.",
+      "category": "ci-cd",
+      "subcategory": "artifact-hosting",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "self-hosted",
+        "free-tier",
+        "usage-limits",
+        "docker",
+        "java",
+        "package-manager",
+        "container"
+      ],
+      "free_tier": {
+        "summary": "Artifactory OSS: free self-hosted (Maven, Ivy, Gradle, Docker, generic). JFrog Cloud Free Tier: 2 GB storage, 2 users, 100 CI integrations.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 3,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Self-hosted: no restrictions. Cloud: global availability"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Sonatype Nexus",
+        "Harbor"
+      ],
+      "alternatives": [
+        "sonatype-nexus"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Pro — from /year: unlimited storage, 5 users, HA, Xray integration",
+        "starting_price_usd": 989,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "docker-hub",
+      "slug": "docker-hub",
+      "name": "Docker Hub",
+      "website": "https://hub.docker.com",
+      "docs": "https://docs.docker.com/docker-hub",
+      "description": "World's largest container image registry and community. Host and share Docker images with automated builds from GitHub/Bitbucket. Official images for popular software.",
+      "category": "ci-cd",
+      "subcategory": "artifact-hosting",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "usage-limits",
+        "docker",
+        "container",
+        "rate-limited"
+      ],
+      "free_tier": {
+        "summary": "1 private repository. Unlimited public repositories. 200 pulls/6 hours (unauthenticated), 100 pulls/6 hours (authenticated free).",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 3,
+        "community": 5,
+        "overall": 4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; Docker Hub is US-based"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "GitHub Container Registry",
+        "Quay.io"
+      ],
+      "alternatives": [
+        "ghcr",
+        "quay-io"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Pro — from /month: unlimited private repos, 300 pulls/6 hours, 5 concurrent builds",
+        "starting_price_usd": 5,
+        "billing_model": "subscription"
+      },
+      "student_benefits": {
+        "available": true,
+        "details": "Docker Pro free for verified students via GitHub Student Developer Pack",
+        "verification_method": "github-education"
+      }
+    },
+    {
+      "id": "ghcr",
+      "slug": "ghcr",
+      "name": "GitHub Container Registry",
+      "website": "https://ghcr.io",
+      "docs": "https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry",
+      "description": "Docker container registry integrated into GitHub Packages. Store and publish OCI-compatible container images alongside your source code. Free for public images.",
+      "category": "ci-cd",
+      "subcategory": "artifact-hosting",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "docker",
+        "container",
+        "github",
+        "forever-free"
+      ],
+      "free_tier": {
+        "summary": "Free for public images. Private images: 500 MB free storage, 1 GB free data transfer/month for private repos.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [
+          "IR",
+          "KP",
+          "SY",
+          "CU"
+        ],
+        "notes": "Available globally with US, EU, and APAC regions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Docker Hub",
+        "Quay.io"
+      ],
+      "alternatives": [
+        "docker-hub",
+        "quay-io"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Part of GitHub paid plans or billed per usage: .25/GB storage, .50/GB transfer",
+        "starting_price_usd": 0,
+        "billing_model": "usage-based"
+      },
+      "student_benefits": {
+        "available": true,
+        "details": "GitHub Student Pack includes free GitHub Team plan with increased storage/transfer limits",
+        "verification_method": "github-education"
+      }
+    },
+    {
+      "id": "harbor",
+      "slug": "harbor",
+      "name": "Harbor",
+      "website": "https://goharbor.io",
+      "docs": "https://goharbor.io/docs",
+      "github": "https://github.com/goharbor/harbor",
+      "description": "Open-source cloud-native container registry with built-in security scanning. Role-based access control, image replication across registries, vulnerability scanning via Trivy. CNCF graduated project.",
+      "category": "ci-cd",
+      "subcategory": "artifact-hosting",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "self-hosted",
+        "docker",
+        "container",
+        "security",
+        "forever-free",
+        "kubernetes"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Self-hosted. Unlimited images, users, and projects. Includes vulnerability scanning, replication, and RBAC.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (self-hosted open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Quay.io",
+        "Docker Registry"
+      ],
+      "alternatives": [
+        "quay-io"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "quay-io",
+      "slug": "quay-io",
+      "name": "Quay.io",
+      "website": "https://quay.io",
+      "docs": "https://docs.quay.io",
+      "description": "Red Hat's enterprise container registry with automated builds, vulnerability scanning, and geo-replication. Supports Docker images, OCI artifacts, and AppC images.",
+      "category": "ci-cd",
+      "subcategory": "artifact-hosting",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "usage-limits",
+        "docker",
+        "container",
+        "kubernetes"
+      ],
+      "free_tier": {
+        "summary": "Unlimited public repositories. 1 private repository. Unlimited public automated builds. Vulnerability scanning included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally with US and EU regions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Docker Hub",
+        "GitHub Container Registry"
+      ],
+      "alternatives": [
+        "docker-hub",
+        "ghcr"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Starter — /month: 5 private repos. Pro — /month: unlimited private repos",
+        "starting_price_usd": 10,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "cloudsmith",
+      "slug": "cloudsmith",
+      "name": "Cloudsmith",
+      "website": "https://cloudsmith.io",
+      "docs": "https://help.cloudsmith.io/docs",
+      "description": "Cloud-native artifact management platform supporting 30+ package formats. Host and proxy containers, packages, and binaries with built-in vulnerability scanning.",
+      "category": "ci-cd",
+      "subcategory": "artifact-hosting",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "usage-limits",
+        "docker",
+        "container",
+        "package-manager",
+        "security"
+      ],
+      "free_tier": {
+        "summary": "1 GB storage, 1 GB transfer/month. Unlimited public repositories. 5 team members. Vulnerability scanning included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally with multiple storage regions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Sonatype Nexus",
+        "JFrog Artifactory"
+      ],
+      "alternatives": [
+        "sonatype-nexus",
+        "jfrog-artifactory"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Pro — from /month: 50 GB storage, 50 GB transfer, unlimited members",
+        "starting_price_usd": 99,
+        "billing_model": "subscription"
+      },
+      "student_benefits": {
+        "available": true,
+        "details": "Free tier sufficient for student projects; academic discounts available",
+        "verification_method": ""
+      }
+    },
+    {
+      "id": "packagecloud",
+      "slug": "packagecloud",
+      "name": "PackageCloud",
+      "website": "https://packagecloud.io",
+      "docs": "https://docs.packagecloud.io",
+      "description": "Hosted package repository for Debian, RPM, RubyGems, Python, Node.js, Java, and more. Private and public repos with team collaboration and CI/CD integration.",
+      "category": "ci-cd",
+      "subcategory": "artifact-hosting",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "usage-limits",
+        "package-manager",
+        "open-source"
+      ],
+      "free_tier": {
+        "summary": "1 private repository, unlimited public repositories. 200 MB storage. 1 GB transfer/month. 2 team members.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 3,
+        "community": 2,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Gemfury",
+        "Cloudsmith"
+      ],
+      "alternatives": [
+        "gemfury",
+        "cloudsmith"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Personal — /month: 10GB storage, 10GB transfer, 5 users. Team — /month",
+        "starting_price_usd": 15,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "gemfury",
+      "slug": "gemfury",
+      "name": "Gemfury",
+      "website": "https://gemfury.com",
+      "docs": "https://gemfury.com/help",
+      "description": "Hosted package registry for RubyGems, npm, PyPI, Maven, NuGet, PHP Composer, and Debian packages. Private package hosting with webhook CI integration.",
+      "category": "ci-cd",
+      "subcategory": "artifact-hosting",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "usage-limits",
+        "package-manager"
+      ],
+      "free_tier": {
+        "summary": "1 private repository, unlimited public. 100 MB storage. 1 collaborator. 2,500 package downloads/month.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 2,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 2,
+        "overall": 3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "PackageCloud",
+        "Cloudsmith"
+      ],
+      "alternatives": [
+        "packagecloud",
+        "cloudsmith"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Pro — from /month: 1GB storage, unlimited collaborators, 5 repos",
+        "starting_price_usd": 15,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "proget",
+      "slug": "proget",
+      "name": "ProGet",
+      "website": "https://inedo.com/proget",
+      "docs": "https://docs.inedo.com/docs/proget/overview",
+      "description": "Universal package manager by Inedo. Host and proxy NuGet, npm, Docker, Maven, RubyGems, PyPI, and Chocolatey packages. Built-in vulnerability scanning and license compliance.",
+      "category": "ci-cd",
+      "subcategory": "artifact-hosting",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "self-hosted",
+        "free-tier",
+        "usage-limits",
+        "docker",
+        "package-manager",
+        "dotnet"
+      ],
+      "free_tier": {
+        "summary": "ProGet Free: 1 feed, unlimited packages/users, 1 connector. Self-hosted on Windows/Linux.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 2,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Self-hosted: no restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Sonatype Nexus",
+        "JFrog Artifactory"
+      ],
+      "alternatives": [
+        "sonatype-nexus",
+        "jfrog-artifactory"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Pro — from ,995/year: unlimited feeds, 20+ connectors, vulnerability scanning",
+        "starting_price_usd": 3995,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "jitpack",
+      "slug": "jitpack",
+      "name": "JitPack",
+      "website": "https://jitpack.io",
+      "docs": "https://jitpack.io/docs",
+      "description": "On-demand package repository for JVM and Android libraries. Builds artifacts directly from GitHub repositories on the fly. Supports Maven, Gradle, sbt, and Leiningen.",
+      "category": "ci-cd",
+      "subcategory": "artifact-hosting",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "java",
+        "android",
+        "gradle",
+        "maven",
+        "git",
+        "forever-free"
+      ],
+      "free_tier": {
+        "summary": "Free for public GitHub repositories. Unlimited builds and storage. No account required for consuming public artifacts.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 3,
+        "community": 3,
+        "overall": 4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Maven Central",
+        "Sonatype Nexus"
+      ],
+      "alternatives": [
+        "sonatype-nexus"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "JitPack Enterprise — from /month: private repos, priority support, custom domain",
+        "starting_price_usd": 99,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "chartmuseum",
+      "slug": "chartmuseum",
+      "name": "ChartMuseum",
+      "website": "https://chartmuseum.com",
+      "docs": "https://chartmuseum.com/docs",
+      "github": "https://github.com/helm/chartmuseum",
+      "description": "Open-source Helm Chart repository server. Store, manage, and distribute Kubernetes Helm charts. Supports cloud storage backends (S3, GCS, Azure Blob, OSS). CNCF project.",
+      "category": "ci-cd",
+      "subcategory": "artifact-hosting",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "self-hosted",
+        "docker",
+        "kubernetes",
+        "helm",
+        "forever-free",
+        "container"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Self-hosted. Unlimited charts and versions. Multiple storage backends supported.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Self-hosted: no restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Harbor (Helm Charts)",
+        "Quay.io (App Registry)"
+      ],
+      "alternatives": [
+        "harbor"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "minio",
+      "slug": "minio",
+      "name": "MinIO",
+      "website": "https://min.io",
+      "docs": "https://min.io/docs/minio/container/index.html",
+      "github": "https://github.com/minio/minio",
+      "description": "High-performance, S3-compatible object storage server. Perfect for artifact storage in CI/CD pipelines. Supports multi-cloud replication, erasure coding, and bucket versioning.",
+      "category": "ci-cd",
+      "subcategory": "artifact-hosting",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "self-hosted",
+        "docker",
+        "kubernetes",
+        "s3-compatible",
+        "storage",
+        "forever-free",
+        "high-performance"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Self-hosted. Unlimited storage (hardware-dependent). S3-compatible API.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Self-hosted: no restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "AWS S3",
+        "LocalStack"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "MinIO Enterprise — from /instance/month: SUBNET support, security advisory, performance",
+        "starting_price_usd": 10,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "cloudrepo",
+      "slug": "cloudrepo",
+      "name": "CloudRepo",
+      "website": "https://cloudrepo.io",
+      "docs": "https://docs.cloudrepo.io",
+      "description": "Hosted private Maven and PyPI repository. Secure artifact storage with access controls, team management, and audit logging. No infrastructure to manage.",
+      "category": "ci-cd",
+      "subcategory": "artifact-hosting",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "usage-limits",
+        "java",
+        "python",
+        "package-manager"
+      ],
+      "free_tier": {
+        "summary": "250 MB storage. 1 GB bandwidth/month. Unlimited repos. 3 users. Maven and PyPI support.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 2,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 1,
+        "overall": 2.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Sonatype Nexus",
+        "JFrog Artifactory"
+      ],
+      "alternatives": [
+        "sonatype-nexus",
+        "jfrog-artifactory"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Team — from /month: 5 GB storage, 25 GB bandwidth, 25 users",
+        "starting_price_usd": 25,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "myget",
+      "slug": "myget",
+      "name": "MyGet",
+      "website": "https://www.myget.org",
+      "docs": "https://docs.myget.org",
+      "description": "Hosted package registry supporting NuGet, npm, Maven, Bower, VSIX, and more. CI/CD integration with GitHub, Azure DevOps, and Bitbucket.",
+      "category": "ci-cd",
+      "subcategory": "artifact-hosting",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "usage-limits",
+        "dotnet",
+        "package-manager"
+      ],
+      "free_tier": {
+        "summary": "1 private feed, unlimited public feeds. 500 MB storage. 2 team members. 1 upstream source.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 2,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 2,
+        "overall": 3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "ProGet",
+        "NuGet Gallery"
+      ],
+      "alternatives": [
+        "proget"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Pro — from /month: 10 private feeds, 5 GB storage, 25 team members",
+        "starting_price_usd": 29,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "sonarqube",
+      "slug": "sonarqube",
+      "name": "SonarQube",
+      "website": "https://www.sonarsource.com/products/sonarqube",
+      "docs": "https://docs.sonarsource.com/sonarqube/latest",
+      "github": "https://github.com/SonarSource/sonarqube",
+      "description": "Industry-leading code quality and security analysis platform. Static analysis for 30+ languages, detect bugs, vulnerabilities, code smells, and security hotspots.",
+      "category": "ci-cd",
+      "subcategory": "code-quality",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "self-hosted",
+        "forever-free",
+        "security",
+        "java",
+        "javascript",
+        "python",
+        "cpp",
+        "qa",
+        "code-analysis"
+      ],
+      "free_tier": {
+        "summary": "SonarQube Community Edition: free and self-hosted. Supports 30+ languages, all core analyzers, Quality Gates, Security Hotspots.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 3,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Self-hosted: no restrictions. SonarCloud: global SaaS"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "CodeClimate",
+        "Codacy"
+      ],
+      "alternatives": [
+        "sonarcloud",
+        "codacy"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Developer Edition — from ,000/year: branch analysis, PR decoration, advanced security. Enterprise: ,000/year",
+        "starting_price_usd": 12000,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "sonarcloud",
+      "slug": "sonarcloud",
+      "name": "SonarCloud",
+      "website": "https://sonarcloud.io",
+      "docs": "https://docs.sonarsource.com/sonarcloud",
+      "description": "Cloud-based code quality and security platform by SonarSource. Analyzes code from GitHub, GitLab, Bitbucket, and Azure DevOps. Free for public repositories.",
+      "category": "ci-cd",
+      "subcategory": "code-quality",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "forever-free",
+        "security",
+        "code-analysis",
+        "qa",
+        "open-source"
+      ],
+      "free_tier": {
+        "summary": "Free for public repositories: unlimited analysis, all languages, PR decoration, Quality Gates. Private repos: 100K lines of code.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally with EU and US hosting regions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "CodeClimate",
+        "Codacy"
+      ],
+      "alternatives": [
+        "sonarqube",
+        "codacy"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "From /month: unlimited private repo lines, enterprise features",
+        "starting_price_usd": 30,
+        "billing_model": "subscription"
+      },
+      "student_benefits": {
+        "available": true,
+        "details": "Free tier sufficient for student projects; unlimited public repo analysis",
+        "verification_method": ""
+      }
+    },
+    {
+      "id": "codacy",
+      "slug": "codacy",
+      "name": "Codacy",
+      "website": "https://www.codacy.com",
+      "docs": "https://docs.codacy.com",
+      "description": "Automated code review platform that integrates with GitHub, GitLab, and Bitbucket. Detects security issues, code coverage changes, and code style violations.",
+      "category": "ci-cd",
+      "subcategory": "code-quality",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "usage-limits",
+        "security",
+        "code-analysis",
+        "qa"
+      ],
+      "free_tier": {
+        "summary": "Free for open-source: unlimited repos, all features. Private repos: 4 users, unlimited repos. Security patterns included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "SonarCloud",
+        "CodeClimate"
+      ],
+      "alternatives": [
+        "sonarcloud",
+        "codeclimate"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Pro — from /user/month: 15 users, advanced patterns, priority support",
+        "starting_price_usd": 15,
+        "billing_model": "per-user"
+      }
+    },
+    {
+      "id": "codeclimate",
+      "slug": "codeclimate",
+      "name": "Code Climate",
+      "website": "https://codeclimate.com",
+      "docs": "https://docs.codeclimate.com",
+      "description": "Automated code review platform with static analysis and test coverage reporting. Integrated with GitHub PR workflows. Maintainability badges and trend tracking.",
+      "category": "ci-cd",
+      "subcategory": "code-quality",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "forever-free",
+        "code-analysis",
+        "qa",
+        "open-source"
+      ],
+      "free_tier": {
+        "summary": "Free for open-source: unlimited repos, all analysis engines, PR review. Private repos: Team plan required (14-day free trial).",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "SonarCloud",
+        "Codacy"
+      ],
+      "alternatives": [
+        "sonarcloud",
+        "codacy"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Team — from /month: private repos, unlimited users, advanced engines",
+        "starting_price_usd": 100,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "codecov",
+      "slug": "codecov",
+      "name": "Codecov",
+      "website": "https://about.codecov.io",
+      "docs": "https://docs.codecov.com/docs",
+      "description": "Code coverage reporting and analytics platform. Visualize test coverage with pull request comments, status checks, and coverage badges.",
+      "category": "ci-cd",
+      "subcategory": "code-quality",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "testing",
+        "qa",
+        "open-source",
+        "forever-free"
+      ],
+      "free_tier": {
+        "summary": "Free for public repositories: unlimited coverage uploads, PR comments, and status checks. Unlimited users.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Coveralls",
+        "SonarCloud coverage"
+      ],
+      "alternatives": [
+        "coveralls",
+        "sonarcloud"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Pro — from /user/month: private repos, advanced features, priority support",
+        "starting_price_usd": 5,
+        "billing_model": "per-user"
+      },
+      "student_benefits": {
+        "available": true,
+        "details": "Free plan covers student projects; public repos are always free",
+        "verification_method": ""
+      }
+    },
+    {
+      "id": "coveralls",
+      "slug": "coveralls",
+      "name": "Coveralls",
+      "website": "https://coveralls.io",
+      "docs": "https://docs.coveralls.io",
+      "description": "Hosted code coverage tracking service. Shows which parts of your code aren't covered by tests. Integrates with GitHub, GitLab, Bitbucket, and all major CI platforms.",
+      "category": "ci-cd",
+      "subcategory": "code-quality",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "testing",
+        "qa",
+        "open-source",
+        "forever-free"
+      ],
+      "free_tier": {
+        "summary": "Free for public repositories: unlimited coverage reports, badges, and PR comments. 1 private repo for free.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Codecov",
+        "SonarCloud"
+      ],
+      "alternatives": [
+        "codecov",
+        "sonarcloud"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Pro — from /month: unlimited private repos, multiple accounts, priority support",
+        "starting_price_usd": 8,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "eslint",
+      "slug": "eslint",
+      "name": "ESLint",
+      "website": "https://eslint.org",
+      "docs": "https://eslint.org/docs/latest",
+      "github": "https://github.com/eslint/eslint",
+      "description": "Pluggable JavaScript/TypeScript linter for identifying and reporting code patterns. Thousands of built-in and community rules, custom rule creation, and auto-fixing.",
+      "category": "ci-cd",
+      "subcategory": "code-quality",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "javascript",
+        "typescript",
+        "nodejs",
+        "forever-free",
+        "qa",
+        "code-analysis"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Unlimited use. Thousands of rules. Auto-fix support.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "JSHint",
+        "Prettier"
+      ],
+      "alternatives": [
+        "prettier"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "prettier",
+      "slug": "prettier",
+      "name": "Prettier",
+      "website": "https://prettier.io",
+      "docs": "https://prettier.io/docs/en/index.html",
+      "github": "https://github.com/prettier/prettier",
+      "description": "Opinionated code formatter supporting JavaScript, TypeScript, CSS, HTML, JSON, Markdown, YAML, and more. Enforces consistent code style across your team.",
+      "category": "ci-cd",
+      "subcategory": "code-quality",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "javascript",
+        "typescript",
+        "css",
+        "html",
+        "forever-free",
+        "qa"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Supports all major file formats. CLI, API, and editor integrations.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.7
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "ESLint (formatting rules)",
+        "dprint"
+      ],
+      "alternatives": [
+        "eslint"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "semgrep",
+      "slug": "semgrep",
+      "name": "Semgrep",
+      "website": "https://semgrep.dev",
+      "docs": "https://semgrep.dev/docs",
+      "github": "https://github.com/semgrep/semgrep",
+      "description": "Lightweight static analysis tool for finding bugs, vulnerabilities, and anti-patterns. Rules look like source code, making them easy to write. Supports 30+ languages.",
+      "category": "ci-cd",
+      "subcategory": "code-quality",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "security",
+        "code-analysis",
+        "qa",
+        "python",
+        "java",
+        "javascript",
+        "go",
+        "ruby",
+        "forever-free",
+        "self-hosted"
+      ],
+      "free_tier": {
+        "summary": "Semgrep OSS: free CLI, unlimited rules, all languages. Semgrep Cloud Platform: free for up to 25 contributors, unlimited repos.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "OSS: no restrictions. Cloud: globally available"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "CodeQL",
+        "SonarQube"
+      ],
+      "alternatives": [
+        "codeql",
+        "sonarqube"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Semgrep Pro — from /month: 100+ contributors, advanced inter-file analysis",
+        "starting_price_usd": 100,
+        "billing_model": "subscription"
+      },
+      "student_benefits": {
+        "available": true,
+        "details": "Free tier (up to 25 contributors) is sufficient for student teams",
+        "verification_method": ""
+      }
+    },
+    {
+      "id": "codeql",
+      "slug": "codeql",
+      "name": "CodeQL",
+      "website": "https://codeql.github.com",
+      "docs": "https://docs.github.com/en/code-security/codeql-cli",
+      "github": "https://github.com/github/codeql-cli",
+      "description": "GitHub's semantic code analysis engine for security vulnerabilities. Query-based analysis treats code as data. Free for public repositories on GitHub.com.",
+      "category": "ci-cd",
+      "subcategory": "code-quality",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "security",
+        "code-analysis",
+        "github",
+        "saas",
+        "forever-free",
+        "qa"
+      ],
+      "free_tier": {
+        "summary": "Free for public repositories on GitHub.com: unlimited scans, all query packs. GitHub Advanced Security for private repos.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [
+          "IR",
+          "KP",
+          "SY",
+          "CU"
+        ],
+        "notes": "Available globally with GitHub.com restrictions in sanctioned countries"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Semgrep",
+        "SonarQube"
+      ],
+      "alternatives": [
+        "semgrep",
+        "sonarqube"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Part of GitHub Advanced Security (GitHub Enterprise) — from /user/month",
+        "starting_price_usd": 49,
+        "billing_model": "per-user"
+      },
+      "student_benefits": {
+        "available": true,
+        "details": "Free for student public repos; included in GitHub Student Pack",
+        "verification_method": "github-education"
+      }
+    },
+    {
+      "id": "trivy",
+      "slug": "trivy",
+      "name": "Trivy",
+      "website": "https://trivy.dev",
+      "docs": "https://trivy.dev/docs",
+      "github": "https://github.com/aquasecurity/trivy",
+      "description": "Comprehensive security scanner for containers, filesystems, Git repos, and cloud infrastructure. Scans for vulnerabilities, misconfigurations, secrets, and license issues.",
+      "category": "ci-cd",
+      "subcategory": "code-quality",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "security",
+        "docker",
+        "kubernetes",
+        "container",
+        "forever-free",
+        "self-hosted",
+        "qa",
+        "code-analysis"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. CLI and Docker image. Scans containers, filesystems, repos, and configs.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source CLI)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Snyk",
+        "Grype",
+        "Clair"
+      ],
+      "alternatives": [
+        "snyk"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Aqua Enterprise — from /month per node: policy engine, admission controller, runtime protection",
+        "starting_price_usd": 99,
+        "billing_model": "usage-based"
+      }
+    },
+    {
+      "id": "snyk",
+      "slug": "snyk",
+      "name": "Snyk",
+      "website": "https://snyk.io",
+      "docs": "https://docs.snyk.io",
+      "description": "Developer security platform for finding and fixing vulnerabilities in open-source dependencies, containers, and infrastructure as code. CI-native with GitHub, GitLab, and Bitbucket integration.",
+      "category": "ci-cd",
+      "subcategory": "code-quality",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "usage-limits",
+        "security",
+        "code-analysis",
+        "qa",
+        "docker",
+        "container"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 200 open-source tests/month, unlimited Snyk Code tests (SAST), 1 container test/month. Unlimited projects for public repos.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Trivy",
+        "SonarQube"
+      ],
+      "alternatives": [
+        "trivy",
+        "sonarqube"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Team — from /month: unlimited open-source tests, 100 container tests, 100 IaC tests",
+        "starting_price_usd": 25,
+        "billing_model": "subscription"
+      },
+      "student_benefits": {
+        "available": true,
+        "details": "Free tier generous for students; special academic pricing available",
+        "verification_method": ""
+      }
+    },
+    {
+      "id": "deepsource",
+      "slug": "deepsource",
+      "name": "DeepSource",
+      "website": "https://deepsource.com",
+      "docs": "https://docs.deepsource.com",
+      "description": "Automated code review platform that detects bugs, anti-patterns, and security vulnerabilities. Supports Python, Go, JavaScript, TypeScript, Ruby, and Java. Free for open-source.",
+      "category": "ci-cd",
+      "subcategory": "code-quality",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "forever-free",
+        "code-analysis",
+        "qa",
+        "security"
+      ],
+      "free_tier": {
+        "summary": "Free for open-source: unlimited repos, unlimited users, all analyzers. Private repos: 14-day free trial.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 2,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "SonarCloud",
+        "Codacy"
+      ],
+      "alternatives": [
+        "sonarcloud",
+        "codacy"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Pro — from /month: private repos, priority support, advanced configurations",
+        "starting_price_usd": 12,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "reviewdog",
+      "slug": "reviewdog",
+      "name": "Reviewdog",
+      "website": "https://reviewdog.app",
+      "docs": "https://github.com/reviewdog/reviewdog",
+      "github": "https://github.com/reviewdog/reviewdog",
+      "description": "Automated code review tool that integrates with any linter. Posts review comments to GitHub, GitLab, and Bitbucket PRs. Supports diff-based reporting to only show new issues.",
+      "category": "ci-cd",
+      "subcategory": "code-quality",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "git",
+        "code-analysis",
+        "qa",
+        "forever-free",
+        "self-hosted"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Works with any linter tool (ESLint, RuboCop, golangci-lint, etc.). Integrates with GitHub, GitLab, Bitbucket.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "DeepSource",
+        "Codacy"
+      ],
+      "alternatives": [
+        "deepsource",
+        "codacy"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "ruff-linter",
+      "slug": "ruff-linter",
+      "name": "Ruff",
+      "website": "https://docs.astral.sh/ruff",
+      "docs": "https://docs.astral.sh/ruff",
+      "github": "https://github.com/astral-sh/ruff",
+      "description": "Extremely fast Python linter and formatter, written in Rust. Compatible with Flake8, isort, and pycodestyle rules. Up to 100x faster than existing Python linters. CI-native with zero-config setup.",
+      "category": "ci-cd",
+      "subcategory": "code-quality",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "python",
+        "forever-free",
+        "self-hosted",
+        "high-performance",
+        "qa",
+        "code-analysis"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Single binary, no Python runtime needed for execution. Works with any CI/CD system.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.7
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Flake8",
+        "Pylint",
+        "Black"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "ansible",
+      "slug": "ansible",
+      "name": "Ansible",
+      "website": "https://www.ansible.com",
+      "docs": "https://docs.ansible.com",
+      "github": "https://github.com/ansible/ansible",
+      "description": "Simple, agentless IT automation platform for configuration management, application deployment, and orchestration. YAML-based playbooks, push-based architecture, and massive module ecosystem. Red Hat backed.",
+      "category": "ci-cd",
+      "subcategory": "deployment-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "self-hosted",
+        "cli",
+        "forever-free",
+        "infrastructure",
+        "ssh",
+        "python"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source (AWX is free GUI). Ansible Automation Platform has a 60-day trial. Community documentation, collections, and modules are free.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 3,
+        "community": 5,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Chef",
+        "Puppet",
+        "SaltStack"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Ansible Automation Platform — from ,000/year: controller, automation hub, certified content",
+        "starting_price_usd": 13000,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "terraform",
+      "slug": "terraform",
+      "name": "Terraform",
+      "website": "https://www.terraform.io",
+      "docs": "https://developer.hashicorp.com/terraform/docs",
+      "github": "https://github.com/hashicorp/terraform",
+      "description": "Industry-standard Infrastructure as Code tool by HashiCorp. Declarative HCL configuration for provisioning cloud resources across AWS, Azure, GCP, and 1,800+ providers. State management, plan/apply workflow.",
+      "category": "ci-cd",
+      "subcategory": "deployment-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "infrastructure",
+        "cloud",
+        "aws",
+        "azure",
+        "google",
+        "forever-free",
+        "self-hosted"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source CLI. Terraform Cloud: free for up to 5 users, 500 resources, unlimited runs.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source CLI); Terraform Cloud: global SaaS"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Pulumi",
+        "AWS CDK",
+        "CloudFormation"
+      ],
+      "alternatives": [
+        "pulumi",
+        "aws-cdk"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Terraform Cloud Team — from /user/month: policy enforcement, private module registry",
+        "starting_price_usd": 20,
+        "billing_model": "per-user"
+      },
+      "student_benefits": {
+        "available": true,
+        "details": "Free HCP account with Terraform Cloud free tier; HashiCorp offers academic licenses",
+        "verification_method": ""
+      }
+    },
+    {
+      "id": "pulumi",
+      "slug": "pulumi",
+      "name": "Pulumi",
+      "website": "https://www.pulumi.com",
+      "docs": "https://www.pulumi.com/docs",
+      "github": "https://github.com/pulumi/pulumi",
+      "description": "Modern Infrastructure as Code using familiar programming languages (TypeScript, Python, Go, C#, Java, YAML). Define cloud infrastructure with real code, test it, and deploy it. Open-source with managed service.",
+      "category": "ci-cd",
+      "subcategory": "deployment-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "infrastructure",
+        "cloud",
+        "aws",
+        "azure",
+        "google",
+        "typescript",
+        "python",
+        "go",
+        "forever-free",
+        "self-hosted"
+      ],
+      "free_tier": {
+        "summary": "Free and open-source CLI. Pulumi Cloud: free for individual use, unlimited stacks, 1 concurrent operation, state and secrets management.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source); Pulumi Cloud: global SaaS"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Terraform",
+        "AWS CDK"
+      ],
+      "alternatives": [
+        "terraform",
+        "aws-cdk"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Team — from /user/year: 10 concurrent operations, RBAC, SAML/SSO",
+        "starting_price_usd": 200,
+        "billing_model": "per-user"
+      },
+      "student_benefits": {
+        "available": true,
+        "details": "Free tier adequate for student projects; unlimited stacks and state management",
+        "verification_method": ""
+      }
+    },
+    {
+      "id": "argocd",
+      "slug": "argocd",
+      "name": "ArgoCD",
+      "website": "https://argo-cd.readthedocs.io",
+      "docs": "https://argo-cd.readthedocs.io/en/stable",
+      "github": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative GitOps CD tool for Kubernetes. Automatically syncs cluster state with Git repository desired state. Web UI, CLI, and API with SSO, RBAC, and multi-cluster management. CNCF graduated project.",
+      "category": "ci-cd",
+      "subcategory": "deployment-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "self-hosted",
+        "kubernetes",
+        "gitops",
+        "container",
+        "forever-free"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Self-hosted in Kubernetes. Unlimited applications, clusters, and users.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (self-hosted open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Flux",
+        "Spinnaker"
+      ],
+      "alternatives": [
+        "flux-cd"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "flux-cd",
+      "slug": "flux-cd",
+      "name": "Flux",
+      "website": "https://fluxcd.io",
+      "docs": "https://fluxcd.io/flux",
+      "github": "https://github.com/fluxcd/flux2",
+      "description": "Continuous delivery for Kubernetes with GitOps Toolkit. Automates deployments based on Git repository changes. Supports kustomize, Helm, health checks, and notification integration. CNCF graduated project.",
+      "category": "ci-cd",
+      "subcategory": "deployment-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "self-hosted",
+        "kubernetes",
+        "gitops",
+        "container",
+        "helm",
+        "forever-free"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Self-hosted in Kubernetes. Part of CNCF graduated projects.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (self-hosted open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "ArgoCD",
+        "Spinnaker"
+      ],
+      "alternatives": [
+        "argocd"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "spinnaker",
+      "slug": "spinnaker",
+      "name": "Spinnaker",
+      "website": "https://spinnaker.io",
+      "docs": "https://spinnaker.io/docs",
+      "github": "https://github.com/spinnaker/spinnaker",
+      "description": "Netflix-inspired multi-cloud continuous delivery platform. Advanced deployment strategies (blue/green, canary, rolling), pipeline templates, and managed infrastructure. Supports AWS, GCP, Azure, Kubernetes, and more.",
+      "category": "ci-cd",
+      "subcategory": "deployment-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "self-hosted",
+        "kubernetes",
+        "container",
+        "cloud",
+        "java",
+        "forever-free"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Self-hosted. Supports all major cloud providers and Kubernetes.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 1,
+        "reliability": 4,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (self-hosted open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "ArgoCD",
+        "Jenkins X"
+      ],
+      "alternatives": [
+        "argocd"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "octopus-deploy",
+      "slug": "octopus-deploy",
+      "name": "Octopus Deploy",
+      "website": "https://octopus.com",
+      "docs": "https://octopus.com/docs",
+      "description": "Release management and deployment automation for .NET and cloud-native applications. Variable management, project templates, lifecycle management, and built-in rollbacks. Free for up to 10 targets.",
+      "category": "ci-cd",
+      "subcategory": "deployment-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "saas",
+        "free-tier",
+        "usage-limits",
+        "dotnet",
+        "windows",
+        "kubernetes"
+      ],
+      "free_tier": {
+        "summary": "Free Community tier: 10 deployment targets, unlimited projects, all features. Self-hosted also available.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally with cloud and self-hosted options"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Azure DevOps",
+        "Jenkins"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Team — from /month: 100 deployment targets, 50 users, support",
+        "starting_price_usd": 20,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "helm",
+      "slug": "helm",
+      "name": "Helm",
+      "website": "https://helm.sh",
+      "docs": "https://helm.sh/docs",
+      "github": "https://github.com/helm/helm",
+      "description": "Kubernetes package manager. Define, install, and upgrade Kubernetes applications using Charts. Templating engine, dependency management, and release history. De facto standard for Kubernetes application deployment.",
+      "category": "ci-cd",
+      "subcategory": "deployment-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "kubernetes",
+        "docker",
+        "container",
+        "forever-free",
+        "self-hosted"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Unlimited charts, releases, and repositories. CNCF graduated project.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Kustomize",
+        "kapp"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "crossplane",
+      "slug": "crossplane",
+      "name": "Crossplane",
+      "website": "https://www.crossplane.io",
+      "docs": "https://docs.crossplane.io",
+      "github": "https://github.com/crossplane/crossplane",
+      "description": "Open-source control plane framework for building cloud-native platforms. Extends Kubernetes to manage infrastructure across providers. Composition engine for creating custom APIs. CNCF incubating project.",
+      "category": "ci-cd",
+      "subcategory": "deployment-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "self-hosted",
+        "kubernetes",
+        "cloud",
+        "infrastructure",
+        "forever-free"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Self-hosted in Kubernetes. Extends Kubernetes API for infrastructure management.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (self-hosted open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Terraform",
+        "Pulumi"
+      ],
+      "alternatives": [
+        "terraform",
+        "pulumi"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Upbound Cloud — from /month: managed Crossplane control planes, 1 control plane, 10 resources",
+        "starting_price_usd": 0,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "nomad",
+      "slug": "nomad",
+      "name": "Nomad",
+      "website": "https://www.nomadproject.io",
+      "docs": "https://developer.hashicorp.com/nomad/docs",
+      "github": "https://github.com/hashicorp/nomad",
+      "description": "HashiCorp's flexible workload orchestrator for containers, VMs, and standalone applications. Single binary, multi-region federation, and native service discovery with Consul. Simpler alternative to Kubernetes for many workloads.",
+      "category": "ci-cd",
+      "subcategory": "deployment-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "self-hosted",
+        "cli",
+        "docker",
+        "container",
+        "infrastructure",
+        "forever-free"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Self-hosted. Supports Docker, Podman, Java, raw exec, and QEMU drivers.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Kubernetes",
+        "Docker Swarm"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Nomad Enterprise — from /seat/month: governance, multi-tenancy, federation, priority support",
+        "starting_price_usd": 75,
+        "billing_model": "per-user"
+      }
+    },
+    {
+      "id": "serverless-framework",
+      "slug": "serverless-framework",
+      "name": "Serverless Framework",
+      "website": "https://www.serverless.com",
+      "docs": "https://www.serverless.com/framework/docs",
+      "github": "https://github.com/serverless/serverless",
+      "description": "Serverless application framework for AWS Lambda, Azure Functions, Google Cloud Functions, and more. Define serverless infrastructure in YAML, deploy with CLI. Open-source with Serverless Dashboard for monitoring.",
+      "category": "ci-cd",
+      "subcategory": "deployment-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "serverless",
+        "cloud",
+        "aws",
+        "azure",
+        "google",
+        "nodejs",
+        "python",
+        "go",
+        "forever-free"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source CLI. Serverless Dashboard: free for 3 users, 10K invocations/month, 1K function logs.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source CLI); Dashboard: global SaaS"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "AWS SAM",
+        "AWS CDK"
+      ],
+      "alternatives": [
+        "aws-sam",
+        "aws-cdk"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "Pro — from /month: 3 users, 100K invocations, secrets, monitoring",
+        "starting_price_usd": 25,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "id": "aws-sam",
+      "slug": "aws-sam",
+      "name": "AWS SAM",
+      "website": "https://aws.amazon.com/serverless/sam",
+      "docs": "https://docs.aws.amazon.com/serverless-application-model/latest/developerguide",
+      "github": "https://github.com/aws/aws-sam-cli",
+      "description": "AWS Serverless Application Model. Framework for building serverless applications on AWS. Define functions, APIs, and databases in simplified YAML. Local testing, debugging, and one-command deployment.",
+      "category": "ci-cd",
+      "subcategory": "deployment-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "serverless",
+        "aws",
+        "cloud",
+        "nodejs",
+        "python",
+        "go",
+        "java",
+        "forever-free"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source CLI. AWS SAM Accelerate for faster dev/deploy cycles. Standard AWS charges for deployed resources.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 5,
+        "performance": 3,
+        "community": 3,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "AWS available globally; AWS SAM CLI available everywhere"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Serverless Framework",
+        "AWS CDK"
+      ],
+      "alternatives": [
+        "serverless-framework",
+        "aws-cdk"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "No separate pricing; standard AWS resource charges apply for deployed infrastructure",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "student_benefits": {
+        "available": true,
+        "details": "Free tier includes 1M Lambda requests/month, 1M API Gateway calls/month, free DynamoDB 25GB",
+        "verification_method": "aws-education"
+      }
+    },
+    {
+      "id": "aws-cdk",
+      "slug": "aws-cdk",
+      "name": "AWS CDK",
+      "website": "https://aws.amazon.com/cdk",
+      "docs": "https://docs.aws.amazon.com/cdk/latest/guide",
+      "github": "https://github.com/aws/aws-cdk",
+      "description": "AWS Cloud Development Kit. Define cloud infrastructure using familiar programming languages (TypeScript, Python, Java, C#, Go). Construct library and automatic CloudFormation generation.",
+      "category": "ci-cd",
+      "subcategory": "deployment-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "cloud",
+        "aws",
+        "infrastructure",
+        "typescript",
+        "python",
+        "java",
+        "dotnet",
+        "go",
+        "forever-free"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source CLI. AWS CDK is free; standard AWS charges apply for deployed resources.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "AWS available globally; CDK CLI everywhere"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Terraform",
+        "Pulumi"
+      ],
+      "alternatives": [
+        "terraform",
+        "pulumi"
+      ],
+      "last_verified": "2026-05-31",
+      "paid_plan": {
+        "summary": "No separate pricing; standard AWS charges apply for deployed infrastructure",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      },
+      "student_benefits": {
+        "available": true,
+        "details": "Free tier includes 1M Lambda requests, 25GB DynamoDB, 1M API Gateway calls",
+        "verification_method": "aws-education"
+      }
+    },
+    {
+      "id": "terragrunt",
+      "slug": "terragrunt",
+      "name": "Terragrunt",
+      "website": "https://terragrunt.gruntwork.io",
+      "docs": "https://terragrunt.gruntwork.io/docs",
+      "github": "https://github.com/gruntwork-io/terragrunt",
+      "description": "Thin wrapper around Terraform that provides DRY configurations, remote state management, and module orchestration. Keeps Terraform configurations clean and maintainable across multiple environments.",
+      "category": "ci-cd",
+      "subcategory": "deployment-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "cli",
+        "infrastructure",
+        "terraform",
+        "cloud",
+        "forever-free",
+        "self-hosted"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. CLI tool that extends Terraform. No usage limits.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "tested",
+        "verified_by": "maintainer",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "No restrictions (open-source)"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Terraform workspaces",
+        "Atlantis"
+      ],
+      "alternatives": [
+        "terraform",
+        "atlantis"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "atlantis",
+      "slug": "atlantis",
+      "name": "Atlantis",
+      "website": "https://www.runatlantis.io",
+      "docs": "https://www.runatlantis.io/docs",
+      "github": "https://github.com/runatlantis/atlantis",
+      "description": "Terraform pull request automation. Automatically runs terraform plan and apply when PRs are opened. Comments results back on the PR.",
+      "category": "ci-cd",
+      "subcategory": "deployment-automation",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "open-source",
+        "self-hosted",
+        "cli",
+        "terraform",
+        "infrastructure",
+        "github",
+        "git",
+        "forever-free"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Self-hosted via Docker or binary. Supports GitHub, GitLab, Bitbucket, and Azure DevOps.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05-31"
+      },
+      "status": "active",
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Self-hosted: no restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [
+        "Terraform Cloud",
+        "Terragrunt"
+      ],
+      "alternatives": [
+        "terragrunt"
+      ],
+      "last_verified": "2026-05-31"
     }
   ]
 }
