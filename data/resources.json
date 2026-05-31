@@ -15911,6 +15911,1067 @@
       "alternatives_to": [],
       "alternatives": ["whisperx", "faster-whisper", "openai-whisper-api", "deepgram"],
       "last_verified": "2026-05-24"
+    },
+    {
+      "id": "ollama",
+      "slug": "ollama",
+      "name": "Ollama",
+      "website": "https://ollama.ai",
+      "docs": "https://github.com/ollama/ollama/tree/main/docs",
+      "github": "https://github.com/ollama/ollama",
+      "description": "Run open-source LLMs locally with a single command. Supports Llama 3, Mistral, Gemma, Qwen, and hundreds of models with GPU acceleration, OpenAI-compatible API, and a rich model library.",
+      "category": "ai",
+      "subcategory": "models",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source",
+        "self-hosted",
+        "cli",
+        "docker",
+        "api",
+        "openai-compatible",
+        "gpu"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Access to 200+ open models. Unlimited local inference with no rate limits.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; fully free and open-source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "gpt4all",
+        "localai",
+        "lm-studio"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "gpt4all",
+      "slug": "gpt4all",
+      "name": "GPT4All",
+      "website": "https://gpt4all.io",
+      "docs": "https://docs.gpt4all.io",
+      "github": "https://github.com/nomic-ai/gpt4all",
+      "description": "Desktop application that runs LLMs locally on consumer hardware with no GPU required. Provides a ChatGPT-like experience with privacy-preserving local inference, model downloader, and local RAG capabilities.",
+      "category": "ai",
+      "subcategory": "models",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source",
+        "self-hosted",
+        "beginner-friendly",
+        "free-tier",
+        "forever-free",
+        "gpu"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. 1,000+ open-source models available. Unlimited local inference with no API costs.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; fully free and open-source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "ollama",
+        "jan",
+        "lm-studio"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "localai",
+      "slug": "localai",
+      "name": "LocalAI",
+      "website": "https://localai.io",
+      "docs": "https://localai.io/docs",
+      "github": "https://github.com/mudler/LocalAI",
+      "description": "Open-source, self-hosted OpenAI API replacement that runs LLMs, image generation, audio transcription, and text-to-speech locally. Supports multiple model backends including llama.cpp and transformers with no GPU required.",
+      "category": "ai",
+      "subcategory": "models",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source",
+        "self-hosted",
+        "docker",
+        "api",
+        "openai-compatible",
+        "gpu"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Supports GGUF, GPTQ, EXL2, and Hugging Face models. Unlimited local inference with OpenAI-compatible endpoints.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; fully free and open-source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "ollama",
+        "llama-cpp",
+        "vllm"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "open-webui",
+      "slug": "open-webui",
+      "name": "Open WebUI",
+      "website": "https://openwebui.com",
+      "docs": "https://docs.openwebui.com",
+      "github": "https://github.com/open-webui/open-webui",
+      "description": "Feature-rich web interface for interacting with LLMs, designed as a frontend for Ollama and OpenAI-compatible backends. Provides chat management, RAG, web search, multi-user support, and plugin system.",
+      "category": "ai",
+      "subcategory": "models",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source",
+        "self-hosted",
+        "docker",
+        "web-ui",
+        "python"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Works with any Ollama or OpenAI-compatible backend. Unlimited local inference with offline-capable interface.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 5,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; fully free and open-source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "sillytavern",
+        "text-generation-webui"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "lm-studio",
+      "slug": "lm-studio",
+      "name": "LM Studio",
+      "website": "https://lmstudio.ai",
+      "docs": "https://lmstudio.ai/docs",
+      "github": "https://github.com/lmstudio-ai",
+      "description": "Desktop application for discovering, downloading, and running local LLMs with a polished user interface. Features built-in model search from Hugging Face, GPU acceleration, and an OpenAI-compatible local API server.",
+      "category": "ai",
+      "subcategory": "models",
+      "tags": [
+        "ai",
+        "llm",
+        "self-hosted",
+        "gpu",
+        "beginner-friendly",
+        "free-tier"
+      ],
+      "free_tier": {
+        "summary": "Free desktop application. Browse and download models from Hugging Face. Unlimited local inference with local API server.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; free desktop application",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; free for everyone"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "ollama",
+        "gpt4all",
+        "jan"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "jan",
+      "slug": "jan",
+      "name": "Jan",
+      "website": "https://jan.ai",
+      "docs": "https://jan.ai/docs",
+      "github": "https://github.com/janhq/jan",
+      "description": "Open-source ChatGPT alternative that runs entirely on your desktop with local AI models. Features a clean interface with extensions, model management, and built-in inference engine supporting GGUF models with GPU acceleration.",
+      "category": "ai",
+      "subcategory": "models",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source",
+        "self-hosted",
+        "gpu",
+        "beginner-friendly",
+        "free-tier"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Download and run any GGUF model from Hugging Face. Unlimited offline inference with no API costs.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; fully free and open-source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "gpt4all",
+        "lm-studio",
+        "ollama"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "text-generation-webui",
+      "slug": "text-generation-webui",
+      "name": "Text Generation WebUI",
+      "website": "https://github.com/oobabooga/text-generation-webui",
+      "docs": "https://github.com/oobabooga/text-generation-webui/wiki",
+      "github": "https://github.com/oobabooga/text-generation-webui",
+      "description": "Comprehensive web interface for running large language models locally. Supports multiple model formats (GGUF, GPTQ, EXL2, AWQ), LoRA fine-tuning, multimodal models, and has a rich ecosystem of extensions.",
+      "category": "ai",
+      "subcategory": "models",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source",
+        "self-hosted",
+        "web-ui",
+        "python",
+        "gpu",
+        "docker"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Supports all major model formats. Unlimited local inference with training and LoRA support.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 3,
+        "performance": 4,
+        "community": 5,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; fully free and open-source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "open-webui",
+        "sillytavern"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "vllm",
+      "slug": "vllm",
+      "name": "vLLM",
+      "website": "https://vllm.readthedocs.io",
+      "docs": "https://vllm.readthedocs.io",
+      "github": "https://github.com/vllm-project/vllm",
+      "description": "High-throughput, memory-efficient LLM serving engine with PagedAttention for optimal GPU utilization. Supports continuous batching, tensor parallelism, and OpenAI-compatible API for production LLM serving.",
+      "category": "ai",
+      "subcategory": "models",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source",
+        "self-hosted",
+        "python",
+        "gpu",
+        "high-performance",
+        "docker",
+        "api",
+        "production-ready"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Supports Hugging Face models. Unlimited self-hosted inference with no rate limits.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 4,
+        "performance": 5,
+        "community": 5,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; fully free and open-source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "llama-cpp",
+        "huggingface-tgi",
+        "aphrodite-engine"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "llama-cpp",
+      "slug": "llama-cpp",
+      "name": "llama.cpp",
+      "website": "https://github.com/ggerganov/llama.cpp",
+      "docs": "https://github.com/ggerganov/llama.cpp/wiki",
+      "github": "https://github.com/ggerganov/llama.cpp",
+      "description": "High-performance C/C++ implementation of LLM inference optimized for CPU and GPU. The foundation for the GGUF model format, used by nearly every local LLM tool with quantization and an HTTP server.",
+      "category": "ai",
+      "subcategory": "models",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source",
+        "self-hosted",
+        "gpu",
+        "cli",
+        "python",
+        "high-performance"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Runs all GGUF models including Llama 3, Mistral, Qwen. Unlimited local inference on CPU or GPU.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 4,
+        "performance": 5,
+        "community": 5,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; fully free and open-source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "vllm",
+        "koboldcpp",
+        "localai"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "huggingface-tgi",
+      "slug": "huggingface-tgi",
+      "name": "Hugging Face TGI",
+      "website": "https://huggingface.co/docs/text-generation-inference",
+      "docs": "https://huggingface.co/docs/text-generation-inference",
+      "github": "https://github.com/huggingface/text-generation-inference",
+      "description": "Hugging Face's production-grade inference server for deploying large language models. Provides optimized inference with continuous batching, tensor parallelism, quantization, and watermarking.",
+      "category": "ai",
+      "subcategory": "models",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source",
+        "self-hosted",
+        "docker",
+        "gpu",
+        "python",
+        "api",
+        "high-performance",
+        "production-ready"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Supports all Hugging Face transformer models. Unlimited self-hosted inference with OpenAI-compatible API.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; fully free and open-source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "vllm",
+        "llama-cpp",
+        "aphrodite-engine"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "koboldcpp",
+      "slug": "koboldcpp",
+      "name": "KoboldCPP",
+      "website": "https://github.com/LostRuins/koboldcpp",
+      "docs": "https://github.com/LostRuins/koboldcpp/wiki",
+      "github": "https://github.com/LostRuins/koboldcpp",
+      "description": "All-in-one LLM inference package based on llama.cpp with a built-in API server and web interface. Designed for story generation and role-play with grammar sampling, adventure mode, and image generation support.",
+      "category": "ai",
+      "subcategory": "models",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source",
+        "self-hosted",
+        "gpu",
+        "api",
+        "docker"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Supports GGUF models with flexible quantization. Unlimited local inference with web UI and API.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; fully free and open-source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "llama-cpp",
+        "tabbyapi",
+        "sillytavern"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "tabbyapi",
+      "slug": "tabbyapi",
+      "name": "TabbyAPI",
+      "website": "https://github.com/theroyallab/tabbyAPI",
+      "docs": "https://github.com/theroyallab/tabbyAPI/wiki",
+      "github": "https://github.com/theroyallab/tabbyAPI",
+      "description": "Fast, lightweight LLM API server built on exllamav2 for optimal GPU inference. Provides an OpenAI-compatible endpoint with support for Llama, Mistral, and Qwen models in EXL2 format with dynamic batching.",
+      "category": "ai",
+      "subcategory": "models",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source",
+        "self-hosted",
+        "gpu",
+        "api",
+        "openai-compatible",
+        "python"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Supports EXL2 format models with very fast inference. Unlimited self-hosted inference with OpenAI-compatible API.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; fully free and open-source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "vllm",
+        "llama-cpp",
+        "aphrodite-engine"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "litellm",
+      "slug": "litellm",
+      "name": "LiteLLM",
+      "website": "https://litellm.ai",
+      "docs": "https://docs.litellm.ai",
+      "github": "https://github.com/BerriAI/litellm",
+      "description": "Unified API interface providing access to 100+ LLM providers through a single OpenAI-compatible format. Simplifies switching between OpenAI, Anthropic, Google, Ollama, vLLM, and local models with consistent I/O formatting.",
+      "category": "ai",
+      "subcategory": "models",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source",
+        "self-hosted",
+        "api",
+        "openai-compatible",
+        "python",
+        "docker",
+        "freemium"
+      ],
+      "free_tier": {
+        "summary": "Open-source and free for self-hosted usage. Access to 100+ providers through unified interface. Unlimited local proxy calls with no rate limits.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "LiteLLM Proxy Enterprise: custom pricing for advanced features and support",
+        "starting_price_usd": null,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 3,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; self-hosted version is free"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "openrouter-api"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "aphrodite-engine",
+      "slug": "aphrodite-engine",
+      "name": "Aphrodite Engine",
+      "website": "https://github.com/PygmalionAI/aphrodite-engine",
+      "docs": "https://github.com/PygmalionAI/aphrodite-engine/wiki",
+      "github": "https://github.com/PygmalionAI/aphrodite-engine",
+      "description": "High-performance LLM inference engine forked from vLLM with additional optimizations for role-play and creative writing. Features continuous batching, quantization (AWQ, GPTQ), and an OpenAI-compatible API.",
+      "category": "ai",
+      "subcategory": "models",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source",
+        "self-hosted",
+        "gpu",
+        "python",
+        "api",
+        "high-performance",
+        "docker"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Supports Hugging Face models, Llama, Mistral, Qwen. Unlimited self-hosted inference with no restrictions.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 3,
+        "performance": 5,
+        "community": 3,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; fully free and open-source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "vllm",
+        "tabbyapi",
+        "huggingface-tgi"
+      ],
+      "last_verified": "2026-05-24"
+    },
+    {
+      "id": "sillytavern",
+      "slug": "sillytavern",
+      "name": "SillyTavern",
+      "website": "https://sillytavern.app",
+      "docs": "https://docs.sillytavern.app",
+      "github": "https://github.com/SillyTavern/SillyTavern",
+      "description": "Feature-rich chat interface for LLMs with character management, role-play, and group chats. Connects to any backend (Ollama, OpenAI, Claude, KoboldCPP, TabbyAPI) with world info, lorebooks, and extension system.",
+      "category": "ai",
+      "subcategory": "models",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source",
+        "self-hosted",
+        "web-ui",
+        "docker",
+        "cli"
+      ],
+      "free_tier": {
+        "summary": "Completely free and open-source. Works with any OpenAI-compatible API or local backend. Unlimited local chat with rich character system.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open-source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 5,
+        "overall": 4.0
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan; fully free and open-source"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "open-webui",
+        "text-generation-webui"
+      ],
+      "last_verified": "2026-05-24"
     }
   ]
 }
