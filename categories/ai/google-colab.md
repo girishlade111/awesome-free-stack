@@ -52,7 +52,7 @@ active
 **No** — No credit card needed for free tier.
 
 ### Tags
-`ai` `machine-learning` `deep-learning` `gpu` `python` `free-tier` `no-card` `student` `cloud` `notebook`
+`ai` `machine-learning` `gpu` `python` `free-tier` `no-card` `student` `google` `generous-free-tier`
 
 ### Alternatives
 [kaggle-notebooks.md](kaggle-notebooks.md), [lightning-ai.md](lightning-ai.md)

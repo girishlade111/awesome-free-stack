@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "last_updated": "2026-05-31",
-    "total_resources": 301,
+    "total_resources": 302,
     "description": "Curated free & freemium developer resources"
   },
   "resources": [
@@ -16212,78 +16212,6 @@
       "last_verified": "2026-05-24"
     },
     {
-      "id": "ollama",
-      "slug": "ollama",
-      "name": "Ollama",
-      "website": "https://ollama.ai",
-      "docs": "https://github.com/ollama/ollama/tree/main/docs",
-      "github": "https://github.com/ollama/ollama",
-      "description": "Run open-source LLMs locally with a single command. Supports Llama 3, Mistral, Gemma, Qwen, and hundreds of models with GPU acceleration, OpenAI-compatible API, and a rich model library.",
-      "category": "ai",
-      "subcategory": "models",
-      "tags": [
-        "ai",
-        "llm",
-        "open-source",
-        "self-hosted",
-        "cli",
-        "docker",
-        "api",
-        "openai-compatible",
-        "gpu"
-      ],
-      "free_tier": {
-        "summary": "Completely free and open-source. Access to 200+ open models. Unlimited local inference with no rate limits.",
-        "limits": {
-          "requests_per_month": null,
-          "tokens_per_minute": null,
-          "storage_gb": null,
-          "seats": null
-        }
-      },
-      "paid_plan": {
-        "summary": "No paid version; fully free and open-source",
-        "starting_price_usd": null,
-        "billing_model": null
-      },
-      "ratings": {
-        "beginner_friendly": 5,
-        "docs": 4,
-        "free_generosity": 5,
-        "setup": 5,
-        "reliability": 4,
-        "performance": 4,
-        "community": 5,
-        "overall": 4.6
-      },
-      "verification": {
-        "status": "community-verified",
-        "verified_by": "community",
-        "date": "2026-05"
-      },
-      "status": "active",
-      "student_benefits": {
-        "available": false,
-        "details": "No specific student plan; fully free and open-source"
-      },
-      "requires_card": false,
-      "region_restrictions": {
-        "global": true,
-        "restricted_countries": [],
-        "notes": "Open-source, available globally"
-      },
-      "languages": [
-        "en"
-      ],
-      "alternatives_to": [],
-      "alternatives": [
-        "gpt4all",
-        "localai",
-        "lm-studio"
-      ],
-      "last_verified": "2026-05-24"
-    },
-    {
       "id": "gpt4all",
       "slug": "gpt4all",
       "name": "GPT4All",
@@ -16422,75 +16350,6 @@
         "ollama",
         "llama-cpp",
         "vllm"
-      ],
-      "last_verified": "2026-05-24"
-    },
-    {
-      "id": "open-webui",
-      "slug": "open-webui",
-      "name": "Open WebUI",
-      "website": "https://openwebui.com",
-      "docs": "https://docs.openwebui.com",
-      "github": "https://github.com/open-webui/open-webui",
-      "description": "Feature-rich web interface for interacting with LLMs, designed as a frontend for Ollama and OpenAI-compatible backends. Provides chat management, RAG, web search, multi-user support, and plugin system.",
-      "category": "ai",
-      "subcategory": "models",
-      "tags": [
-        "ai",
-        "llm",
-        "open-source",
-        "self-hosted",
-        "docker",
-        "web-ui",
-        "python"
-      ],
-      "free_tier": {
-        "summary": "Completely free and open-source. Works with any Ollama or OpenAI-compatible backend. Unlimited local inference with offline-capable interface.",
-        "limits": {
-          "requests_per_month": null,
-          "tokens_per_minute": null,
-          "storage_gb": null,
-          "seats": null
-        }
-      },
-      "paid_plan": {
-        "summary": "No paid version; fully free and open-source",
-        "starting_price_usd": null,
-        "billing_model": null
-      },
-      "ratings": {
-        "beginner_friendly": 4,
-        "docs": 4,
-        "free_generosity": 5,
-        "setup": 4,
-        "reliability": 3,
-        "performance": 3,
-        "community": 5,
-        "overall": 4
-      },
-      "verification": {
-        "status": "community-verified",
-        "verified_by": "community",
-        "date": "2026-05"
-      },
-      "status": "active",
-      "student_benefits": {
-        "available": false,
-        "details": "No specific student plan; fully free and open-source"
-      },
-      "requires_card": false,
-      "region_restrictions": {
-        "global": true,
-        "restricted_countries": [],
-        "notes": "Open-source, available globally"
-      },
-      "languages": [
-        "en"
-      ],
-      "alternatives_to": [],
-      "alternatives": [
-        "sillytavern",
-        "text-generation-webui"
       ],
       "last_verified": "2026-05-24"
     },
@@ -17336,76 +17195,7 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "llama-index-rag",
-        "embedchain"
-      ],
-      "last_verified": "2026-05-24"
-    },
-    {
-      "id": "llama-index-rag",
-      "slug": "llama-index-rag",
-      "name": "LlamaIndex",
-      "website": "https://llamaindex.ai",
-      "docs": "https://docs.llamaindex.ai",
-      "github": "https://github.com/run-llama/llama_index",
-      "description": "Data framework for LLM applications with powerful RAG capabilities. Connects LLMs to 160+ data sources with ingestion, indexing, retrieval, and agentic workflows for building retrieval-augmented generation pipelines.",
-      "category": "ai",
-      "subcategory": "rag",
-      "tags": [
-        "ai",
-        "rag",
-        "llm",
-        "python",
-        "typescript",
-        "open-source",
-        "data-framework"
-      ],
-      "free_tier": {
-        "summary": "MIT open-source. Unlimited self-hosted usage. LlamaCloud free tier for managed parsing and retrieval.",
-        "limits": {
-          "requests_per_month": null,
-          "tokens_per_minute": null,
-          "storage_gb": null,
-          "seats": null
-        }
-      },
-      "paid_plan": {
-        "summary": "LlamaCloud: managed parsing and retrieval, custom pricing",
-        "starting_price_usd": null,
-        "billing_model": "usage-based"
-      },
-      "ratings": {
-        "beginner_friendly": 3,
-        "docs": 5,
-        "free_generosity": 5,
-        "setup": 3,
-        "reliability": 4,
-        "performance": 4,
-        "community": 5,
-        "overall": 4.2
-      },
-      "verification": {
-        "status": "community-verified",
-        "verified_by": "community",
-        "date": "2026-05"
-      },
-      "status": "active",
-      "student_benefits": {
-        "available": false,
-        "details": "No specific student plan; framework is free and open source"
-      },
-      "requires_card": false,
-      "region_restrictions": {
-        "global": true,
-        "restricted_countries": [],
-        "notes": "Open-source framework, available globally"
-      },
-      "languages": [
-        "en"
-      ],
-      "alternatives_to": [],
-      "alternatives": [
-        "haystack",
+        "llama-index",
         "embedchain"
       ],
       "last_verified": "2026-05-24"
@@ -17475,7 +17265,7 @@
       "alternatives": [
         "embedchain",
         "haystack",
-        "llama-index-rag"
+        "llama-index"
       ],
       "last_verified": "2026-05-24"
     },
@@ -17545,7 +17335,7 @@
       "alternatives": [
         "canopy",
         "haystack",
-        "llama-index-rag"
+        "llama-index"
       ],
       "last_verified": "2026-05-24"
     },
@@ -17823,7 +17613,7 @@
       "alternatives": [
         "haystack",
         "r2r",
-        "llama-index-rag"
+        "llama-index"
       ],
       "last_verified": "2026-05-24"
     },
@@ -20897,9 +20687,7 @@
       ],
       "alternatives_to": [],
       "alternatives": [
-        "mlflow",
-        "neptune-ai",
-        "comet-ml"
+        "mlflow"
       ],
       "last_verified": "2026-05-31"
     },
@@ -21613,6 +21401,294 @@
         "lightning-ai"
       ],
       "last_verified": "2026-05-31"
+    },
+    {
+      "id": "google-colab",
+      "slug": "google-colab",
+      "name": "Google Colab",
+      "website": "https://colab.research.google.com",
+      "docs": "https://colab.research.google.com/notebooks",
+      "github": "https://github.com/googlecolab",
+      "description": "Free Jupyter notebook environment with GPU and TPU acceleration for machine learning experimentation. No setup required — runs entirely in the browser with pre-installed ML libraries and seamless Google Drive integration.",
+      "category": "ai",
+      "subcategory": "ml-platforms",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "gpu",
+        "python",
+        "free-tier",
+        "no-card",
+        "student",
+        "google",
+        "generous-free-tier"
+      ],
+      "free_tier": {
+        "summary": "Free T4 GPU (up to 12 hours per session), free TPU v2-8 access (limited), 12GB system RAM, 78GB disk",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": 78,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "Colab Pro .99/month: priority GPU access, longer runtimes. Colab Pro+ .99/month: premium GPU access",
+        "starting_price_usd": 9.99,
+        "billing_model": "subscription"
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 3,
+        "community": 5,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Colab Pro discounted for students; free tier available without any payment",
+        "verification_method": "edu-email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; some features may vary by region"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "kaggle-notebooks",
+        "paperspace-gradient"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "llamafile",
+      "slug": "llamafile",
+      "name": "LlamaFile",
+      "website": "https://llamafile.ai",
+      "docs": "https://github.com/Mozilla-Ocho/llamafile",
+      "github": "https://github.com/Mozilla-Ocho/llamafile",
+      "description": "Run LLMs as single-file executables with Mozilla's llamafile. No installation needed — download a single file, run it, and get a local OpenAI-compatible API server with GPU support on any platform.",
+      "category": "ai",
+      "subcategory": "models",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source",
+        "self-hosted",
+        "cli",
+        "gpu",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free under Apache 2.0 license. No usage limits, no server needed. Runs entirely on local hardware with CPU or GPU.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source software, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "llama-cpp",
+        "localai",
+        "ollama"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "mlc-llm",
+      "slug": "mlc-llm",
+      "name": "MLC LLM",
+      "website": "https://mlc.ai/mlc-llm",
+      "docs": "https://llm.mlc.ai/docs",
+      "github": "https://github.com/mlc-ai/mlc-llm",
+      "description": "Universal LLM deployment engine by CMU and SAMPL. Runs models on GPU, CPU, mobile, web browsers, and edge devices with hardware acceleration.",
+      "category": "ai",
+      "subcategory": "models",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source",
+        "self-hosted",
+        "cli",
+        "gpu",
+        "python",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free under Apache 2.0 license. Runs locally on any device with GPU acceleration.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 3,
+        "performance": 5,
+        "community": 3,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source software, available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "llama-cpp",
+        "vllm",
+        "localai"
+      ],
+      "last_verified": "2026-05-31"
+    },
+    {
+      "id": "qanything",
+      "slug": "qanything",
+      "name": "QAnything",
+      "website": "https://qanything.ai",
+      "docs": "https://github.com/netease-youdao/QAnything",
+      "github": "https://github.com/netease-youdao/QAnything",
+      "description": "Open-source RAG system by Netease Youdao that supports any file format (PDF, Word, Excel, PPT, image). Features knowledge base management, hybrid search, and an interactive Q&A interface.",
+      "category": "ai",
+      "subcategory": "rag",
+      "tags": [
+        "ai",
+        "rag",
+        "llm",
+        "python",
+        "open-source",
+        "self-hosted",
+        "api",
+        "forever-free",
+        "no-card"
+      ],
+      "free_tier": {
+        "summary": "Completely free under Apache 2.0 license. Self-hosted with unlimited documents.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "paid_plan": {
+        "summary": "No paid version; fully free and open source",
+        "starting_price_usd": null,
+        "billing_model": null
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "community",
+        "date": "2026-05"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": ""
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Open-source software, available globally"
+      },
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "embedchain",
+        "haystack",
+        "unstructured"
+      ],
+      "last_verified": "2026-05-31"
     }
   ]
-}
+}\n
