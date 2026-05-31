@@ -56,4 +56,4 @@ active
 `devtools` `ide` `ai` `freemium` `no-card`
 
 ### Alternatives
-[Cursor](cursor.md), [VS Code](vs-code.md), [Zed](zed.md)
+[cursor](cursor.md), [vs-code](vs-code.md), [zed](zed.md)

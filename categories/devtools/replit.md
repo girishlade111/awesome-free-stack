@@ -57,4 +57,4 @@ active
 `devtools` `ide` `saas` `freemium` `no-card`
 
 ### Alternatives
-[GitHub Codespaces](github-codespaces.md), [Gitpod](https://gitpod.io), [StackBlitz](https://stackblitz.com)
+[github-codespaces](github-codespaces.md)

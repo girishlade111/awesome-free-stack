@@ -50,4 +50,4 @@ active
 `open-source` `devtools` `cli` `system-monitor` `cpp` `gpu` `forever-free` `no-card`
 
 ### Alternatives
-[htop](htop.md), [glances](glances.md), [bashtop](bashtop.md)
+[htop](htop.md)

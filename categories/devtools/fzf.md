@@ -50,4 +50,4 @@ active
 `open-source` `devtools` `cli` `search` `go` `forever-free` `no-card`
 
 ### Alternatives
-[skim](skim.md), [grep](grep.md), [ripgrep](ripgrep.md)
+[ripgrep](ripgrep.md)

@@ -49,4 +49,4 @@ active
 `saas` `devtools` `api` `openapi` `code-generation` `sdk` `freemium` `no-card`
 
 ### Alternatives
-[openapi-generator](openapi-generator.md), [swagger-codegen](swagger-codegen.md), [nswag](nswag.md)
+[openapi-generator](openapi-generator.md)

@@ -49,4 +49,4 @@ active
 `saas` `devtools` `api` `documentation` `openapi` `freemium` `no-card`
 
 ### Alternatives
-[gitbook](gitbook.md), [redoc](redoc.md), [scalar](scalar.md)
+[redoc](redoc.md), [scalar](scalar.md)

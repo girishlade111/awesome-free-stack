@@ -50,4 +50,4 @@ active
 `open-source` `devtools` `browser-devtools` `performance` `speed-test` `web-ui` `forever-free` `no-card`
 
 ### Alternatives
-[lighthouse](lighthouse.md), [pagespeed-insights](pagespeed-insights.md), [sitespeed-io](sitespeed-io.md)
+[lighthouse](lighthouse.md)

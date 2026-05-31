@@ -50,4 +50,4 @@ active
 `open-source` `devtools` `browser-devtools` `performance` `accessibility` `seo` `cli` `javascript` `forever-free` `no-card`
 
 ### Alternatives
-[webpagetest](webpagetest.md), [pagespeed-insights](pagespeed-insights.md), [sitespeed-io](sitespeed-io.md)
+[webpagetest](webpagetest.md)

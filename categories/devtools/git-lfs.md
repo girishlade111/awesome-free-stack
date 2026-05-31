@@ -50,4 +50,4 @@ active
 `open-source` `devtools` `git` `version-control` `cli` `go` `forever-free` `no-card`
 
 ### Alternatives
-[dvc](dvc.md), [git-annex](git-annex.md)
+[dvc](dvc.md)

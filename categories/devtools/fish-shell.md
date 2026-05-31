@@ -50,4 +50,4 @@ active
 `open-source` `devtools` `cli` `shell` `terminal` `cpp` `forever-free` `no-card`
 
 ### Alternatives
-[oh-my-zsh](oh-my-zsh.md), [zsh](zsh.md), [bash](bash.md)
+[oh-my-zsh](oh-my-zsh.md)

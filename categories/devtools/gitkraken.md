@@ -50,4 +50,4 @@ active
 `freemium` `devtools` `git` `version-control` `gui` `desktop` `no-card`
 
 ### Alternatives
-[git](git.md), [sourcetree](sourcetree.md), [github-desktop](github-desktop.md)
+[git](git.md)

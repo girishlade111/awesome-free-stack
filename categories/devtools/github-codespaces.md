@@ -55,4 +55,4 @@ active
 `devtools` `ide` `cloud` `docker` `saas` `freemium` `no-card`
 
 ### Alternatives
-[Replit](replit.md), [Gitpod](https://gitpod.io), [StackBlitz](https://stackblitz.com)
+[replit](replit.md)

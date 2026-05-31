@@ -56,4 +56,4 @@ active
 `devtools` `ide` `open-source` `self-hosted` `free-tier` `no-card` `forever-free`
 
 ### Alternatives
-[VS Code](vs-code.md), [Cursor](cursor.md), [Windsurf](windsurf.md)
+[vs-code](vs-code.md), [cursor](cursor.md), [windsurf](windsurf.md)

@@ -51,4 +51,4 @@ active
 `open-source` `devtools` `git` `version-control` `cli` `python` `machine-learning` `ai` `forever-free` `no-card`
 
 ### Alternatives
-[git-lfs](git-lfs.md), [git-annex](git-annex.md), [lakefs](lakefs.md)
+[git-lfs](git-lfs.md)

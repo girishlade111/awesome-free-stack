@@ -51,4 +51,4 @@ active
 `open-source` `devtools` `git` `version-control` `cli` `c` `forever-free` `no-card`
 
 ### Alternatives
-[github](github.md), [gitlab](gitlab.md), [git-lfs](git-lfs.md), [mercurial](mercurial.md)
+[github](github.md), [gitlab](gitlab.md), [git-lfs](git-lfs.md)

@@ -50,4 +50,4 @@ active
 `open-source` `devtools` `cli` `search` `rust` `forever-free` `no-card`
 
 ### Alternatives
-[ripgrep](ripgrep.md), [find](find.md), [locate](locate.md)
+[ripgrep](ripgrep.md)

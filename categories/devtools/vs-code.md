@@ -56,4 +56,4 @@ active
 `devtools` `ide` `open-source` `free-tier` `no-card` `forever-free`
 
 ### Alternatives
-[Cursor](cursor.md), [Zed](zed.md), [Windsurf](windsurf.md)
+[cursor](cursor.md), [zed](zed.md), [windsurf](windsurf.md)

@@ -50,4 +50,4 @@ active
 `open-source` `devtools` `api` `openapi` `code-generation` `cli` `java` `javascript` `python` `go` `forever-free` `no-card`
 
 ### Alternatives
-[swagger-editor](swagger-editor.md), [swagger-codegen](swagger-codegen.md), [api-sdk-generator](api-sdk-generator.md)
+[swagger-editor](swagger-editor.md)

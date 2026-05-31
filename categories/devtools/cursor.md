@@ -56,4 +56,4 @@ active
 `devtools` `ide` `ai` `freemium` `no-card`
 
 ### Alternatives
-[VS Code](vs-code.md), [Windsurf](windsurf.md), [Zed](zed.md)
+[vs-code](vs-code.md), [windsurf](windsurf.md), [zed](zed.md)

@@ -50,4 +50,4 @@ active
 `open-source` `devtools` `cli` `yaml` `json` `go` `forever-free` `no-card`
 
 ### Alternatives
-[jq](jq.md), [gron](gron.md), [yaml-validator](yaml-validator.md)
+[jq](jq.md)

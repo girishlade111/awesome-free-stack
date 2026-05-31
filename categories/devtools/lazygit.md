@@ -50,4 +50,4 @@ active
 `open-source` `devtools` `cli` `git` `tui` `go` `forever-free` `no-card`
 
 ### Alternatives
-[tig](tig.md), [gitui](gitui.md), [gitkraken](gitkraken.md)
+[gitkraken](gitkraken.md)

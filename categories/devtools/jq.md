@@ -50,4 +50,4 @@ active
 `open-source` `devtools` `cli` `json` `c` `forever-free` `no-card`
 
 ### Alternatives
-[yq](yq.md), [gron](gron.md), [jsonnet](jsonnet.md)
+[yq](yq.md)

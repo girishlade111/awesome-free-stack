@@ -51,4 +51,4 @@ active
 `open-source` `devtools` `package-manager` `macos` `linux` `cli` `ruby` `forever-free` `no-card`
 
 ### Alternatives
-[apt](apt.md), [chocolatey](chocolatey.md), [npm](npm.md)
+[npm](npm.md)

@@ -51,4 +51,4 @@ active
 `open-source` `devtools` `cli` `search` `rust` `forever-free` `no-card`
 
 ### Alternatives
-[fd](fd.md), [ag](ag.md), [ack](ack.md), [grep](grep.md)
+[fd](fd.md)

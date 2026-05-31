@@ -50,4 +50,4 @@ active
 `open-source` `devtools` `cli` `shell` `terminal` `zsh` `forever-free` `no-card`
 
 ### Alternatives
-[fish-shell](fish-shell.md), [zsh](zsh.md), [powerlevel10k](powerlevel10k.md)
+[fish-shell](fish-shell.md)

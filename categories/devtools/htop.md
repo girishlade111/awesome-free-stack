@@ -50,4 +50,4 @@ active
 `open-source` `devtools` `cli` `system-monitor` `c` `forever-free` `no-card`
 
 ### Alternatives
-[btop](btop.md), [top](top.md), [glances](glances.md)
+[btop](btop.md)
