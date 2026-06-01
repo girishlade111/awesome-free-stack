@@ -1,0 +1,180 @@
+{
+  "generated": "2026-06-01",
+  "total_resources": 601,
+  "categories_represented": 20,
+  "tags_used": 249,
+  "breakdown": {
+    "by_category": {
+      "ai": 139,
+      "databases": 11,
+      "deployment": 14,
+      "payments": 5,
+      "cloud": 8,
+      "hosting": 6,
+      "storage": 6,
+      "auth": 63,
+      "domains": 11,
+      "design": 12,
+      "email-sms": 5,
+      "monitoring": 5,
+      "ci-cd": 95,
+      "devtools": 96,
+      "testing": 69,
+      "mobile": 10,
+      "learning": 10,
+      "student-packs": 14,
+      "startup-credits": 12,
+      "open-source": 10
+    },
+    "by_verification": {
+      "tested": 90,
+      "community-verified": 510,
+      "unverified": 0
+    },
+    "by_status": {
+      "active": 600,
+      "deprecated": 0,
+      "limited": 1
+    },
+    "by_card_requirement": {
+      "required": 50,
+      "notRequired": 551
+    },
+    "by_region": {
+      "global": 584,
+      "restricted": 17
+    },
+    "by_student_benefits": {
+      "yes": 128,
+      "no": 473
+    },
+    "by_rating": {
+      "1-2": 0,
+      "2-3": 2,
+      "3-4": 200,
+      "4-5": 399
+    }
+  },
+  "top_tags": [
+    {
+      "tag": "no-card",
+      "count": 372
+    },
+    {
+      "tag": "open-source",
+      "count": 345
+    },
+    {
+      "tag": "forever-free",
+      "count": 270
+    },
+    {
+      "tag": "freemium",
+      "count": 201
+    },
+    {
+      "tag": "ai",
+      "count": 155
+    },
+    {
+      "tag": "api",
+      "count": 148
+    },
+    {
+      "tag": "cli",
+      "count": 148
+    },
+    {
+      "tag": "saas",
+      "count": 146
+    },
+    {
+      "tag": "self-hosted",
+      "count": 145
+    },
+    {
+      "tag": "python",
+      "count": 130
+    },
+    {
+      "tag": "free-tier",
+      "count": 120
+    },
+    {
+      "tag": "automation",
+      "count": 118
+    },
+    {
+      "tag": "ci-cd",
+      "count": 102
+    },
+    {
+      "tag": "devtools",
+      "count": 100
+    },
+    {
+      "tag": "javascript",
+      "count": 98
+    },
+    {
+      "tag": "devops",
+      "count": 96
+    },
+    {
+      "tag": "testing",
+      "count": 93
+    },
+    {
+      "tag": "docker",
+      "count": 80
+    },
+    {
+      "tag": "sdk",
+      "count": 68
+    },
+    {
+      "tag": "auth",
+      "count": 66
+    },
+    {
+      "tag": "security",
+      "count": 66
+    },
+    {
+      "tag": "llm",
+      "count": 61
+    },
+    {
+      "tag": "qa",
+      "count": 55
+    },
+    {
+      "tag": "authentication",
+      "count": 53
+    },
+    {
+      "tag": "typescript",
+      "count": 51
+    },
+    {
+      "tag": "java",
+      "count": 48
+    },
+    {
+      "tag": "gpu",
+      "count": 45
+    },
+    {
+      "tag": "card-required",
+      "count": 41
+    },
+    {
+      "tag": "go",
+      "count": 39
+    },
+    {
+      "tag": "cloud",
+      "count": 37
+    }
+  ]
+}
