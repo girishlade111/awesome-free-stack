@@ -2,8 +2,8 @@
   "$schema": "./resources-schema.json",
   "meta": {
     "version": "1.0.0",
-    "last_updated": "2026-05-31",
-    "total_resources": 511,
+    "last_updated": "2026-07-02",
+    "total_resources": 634,
     "description": "Curated free & freemium developer resources"
   },
   "resources": [
@@ -20788,7 +20788,7 @@
       },
       "paid_plan": {
         "summary": "Pay-as-you-go beyond free credits: .000035/second (T4), .000115/second (A100-40GB)",
-        "starting_price_usd": 0.000035,
+        "starting_price_usd": 3.5e-05,
         "billing_model": "usage-based"
       },
       "ratings": {
@@ -21287,7 +21287,7 @@
       },
       "paid_plan": {
         "summary": "Pay-as-you-go: .000083/inference (T4). Custom pricing for high-throughput deployments.",
-        "starting_price_usd": 0.000083,
+        "starting_price_usd": 8.3e-05,
         "billing_model": "usage-based"
       },
       "ratings": {
@@ -43032,6 +43032,2265 @@
         "terragrunt"
       ],
       "last_verified": "2026-05-31"
+    },
+    {
+      "slug": "runwayml",
+      "website": "https://runwayml.com",
+      "docs": "https://runwayml.com/docs",
+      "category": "ai",
+      "subcategory": "video-generation",
+      "tags": [
+        "ai",
+        "video-generation",
+        "saas",
+        "freemium",
+        "free-tier",
+        "card-required",
+        "multimodal"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 125 credits (approx 125 seconds of video). Gen-2 access included. Watermark on free exports.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 3.7
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "pika",
+        "kling",
+        "hailuo"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "runwayml",
+      "name": "Runway",
+      "description": "Professional AI video generation platform with Gen-3 Alpha models. Supports text-to-video, image-to-video, video-to-video editing, and inpainting with production-grade quality used by major studios.",
+      "github": "https://github.com/runwayml",
+      "paid_plan": {
+        "summary": "Standard $15/month: 625 credits, Gen-3 Alpha, 4K export. Pro $35/month: unlimited team seats.",
+        "starting_price_usd": 15,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "slug": "pika",
+      "website": "https://pika.art",
+      "docs": "https://pika.art/docs",
+      "category": "ai",
+      "subcategory": "video-generation",
+      "tags": [
+        "ai",
+        "video-generation",
+        "saas",
+        "freemium",
+        "free-tier",
+        "no-card",
+        "multimodal"
+      ],
+      "free_tier": {
+        "summary": "Free tier: unlimited basic video generations with watermark. No credit card required to start. Standard definition export.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "runwayml",
+        "kling",
+        "luma-dream-machine"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "pika",
+      "name": "Pika",
+      "description": "AI video creation platform with Pika 2.0. Generate high-quality videos from text or images with scene transitions, lip sync, and video editing capabilities. Known for artistic and stylized output.",
+      "github": "https://github.com/pika-lab/pika",
+      "paid_plan": {
+        "summary": "Starter $10/month: 700 credits, HD video, no watermark. Pro $35/month: unlimited credits, priority queue.",
+        "starting_price_usd": 10,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "slug": "synthesia",
+      "website": "https://synthesia.io",
+      "docs": "https://synthesia.io/docs",
+      "category": "ai",
+      "subcategory": "video-generation",
+      "tags": [
+        "ai",
+        "video-generation",
+        "saas",
+        "freemium",
+        "free-tier",
+        "card-required",
+        "speech"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 1 video minute, 6 AI avatars, limited templates, built-in watermark.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 2,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free education plan available with .edu email (more minutes, premium avatars)"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "heygen",
+        "invideo"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "synthesia",
+      "name": "Synthesia",
+      "description": "AI video platform with realistic avatars for corporate content. Create training, marketing, and explainer videos with 140+ AI avatars and 120+ languages. Industry leader in avatar-based video production.",
+      "paid_plan": {
+        "summary": "Starter $29/month: 10 video minutes, 70+ avatars, no watermark. Creator $89/month: unlimited minutes, full HD.",
+        "starting_price_usd": 29,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "slug": "heygen",
+      "website": "https://heygen.com",
+      "docs": "https://heygen.com/docs",
+      "category": "ai",
+      "subcategory": "video-generation",
+      "tags": [
+        "ai",
+        "video-generation",
+        "saas",
+        "freemium",
+        "free-tier",
+        "card-required",
+        "speech"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 1 free credit (1 minute video), 1 instant avatar, limited voices, watermark included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 2,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "Free education plan with .edu email (extra free credits)"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "synthesia",
+        "invideo"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "heygen",
+      "name": "HeyGen",
+      "description": "AI video platform with realistic avatars, voice cloning, and text-to-video creation. Features instant avatar creation from a webcam recording and multilingual video translation with lip-sync precision.",
+      "paid_plan": {
+        "summary": "Creator $29/month: 10 credits, HD export. Business $89/month: 30 credits, team features, custom avatars.",
+        "starting_price_usd": 29,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "slug": "kling",
+      "website": "https://klingai.com",
+      "docs": "https://klingai.com/docs",
+      "category": "ai",
+      "subcategory": "video-generation",
+      "tags": [
+        "ai",
+        "video-generation",
+        "freemium",
+        "free-tier",
+        "multimodal"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 66 credits per day (approx 10-15 video generations). Watermark-free on free tier. Standard quality.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "runwayml",
+        "pika",
+        "luma-dream-machine"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "kling",
+      "name": "Kling AI",
+      "description": "Text-to-video generation model by Kuaishou with impressive motion quality and physics simulation. Supports 1080p resolution, extended duration up to 2 minutes, and multiple aspect ratios.",
+      "paid_plan": {
+        "summary": "Monthly plans starting at ~$10/month for more credits, faster generation, higher resolution.",
+        "starting_price_usd": 10,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "slug": "luma-dream-machine",
+      "website": "https://lumalabs.ai/dream-machine",
+      "docs": "https://lumalabs.ai/dream-machine/docs",
+      "category": "ai",
+      "subcategory": "video-generation",
+      "tags": [
+        "ai",
+        "video-generation",
+        "saas",
+        "freemium",
+        "free-tier",
+        "card-required",
+        "multimodal"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 30 generations per month. Standard quality, basic video generation included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 3,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 5,
+        "community": 3,
+        "overall": 3.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "runwayml",
+        "pika",
+        "kling"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "luma-dream-machine",
+      "name": "Luma Dream Machine",
+      "description": "AI video generation model from Luma AI that creates high-quality, realistic videos from text prompts. Known for excellent motion consistency, physics accuracy, and cinematic quality.",
+      "github": "https://github.com/LumaAI",
+      "paid_plan": {
+        "summary": "Starter from $29.99/month: more generations, faster processing, commercial license included.",
+        "starting_price_usd": 29.99,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "slug": "hailuo",
+      "website": "https://hailuoai.com",
+      "docs": "https://hailuoai.com/docs",
+      "category": "ai",
+      "subcategory": "video-generation",
+      "tags": [
+        "ai",
+        "video-generation",
+        "freemium",
+        "free-tier",
+        "multimodal"
+      ],
+      "free_tier": {
+        "summary": "Free tier: generous daily free credits (approx 10 videos per day). No watermark on free tier.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 2,
+        "overall": 3.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "kling",
+        "runwayml",
+        "pika"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "hailuo",
+      "name": "Hailuo AI",
+      "description": "Text-to-video generation model by MiniMax with high-quality output and strong prompt adherence. Supports realistic and cinematic styles with excellent motion coherence and character consistency.",
+      "paid_plan": {
+        "summary": "Subscription plans for additional credits, faster generation, and higher resolution exports.",
+        "starting_price_usd": 10,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "slug": "capcut",
+      "website": "https://capcut.com",
+      "docs": "https://capcut.com/docs",
+      "category": "ai",
+      "subcategory": "video-generation",
+      "tags": [
+        "ai",
+        "video-generation",
+        "free-tier",
+        "forever-free",
+        "no-card",
+        "mobile",
+        "desktop",
+        "video-editing"
+      ],
+      "free_tier": {
+        "summary": "Free forever: full video editor, AI effects, auto-captions, text-to-speech, transitions, filters, stock library. No watermark on free tier.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "clipchamp",
+        "shotcut",
+        "davinci-resolve"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "capcut",
+      "name": "CapCut",
+      "description": "Free all-in-one video editing platform by ByteDance with powerful AI features including auto-captions, text-to-speech, motion tracking, and AI video effects. Available on desktop, web, and mobile.",
+      "paid_plan": {
+        "summary": "CapCut Pro $7.99/month: advanced AI features, premium effects, brand kit, priority export.",
+        "starting_price_usd": 7.99,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "slug": "veed",
+      "website": "https://veed.io",
+      "docs": "https://veed.io/docs",
+      "category": "ai",
+      "subcategory": "video-generation",
+      "tags": [
+        "ai",
+        "video-generation",
+        "saas",
+        "freemium",
+        "free-tier",
+        "no-card",
+        "speech",
+        "video-editing"
+      ],
+      "free_tier": {
+        "summary": "Free tier: unlimited video exports with watermark, up to 10 minutes per video. Auto-subtitles and basic editing included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 5,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "50% discount on paid plans with .edu email"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "capcut",
+        "clipchamp",
+        "descript"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "veed",
+      "name": "VEED.io",
+      "description": "Online video editing platform with AI-powered features including auto-subtitles, text-to-speech, background removal, and screen recording. Works entirely in the browser with zero installation required.",
+      "paid_plan": {
+        "summary": "Basic $18/month: 30 min/video, watermark-free. Pro $30/month: unlimited length, brand kit, API access.",
+        "starting_price_usd": 18,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "slug": "clipchamp",
+      "website": "https://clipchamp.com",
+      "docs": "https://clipchamp.com/docs",
+      "category": "ai",
+      "subcategory": "video-generation",
+      "tags": [
+        "ai",
+        "video-generation",
+        "saas",
+        "free-tier",
+        "forever-free",
+        "no-card",
+        "video-editing"
+      ],
+      "free_tier": {
+        "summary": "Free forever: 1080p export, filters, transitions, text overlays, stock library, and screen recorder. No watermark on exports.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 5,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 5,
+        "reliability": 4,
+        "performance": 3,
+        "community": 3,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "capcut",
+        "veed",
+        "shotcut"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "clipchamp",
+      "name": "Clipchamp",
+      "description": "Free online video editor by Microsoft with AI-powered auto-compose, text-to-speech, and screen recording. Integrates with OneDrive and Google Drive for easy media import and export.",
+      "paid_plan": {
+        "summary": "Premium $11.99/month: 4K export, 480+ premium filters, advanced audio controls, brand kit.",
+        "starting_price_usd": 11.99,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "slug": "davinci-resolve",
+      "website": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "docs": "https://www.blackmagicdesign.com/products/davinciresolve/docs",
+      "category": "ai",
+      "subcategory": "video-generation",
+      "tags": [
+        "ai",
+        "video-generation",
+        "desktop",
+        "forever-free",
+        "no-card",
+        "video-editing",
+        "gpu"
+      ],
+      "free_tier": {
+        "summary": "Completely free: unlimited 4K output, professional color grading, Fusion VFX, Fairlight audio, and multi-user collaboration. No watermark, no time limits.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "shotcut",
+        "capcut",
+        "obs-studio"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "davinci-resolve",
+      "name": "DaVinci Resolve",
+      "description": "Professional-grade video editing, color correction, visual effects, and audio post-production software. The free version includes virtually all professional features used in Hollywood productions.",
+      "paid_plan": {
+        "summary": "DaVinci Resolve Studio $295 one-time: neural engine, temporal noise reduction, HDR grading, 120fps support.",
+        "starting_price_usd": 295,
+        "billing_model": "one-time"
+      }
+    },
+    {
+      "slug": "obs-studio",
+      "website": "https://obsproject.com",
+      "docs": "https://obsproject.com/docs",
+      "category": "ai",
+      "subcategory": "video-generation",
+      "tags": [
+        "ai",
+        "video-generation",
+        "open-source",
+        "self-hosted",
+        "forever-free",
+        "no-card",
+        "desktop",
+        "live-streaming",
+        "gpu"
+      ],
+      "free_tier": {
+        "summary": "100% free and open-source (GPLv2). Unlimited recording, live streaming, scene compositing, audio mixing, and plugin extensions.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "streamlabs",
+        "shotcut",
+        "davinci-resolve"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "obs-studio",
+      "name": "OBS Studio",
+      "description": "Free and open-source software for video recording and live streaming. Industry standard for streamers and content creators with unlimited scenes, sources, transitions, and plugin ecosystem.",
+      "github": "https://github.com/obsproject/obs-studio"
+    },
+    {
+      "slug": "shotcut",
+      "website": "https://shotcut.org",
+      "docs": "https://shotcut.org/docs",
+      "category": "ai",
+      "subcategory": "video-generation",
+      "tags": [
+        "ai",
+        "video-generation",
+        "open-source",
+        "self-hosted",
+        "forever-free",
+        "no-card",
+        "desktop",
+        "video-editing"
+      ],
+      "free_tier": {
+        "summary": "100% free and open-source (GPLv3). No watermark, no time limits, no paid upgrade. Full professional video editing capabilities.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 3,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "davinci-resolve",
+        "capcut",
+        "kdenlive"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "shotcut",
+      "name": "Shotcut",
+      "description": "Professional free and open-source video editor with native timeline editing, multi-format support, 4K resolution, and extensive filter library. Cross-platform with a clean, intuitive interface.",
+      "github": "https://github.com/mltframework/shotcut"
+    },
+    {
+      "slug": "kaiber",
+      "website": "https://kaiber.ai",
+      "docs": "https://kaiber.ai/docs",
+      "category": "ai",
+      "subcategory": "video-generation",
+      "tags": [
+        "ai",
+        "video-generation",
+        "saas",
+        "freemium",
+        "free-tier",
+        "card-required",
+        "multimodal"
+      ],
+      "free_tier": {
+        "summary": "Free tier: limited credits (approx 5-10 video generations) for testing platform capabilities.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 3,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "runwayml",
+        "pika",
+        "invideo"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "kaiber",
+      "name": "Kaiber",
+      "description": "AI video generation platform focused on artistic and creative content. Offers style transfer, animation from images, and text-to-video with unique artistic filters and motion styles.",
+      "paid_plan": {
+        "summary": "Explorer $5/month: 200 credits. Pro $25/month: 650 credits, HD export, commercial license.",
+        "starting_price_usd": 5,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "slug": "invideo",
+      "website": "https://invideo.io",
+      "docs": "https://invideo.io/docs",
+      "category": "ai",
+      "subcategory": "video-generation",
+      "tags": [
+        "ai",
+        "video-generation",
+        "saas",
+        "freemium",
+        "free-tier",
+        "no-card",
+        "video-editing"
+      ],
+      "free_tier": {
+        "summary": "Free tier: unlimited videos with watermark, 10 minutes AI generation per week, stock media and premium templates included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "synthesia",
+        "heygen",
+        "veed"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "invideo",
+      "name": "InVideo AI",
+      "description": "AI-powered video creation platform that generates complete videos from text prompts. Includes AI script writing, stock media, voiceovers, and templated editing for marketing and social media.",
+      "paid_plan": {
+        "summary": "Plus $30/month: 50 min AI gen/month, watermark-free. Max $60/month: unlimited AI gen, team collaboration.",
+        "starting_price_usd": 30,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "slug": "descript",
+      "website": "https://descript.com",
+      "docs": "https://descript.com/docs",
+      "category": "ai",
+      "subcategory": "video-generation",
+      "tags": [
+        "ai",
+        "video-generation",
+        "saas",
+        "freemium",
+        "free-tier",
+        "card-required",
+        "speech",
+        "desktop"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 1 hour transcription, basic text-based editing, 720p export. Screen recording included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.8
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": true,
+        "details": "50% off paid plans with .edu email"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "veed",
+        "capcut",
+        "opentoonats"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "descript",
+      "name": "Descript",
+      "description": "All-in-one video and audio editor with AI-powered text-based editing. Edit video by editing text, automatic transcription, screen recording, AI voice cloning, and multi-track audio editing.",
+      "paid_plan": {
+        "summary": "Business $24/month: unlimited transcription, 4K export, AI voice, filler word removal, team collaboration.",
+        "starting_price_usd": 24,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "slug": "kdenlive",
+      "website": "https://kdenlive.org",
+      "docs": "https://kdenlive.org/docs",
+      "category": "ai",
+      "subcategory": "video-generation",
+      "tags": [
+        "ai",
+        "video-generation",
+        "open-source",
+        "self-hosted",
+        "forever-free",
+        "no-card",
+        "desktop",
+        "video-editing"
+      ],
+      "free_tier": {
+        "summary": "100% free and open-source (GPLv3). Professional multi-track editing, effects, color grading, and proxy editing for 4K workflows.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 3,
+        "community": 4,
+        "overall": 4.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "shotcut",
+        "davinci-resolve",
+        "openshot"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "kdenlive",
+      "name": "Kdenlive",
+      "description": "Professional free and open-source video editor by KDE. Features multi-track timeline, extensive effects and transitions library, keyframe animation, proxy editing, and broad format support.",
+      "github": "https://github.com/KDE/kdenlive"
+    },
+    {
+      "slug": "vidyo",
+      "website": "https://vidyo.ai",
+      "docs": "https://vidyo.ai/docs",
+      "category": "ai",
+      "subcategory": "video-generation",
+      "tags": [
+        "ai",
+        "video-generation",
+        "saas",
+        "freemium",
+        "free-tier",
+        "card-required",
+        "social-media"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 3 hours video processing per month, watermark on exports, basic features included.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "opus-clips",
+        "descript",
+        "veed"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "vidyo",
+      "name": "Vidyo.ai",
+      "description": "AI-powered short-form video repurposing platform. Automatically converts long videos into short clips, reels, and highlights with AI-chosen best moments, auto-captions, and platform formatting.",
+      "paid_plan": {
+        "summary": "Pro $19/month: 10 hours, no watermark, API access. Agency $49/month: unlimited processing.",
+        "starting_price_usd": 19,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "slug": "opus-clips",
+      "website": "https://opus.pro",
+      "docs": "https://opus.pro/docs",
+      "category": "ai",
+      "subcategory": "video-generation",
+      "tags": [
+        "ai",
+        "video-generation",
+        "saas",
+        "freemium",
+        "free-tier",
+        "card-required",
+        "social-media"
+      ],
+      "free_tier": {
+        "summary": "Free tier: 1 hour video processing per month, watermark on clips, 480p export quality.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 2,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "vidyo",
+        "descript",
+        "veed"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "opus-clips",
+      "name": "Opus Clip",
+      "description": "AI-powered clip generation that transforms long-form videos into viral short-form clips. Uses AI to identify highlights, add dynamic captions, resize for multiple platforms, and suggest titles.",
+      "paid_plan": {
+        "summary": "Pro $19/month: 10 hours, no watermark, 1080p, AI title suggestions. Enterprise custom pricing.",
+        "starting_price_usd": 19,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "slug": "smolagents",
+      "website": "https://huggingface.co/docs/smolagents",
+      "docs": "https://huggingface.co/docs/smolagents/docs",
+      "category": "ai",
+      "subcategory": "agents",
+      "tags": [
+        "agent-framework",
+        "ai",
+        "python",
+        "open-source",
+        "forever-free",
+        "tool-use",
+        "llm"
+      ],
+      "free_tier": {
+        "summary": "100% free and open-source (Apache 2.0). Self-hosted with any LLM. No usage limits, no API costs.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "langchain",
+        "crewai",
+        "autogen"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "smolagents",
+      "name": "Smolagents",
+      "description": "Lightweight agent framework by Hugging Face for building AI agents with code-based actions. Supports code agents (Python), tool-calling agents, and multi-agent collaboration with minimal boilerplate.",
+      "github": "https://github.com/huggingface/smolagents"
+    },
+    {
+      "slug": "agno",
+      "website": "https://agno.so",
+      "docs": "https://agno.so/docs",
+      "category": "ai",
+      "subcategory": "agents",
+      "tags": [
+        "agent-framework",
+        "ai",
+        "python",
+        "open-source",
+        "forever-free",
+        "tool-use",
+        "multimodal"
+      ],
+      "free_tier": {
+        "summary": "Open source under MPL-2.0 license. Self-hosted with any LLM provider. No usage limits.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "langchain",
+        "crewai",
+        "smolagents"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "agno",
+      "name": "Agno",
+      "description": "Multi-modal agent framework (formerly Phidata) for building, monitoring, and deploying AI agents. Supports vision, audio, video, and text inputs with tool use, knowledge bases, and memory.",
+      "github": "https://github.com/agno-agi/agno",
+      "paid_plan": {
+        "summary": "Agno Cloud: managed agent platform, custom pricing",
+        "starting_price_usd": null,
+        "billing_model": "contact-sales"
+      }
+    },
+    {
+      "slug": "openai-agents-sdk",
+      "website": "https://openai.com/index/openai-agents-sdk",
+      "docs": "https://openai.com/index/openai-agents-sdk/docs",
+      "category": "ai",
+      "subcategory": "agents",
+      "tags": [
+        "agent-framework",
+        "ai",
+        "python",
+        "open-source",
+        "forever-free",
+        "tool-use",
+        "multi-agent"
+      ],
+      "free_tier": {
+        "summary": "Open source under Apache 2.0. Free to use with any OpenAI API-compatible provider. Add your own API key.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "langchain",
+        "smolagents",
+        "crewai"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "openai-agents-sdk",
+      "name": "OpenAI Agents SDK",
+      "description": "Official OpenAI SDK for building AI agents with agent loop, handoffs, guardrails, and tool integration. Supports single-agent, multi-agent, and agent-as-tool patterns.",
+      "github": "https://github.com/openai/openai-agents-python"
+    },
+    {
+      "slug": "google-adk",
+      "website": "https://google.github.io/adk-docs",
+      "docs": "https://google.github.io/adk-docs/docs",
+      "category": "ai",
+      "subcategory": "agents",
+      "tags": [
+        "agent-framework",
+        "ai",
+        "python",
+        "open-source",
+        "forever-free",
+        "tool-use",
+        "multi-agent",
+        "llm"
+      ],
+      "free_tier": {
+        "summary": "Open source under Apache 2.0. Free to use with Google AI Studio (Gemini API) or any LLM provider.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "langchain",
+        "openai-agents-sdk",
+        "smolagents"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "google-adk",
+      "name": "Google Agent Development Kit",
+      "description": "Google's open-source framework for building AI agents with Gemini. Supports multi-agent orchestration, tool integration, evaluation, and production deployment with Authz framework.",
+      "github": "https://github.com/google/adk-python"
+    },
+    {
+      "slug": "camel",
+      "website": "https://www.camel-ai.org",
+      "docs": "https://www.camel-ai.org/docs",
+      "category": "ai",
+      "subcategory": "agents",
+      "tags": [
+        "agent-framework",
+        "multi-agent",
+        "ai",
+        "python",
+        "open-source",
+        "forever-free",
+        "research"
+      ],
+      "free_tier": {
+        "summary": "100% free and open-source (Apache 2.0). Self-hosted with any LLM. Designed for research and experimentation.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 3,
+        "community": 4,
+        "overall": 3.6
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "autogen",
+        "crewai",
+        "smolagents"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "camel",
+      "name": "CAMEL",
+      "description": "Multi-agent framework for studying autonomous agent collaboration. Supports role-playing agent architectures, task decomposition, tool use, memory, and multi-agent communication protocols.",
+      "github": "https://github.com/camel-ai/camel"
+    },
+    {
+      "slug": "taskweaver",
+      "website": "https://microsoft.github.io/TaskWeaver",
+      "docs": "https://microsoft.github.io/TaskWeaver/docs",
+      "category": "ai",
+      "subcategory": "agents",
+      "tags": [
+        "agent-framework",
+        "ai",
+        "python",
+        "open-source",
+        "forever-free",
+        "tool-use",
+        "code-generation"
+      ],
+      "free_tier": {
+        "summary": "100% free and open-source (MIT). Self-hosted with any LLM. Plugin extensible and production-oriented.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 3,
+        "community": 3,
+        "overall": 3.5
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "autogen",
+        "crewai",
+        "smolagents"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "taskweaver",
+      "name": "TaskWeaver",
+      "description": "Microsoft's framework for building AI agents that treat code snippets as first-class actions. Supports plugin-based tool integration, rich data structures, and stateful conversation planning.",
+      "github": "https://github.com/microsoft/TaskWeaver"
+    },
+    {
+      "slug": "deepinfra",
+      "website": "https://deepinfra.com",
+      "docs": "https://deepinfra.com/docs",
+      "category": "ai",
+      "subcategory": "apis",
+      "tags": [
+        "ai",
+        "llm",
+        "api",
+        "saas",
+        "freemium",
+        "free-tier",
+        "no-card",
+        "rate-limited",
+        "openai-compatible"
+      ],
+      "free_tier": {
+        "summary": "$5 free credits for new users. Serverless inference with pay-per-token pricing. No card required to start.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 3,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "together-api",
+        "fireworks-api",
+        "replicate-api"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "deepinfra",
+      "name": "DeepInfra",
+      "description": "Serverless GPU inference API providing access to Llama 3, Mistral, Mixtral, Stable Diffusion, and many open-source models at competitive prices. Pay-per-token with generous free tier for testing.",
+      "paid_plan": {
+        "summary": "Usage-based: ~$0.02/M input tokens (Llama 3 70B). Pay-as-you-go with no monthly commitment.",
+        "starting_price_usd": 0.02,
+        "billing_model": "usage-based"
+      }
+    },
+    {
+      "slug": "novita-ai",
+      "website": "https://novita.ai",
+      "docs": "https://novita.ai/docs",
+      "category": "ai",
+      "subcategory": "apis",
+      "tags": [
+        "ai",
+        "llm",
+        "api",
+        "saas",
+        "freemium",
+        "free-tier",
+        "no-card",
+        "image-generation"
+      ],
+      "free_tier": {
+        "summary": "$0.5 free credits for new users. Pay-per-token with affordable rates starting at $0.002/M tokens.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 3,
+        "setup": 4,
+        "reliability": 3,
+        "performance": 4,
+        "community": 2,
+        "overall": 3.1
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "together-api",
+        "deepinfra",
+        "replicate-api"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "novita-ai",
+      "name": "Novita AI",
+      "description": "Serverless API for 100+ open-source LLMs and image generation models. Supports Llama, Mistral, DeepSeek, and Stable Diffusion variants with OpenAI-compatible endpoints and competitive pricing.",
+      "paid_plan": {
+        "summary": "Usage-based: ~$0.025/M input tokens (Llama 3 70B). Volume discounts available at higher tiers.",
+        "starting_price_usd": 0.025,
+        "billing_model": "usage-based"
+      }
+    },
+    {
+      "slug": "typesense",
+      "website": "https://typesense.org",
+      "docs": "https://typesense.org/docs",
+      "category": "ai",
+      "subcategory": "vector-databases",
+      "tags": [
+        "vector-database",
+        "search",
+        "open-source",
+        "self-hosted",
+        "saas",
+        "freemium",
+        "free-tier",
+        "high-performance"
+      ],
+      "free_tier": {
+        "summary": "Open source under GPLv3. Self-hosted: unlimited. Typesense Cloud: free tier with 0.5M documents and 10K searches/day.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 4,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 4,
+        "reliability": 4,
+        "performance": 5,
+        "community": 4,
+        "overall": 4.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally; self-hosted has no restrictions"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "meilisearch",
+        "algolia",
+        "elasticsearch"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "typesense",
+      "name": "Typesense",
+      "description": "Open-source, typo-tolerant search engine with vector search capabilities. Built for speed with instant search-as-you-type, faceted filtering, and scalable vector similarity search.",
+      "github": "https://github.com/typesense/typesense",
+      "paid_plan": {
+        "summary": "Cloud Pro $70/month: 5M documents, 100K searches/day. Enterprise custom pricing.",
+        "starting_price_usd": 70,
+        "billing_model": "subscription"
+      }
+    },
+    {
+      "slug": "marqo",
+      "website": "https://marqo.ai",
+      "docs": "https://marqo.ai/docs",
+      "category": "ai",
+      "subcategory": "vector-databases",
+      "tags": [
+        "vector-database",
+        "search",
+        "open-source",
+        "self-hosted",
+        "saas",
+        "freemium",
+        "free-tier",
+        "hybrid-search",
+        "multimodal"
+      ],
+      "free_tier": {
+        "summary": "Open source under Apache 2.0. Cloud free tier: 50K vectors, 1 index, basic search features.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 3,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 3,
+        "performance": 4,
+        "community": 3,
+        "overall": 3.3
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "weaviate",
+        "qdrant",
+        "pinecone"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "marqo",
+      "name": "Marqo",
+      "description": "End-to-end open-source vector search platform that combines embedding generation with vector storage. Supports multi-modal search (text, images) with a single API and automatic vectorization.",
+      "github": "https://github.com/marqo-ai/marqo",
+      "paid_plan": {
+        "summary": "Cloud: usage-based pricing starting at $0.10/GB/day. Enterprise: custom pricing for self-hosted support.",
+        "starting_price_usd": 0.1,
+        "billing_model": "usage-based"
+      }
+    },
+    {
+      "slug": "vald",
+      "website": "https://vald.vdaas.org",
+      "docs": "https://vald.vdaas.org/docs",
+      "category": "ai",
+      "subcategory": "vector-databases",
+      "tags": [
+        "vector-database",
+        "open-source",
+        "self-hosted",
+        "distributed",
+        "high-performance",
+        "kubernetes"
+      ],
+      "free_tier": {
+        "summary": "100% free and open-source (Apache 2.0). Self-hosted on Kubernetes with Helm charts. No usage limits.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 2,
+        "docs": 3,
+        "free_generosity": 5,
+        "setup": 2,
+        "reliability": 4,
+        "performance": 5,
+        "community": 2,
+        "overall": 3.4
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "milvus",
+        "weaviate",
+        "qdrant"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "vald",
+      "name": "Vald",
+      "description": "Cloud-native, distributed vector database designed for large-scale similarity search. Features automatic indexing, horizontal scaling, and high availability with NGT-based ANN search engine.",
+      "github": "https://github.com/vdaas/vald"
+    },
+    {
+      "slug": "elasticsearch",
+      "website": "https://www.elastic.co/elasticsearch",
+      "docs": "https://www.elastic.co/elasticsearch/docs",
+      "category": "ai",
+      "subcategory": "vector-databases",
+      "tags": [
+        "vector-database",
+        "search",
+        "open-source",
+        "self-hosted",
+        "saas",
+        "freemium",
+        "free-tier",
+        "hybrid-search",
+        "distributed"
+      ],
+      "free_tier": {
+        "summary": "Open source under Elastic License. Elastic Cloud free tier: 8GB RAM, 3 nodes, basic security features.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 5,
+        "free_generosity": 4,
+        "setup": 3,
+        "reliability": 5,
+        "performance": 4,
+        "community": 5,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": true,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "opensearch",
+        "typesense",
+        "meilisearch"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "elasticsearch",
+      "name": "Elasticsearch",
+      "description": "Distributed search and analytics engine with vector database capabilities. Supports dense and sparse vector search, hybrid search, and full-text with k-NN approximate nearest neighbor search.",
+      "github": "https://github.com/elastic/elasticsearch",
+      "paid_plan": {
+        "summary": "Elastic Cloud: usage-based pricing starting at $0.066/hour. Enterprise self-hosted with Platinum license.",
+        "starting_price_usd": 0.066,
+        "billing_model": "usage-based"
+      }
+    },
+    {
+      "slug": "opensearch",
+      "website": "https://opensearch.org",
+      "docs": "https://opensearch.org/docs",
+      "category": "ai",
+      "subcategory": "vector-databases",
+      "tags": [
+        "vector-database",
+        "search",
+        "open-source",
+        "self-hosted",
+        "forever-free",
+        "hybrid-search",
+        "distributed"
+      ],
+      "free_tier": {
+        "summary": "100% free and open-source (Apache 2.0). Self-hosted with Kubernetes or Docker. No usage limits.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 4,
+        "community": 4,
+        "overall": 3.9
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "elasticsearch",
+        "typesense",
+        "weaviate"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "opensearch",
+      "name": "OpenSearch",
+      "description": "Open-source search and analytics suite with k-NN vector search plugin. Provides similarity search with multiple algorithms (HNSW, IVF) and integration with neural search for auto-vectorization.",
+      "github": "https://github.com/opensearch-project/OpenSearch",
+      "paid_plan": {
+        "summary": "OpenSearch Managed: available on AWS as Amazon OpenSearch Service. Pay per instance hour.",
+        "starting_price_usd": null,
+        "billing_model": "usage-based"
+      }
+    },
+    {
+      "slug": "redis-vector",
+      "website": "https://redis.io/stack",
+      "docs": "https://redis.io/stack/docs",
+      "category": "ai",
+      "subcategory": "vector-databases",
+      "tags": [
+        "vector-database",
+        "search",
+        "open-source",
+        "self-hosted",
+        "forever-free",
+        "caching",
+        "high-performance"
+      ],
+      "free_tier": {
+        "summary": "100% free and open-source (Redis Source Available License). Self-hosted: unlimited vectors, unlimited queries.",
+        "limits": {
+          "requests_per_month": null,
+          "tokens_per_minute": null,
+          "storage_gb": null,
+          "seats": null
+        }
+      },
+      "ratings": {
+        "beginner_friendly": 3,
+        "docs": 4,
+        "free_generosity": 5,
+        "setup": 3,
+        "reliability": 4,
+        "performance": 5,
+        "community": 5,
+        "overall": 4.2
+      },
+      "verification": {
+        "status": "community-verified",
+        "verified_by": "maintainer",
+        "date": "2026-06"
+      },
+      "status": "active",
+      "student_benefits": {
+        "available": false,
+        "details": "No specific student plan"
+      },
+      "requires_card": false,
+      "region_restrictions": {
+        "global": true,
+        "restricted_countries": [],
+        "notes": "Available globally"
+      },
+      "languages": [
+        "en"
+      ],
+      "alternatives_to": [],
+      "alternatives": [
+        "pgvector",
+        "elasticsearch",
+        "typesense"
+      ],
+      "last_verified": "2026-06-01",
+      "id": "redis-vector",
+      "name": "Redis Stack (Vector Search)",
+      "description": "Redis Stack adds vector search capabilities to Redis with RediSearch module. Supports HNSW and FLAT indexes, hybrid vector + full-text search, and real-time indexing for production workloads.",
+      "github": "https://github.com/redis/redis-stack",
+      "paid_plan": {
+        "summary": "Redis Cloud free tier: 30MB. Paid: $0.06/GB/hour for dedicated clusters with vector search.",
+        "starting_price_usd": 0.06,
+        "billing_model": "usage-based"
+      }
     }
   ]
 }
