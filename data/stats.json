@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-01",
-  "total_resources": 601,
+  "generated": "2026-08-01",
+  "total_resources": 634,
   "categories_represented": 20,
-  "tags_used": 249,
+  "tags_used": 255,
   "breakdown": {
     "by_category": {
-      "ai": 139,
+      "ai": 172,
       "databases": 11,
       "deployment": 14,
       "payments": 5,
@@ -28,77 +28,77 @@
     },
     "by_verification": {
       "tested": 90,
-      "community-verified": 510,
+      "community-verified": 543,
       "unverified": 0
     },
     "by_status": {
-      "active": 600,
+      "active": 633,
       "deprecated": 0,
       "limited": 1
     },
     "by_card_requirement": {
-      "required": 50,
-      "notRequired": 551
+      "required": 61,
+      "notRequired": 573
     },
     "by_region": {
-      "global": 584,
+      "global": 617,
       "restricted": 17
     },
     "by_student_benefits": {
-      "yes": 128,
-      "no": 473
+      "yes": 132,
+      "no": 502
     },
     "by_rating": {
       "1-2": 0,
       "2-3": 2,
-      "3-4": 200,
-      "4-5": 399
+      "3-4": 222,
+      "4-5": 410
     }
   },
   "top_tags": [
     {
       "tag": "no-card",
-      "count": 372
+      "count": 383
     },
     {
       "tag": "open-source",
-      "count": 345
+      "count": 360
     },
     {
       "tag": "forever-free",
-      "count": 270
+      "count": 284
     },
     {
       "tag": "freemium",
-      "count": 201
+      "count": 219
     },
     {
       "tag": "ai",
-      "count": 155
+      "count": 182
+    },
+    {
+      "tag": "saas",
+      "count": 163
+    },
+    {
+      "tag": "self-hosted",
+      "count": 154
     },
     {
       "tag": "api",
-      "count": 148
+      "count": 150
     },
     {
       "tag": "cli",
       "count": 148
     },
     {
-      "tag": "saas",
-      "count": 146
-    },
-    {
-      "tag": "self-hosted",
-      "count": 145
+      "tag": "free-tier",
+      "count": 140
     },
     {
       "tag": "python",
-      "count": 130
-    },
-    {
-      "tag": "free-tier",
-      "count": 120
+      "count": 136
     },
     {
       "tag": "automation",
@@ -142,7 +142,7 @@
     },
     {
       "tag": "llm",
-      "count": 61
+      "count": 65
     },
     {
       "tag": "qa",
@@ -157,16 +157,16 @@
       "count": 51
     },
     {
+      "tag": "card-required",
+      "count": 49
+    },
+    {
       "tag": "java",
       "count": 48
     },
     {
       "tag": "gpu",
-      "count": 45
-    },
-    {
-      "tag": "card-required",
-      "count": 41
+      "count": 47
     },
     {
       "tag": "go",
