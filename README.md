@@ -13,18 +13,23 @@
 
 <p align="center">
   <a href="#-mission">Mission</a> •
+  <a href="#-who-is-this-for">Who It's For</a> •
   <a href="#-features">Features</a> •
   <a href="#-system-architecture">Architecture</a> •
   <a href="#-categories">Categories</a> •
+  <a href="#-anatomy-of-a-resource-page">Resource Anatomy</a> •
   <a href="#%EF%B8%8F-dev-stack--configuration">Dev Stack</a> •
   <a href="#-stats">Stats</a> •
   <a href="#-getting-started">Get Started</a> •
+  <a href="#-recommended-workflows">Workflows</a> •
   <a href="#-build-recipes">Recipes</a> •
   <a href="#-learning-paths">Paths</a> •
   <a href="#-student-packs">Students</a> •
   <a href="#-startup-credits">Startups</a> •
   <a href="#-rankings">Rankings</a> •
   <a href="#-alternatives">Alternatives</a> •
+  <a href="#-quick-wins">Quick Wins</a> •
+  <a href="#-faq">FAQ</a> •
   <a href="#-contributing">Contribute</a>
 </p>
 
@@ -43,6 +48,69 @@ This repository is the largest curated collection of **free and freemium resourc
 - 🔄 **Verified** — Monthly automated checks for broken links and expired free tiers
 
 > 💡 **Save thousands of dollars per year.** Whether you need free cloud hosting, free AI APIs, student developer packs, free PostgreSQL databases, free authentication services, or free CI/CD pipelines — this repo has you covered.
+
+### Why This Exists
+
+Most developers pay for tools they don't need to. A typical indie project stack — AI assistant, database, hosting, auth, email, analytics, error tracking — costs **$100–$200/month** in subscriptions. Yet every one of those layers has a genuinely usable free tier or open-source equivalent that handles real production traffic.
+
+The problem isn't availability — it's discoverability:
+
+- Free tiers hide behind marketing pages with confusing limits
+- Card requirements are disclosed only at signup
+- Limits change without notice, breaking projects overnight
+- Comparing 10 similar tools takes hours of tab-switching
+
+This repository solves all four: every entry documents the **exact free tier**, whether a **credit card is required**, when it was **last verified**, and how it **compares to paid alternatives**.
+
+---
+
+## 👥 Who Is This For
+
+| You Are | What You'll Find Here | Start Here |
+|---|---|---|
+| 🎓 **Student** | $200k+ in verified student offers: GitHub Pack, AWS/Azure/GCP credits, JetBrains IDEs, Figma Pro, Notion Plus | [Student Packs](#-student-packs) |
+| 🧑‍💻 **Indie Hacker** | Complete $0 stacks to validate, build, launch, and monetize a side project — including analytics and payments | [Indie Hacker Path](./learning-paths/indie-hacker.md) |
+| 🚀 **Startup Founder** | Up to $600k+ in cloud credits (AWS Activate, GCP, Azure) plus SaaS startup discounts from Stripe, Notion, Figma | [Startup Credits](#-startup-credits) |
+| 💼 **Professional Developer** | Vetted replacements for expensive team tooling — monitoring, CI/CD, databases — with honest limit documentation | [Alternatives](#-alternatives) |
+| 🔬 **AI Engineer** | Free LLM APIs (Gemini, Groq, DeepSeek), vector databases, embedding providers, agent frameworks, RAG tooling | [Best AI Tools 2026](./rankings/best-ai-tools-2026.md) |
+| 📱 **Mobile Developer** | Free push notifications, app distribution via Expo EAS, mobile backends, crash reporting, deep linking | [Mobile Category](./categories/mobile) |
+| 🧑‍🏫 **Educator / Learner** | Structured roadmaps built entirely on free resources — no paid courses required at any step | [Learning Paths](#-learning-paths) |
+
+---
+
+## 🧱 What You Can Build for $0
+
+Every layer below is covered by at least one resource in this repo — combine them freely:
+
+| Project Type | Free Stack | Monthly Cost |
+|---|---|---|
+| **SaaS MVP** | Next.js + Supabase + Vercel + Resend + PostHog | **$0** |
+| **AI Chatbot / Agent** | Gemini API + pgvector + Vercel AI SDK + Clerk | **$0** |
+| **Portfolio Site** | Astro + Cloudflare Pages + Umami | **$0** |
+| **Mobile App** | Expo + Supabase + EAS + Sentry | **$0** |
+| **Docs Site** | Next.js MDX + Meilisearch + GitHub Pages | **$0** |
+| **File Sharing Service** | Cloudflare R2 + Supabase + Resend | **$0** |
+| **Internal Tool Dashboard** | React + PocketBase + Render | **$0** |
+
+---
+
+## 💰 Real Cost Savings
+
+Approximate list prices of common paid subscriptions vs. their free counterparts in this repo (prices change; always verify current pricing):
+
+| Need | Typical Paid Tool | Price | Free Alternative From This Repo | Savings / Year |
+|---|---|---|---|---|
+| AI assistant | ChatGPT Plus | ~$20/mo | [Gemini API](./categories/ai), DeepSeek | ~$240 |
+| Database + Auth + Storage | Supabase Pro | ~$25/mo | Supabase Free Tier | ~$300 |
+| Web Hosting | Vercel Pro | ~$20/mo | [Cloudflare Pages](./categories/hosting) | ~$240 |
+| Design Tool | Figma Professional | ~$15/mo | Penpot, Excalidraw | ~$180 |
+| Docs & Notes | Notion Plus | ~$10/mo | AppFlowy, Outline | ~$120 |
+| Transactional Email | SendGrid Essentials | ~$20/mo | [Resend](./categories/email-sms) (100/day) | ~$240 |
+| Error Tracking | Sentry Team | ~$26/mo | GlitchTip, Highlight.io | ~$312 |
+| Product Analytics | Mixpanel Growth | ~$28/mo | [PostHog](./categories/monitoring) (1M events/mo) | ~$336 |
+| **Total** | | | | **≈ $2,000/year** |
+
+> Students save even more: the [GitHub Student Developer Pack](./categories/student-packs/github-student-pack.md) alone unlocks $200k+ in partner offers.
 
 ---
 
@@ -201,6 +269,46 @@ flowchart TB
 | 🏢 [Startup Credits](./categories/startup-credits) | Free cloud credits, AI credits, hosting credits, accelerator programs, SaaS startup support |
 | 🌍 [Open Source](./categories/open-source) | Free self-hostable alternatives, open-source libraries, community editions, templates |
 
+### How to Navigate 601 Resources
+
+1. **Know the category** → open `./categories/<category>/` and browse alphabetically
+2. **Know what you're replacing** → check [Alternatives](#-alternatives) for paid-to-free swaps
+3. **Don't know where to start** → follow a [Build Recipe](#-build-recipes) or [Learning Path](#-learning-paths)
+4. **Want only the best** → check quarterly [Rankings](#-rankings) (Top Rated = overall score ≥ 4.5)
+5. **Card-free only?** → look for the 💳 No Card Required badge on resource pages
+
+---
+
+## 🔬 Anatomy of a Resource Page
+
+Every resource entry follows one standardized template, so you can always find the same information in the same place. See a live example: [`categories/ai/anthropic-api.md`](./categories/ai/anthropic-api.md)
+
+| Section | What It Tells You |
+|---|---|
+| **Links** | Official website, documentation, and GitHub repository |
+| **Classification** | Category + subcategory placement |
+| **Description** | One-paragraph summary of what the tool does and its key capabilities |
+| **Free Tier** | Exact limits — requests/min, storage GB, monthly active users, context windows |
+| **Paid Plan** | Starting price and billing model (for when you outgrow free) |
+| **Ratings** | ⭐ scores across all 7 dimensions plus the weighted overall score |
+| **Verification** | Who verified it, when, and current status badge |
+| **Region Restrictions** | Where the service works, geo-blocks if any |
+| **Student Benefits** | Student-specific plans or verification offers |
+| **Requires Card** | Explicit yes/no disclosure before you sign up |
+| **Tags** | Standardized filter tags from the 175-tag taxonomy |
+| **Alternatives** | Cross-linked free competitors worth comparing |
+
+Example of the rating block format:
+
+```markdown
+| Dimension | Rating |
+|---|---|
+| Beginner Friendly | ⭐⭐⭐⭐⭐ |
+| Free Generosity | ⭐⭐⭐⭐ |
+...
+| **Overall** | **4.7** |
+```
+
 ---
 
 ## ⚙️ Dev Stack & Configuration
@@ -316,6 +424,28 @@ data/
 | README update | Monthly |
 | Broken resource detection | Bi-weekly |
 
+### How This Collection Stays Accurate
+
+Free tiers change constantly — prices shift, limits shrink, services shut down. This repo fights entropy with a layered verification system:
+
+**1. Badge Expiry Cycles** — every verification badge has a validity window. Expired badges are flagged automatically:
+
+- ✅ **Tested** — maintainer personally confirmed the free tier works (re-test every 6 months)
+- 🟡 **Community Verified** — community member confirmation (re-check every 3 months)
+- 🔴 **Unverified** — not checked in 30+ days; treat limits with caution
+
+**2. Automated Health Checks** — six GitHub Actions workflows run on schedules:
+
+- Bi-weekly HTTP checks on every resource URL → broken links auto-file issues
+- Monthly link scanning of all markdown via `lychee`
+- Monthly stats regeneration so counts you see here are never hand-written
+
+**3. Deprecation With Escape Routes** — dead tools aren't silently deleted. Each entry in [`deprecated.json`](./data/deprecated.json) records why it died and which active resources replace it, so your migration path is one click away.
+
+**4. Human Review Gate** — every PR passes the [submission checklist](#-contributing): free tier must be meaningful (not a 24h trial), card requirements disclosed, category and tags validated by CI before merge.
+
+> Found something outdated? [Open an issue](https://github.com/girishlade111/awesome-free-stack/issues/new?template=report-broken-tool.md) — reports are triaged within 2–5 business days.
+
 ---
 
 ## 🚀 Getting Started
@@ -381,6 +511,47 @@ ajv validate -s data/resources-schema.json -d data/resources.json
 
 ---
 
+## 🧭 Recommended Workflows
+
+Step-by-step paths through this repo for common situations:
+
+### "I want to ship a project this weekend"
+
+1. Pick the matching [Build Recipe](#-build-recipes) (SaaS, AI app, portfolio...)
+2. Create accounts for each listed service — check 💳 badges if you're card-averse
+3. Follow the recipe's setup order: database → auth → deploy → email/analytics
+4. Cross-check limits in each resource page's **Free Tier** table before launch
+5. Bookmark the **Paid Plan** sections — that's your scale-up path when traffic grows
+
+### "I'm paying for tools I can't justify"
+
+1. Find your tool in [Alternatives](#-alternatives) — 80+ paid-to-free swaps across 12 categories
+2. Compare ratings side-by-side on each alternative's resource page
+3. Migrate using the deprecation-style migration notes where provided
+4. Cancel the paid subscription 🎉
+
+### "I'm learning to code / switching stacks"
+
+1. Choose a [Learning Path](#-learning-paths) matching your goal (7 paths available)
+2. Each step links to free courses and interactive platforms from the [Learning](./categories/learning) category
+3. Build the capstone project from the corresponding Build Recipe as you finish
+4. Claim student packs first if eligible — JetBrains + GitHub Copilot Pro are free while studying
+
+### "I need AI capabilities without API bills"
+
+1. Start with the [Best Free AI Tools 2026 ranking](./rankings/best-ai-tools-2026.md)
+2. Gemini API gives 60 req/min with no card; Groq offers fast inference free tier
+3. Pair with pgvector or a free vector DB for RAG — see [AI category subcategories](./categories/ai)
+4. Monitor usage against documented rate limits before wiring into production
+
+### "My free tier just broke my app"
+
+1. Check the resource's verification badge — 🔴 Unverified entries may have changed recently
+2. Look up its entry in [`deprecated.json`](./data/deprecated.json) for a migration target
+3. If it changed but isn't logged yet, [report it](https://github.com/girishlade111/awesome-free-stack/issues/new?template=report-broken-tool.md) so others don't hit the same wall
+
+---
+
 ## 🔥 Featured Resources
 
 Top free tools notable for their generous free tiers:
@@ -395,6 +566,25 @@ Top free tools notable for their generous free tiers:
 | [Resend](./categories/email-sms) | Email | 100 transactional emails/day, React email templates |
 | [PostHog](./categories/monitoring) | Analytics | 1M events/month, session replay, feature flags, product analytics |
 | [GitHub Actions](./categories/ci-cd) | CI/CD | 2,000 minutes/month, unlimited public repo builds |
+
+---
+
+## ⚡ Quick Wins
+
+Ten things you can do **today**, in under an hour each, for $0:
+
+| # | Action | Why It Matters |
+|---|---|---|
+| 1 | [Claim the GitHub Student Developer Pack](./categories/student-packs/github-student-pack.md) *(students)* | Unlocks $200k+ in partner offers including Copilot Pro |
+| 2 | [Get a free Gemini API key](./categories/ai) | Free-tier LLM access: 60 req/min, no credit card |
+| 3 | Spin up a [Supabase](./categories/databases) project | PostgreSQL + auth + storage + realtime in ~2 minutes |
+| 4 | Deploy any static site to [Cloudflare Pages or Vercel](./categories/hosting) | Global CDN + SSL at zero cost |
+| 5 | Add [PostHog](./categories/monitoring) analytics | 1M events/month — know who's using what |
+| 6 | Set up [Resend](./categories/email-sms) transactional email | 100 emails/day for signup/reset flows |
+| 7 | Configure CI with [GitHub Actions](./categories/ci-cd) | 2,000 free minutes/month on every push |
+| 8 | Replace your paid notes app with [AppFlowy](./alternatives/notion.md) | Notion alternative you can self-host |
+| 9 | Grab a [free subdomain or domain](./categories/domains) | Ship on a real URL instead of localhost |
+| 10 | Start the [Full Stack Learning Path](./learning-paths/full-stack.md) | Structured roadmap, zero paid courses required |
 
 ---
 
@@ -542,6 +732,37 @@ Join the conversation on [GitHub Discussions](https://github.com/girishlade111/a
 | Voting | 🗳️ | Community polls for rankings |
 
 [📖 Discussion Guide →](./DISCUSSIONS.md)
+
+---
+
+## ❓ FAQ
+
+**Do I need a credit card for these resources?**
+No — **551 of 601** entries require no card at all. Every resource page discloses this explicitly in its *Requires Card* section, and the 💳 No Card Required badge marks card-free options.
+
+**Are free tiers real production-grade, or just trials?**
+Real. Submission rules explicitly reject trial-only services (24h trials or <100 requests don't qualify). Many featured tools — Supabase, Cloudflare R2, PostHog — run production apps on their free tiers.
+
+**Can I use these commercially?**
+Mostly yes, but it depends per tool: SaaS free tiers are usually commercial-friendly, while open-source alternatives may carry license obligations (MIT/Apache are fine; check AGPL/SSPL terms). Each resource page links to the exact license or ToS.
+
+**How current is the information?**
+Every entry carries a verification badge with an expiry window (30 days – 12 months). Automated workflows re-check URLs bi-weekly and flag stale verifications monthly. The stats table at the bottom of this page is auto-generated.
+
+**Will my app break when a free tier changes?**
+Possibly — limits change without notice. Mitigations built into this repo: deprecation entries include migration targets, and the [Recommended Workflows](#-recommended-workflows) section covers what to do when a tier breaks your app.
+
+**How are rankings calculated?**
+A weighted composite: Maintainer Score (30%) + Community Votes (25%) + Free Tier Quality (25%) + Popularity (20%). Full methodology is documented in [`data/rankings.json`](./data/rankings.json) and each published ranking file.
+
+**Why isn't my favorite tool listed?**
+It may not meet the bar: no meaningful free tier, undisclosed card requirement, abandoned project, or affiliate-driven listing. If it does qualify — [submit it](#-contributing)! Submissions are reviewed within 2–5 business days.
+
+**Is this repo affiliated with any of the tools?**
+No. It's an independent, MIT-licensed community project. No affiliate links or referral rewards are accepted — that's an explicit submission rejection rule.
+
+**Can I self-host everything and pay nothing ever?**
+345 of the 601 entries are open-source and self-hostable (see the [Open Source](./categories/open-source) category). The trade-off is you manage hosting — which is itself free via the cloud/hosting categories if you're careful.
 
 ---
 
