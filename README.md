@@ -811,20 +811,20 @@ Verified contributors earn badges. Top contributors are featured in our monthly 
 
 | Metric | Value |
 |---|---|
-| Total Resources | 601 |
+| Total Resources | 634 |
 | Categories | 20 |
 | ✅ Tested & Verified | 90 |
-| 💳 No Card Required | 551 |
-| 🎓 Student Friendly | 128 |
-| 🌍 Global Availability | 584 |
-| 🌿 Open Source | 345 |
-| 🏆 Top Rated (≥4.5) | 121 |
+| 💳 No Card Required | 573 |
+| 🎓 Student Friendly | 132 |
+| 🌍 Global Availability | 617 |
+| 🌿 Open Source | 360 |
+| 🏆 Top Rated (≥4.5) | 122 |
 
 ### Resources by Category
 
 | Category | Count |
 |---|---|
-| AI | 139 |
+| AI | 172 |
 | DevTools | 96 |
 | CI/CD | 95 |
 | Testing | 69 |
@@ -845,5 +845,4 @@ Verified contributors earn badges. Top contributors are featured in our monthly 
 | Email & SMS | 5 |
 | Monitoring | 5 |
 
-_Auto-generated on 2026-07-01_
-</p>
+_Auto-generated on 2026-09-01_
