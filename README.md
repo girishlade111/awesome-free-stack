@@ -847,3 +847,13 @@ Verified contributors earn badges. Top contributors are featured in our monthly 
 
 _Auto-generated on 2026-07-01_
 </p>
+
+---
+
+## 👤 Author
+
+**Built by Girish Lade** — founder of [LadeStack](https://ladestack.in), a free, open-source developer tools ecosystem.
+
+- GitHub: [@girishlade111](https://github.com/girishlade111)
+- Website: [ladestack.in](https://ladestack.in)
+- Contact: admin@ladestack.in
